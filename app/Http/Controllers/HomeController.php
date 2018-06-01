@@ -24,7 +24,7 @@ class HomeController extends Controller
     public function show($slug)
     {
         $post = Post::where('slug', $slug)->firstOrFail();
-        dd($post->id);
+        return view('pages.show', compact('post'));
     }
 
 }
