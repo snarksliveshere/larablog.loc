@@ -13,5 +13,18 @@ class HomeController extends Controller
         return view('pages.index', ['posts' => $posts]);
     }
 
+    /**
+     * @param array $middleware
+     */
+    public function setMiddleware(array $middleware)
+    {
+        $this->middleware = $middleware;
+    }
+
+    public function show($slug)
+    {
+        $post = Post::where('slug', $slug)->firstOrFail();
+        dd($post->id);
+    }
 
 }
