@@ -226,4 +226,9 @@ class Post extends Model
         return $this->category != null ? true : false;
     }
 
+    public static function getPopularPosts()
+    {
+        return self::orderBy('views', 'desc')->take(3)->get();
+    }
+
 }
