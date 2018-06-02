@@ -1642,3 +1642,12 @@ img.profile-image
     margin: 0px auto 20px;
     display: block;
 }
+.email_news-letter{
+    width: 100%;
+    margin-bottom: 14px;
+    border: 1px solid #eeeeee;
+    padding: 5px 15px;
+    font-style: italic;
+    border-radius: 0;
+    background: #fafafa;
+}
