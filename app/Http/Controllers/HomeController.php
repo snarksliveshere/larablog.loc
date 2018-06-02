@@ -17,7 +17,7 @@ class HomeController extends Controller
         }
 
 
-        $posts = Post::paginate(2);
+        $posts = Post::where('status', Post::IS_PUBLIC)->paginate(2);
 
         return view('pages.index')->with('posts', $posts);
 
