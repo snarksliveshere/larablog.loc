@@ -138,13 +138,13 @@ class Post extends Model
 
     public function setFeatured()
     {
-        $this->status = 1;
+        $this->is_featured = 1;
         $this->save();
     }
 
     public function setStandart()
     {
-        $this->status = 0;
+        $this->is_featured = 0;
         $this->save();
     }
 
