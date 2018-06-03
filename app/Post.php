@@ -94,10 +94,10 @@ class Post extends Model
     public function getImage()
     {
         if ($this->image == null) {
-            return '/img/no-image.png';
+            return '/images/no-image.png';
         }
 
-        return '/uploads/' . $this->image;
+        return '/images/' . $this->image;
     }
 
     public function setCategory($id)

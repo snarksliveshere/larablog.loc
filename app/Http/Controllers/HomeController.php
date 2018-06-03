@@ -11,15 +11,9 @@ class HomeController extends Controller
 {
     public function index()
     {
-        if (\Auth::check()) {
-        } else {
-
-        }
-
-
         $posts = Post::where('status', Post::IS_PUBLIC)->paginate(2);
 
-        return view('pages.index')->with('posts', $posts);
+        return view('pages.posts')->with('posts', $posts);
 
     }
 

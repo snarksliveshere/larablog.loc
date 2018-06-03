@@ -11,10 +11,17 @@
 |
 */
 
+Route::get('/', 'PagesController@index')->name('main');
 
-Route::get('/', 'HomeController@index');
-Route::get('/post/{slug}', 'HomeController@show')->name('post.show');
-Route::get('/tag/{slug}', 'HomeController@tag')->name('tag.show');
+Route::group(['prefix' => 'posts'], function(){
+    Route::get('/', 'HomeController@index')->name('posts.main');
+    Route::get('/post/{slug}', 'HomeController@show')->name('post.show');
+    Route::get('/tag/{slug}', 'HomeController@tag')->name('tag.show');
+
+});
+
+
+
 Route::get('/category/{slug}', 'HomeController@category')->name('category.show');
 Route::post('/subscribe', 'SubscribeController@subscribe');
 Route::get('/verify/{token}', 'SubscribeController@verify');
@@ -50,6 +57,7 @@ Route::group(['prefix' => 'catalog', 'namespace' => 'Catalog'], function (){
         'uses' => 'ProductController@getIndex',
         'as' => 'product.index'
     ]);
+    Route::get('/{slug}', 'ProductController@show')->name('product.show');
 
     Route::get('/add-to-cart/{id}',[
         'uses' => 'ProductController@getAddToCart',
