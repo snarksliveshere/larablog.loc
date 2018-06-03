@@ -1651,3 +1651,13 @@ img.profile-image
     border-radius: 0;
     background: #fafafa;
 }
+.thumbnail  img {
+    max-height: 150px;
+}
+.price {
+    font-weight: bold;
+    font-size: 16px;
+}
+.thumbnail .description {
+    color: #7f7f7f;
+}

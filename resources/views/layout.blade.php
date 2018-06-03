@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- favicon icon -->
-    <title>Blog</title>
+    <title>@yield('title')</title>
     <!-- common css -->
     <link rel="stylesheet" href="/css/front.css">
 
@@ -32,6 +32,12 @@
                     <li><a href="/">Homepage</a></li>
                     <li><a href="about-me.html">ABOUT ME </a></li>
                     <li><a href="contact.html">CONTACT</a></li>
+                    <li>
+                        <a href="{{ route('product.shoppingCart') }}">
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i> Shopping Cart
+                            <span class="badge">{{ Session::has('cart') ? Session::get('cart')->totalQty : '' }}</span>
+                        </a>
+                    </li>
                 </ul>
                 <ul class="nav navbar-nav text-uppercase pull-right">
                     @if(Auth::check())
