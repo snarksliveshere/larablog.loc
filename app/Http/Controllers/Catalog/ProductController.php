@@ -24,13 +24,15 @@ class ProductController extends Controller
 
     public function getIndex()
     {
-        $products = Product::all();
+        $products = Product::paginate(3);
         return view('shop.index',['products' => $products]);
     }
 
-    public function show()
+    public function show($slug)
     {
-        dd(1);
+        $product = Product::where('slug', $slug)->firstOrFail();
+
+        return view('shop.show', compact('product'));
     }
 
     public function getAddToCart(Request $request, $id)
@@ -70,4 +72,6 @@ class ProductController extends Controller
             'total' => $total
         ]);
     }
+
+
 }

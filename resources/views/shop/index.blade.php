@@ -1,6 +1,6 @@
 @extends('layout')
 @section('title')
-    laracart
+    Каталог
 @endsection
 @section('content')
     @foreach($products->chunk(3) as $productChunk)
@@ -8,7 +8,8 @@
                 @foreach($productChunk as $product)
                 <div class="col-sm-6 col-md-4">
                     <div class="thumbnail">
-                        <img src="{{ $product->imagePath }}" alt="{{ $product->title }}" class="img-responsive">
+                        <a href="{{ route('product.show', $product->slug)  }}"><img src="{{ $product->imagePath }}" alt="{{ $product->title }}"
+                                          class="img-responsive"></a>
                         <div class="caption">
                             <h3>{{ $product->title }}</h3>
                             <p class="description">{{ $product->description }}</p>
@@ -21,5 +22,8 @@
                 </div>
                 @endforeach
             </div>
+        <div class="row">
+            {{ $products->links() }}
+        </div>
     @endforeach
 @endsection
