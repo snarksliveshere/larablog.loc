@@ -15,21 +15,27 @@ class ProductTableSeeder extends Seeder
             'imagePath' => '/images/mockingbird.jpg',
             'title' => 'Убить пересмешника',
             'description' => '«Уби́ть пересме́шника» — роман американской писательницы Харпер Ли, написанный в жанре воспитательного романа. Опубликован в 1960 году. В 1961 году получил Пулитцеровскую премию',
-            'price' => 600
+            'price' => 600,
+            'content' => 'Content',
+            'status' => 1
         ]);
         $product->save();
         $product = new \App\Product([
             'imagePath' => '/images/liedown.jpg',
             'title' => 'Lie Down in Darkness',
             'description' => 'Lie Down in Darkness is a novel by American novelist William Styron published in 1951. It was his first novel, written when he was 26 years old, and received a great deal of critical acclaim.',
-            'price' => 500
+            'price' => 500,
+            'content' => 'Content',
+            'status' => 1
         ]);
         $product->save();
         $product = new \App\Product([
             'imagePath' => '/images/James_Herriot__All_Things_Wise_and_Wonderful.jpg',
             'title' => 'All_Things_Wise_and_Wonderful',
             'description' => '“Surely no one can read Herriot without gaining a new and compassionate insight into All Things Wise and Wonderful in the world around him. A grand book.',
-            'price' => 800
+            'price' => 800,
+            'content' => 'Content',
+            'status' => 1
         ]);
         $product->save();
     }
