@@ -11,7 +11,7 @@
                     @endif
                     <article class="post">
                         <div class="post-thumb col-xs-12 col-sm-6 col-sm-offset-3">
-                            <a class="fancybox" href="{{ $product->imagePath }}"><img class="img-responsive" src="{{ $product->imagePath }}" alt=""></a>
+                            <a class="fancybox" href="/images/{{ $product->imagePath }}"><img class="img-responsive" src="/images/{{ $product->imagePath }}" alt=""></a>
                         </div>
                         <div class="post-content col-xs-12">
                             <header class="entry-header text-center text-uppercase">
@@ -34,7 +34,7 @@
                             @if($product->hasPrevious())
                                 <div class="single-blog-box">
                                     <a href="{{ route('product.show', $product->getPrevious()->slug) }}">
-                                        <img src="{{ $product->getPrevious()->imagePath }}" alt="">
+                                        <img src="/images/{{ $product->getPrevious()->imagePath }}" alt="">
                                         <div class="overlay">
                                             <div class="promo-text">
                                                 <p><i class=" pull-left fa fa-angle-left"></i></p>
@@ -49,7 +49,7 @@
                             @if($product->hasNext())
                                 <div class="single-blog-box">
                                     <a href="{{ route('product.show', $product->getNext()->slug) }}">
-                                        <img src="{{ $product->getNext()->imagePath }}" alt="">
+                                        <img src="/images/{{ $product->getNext()->imagePath }}" alt="">
                                         <div class="overlay">
                                             <div class="promo-text">
                                                 <p><i class=" pull-left fa fa-angle-left"></i></p>
@@ -70,7 +70,7 @@
 
                                 <div class="single-item">
                                     <a href="{{ route('post.show', $item->slug) }}">
-                                        <img src="{{ $item->imagePath }}" alt="">
+                                        <img src="/images/{{ $item->imagePath }}" alt="">
                                         <p>{{ $item->title }}</p>
                                     </a>
                                 </div>

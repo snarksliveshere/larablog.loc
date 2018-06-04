@@ -72,7 +72,6 @@ class Product extends Model
     {
         $product = new static;
         $product->fill($fields);
-        // TODO: заглушка. поменять
         $product->user_id = \Auth::user()->id;
         $product->save();
 
@@ -94,10 +93,9 @@ class Product extends Model
     {
         if ($image == null) { return; }
         $this->removeImage();
-        $this->imagePath = $image;
         $filename = str_random(10) . '.' . $image->extension();
         $image->storeAs('images', $filename);
-        $this->image = $filename;
+        $this->imagePath = $filename;
         $this->save();
     }
 

@@ -55,7 +55,6 @@ class Post extends Model
     {
         $post = new static;
         $post->fill($fields);
-        // TODO: заглушка. поменять
         $post->user_id = \Auth::user()->id;
         $post->save();
 

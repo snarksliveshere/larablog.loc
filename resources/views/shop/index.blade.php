@@ -8,7 +8,7 @@
                 @foreach($productChunk as $product)
                 <div class="col-sm-6 col-md-4">
                     <div class="thumbnail">
-                        <a href="{{ route('product.show', $product->slug)  }}"><img src="{{ $product->imagePath }}" alt="{{ $product->title }}"
+                        <a href="{{ route('product.show', $product->slug)  }}"><img src="/images/{{ $product->imagePath }}" alt="{{ $product->title }}"
                                           class="img-responsive"></a>
                         <div class="caption">
                             <h3>{{ $product->title }}</h3>

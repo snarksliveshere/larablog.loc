@@ -92,7 +92,6 @@ class ProductsController extends Controller
 
         $product = Product::find($id);
         $product->edit($request->all());
-        // TODO: разобраться с картинками
         $product->uploadImage($request->file('image'));
         $product->toggleStatus($request->get('status'));
         return redirect()->route('products.index');
