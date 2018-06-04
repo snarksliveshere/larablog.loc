@@ -41,9 +41,12 @@ class ProductsController extends Controller
         $this->validate($request,[
             'title' => 'required',
             'content' => 'required',
+            'price' => 'numeric',
             'image' => 'nullable|image'
         ]);
+//        dd($request->all());
         $product = Product::add($request->all());
+        $product->uploadImage($request->file('image'));
         $product->toggleStatus($request->get('status'));
         return redirect()->route('products.index');
     }
@@ -67,7 +70,8 @@ class ProductsController extends Controller
      */
     public function edit($id)
     {
-        //
+        $product = Product::find($id);
+        return view('admin.products.edit', compact('product'));
     }
 
     /**
@@ -79,7 +83,19 @@ class ProductsController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $this->validate($request,[
+            'title' => 'required',
+            'content' => 'required',
+            'image' => 'nullable|image',
+            'price' => 'numeric'
+        ]);
+
+        $product = Product::find($id);
+        $product->edit($request->all());
+        // TODO: разобраться с картинками
+        $product->uploadImage($request->file('image'));
+        $product->toggleStatus($request->get('status'));
+        return redirect()->route('products.index');
     }
 
     /**
@@ -90,6 +106,7 @@ class ProductsController extends Controller
      */
     public function destroy($id)
     {
-        dd($id);
+        Product::find($id)->delete();
+        return redirect()->route('products.index');
     }
 }

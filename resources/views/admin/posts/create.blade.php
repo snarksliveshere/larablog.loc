@@ -28,6 +28,7 @@
                             <input type="text" name="title" value="{{ old('title') }}" class="form-control" id="exampleInputEmail1" placeholder="">
                         </div>
 
+
                         <div class="form-group">
                             <label for="exampleInputFile">Лицевая картинка</label>
                             <input type="file" name="image" id="exampleInputFile">

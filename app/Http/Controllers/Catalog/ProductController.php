@@ -11,16 +11,7 @@ use Session;
 class ProductController extends Controller
 {
 
-    use Sluggable;
 
-    public function sluggable()
-    {
-        return [
-            'slug' => [
-                'source' => 'title'
-            ]
-        ];
-    }
 
     public function getIndex()
     {

@@ -2,11 +2,23 @@
 
 namespace App;
 
+use Cviebrock\EloquentSluggable\Sluggable;
 use Illuminate\Database\Eloquent\Model;
 
 class Product extends Model
 {
     protected $fillable = ['imagePath','title','description','price', 'content'];
+
+    use Sluggable;
+
+    public function sluggable()
+    {
+        return [
+            'slug' => [
+                'source' => 'title'
+            ]
+        ];
+    }
 
     const IS_DRAFT = 0;
     const  IS_PUBLIC = 1;
@@ -76,5 +88,23 @@ class Product extends Model
     public function remove()
     {
         $this->delete();
+    }
+
+    public function uploadImage($image)
+    {
+        if ($image == null) { return; }
+        $this->removeImage();
+        $this->imagePath = $image;
+        $filename = str_random(10) . '.' . $image->extension();
+        $image->storeAs('images', $filename);
+        $this->image = $filename;
+        $this->save();
+    }
+
+    public function removeImage()
+    {
+        if ($this->image != null) {
+            Storage::delete('images/' . $this->image);
+        }
     }
 }

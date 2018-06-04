@@ -27,6 +27,10 @@
                             <label for="exampleInputEmail1">Название</label>
                             <input type="text" name="title" value="{{ old('title') }}" class="form-control" id="exampleInputEmail1" placeholder="">
                         </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Цена</label>
+                            <input type="text" name="price" value="{{ old('price') }}" class="form-control" id="exampleInputEmail1" placeholder="">
+                        </div>
 
                         <div class="form-group">
                             <label for="exampleInputFile">Лицевая картинка</label>
@@ -36,30 +40,7 @@
                         </div>
 
 
-                        <!-- Date -->
-                        <div class="form-group">
-                            <label>Дата:</label>
-
-                            <div class="input-group date">
-                                <div class="input-group-addon">
-                                    <i class="fa fa-calendar"></i>
-                                </div>
-                                <input type="text" name="date" value="{{ old('date') }}" class="form-control pull-right" id="datepicker">
-                            </div>
-                            <!-- /.input group -->
-                        </div>
-
-                        <!-- checkbox -->
-                        <div class="form-group">
-                            <label>
-                                <input type="checkbox" name="is_featured" class="minimal">
-                            </label>
-                            <label>
-                                Рекомендовать
-                            </label>
-                        </div>
-
-                        <!-- checkbox -->
+                                         <!-- checkbox -->
                         <div class="form-group">
                             <label>
                                 <input type="checkbox" name="status" class="minimal">

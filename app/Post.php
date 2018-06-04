@@ -80,7 +80,7 @@ class Post extends Model
         if ($image == null) { return; }
         $this->removeImage();
         $filename = str_random(10) . '.' . $image->extension();
-        $image->storeAs('uploads', $filename);
+        $image->storeAs('images', $filename);
         $this->image = $filename;
         $this->save();
     }
@@ -88,7 +88,7 @@ class Post extends Model
     public function removeImage()
     {
         if ($this->image != null) {
-            Storage::delete('uploads/' . $this->image);
+            Storage::delete('images/' . $this->image);
         }
     }
     public function getImage()

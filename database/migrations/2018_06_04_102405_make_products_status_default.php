@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class AddContentToProducts extends Migration
+class MakeProductsStatusDefault extends Migration
 {
     /**
      * Run the migrations.
@@ -13,8 +13,8 @@ class AddContentToProducts extends Migration
      */
     public function up()
     {
-        Schema::table('products', function(Blueprint $table){
-            $table->dropColumn('content');
+        Schema::table('products', function (Blueprint $table) {
+            $table->string('status')->default(0)->change();
         });
     }
 
@@ -25,8 +25,8 @@ class AddContentToProducts extends Migration
      */
     public function down()
     {
-        Schema::table('products', function(Blueprint $table){
-            $table->dropColumn('content');
+        Schema::table('products', function (Blueprint $table) {
+            $table->string('status')->change();
         });
     }
 }
