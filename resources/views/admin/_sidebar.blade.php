@@ -7,6 +7,7 @@
     </li>
     <li><a href="{{ route('posts.index')}}"><i class="fa fa-sticky-note-o"></i> <span>Посты</span></a></li>
     <li><a href="{{ route('products.index')}}"><i class="fa fa-sticky-note-o"></i> <span>Товары</span></a></li>
+    <li><a href="{{ route('offers.index') }}"><i class="fa fa-list-ul"></i> <span>Торговые предложения</span></a></li>
     <li><a href="{{ route('categories.index') }}"><i class="fa fa-list-ul"></i> <span>Категории</span></a></li>
     <li><a href="{{ route('tags.index') }}"><i class="fa fa-tags"></i> <span>Теги</span></a></li>
     <li>
