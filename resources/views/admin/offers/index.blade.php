@@ -54,7 +54,7 @@
 
                             </td>
                             <td>
-                                <a href="{{ route('categories.edit', $offer_id) }}" class="fa fa-pencil"></a>
+                                <a href="{{ route('offers.edit', $offer_id) }}" class="fa fa-pencil"></a>
                                 {{ Form::open(['route' => ['offers.destroy', $offer_id], 'method' => 'delete' ]) }}
                                 <button onclick="return confirm('уверены?')" type="submit" class="delete">
                                     <i class="fa fa-remove"></i>

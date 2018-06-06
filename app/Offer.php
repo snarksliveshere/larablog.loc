@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Offer extends Model
 {
-    protected $fillable = ['name'];
+    protected $fillable = ['name', 'slug'];
 
     use Sluggable;
 
@@ -22,17 +22,30 @@ class Offer extends Model
 
     public function values()
     {
-        $this->hasMany(OfferValue::class);
+        return $this->hasMany(OfferValue::class);
     }
 
+
+    public function setOfferValues($ids)
+    {
+//        dd($ids);
+        if ($ids == null) { return; }
+//        dd($this->values());
+//        $this->values()->sync($ids);
+        $this->values()->create($ids);
+
+    }
+
+    
     public function add()
     {
         
     }
-    
-    public function edit()
+
+    public function edit($fields)
     {
-        
+        $this->fill($fields);
+        $this->save();
     }
 
     public function remove()

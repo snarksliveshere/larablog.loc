@@ -8,3 +8,16 @@ button.delete {
     padding: 0;
 
 }
+.offer_values_edit_add {
+    cursor: pointer;
+    padding:5px 10px;
+    border-radius:5px;
+    background: aliceblue;
+    margin-top: 15px;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+}
+.spy {
+    display: none;
+}

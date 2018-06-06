@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use App\Offer;
+use App\OfferValue;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
@@ -78,7 +79,15 @@ class OffersController extends Controller
      */
     public function edit($id)
     {
-        //
+//        $offers = DB::table('offers')
+//            ->join('offer_values', function($join){
+//                $join->on('offers.id','offer_values.offer_id')
+//                    ->where('offer_values.offer_id', $id);
+//            })->get();
+
+        $offers = DB::table('offers')->leftJoin('offer_values', 'offers.id','offer_values.offer_id')->where('offer_values.offer_id', '=', $id)->get();
+        $offerName = Offer::find($id);
+        return view('admin.offers.edit', compact('offerName', 'offers'));
     }
 
     /**
@@ -90,7 +99,23 @@ class OffersController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $this->validate($request,[
+            'name' => 'required',
+            'slug' => 'required',
+
+        ]);
+
+        $offer = Offer::find($id);
+        $offer->edit($request->all());
+        $offer->setOfferValues($request->get('values'));
+
+//        dd($request->get('values'));
+        return redirect()->route('offers.index');
+
+
+
+
+
     }
 
     /**
