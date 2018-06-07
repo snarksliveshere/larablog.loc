@@ -40,7 +40,7 @@
                     @foreach($offers as $offer)
 
                         <tr>
-                            <td>{{ $offer->id }}</td>
+                            <td>{{ $offer->id }} : {{ $offer->name }}</td>
 
                             <td><ul>
 

@@ -17,25 +17,7 @@ class OffersController extends Controller
      */
     public function index()
     {
-
-
         $offers = Offer::with('values')->get();
-//        dd($offers);
-//
-//        $offers = DB::table('offers')
-//            ->leftJoin('offer_values', 'offers.id','offer_values.offer_id')->get();
-//        $offersArr = [];
-//        foreach ($offers as $offer) {
-//
-//                $offersArr[$offer->name][$offer->id] = $offer;
-//
-//        }
-////        foreach ($offers as $offer) {
-////
-////                $offersArr[$offer->offer_id][$offer->name][$offer->id] = $offer;
-////
-////        }
-////        dd($offersArr);
         return view('admin.offers.index',[
             'offers' => $offers
         ]);
@@ -87,8 +69,13 @@ class OffersController extends Controller
 //                    ->where('offer_values.offer_id', $id);
 //            })->get();
 
-        $offers = DB::table('offers')->leftJoin('offer_values', 'offers.id','offer_values.offer_id')->where('offer_values.offer_id', '=', $id)->get();
-        $offerName = Offer::find($id);
+//        $offers = DB::table('offers')->leftJoin('offer_values', 'offers.id','offer_values.offer_id')->where('offer_values.offer_id', '=', $id)->get();
+        // так я получу значения и само предложение по id
+        $offer = Offer::find($id);
+        $values = Offer::find($id)->values;
+       //$offer;
+        dd($offer);
+//        $offerName = Offer::find($id);
         return view('admin.offers.edit', compact('offerName', 'offers'));
     }
 
