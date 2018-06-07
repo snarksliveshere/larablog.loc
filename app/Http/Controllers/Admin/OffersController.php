@@ -74,9 +74,10 @@ class OffersController extends Controller
         $offer = Offer::find($id);
         $values = Offer::find($id)->values;
        //$offer;
-        dd($offer);
+//        dd($offer);
 //        $offerName = Offer::find($id);
-        return view('admin.offers.edit', compact('offerName', 'offers'));
+//        return view('admin.offers.edit', compact('offerName', 'offers'));
+        return view('admin.offers.edit', compact('values', 'offer'));
     }
 
     /**
@@ -88,6 +89,7 @@ class OffersController extends Controller
      */
     public function update(Request $request, $id)
     {
+//        dd($request->all());
         $this->validate($request,[
             'name' => 'required',
             'slug' => 'required',
@@ -96,7 +98,8 @@ class OffersController extends Controller
 
         $offer = Offer::find($id);
         $offer->edit($request->all());
-        $offer->setOfferValues($request->get('values'));
+        // вообще, это надо в OfferValue кидать, а не в Offer !
+        $offer->setOfferValues($request->all());
 
 //        dd($request->get('values'));
         return redirect()->route('offers.index');

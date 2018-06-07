@@ -28,11 +28,17 @@ class Offer extends Model
 
     public function setOfferValues($ids)
     {
+//dd($this->values);
+        dd($ids);
 //        dd($ids);
-        if ($ids == null) { return; }
-//        dd($this->values());
+        foreach ($ids as $val) {
+            echo $val->value;
+//            $this->values()->create($val->value);
+        }
+//        if ($ids == null) { return; }
+
 //        $this->values()->sync($ids);
-        $this->values()->create($ids);
+
 
     }
 

@@ -20,16 +20,16 @@
                     @include('admin.errors')
                 </div>
                 <div class="box-body">
-                    {{ Form::open(['route' => ['offers.update', $offerName->id], 'method' => 'put']) }}
+                    {{ Form::open(['route' => ['offers.update', $offer->id], 'method' => 'put']) }}
                     <div class="col-md-6">
                         <div class="form-group">
                             <label for="exampleInputEmail1">Название</label>
-                            <input type="text" name="name" class="form-control offer_edit_name" id="exampleInputEmail1" placeholder="" name="name" value="{{ $offerName->name }}">
-                            <input type="text" name="slug" class="form-control offer_edit_slug" id="exampleInputEmail1" placeholder="" value="{{ $offerName->slug }}">
-                            <input type="hidden" name="id" value="{{ $offerName->id }}">
+                            <input type="text" name="name" class="form-control offer_edit_name" id="exampleInputEmail1" placeholder="" name="name" value="{{ $offer->name }}">
+                            <input type="text" name="slug" class="form-control offer_edit_slug" id="exampleInputEmail1" placeholder="" value="{{ $offer->slug }}">
+                            <input type="hidden" name="id" value="{{ $offer->id }}">
                             <div class="offer_values_wrapper">
-                            @foreach($offers as $offer)
-                                <input type="text" name="values[]" class="offer_edit_values" value="{{ $offer->value }}">
+                            @foreach($values as $value)
+                                <input type="text" name="values[]" class="offer_edit_values" value="{{ $value->value }}">
                             @endforeach
 
                             </div>
