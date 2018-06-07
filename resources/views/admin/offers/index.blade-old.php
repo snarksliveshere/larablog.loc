@@ -37,26 +37,25 @@
                     </thead>
                     <tbody>
 {{--                {{ dd($offers) }}--}}
-                    @foreach($offers as $offer)
+                    @foreach($offers as $key => $offer)
 
                         <tr>
-                            <td>{{ $offer->id }}</td>
+                            <td>{{ $key }}</td>
 
                             <td><ul>
-
-                                @foreach($offer->values as $val)
+                                @foreach($offer as $ki => $val)
                                     <li>
                                         <span class="fwb">id: {{ $val->id }} </span>
                                         <span>Значение: {{ $val->value }}</span>
                                     </li>
-
+                                   <span class="spy">{{ $offer_id = $val->offer_id }}</span>
                                 @endforeach
                                 </ul>
 
                             </td>
                             <td>
-                                <a href="{{ route('offers.edit', $offer->id) }}" class="fa fa-pencil"></a>
-                                {{ Form::open(['route' => ['offers.destroy', $offer->id], 'method' => 'delete' ]) }}
+                                <a href="{{ route('offers.edit', $offer_id) }}" class="fa fa-pencil"></a>
+                                {{ Form::open(['route' => ['offers.destroy', $offer_id], 'method' => 'delete' ]) }}
                                 <button onclick="return confirm('уверены?')" type="submit" class="delete">
                                     <i class="fa fa-remove"></i>
                                 </button>

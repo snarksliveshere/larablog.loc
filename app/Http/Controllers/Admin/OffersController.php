@@ -19,23 +19,25 @@ class OffersController extends Controller
     {
 
 
-//        $offers = Offer::with('values')->get(); что-то неполучается
-        $offers = DB::table('offers')
-            ->leftJoin('offer_values', 'offers.id','offer_values.offer_id')->get();
-        $offersArr = [];
-        foreach ($offers as $offer) {
-
-                $offersArr[$offer->name][$offer->id] = $offer;
-
-        }
+        $offers = Offer::with('values')->get();
+//        dd($offers);
+//
+//        $offers = DB::table('offers')
+//            ->leftJoin('offer_values', 'offers.id','offer_values.offer_id')->get();
+//        $offersArr = [];
 //        foreach ($offers as $offer) {
 //
-//                $offersArr[$offer->offer_id][$offer->name][$offer->id] = $offer;
+//                $offersArr[$offer->name][$offer->id] = $offer;
 //
 //        }
-//        dd($offersArr);
+////        foreach ($offers as $offer) {
+////
+////                $offersArr[$offer->offer_id][$offer->name][$offer->id] = $offer;
+////
+////        }
+////        dd($offersArr);
         return view('admin.offers.index',[
-            'offers' => $offersArr
+            'offers' => $offers
         ]);
     }
 
