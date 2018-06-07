@@ -99,7 +99,9 @@ class OffersController extends Controller
         $offer = Offer::find($id);
         $offer->edit($request->all());
         // вообще, это надо в OfferValue кидать, а не в Offer !
-        $offer->setOfferValues($request->all());
+//        $offer->setOfferValues($request->all());
+        $offerValues = new OfferValue();
+        $offerValues->edit($request->all());
 
 //        dd($request->get('values'));
         return redirect()->route('offers.index');

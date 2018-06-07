@@ -30,9 +30,11 @@ class OfferValue extends Model
 
     }
 
-    public function edit()
+    public function edit($values)
     {
-
+//       dd($values['id']);
+//        $val = OfferValue::find($values['id'])->offers()->name;
+//        dd($val);
     }
 
     public function remove()
