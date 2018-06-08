@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class OfferValue extends Model
 {
-    protected $fillable = ['name'];
+    protected $fillable = ['value'];
 
     use Sluggable;
 

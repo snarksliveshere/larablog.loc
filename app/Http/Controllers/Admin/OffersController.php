@@ -63,20 +63,9 @@ class OffersController extends Controller
      */
     public function edit($id)
     {
-//        $offers = DB::table('offers')
-//            ->join('offer_values', function($join){
-//                $join->on('offers.id','offer_values.offer_id')
-//                    ->where('offer_values.offer_id', $id);
-//            })->get();
-
-//        $offers = DB::table('offers')->leftJoin('offer_values', 'offers.id','offer_values.offer_id')->where('offer_values.offer_id', '=', $id)->get();
-        // так я получу значения и само предложение по id
         $offer = Offer::find($id);
         $values = Offer::find($id)->values;
-       //$offer;
-//        dd($offer);
-//        $offerName = Offer::find($id);
-//        return view('admin.offers.edit', compact('offerName', 'offers'));
+
         return view('admin.offers.edit', compact('values', 'offer'));
     }
 
@@ -98,18 +87,8 @@ class OffersController extends Controller
 
         $offer = Offer::find($id);
         $offer->edit($request->all());
-        // вообще, это надо в OfferValue кидать, а не в Offer !
-//        $offer->setOfferValues($request->all());
-        $offerValues = new OfferValue();
-        $offerValues->edit($request->all());
-
-//        dd($request->get('values'));
+        $offer->setOfferValues($request->all());
         return redirect()->route('offers.index');
-
-
-
-
-
     }
 
     /**

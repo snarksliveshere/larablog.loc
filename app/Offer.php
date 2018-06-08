@@ -28,21 +28,15 @@ class Offer extends Model
 
     public function setOfferValues($ids)
     {
-//dd($this->values);
-        dd($ids);
-//        dd($ids);
-        foreach ($ids as $val) {
-            echo $val->value;
-//            $this->values()->create($val->value);
+        $offer = Offer::find($ids['id']);
+        $offer->values()->delete();
+        foreach ($ids['values'] as $val) {
+            if ($val == null) { continue; }
+            $value = new OfferValue(['value' => $val]);
+            $offer->values()->save($value);
         }
-//        if ($ids == null) { return; }
-
-//        $this->values()->sync($ids);
-
-
     }
 
-    
     public function add()
     {
         
