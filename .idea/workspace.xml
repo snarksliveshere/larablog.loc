@@ -4,8 +4,6 @@
     <list default="true" id="2e23a0d3-824f-4b64-aa3c-2626f12c21a4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/OffersController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/OffersController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Offer.php" afterPath="$PROJECT_DIR$/app/Offer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/OfferValue.php" afterPath="$PROJECT_DIR$/app/OfferValue.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,11 +19,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="OffersController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="OffersController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/OffersController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="81" column="17" lean-forward="false" selection-start-line="81" selection-start-column="17" selection-end-line="81" selection-end-column="17" />
+            <state relative-caret-position="235">
+              <caret line="82" column="33" lean-forward="true" selection-start-line="82" selection-start-column="33" selection-end-line="82" selection-end-column="33" />
               <folding>
                 <element signature="e#46#82#0#PHP" expanded="true" />
               </folding>
@@ -33,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Offer.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Offer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Offer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+            <state relative-caret-position="704">
+              <caret line="32" column="42" lean-forward="true" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
               <folding>
                 <element signature="e#23#65#0#PHP" expanded="true" />
               </folding>
@@ -193,9 +191,9 @@
         <option value="$PROJECT_DIR$/resources/assets/admin/dist/css/skins/custom.css" />
         <option value="$PROJECT_DIR$/resources/views/admin/offers/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/offers/edit.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/OffersController.php" />
         <option value="$PROJECT_DIR$/app/OfferValue.php" />
         <option value="$PROJECT_DIR$/app/Offer.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/OffersController.php" />
       </list>
     </option>
   </component>
@@ -760,11 +758,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528401034700</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="добавил метод setOfferValues для редактирования ТП">
+      <created>1528455104476</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1528455104476</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31952000" />
+    <option name="totallyTimeSpent" value="32132000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -829,7 +834,8 @@
     <MESSAGE value="начинаю добавлять ТП.&#10;база и индексный админский вид" />
     <MESSAGE value="исправил index.blade, перевел вид в соответствии с hasMany" />
     <MESSAGE value="меняю обработку edit метод setOfferValues надо переносить в OfferValue" />
-    <option name="LAST_COMMIT_MESSAGE" value="меняю обработку edit метод setOfferValues надо переносить в OfferValue" />
+    <MESSAGE value="добавил метод setOfferValues для редактирования ТП" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавил метод setOfferValues для редактирования ТП" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1186,22 +1192,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/OffersController.php">
+    <entry file="file://$PROJECT_DIR$/app/Offer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="81" column="17" lean-forward="false" selection-start-line="81" selection-start-column="17" selection-end-line="81" selection-end-column="17" />
+        <state relative-caret-position="704">
+          <caret line="32" column="42" lean-forward="true" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
           <folding>
-            <element signature="e#46#82#0#PHP" expanded="true" />
+            <element signature="e#23#65#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Offer.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/OffersController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+        <state relative-caret-position="235">
+          <caret line="82" column="33" lean-forward="true" selection-start-line="82" selection-start-column="33" selection-end-line="82" selection-end-column="33" />
           <folding>
-            <element signature="e#23#65#0#PHP" expanded="true" />
+            <element signature="e#46#82#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

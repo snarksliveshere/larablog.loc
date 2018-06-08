@@ -78,7 +78,6 @@ class OffersController extends Controller
      */
     public function update(Request $request, $id)
     {
-//        dd($request->all());
         $this->validate($request,[
             'name' => 'required',
             'slug' => 'required',
@@ -99,6 +98,8 @@ class OffersController extends Controller
      */
     public function destroy($id)
     {
+        // должен уничтожеть предложения и все связанные записи. в т.ч. в промежуточной таблице product - values
+        // так что это пока что отложим
         dd($id);
     }
 }
