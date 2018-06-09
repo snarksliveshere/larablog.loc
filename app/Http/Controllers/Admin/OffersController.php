@@ -30,7 +30,7 @@ class OffersController extends Controller
      */
     public function create()
     {
-        //
+        return view('admin.offers.create');
     }
 
     /**
@@ -41,7 +41,20 @@ class OffersController extends Controller
      */
     public function store(Request $request)
     {
-        //
+//        dd($request->get('values'));
+        $this->validate($request,[
+            'name' => 'required',
+        ]);
+        $offer = Offer::add($request->all());
+        $offer->addOfferValues($request->get('values'), $offer);
+//        dd($offer);
+//        $post = Post::add($request->all());
+//        $post->uploadImage($request->file('image'));
+//        $post->setCategory($request->get('category_id'));
+//        $post->setTags($request->get('tags'));
+//        $post->toggleStatus($request->get('status'));
+//        $post->toggleFeatured($request->get('is_featured'));
+        return redirect()->route('offers.index');
     }
 
     /**
@@ -99,7 +112,10 @@ class OffersController extends Controller
     public function destroy($id)
     {
         // должен уничтожеть предложения и все связанные записи. в т.ч. в промежуточной таблице product - values
-        // так что это пока что отложим
-        dd($id);
+
+        $offer = Offer::find($id);
+        $offer->values()->delete();
+        $offer->delete();
+        return redirect()->route('offers.index');
     }
 }

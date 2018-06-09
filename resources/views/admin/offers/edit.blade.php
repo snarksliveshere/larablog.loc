@@ -5,8 +5,8 @@
         <!-- Content Header (Page header) -->
         <section class="content-header">
             <h1>
-                Добавить категорию
-                <small>приятные слова..</small>
+                Редактировать Торговое предложение
+
             </h1>
         </section>
 
@@ -16,7 +16,7 @@
             <!-- Default box -->
             <div class="box">
                 <div class="box-header with-border">
-                    <h3 class="box-title">Меняем категорию</h3>
+                    <h3 class="box-title">Редактируем ТП</h3>
                     @include('admin.errors')
                 </div>
                 <div class="box-body">
@@ -33,7 +33,7 @@
                             @endforeach
 
                             </div>
-                            <div class="offer_values_edit_add">Добавить еще</div>
+                            <div class="offer_values_edit_add">Добавить поля ТП</div>
                         </div>
                     </div>
                 </div>

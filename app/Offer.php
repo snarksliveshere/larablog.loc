@@ -37,9 +37,23 @@ class Offer extends Model
         }
     }
 
-    public function add()
+    public function addOfferValues($ids, $offer)
     {
-        
+        foreach ($ids as $val) {
+            if ($val == null) { continue; }
+            $value = new OfferValue(['value' => $val]);
+            $offer->values()->save($value);
+        }
+    }
+
+    public static function add($fields)
+    {
+        $offer = new static;
+        $offer->fill($fields);
+//        $post->user_id = \Auth::user()->id;
+        $offer->save();
+
+        return $offer;
     }
 
     public function edit($fields)
