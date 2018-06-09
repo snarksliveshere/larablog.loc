@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e2699bb-bf3c-41a3-904d-7b55bb4040f1" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/OffersProduct.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/migrations/2018_06_09_174930_create_offers_products_table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/admin/products/editOffers.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/OffersController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/OffersController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Offer.php" afterPath="$PROJECT_DIR$/app/Offer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/offers/create.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/offers/create.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/offers/edit.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/offers/edit.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/ProductsController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ProductsController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/OfferValue.php" afterPath="$PROJECT_DIR$/app/OfferValue.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Product.php" afterPath="$PROJECT_DIR$/app/Product.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2018_06_05_110005_offer_products.php" afterPath="$PROJECT_DIR$/database/migrations/2018_06_05_110005_offer_products.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/products/edit.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/products/edit.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/products/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/products/index.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/web.php" afterPath="$PROJECT_DIR$/routes/web.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,26 +28,32 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="OffersController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/OffersController.php">
+      <file leaf-file-name="OffersProduct.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/OffersProduct.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="115" column="34" lean-forward="true" selection-start-line="115" selection-start-column="34" selection-end-line="115" selection-end-column="34" />
-              <folding>
-                <element signature="e#46#82#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="440">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Offer.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Offer.php">
+      <file leaf-file-name="ProductsController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/ProductsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-              <folding>
-                <element signature="e#23#65#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="237">
+              <caret line="109" column="5" lean-forward="true" selection-start-line="109" selection-start-column="5" selection-end-line="109" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Product.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Product.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="523">
+              <caret line="115" column="99" lean-forward="false" selection-start-line="115" selection-start-column="99" selection-end-line="115" selection-end-column="99" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -49,46 +61,28 @@
       <file leaf-file-name="PostsController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/PostsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
+            <state relative-caret-position="1025">
               <caret line="111" column="7" lean-forward="false" selection-start-line="111" selection-start-column="7" selection-end-line="112" selection-end-column="48" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/admin/offers/create.blade.php">
+      <file leaf-file-name="sql.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/sql.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="26" column="63" lean-forward="false" selection-start-line="26" selection-start-column="63" selection-end-line="26" selection-end-column="63" />
+            <state relative-caret-position="396">
+              <caret line="11" column="220" lean-forward="false" selection-start-line="11" selection-start-column="204" selection-end-line="11" selection-end-column="220" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/admin/posts/create.blade.php">
+      <file leaf-file-name="OfferValue.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/OfferValue.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-              <folding>
-                <marker date="1528192873189" expanded="true" signature="343:434" ph="..." />
-                <marker date="1528192873189" expanded="true" signature="344:433" ph="..." />
-                <marker date="1528192873189" expanded="true" signature="1548:1689" ph="..." />
-                <marker date="1528192873189" expanded="true" signature="1562:1687" ph="..." />
-                <marker date="1528192873189" expanded="true" signature="1850:2155" ph="..." />
-                <marker date="1528192873189" expanded="true" signature="1864:2153" ph="..." />
-                <marker date="1528192873189" expanded="true" signature="1942:2152" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/admin/offers/edit.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="29" column="60" lean-forward="false" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="60" />
+            <state relative-caret-position="501">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -98,17 +92,7 @@
         <entry file="file://$PROJECT_DIR$/app/Post.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="201">
-              <caret line="69" column="26" lean-forward="false" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OfferValue.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/OfferValue.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="32" column="33" lean-forward="false" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+              <caret line="187" column="44" lean-forward="false" selection-start-line="187" selection-start-column="40" selection-end-line="187" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -118,7 +102,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>offerscontroll</find>
       <find>offerscontroller</find>
       <find>offerscontrollers</find>
       <find>w</find>
@@ -134,7 +117,6 @@
       <find>listen</find>
       <find>a</find>
       <find>attach</find>
-      <find>tags</find>
       <find>edit</find>
       <find>attach(</find>
       <find>s</find>
@@ -148,6 +130,8 @@
       <find>add</find>
       <find>settags</find>
       <find>remove</find>
+      <find>uploa</find>
+      <find>tags</find>
     </findStrings>
     <dirStrings>
       <dir>D:\os\domains\larablog.loc\database\migrations</dir>
@@ -166,31 +150,34 @@
         <option value="$PROJECT_DIR$/database/migrations/2018_05_19_155751_create_products_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2018_06_04_102405_make_products_status_default.php" />
         <option value="$PROJECT_DIR$/database/migrations/2018_06_04_102553_make_products_description_nullable.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/products/edit.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/products/index.blade.php" />
         <option value="$PROJECT_DIR$/database/seeds/ProductTableSeeder.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/products/create.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/shop/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/shop/show.blade.php" />
-        <option value="$PROJECT_DIR$/app/Product.php" />
         <option value="$PROJECT_DIR$/app/Post.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/ProductsController.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2018_06_05_110005_offer_products.php" />
         <option value="$PROJECT_DIR$/database/migrations/2018_06_05_105341_create_offers_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2018_06_05_105746_create_offer_values_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2018_06_05_171606_add_slug_to_offers.php" />
         <option value="$PROJECT_DIR$/database/migrations/2018_06_05_171621_add_slug_to_offer_values.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" />
         <option value="$PROJECT_DIR$/webpack.mix.js" />
         <option value="$PROJECT_DIR$/resources/assets/admin/dist/js/scripts.js" />
         <option value="$PROJECT_DIR$/resources/assets/admin/dist/css/skins/custom.css" />
         <option value="$PROJECT_DIR$/resources/views/admin/offers/index.blade.php" />
-        <option value="$PROJECT_DIR$/app/OfferValue.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/offers/edit.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/offers/create.blade.php" />
         <option value="$PROJECT_DIR$/app/Offer.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/OffersController.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/products/edit.blade.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/products/index.blade.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2018_06_05_110005_offer_products.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2018_06_09_174930_create_offers_products_table.php" />
+        <option value="$PROJECT_DIR$/app/OfferValue.php" />
+        <option value="$PROJECT_DIR$/app/OffersProduct.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/sql.sql" />
+        <option value="$PROJECT_DIR$/app/Product.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/ProductsController.php" />
       </list>
     </option>
   </component>
@@ -323,8 +310,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -435,33 +420,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="posts" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="larablog.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="larablog.loc" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="offers" />
+              <option name="myItemId" value="products" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -593,6 +552,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -615,14 +576,15 @@
     <property name="node.js.selected.package.stylelint" value="" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ospanel\domains\larablog.loc\app\Http\Controllers\Admin" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ospanel\domains\larablog.loc\resources\views\admin\products" />
       <recent name="D:\os\domains\larablog.loc\resources\views\admin\offers" />
       <recent name="D:\ospanel\domains\larablog.loc\resources\views\admin\offers" />
       <recent name="D:\ospanel\domains\larablog.loc\resources\views\admin" />
       <recent name="D:\ospanel\domains\larablog.loc\database\migrations" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\ospanel\domains\larablog.loc\app\Http\Controllers\Admin" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -714,7 +676,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2e23a0d3-824f-4b64-aa3c-2626f12c21a4" name="Default" comment="" />
+      <changelist id="2e2699bb-bf3c-41a3-904d-7b55bb4040f1" name="Default" comment="" />
       <created>1528091981494</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -727,6 +689,7 @@
       <workItem from="1528275201014" duration="1828000" />
       <workItem from="1528303500802" duration="6932000" />
       <workItem from="1528367080836" duration="2023000" />
+      <workItem from="1528559517631" duration="6941000" />
     </task>
     <task id="LOCAL-00001" summary="добавил в админку страницу товара, кроме обработки картинок">
       <created>1528109973275</created>
@@ -770,11 +733,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528455104476</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="добавил для ТП CRUD">
+      <created>1528556444949</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1528556444949</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34621000" />
+    <option name="totallyTimeSpent" value="42865000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -797,32 +767,19 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32746822" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28112966" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27471116" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Tasks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32792208" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27132195" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -840,35 +797,14 @@
     <MESSAGE value="исправил index.blade, перевел вид в соответствии с hasMany" />
     <MESSAGE value="меняю обработку edit метод setOfferValues надо переносить в OfferValue" />
     <MESSAGE value="добавил метод setOfferValues для редактирования ТП" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавил метод setOfferValues для редактирования ТП" />
+    <MESSAGE value="добавил для ТП CRUD" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавил для ТП CRUD" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2018_06_03_165434_add_user_id_to_products.php" />
-    <entry file="file://$PROJECT_DIR$/resources/views/pages/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/factories/UserFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="29" column="31" lean-forward="false" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Catalog/ProductController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -904,24 +840,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/products/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="54" column="72" lean-forward="false" selection-start-line="54" selection-start-column="72" selection-end-line="54" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/seeds/ProductTableSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="410">
           <caret line="31" column="35" lean-forward="false" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/products/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="33" column="58" lean-forward="false" selection-start-line="33" selection-start-column="58" selection-end-line="33" selection-end-column="58" />
         </state>
       </provider>
     </entry>
@@ -962,34 +884,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/ProductsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1980">
-          <caret line="92" column="38" lean-forward="false" selection-start-line="92" selection-start-column="38" selection-end-line="92" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1606">
-          <caret line="74" column="35" lean-forward="false" selection-start-line="74" selection-start-column="35" selection-end-line="74" selection-end-column="35" />
-          <folding>
-            <element signature="e#23#65#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2018_06_05_110005_offer_products.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="28" column="7" lean-forward="false" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -1063,13 +961,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -1118,7 +1009,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1126,7 +1016,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1137,13 +1026,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layout.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-264">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/partitials/top_nav.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -1151,17 +1033,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/OfferValue.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="32" column="33" lean-forward="false" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/offers/edit.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
+        <state relative-caret-position="638">
           <caret line="29" column="60" lean-forward="false" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="60" />
           <folding />
         </state>
@@ -1169,7 +1043,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/posts/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
+        <state relative-caret-position="638">
           <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
             <marker date="1528192873189" expanded="true" signature="343:434" ph="..." />
@@ -1185,26 +1059,112 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/offers/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
+        <state relative-caret-position="572">
           <caret line="26" column="63" lean-forward="false" selection-start-line="26" selection-start-column="63" selection-end-line="26" selection-end-column="63" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/OffersController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2618">
+          <caret line="119" column="5" lean-forward="false" selection-start-line="119" selection-start-column="5" selection-end-line="119" selection-end-column="5" />
+          <folding>
+            <element signature="e#46#82#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="38" column="107" lean-forward="false" selection-start-line="38" selection-start-column="107" selection-end-line="38" selection-end-column="107" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layout.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/products/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#581#3999#0#HTML" expanded="false" />
+            <marker date="1528565377497" expanded="true" signature="626:770" ph="..." />
+            <marker date="1528565377497" expanded="true" signature="638:768" ph="..." />
+            <marker date="1528565377497" expanded="true" signature="639:767" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/products/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="63" column="73" lean-forward="false" selection-start-line="63" selection-start-column="73" selection-end-line="63" selection-end-column="73" />
+          <folding>
+            <marker date="1528565801418" expanded="true" signature="617:704" ph="..." />
+            <marker date="1528565801418" expanded="true" signature="618:703" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/products/editOffers.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-66">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1528565377497" expanded="true" signature="626:770" ph="..." />
+            <marker date="1528565377497" expanded="true" signature="638:768" ph="..." />
+            <marker date="1528565377497" expanded="true" signature="639:767" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Offer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        <state relative-caret-position="154">
+          <caret line="22" column="2" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="25" selection-end-column="5" />
           <folding>
             <element signature="e#23#65#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/PostsController.php">
+    <entry file="file://$PROJECT_DIR$/database/migrations/2018_06_05_110005_offer_products.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="111" column="7" lean-forward="false" selection-start-line="111" selection-start-column="7" selection-end-line="112" selection-end-column="48" />
+        <state relative-caret-position="440">
+          <caret line="31" column="8" lean-forward="false" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2018_06_09_174930_create_offers_products_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/OfferValue.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/OffersProduct.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1212,18 +1172,40 @@
     <entry file="file://$PROJECT_DIR$/app/Post.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
-          <caret line="69" column="26" lean-forward="false" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="26" />
+          <caret line="187" column="44" lean-forward="false" selection-start-line="187" selection-start-column="40" selection-end-line="187" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/OffersController.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/PostsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="115" column="34" lean-forward="true" selection-start-line="115" selection-start-column="34" selection-end-line="115" selection-end-column="34" />
-          <folding>
-            <element signature="e#46#82#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="1025">
+          <caret line="111" column="7" lean-forward="false" selection-start-line="111" selection-start-column="7" selection-end-line="112" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/sql.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="11" column="220" lean-forward="false" selection-start-line="11" selection-start-column="204" selection-end-line="11" selection-end-column="220" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="115" column="99" lean-forward="false" selection-start-line="115" selection-start-column="99" selection-end-line="115" selection-end-column="99" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/ProductsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="109" column="5" lean-forward="true" selection-start-line="109" selection-start-column="5" selection-end-line="109" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>

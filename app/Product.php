@@ -105,4 +105,16 @@ class Product extends Model
             Storage::delete('images/' . $this->image);
         }
     }
+
+    public function offerProducts()
+    {
+        return $this->hasMany(OffersProduct::class);
+    }
+
+    public function getValue()
+    {
+        return $this->hasManyThrough('App\OfferValue', 'App\OffersProduct', 'product_id', 'offer_id');
+    }
+
+
 }

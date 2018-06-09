@@ -108,4 +108,20 @@ class ProductsController extends Controller
         Product::find($id)->delete();
         return redirect()->route('products.index');
     }
+
+
+    public function addOfferIndex($id)
+    {
+        $product = Product::find($id);
+        $offers = $product->getValue()->get(); // получил offer_values (хотя и все) - нужен where
+        // и надо еще получить сам offer !
+        dd($offers);
+        $product = Product::with(['offerProducts'])->find($id);
+//        dd($product);
+        $offers = $product->offerValues;
+
+
+        dd($offers);
+        return view('admin.products.editOffers', compact('product'));
+    }
 }

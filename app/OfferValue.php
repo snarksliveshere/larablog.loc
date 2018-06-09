@@ -25,6 +25,8 @@ class OfferValue extends Model
         return $this->belongsTo(Offer::class);
     }
 
+
+
     public function add()
     {
 
