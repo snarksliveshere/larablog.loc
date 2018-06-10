@@ -113,7 +113,12 @@ class Product extends Model
 
     public function getValue()
     {
-        return $this->hasManyThrough('App\OfferValue', 'App\OffersProduct', 'product_id', 'offer_id');
+        return $this->hasManyThrough('App\OfferValue', 'App\OffersProduct', 'offer_value_id', 'id');
+    }
+
+    public function valValues()
+    {
+        return $this->belongsToMany('App\OfferValue', 'offers_products', 'product_id', 'offer_value_id');
     }
 
 

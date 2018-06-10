@@ -40,7 +40,8 @@
                             <th>Цена</th>
                             <th>Картинка</th>
                             <th>Действия</th>
-                            <th>Добавить торговое предложение</th>
+                            <th>Редактировать ТП</th>
+                            <th>Добавить ТП</th>
                         </tr>
                         </thead>
                         <tbody>
@@ -61,7 +62,8 @@
                                     <i class="fa fa-remove"></i>
                                 </button>
                             {{ Form::close() }}
-                            <td><a href="{{ route('products.addOfferIndex', $product->id) }}">Добавить ТП</a></td>
+                            <td><a href="{{ route('related.edit', $product->id) }}">редактировать ТП</a></td>
+                            <td><a href="{{ route('related.create', $product->id) }}">Добавить ТП</a></td>
                         </tr>
                         @endforeach
                         </tfoot>

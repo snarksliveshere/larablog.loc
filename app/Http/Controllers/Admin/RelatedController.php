@@ -2,12 +2,10 @@
 
 namespace App\Http\Controllers\Admin;
 
-use App\Offer;
-use App\Product;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
-class ProductsController extends Controller
+class RelatedController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -16,8 +14,7 @@ class ProductsController extends Controller
      */
     public function index()
     {
-        $products = Product::all();
-        return view('admin.products.index')->with('products', $products);
+        //
     }
 
     /**
@@ -27,8 +24,7 @@ class ProductsController extends Controller
      */
     public function create()
     {
-
-        return view('admin.products.create');
+        //
     }
 
     /**
@@ -39,17 +35,7 @@ class ProductsController extends Controller
      */
     public function store(Request $request)
     {
-        $this->validate($request,[
-            'title' => 'required',
-            'content' => 'required',
-            'price' => 'numeric',
-            'image' => 'nullable|image'
-        ]);
-//        dd($request->all());
-        $product = Product::add($request->all());
-        $product->uploadImage($request->file('image'));
-        $product->toggleStatus($request->get('status'));
-        return redirect()->route('products.index');
+        //
     }
 
     /**
@@ -71,8 +57,7 @@ class ProductsController extends Controller
      */
     public function edit($id)
     {
-        $product = Product::find($id);
-        return view('admin.products.edit', compact('product'));
+        //
     }
 
     /**
@@ -84,18 +69,7 @@ class ProductsController extends Controller
      */
     public function update(Request $request, $id)
     {
-        $this->validate($request,[
-            'title' => 'required',
-            'content' => 'required',
-            'image' => 'nullable|image',
-            'price' => 'numeric'
-        ]);
-
-        $product = Product::find($id);
-        $product->edit($request->all());
-        $product->uploadImage($request->file('image'));
-        $product->toggleStatus($request->get('status'));
-        return redirect()->route('products.index');
+        //
     }
 
     /**
@@ -106,10 +80,32 @@ class ProductsController extends Controller
      */
     public function destroy($id)
     {
-        Product::find($id)->delete();
-        return redirect()->route('products.index');
+        //
     }
 
+    public function addOfferIndex($id)
+    {
+        $product = Product::find($id);
+        $values = $product->valValues()->get();
+//        dd($values);
+        $fillOffers = [];
+        foreach ($values as $value) {
+            $offerName = Offer::find($value->offer_id);
+            $fillOffers[] = $offerName->name;
+            dd($fillOffers);
+        }
+        // вот так я получаю значения, но не  названия обложка, год издания и проч
 
 
+        $offers = $product->getValue()->where('product_id', $id)->get(); // получил offer_values (хотя и все) - нужен where
+        // и надо еще получить сам offer !
+        dd($offers);
+        $product = Product::with(['offerProducts'])->find($id);
+//        dd($product);
+        $offers = $product->offerValues;
+
+
+        dd($offers);
+        return view('admin.products.editOffers', compact('product'));
+    }
 }

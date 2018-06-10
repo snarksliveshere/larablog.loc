@@ -36,7 +36,8 @@ Route::group(['prefix' => 'admin', 'namespace' => 'Admin', 'middleware' => 'admi
     Route::resource('/users', 'UsersController');
     Route::resource('/posts', 'PostsController');
     Route::resource('/products', 'ProductsController');
-    Route::get('/products/add-offer/{id}','ProductsController@addOfferIndex')->name('products.addOfferIndex');
+    Route::get('/products/add-offer/{id}','RelatedController@create')->name('related.create');
+    Route::get('/products/edit-offer/{id}','RelatedController@edit')->name('related.edit');
     Route::resource('/offers', 'OffersController');
     Route::get('/comments', 'CommentsController@index')->name('comments.index');
     Route::get('/comments/toggle/{id}', 'CommentsController@toggle');
