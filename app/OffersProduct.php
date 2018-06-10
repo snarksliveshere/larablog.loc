@@ -6,6 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class OffersProduct extends Model
 {
+    protected $fillable = ['offer_id', 'product_id', 'offer_value_id'];
     public function products()
     {
         return $this->belongsToMany('App\Product');

@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Admin;
 
 use App\Offer;
 use App\Product;
+use App\RelatedProduct;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
@@ -33,7 +34,7 @@ class RelatedController extends Controller
         foreach ($offersNames as $offer) {
             $values = $offer->values()->pluck('value','id');
             if (count($values)) {
-                $offers[$offer->name] = $values;
+                $offers[$offer->id] = $values;
             }
         }
 //        dd($offers);
@@ -48,12 +49,41 @@ class RelatedController extends Controller
      */
     public function store(Request $request)
     {
-        dd($request->all());
+    //        $ids = RelatedProduct::pluck('id')->all();
+    //        dd($ids);
+
         $this->validate($request,[
             'title' => 'required',
             'content' => 'required',
-            'image' => 'nullable|image'
+            'image' => 'nullable|image',
+            'price' => 'required|integer'
         ]);
+
+        $related = $request->all();
+
+        $product = Product::find($request->parent_id);
+        $product->hasRelated = 1;
+        $product->save();
+
+        $offersRelated = [];
+        foreach ($related['name'] as $key => $name) {
+            $offersRelated[$name] = $related['value_id'][$key];
+        }
+//        dd($offersRelated);
+        foreach ($related as $ki => $rel) {
+            if($ki == '_token') continue;
+            if($rel == $product->{$ki}) {
+                $related[$ki] = null;
+            }
+        }
+        $relatedProduct = RelatedProduct::add($related);
+//        dd($relatedProduct);
+        $fillOffers = RelatedProduct::addValues($offersRelated, $relatedProduct);
+
+
+
+
+        return redirect()->route('products.index');
 
     }
 

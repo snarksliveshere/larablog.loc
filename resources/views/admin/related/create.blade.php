@@ -29,13 +29,15 @@
                             <label for="exampleInputEmail1">Название ТП</label>
                             <input type="text" name="title" value="" class="form-control" id="exampleInputEmail1" placeholder="Введите название ТП">
                         </div>
+
                         @foreach($offers as $name => $offer)
                             <div class="related_product_offer">
                                 <div class="col-xs-10">
                                     <div class="form-group related_product_name">
                                         <label for="exampleInputEmail1">Название ТП</label>
-                                        <input type="text" name="name[]" readonly value="{{ $name }}" class="form-control related_product_name-value" id="exampleInputEmail1" placeholder="">
+                                        <input type="text" name="offer_name[]" disabled value="{{ \App\Offer::find($name)->name }}" class="form-control " id="exampleInputEmail1" placeholder="">
                                     </div>
+                                    <input type="hidden" name="name[]" class="related_product_name-value" value="{{ $name }}">
                                     {{--{{ Form::select('value_id[]',--}}
                                     {{--$offer,--}}
                                     {{--null,--}}
@@ -60,10 +62,14 @@
                         <div class="form-group">
                             <input type="hidden" name="parent_id" value="{{ $product->id }}" class="form-control" id="exampleInputEmail1" placeholder="" readonly>
                         </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Основная Цена</label>
+                            <input type="text" name="old_price" disabled="" value="{{ $product->price }}" class="form-control" id="exampleInputEmail1" placeholder="">
+                        </div>
 
                         <div class="form-group">
-                            <label for="exampleInputEmail1">Цена</label>
-                            <input type="text" name="price" value="{{ $product->price }}" class="form-control" id="exampleInputEmail1" placeholder="">
+                            <label for="exampleInputEmail1">Цена ТП</label>
+                            <input type="text" name="price" value="{{ old('price') }}" class="form-control" id="exampleInputEmail1" placeholder="">
                         </div>
 
                         <div class="form-group">
@@ -76,10 +82,10 @@
                                          <!-- checkbox -->
                         <div class="form-group">
                             <label>
-                                <input type="checkbox" name="status" class="minimal">
+                                <input type="checkbox" name="set_status" class="minimal">
                             </label>
                             <label>
-                               Опубликовать
+                                Опубликовать
                             </label>
                         </div>
                     </div>
