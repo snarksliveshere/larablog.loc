@@ -28,10 +28,10 @@ class AppServiceProvider extends ServiceProvider
             $view->with('newCommentsCount', Comment::where('status', 0)->count());
         });
 
-        DB::listen(function ($query){
-            dump($query->sql);
-            dump($query->bindings);
-        });
+//        DB::listen(function ($query){
+//            dump($query->sql);
+//            dump($query->bindings);
+//        });
 
     }
 

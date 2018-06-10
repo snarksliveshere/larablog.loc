@@ -1776,3 +1776,7 @@ button.delete {
 .spy {
     display: none;
 }
+
+.killing_button {
+    margin-top: 26px;
+}
