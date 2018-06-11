@@ -11,9 +11,9 @@
         <!-- Main content -->
         <section class="content">
         {{ Form::open([
-            'route' => 'related.store',
+            'route' => ['related.update', $related->id],
             'files' => 'true',
-            'disabled' => 'false'
+            'method' => 'put'
         ]) }}
 
         <!-- Default box -->
@@ -31,9 +31,6 @@
                         </div>
 
                         @foreach($offers as $name => $offer)
-                            @if( !isset($productOffers[$name]))
-                                disabled
-                            @endif
                             <div class="related_product_offer">
                                 <div class="col-xs-10">
                                     <div class="form-group related_product_name">
@@ -105,7 +102,7 @@
                         <!-- checkbox -->
                         <div class="form-group">
                             <label>
-                                <input type="checkbox" name="set_status" class="minimal">
+                                <input type="checkbox" checked name="set_status" class="minimal">
                             </label>
                             <label>
                                 Опубликовать

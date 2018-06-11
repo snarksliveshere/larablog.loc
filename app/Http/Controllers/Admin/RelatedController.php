@@ -155,7 +155,41 @@ class RelatedController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+//        dd($request->all());
+
+        $this->validate($request,[
+            'title' => 'required',
+            'content' => 'required',
+            'image' => 'nullable|image',
+            'price' => 'required|integer',
+            'value_id' => 'required'
+        ]);
+
+        $requestRelated = $request->all();
+        $relate = RelatedProduct::find($id);
+//        dd($relate);
+         $offersRelated = [];
+        foreach ($requestRelated['name'] as $key => $name) {
+            $offersRelated[$name] = $requestRelated['value_id'][$key];
+        }
+//        dd($offersRelated);
+        foreach ($requestRelated as $ki => $rel) {
+            if($rel == $relate->{$ki}) {
+                unset($requestRelated[$ki]);
+            } else {
+                $requestRelated[$ki] = $rel;
+            }
+        }
+//        dd($offersRelated);
+
+        $relatedProduct = RelatedProduct::edit($requestRelated, $relate);
+//        dd($relatedProduct);
+        $fillOffers = RelatedProduct::updateValues($offersRelated, $relatedProduct);
+// TODO: вопрос пока с картинкой, но это пока что не актуально
+
+
+
+//        return redirect()->route('products.index');
     }
 
     /**

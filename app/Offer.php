@@ -54,7 +54,6 @@ class Offer extends Model
     {
         $offer = new static;
         $offer->fill($fields);
-//        $post->user_id = \Auth::user()->id;
         $offer->save();
 
         return $offer;

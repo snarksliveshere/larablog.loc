@@ -45,6 +45,7 @@ Route::group(['prefix' => 'admin', 'namespace' => 'Admin', 'middleware' => 'admi
     Route::get('/products/add-offer/{id}','RelatedController@create')->name('related.create');
     Route::get('/products/edit-offer/{slug}','RelatedController@edit')->name('related.edit');
     Route::post('/products/create-offer/','RelatedController@store')->name('related.store');
+    Route::put('/products/edit-offer/{id}','RelatedController@update')->name('related.update');
     Route::get('/products/offer_list/{id}','RelatedController@editList')->name('related.editList');
 });
 
