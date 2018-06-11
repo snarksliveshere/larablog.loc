@@ -43,8 +43,9 @@ Route::group(['prefix' => 'admin', 'namespace' => 'Admin', 'middleware' => 'admi
     Route::delete('/comments/{id}/destroy', 'CommentsController@destroy')->name('comments.destroy');
     Route::resource('/subscribers', 'SubscribersController');
     Route::get('/products/add-offer/{id}','RelatedController@create')->name('related.create');
-    Route::get('/products/edit-offer/{id}','RelatedController@edit')->name('related.edit');
+    Route::get('/products/edit-offer/{slug}','RelatedController@edit')->name('related.edit');
     Route::post('/products/create-offer/','RelatedController@store')->name('related.store');
+    Route::get('/products/offer_list/{id}','RelatedController@editList')->name('related.editList');
 });
 
 Route::group(['prefix' => 'catalog', 'namespace' => 'Catalog'], function (){

@@ -37,14 +37,14 @@
                                         <label for="exampleInputEmail1">Название ТП</label>
                                         <input type="text" name="offer_name[]" disabled value="{{ \App\Offer::find($name)->name }}" class="form-control " id="exampleInputEmail1" placeholder="">
                                     </div>
-                                    <input type="hidden" name="name[]" class="related_product_name-value" value="{{ $name }}">
+                                    <input type="hidden" disabled name="name[]" class="related_product_name-value" value="{{ $name }}">
                                     {{--{{ Form::select('value_id[]',--}}
                                     {{--$offer,--}}
                                     {{--null,--}}
                                     {{--['class' => 'form-control select2']) }}--}}
                                     <div class="form-group related_product_values">
                                         <div class="col-xs-10">
-                                            <select name="value_id[]" id="" class="form-control related_product_values-value">
+                                            <select name="value_id[]" disabled id="" class="form-control related_product_values-value">
                                                 @foreach($offer as $ki => $val)
                                                     <option value="{{ $ki }}">{{ $val }}</option>
                                                 @endforeach
@@ -53,7 +53,7 @@
                                     </div>
                                 </div>
                                 <div class="col-xs-2 btn btn-primary killing_button kill_select">
-                                убрать ТП
+                                вкл / выкл ТП
                                 </div>
                             </div>
                         @endforeach

@@ -1,52 +1,138 @@
 @extends('admin.layout')
-
 @section('content')
     <div class="content-wrapper">
         <!-- Content Header (Page header) -->
         <section class="content-header">
             <h1>
-                Редактировать Торговое предложение
-
+                Редактируем Торговое предложение
             </h1>
         </section>
 
         <!-- Main content -->
         <section class="content">
+        {{ Form::open([
+            'route' => 'related.store',
+            'files' => 'true',
+            'disabled' => 'false'
+        ]) }}
 
-            <!-- Default box -->
+        <!-- Default box -->
             <div class="box">
                 <div class="box-header with-border">
-                    <h3 class="box-title">Редактируем ТП</h3>
+                    <h3 class="box-title">Редактируем ТП к товару</h3>
+                    <h3>{{ $product->title }}</h3>
                     @include('admin.errors')
                 </div>
                 <div class="box-body">
-                    {{ Form::open(['route' => ['offers.update', $offer->id], 'method' => 'put']) }}
                     <div class="col-md-6">
                         <div class="form-group">
-                            <label for="exampleInputEmail1">Название</label>
-                            <input type="text" name="name" class="form-control offer_edit_name" id="exampleInputEmail1" placeholder="" name="name" value="{{ $offer->name }}">
-                            <input type="text" name="slug" class="form-control offer_edit_slug" id="exampleInputEmail1" placeholder="" value="{{ $offer->slug }}">
-                            <input type="hidden" name="id" value="{{ $offer->id }}">
-                            <div class="offer_values_wrapper">
-                                @foreach($values as $value)
-                                    <input type="text" name="values[]" class="offer_edit_values" value="{{ $value->value }}">
-                                @endforeach
+                            <label for="exampleInputEmail1">Название ТП</label>
+                            <input type="text" name="title" value="{{ $related->title }}" class="form-control" id="exampleInputEmail1" placeholder="Введите название ТП">
+                        </div>
 
+                        @foreach($offers as $name => $offer)
+                            @if( !isset($productOffers[$name]))
+                                disabled
+                            @endif
+                            <div class="related_product_offer">
+                                <div class="col-xs-10">
+                                    <div class="form-group related_product_name">
+                                        <label for="exampleInputEmail1">Название ТП</label>
+                                        <input type="text" name="offer_name[]" disabled value="{{ \App\Offer::find($name)->name }}" class="form-control " id="exampleInputEmail1" placeholder="">
+                                    </div>
+                                    <input type="hidden"
+                                           name="name[]"
+                                           @if( !isset($productOffers[$name]))
+                                            disabled
+                                           @endif
+                                           class="related_product_name-value"
+                                           value="{{ $name }}">
+                                    {{--{{ Form::select('value_id[]',--}}
+                                    {{--$offer,--}}
+                                    {{--null,--}}
+                                    {{--['class' => 'form-control select2']) }}--}}
+                                    <div class="form-group related_product_values">
+                                        <div class="col-xs-10">
+                                            <select name="value_id[]"
+                                                    @if( !isset($productOffers[$name]))
+                                                        disabled
+                                                    @endif
+                                                    id=""
+                                                    class="form-control related_product_values-value">
+                                                @foreach($offer as $ki => $val)
+                                                    <option
+                                                            value="{{ $ki }}"
+                                                            @if( isset($productOffers[$name])
+                                                                    && $productOffers[$name] == $val
+                                                            )
+                                                                selected
+                                                            @endif
+                                                    >
+                                                        {{ $val }}
+                                                    </option>
+                                                @endforeach
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-2 btn btn-primary killing_button kill_select">
+                                    вкл / выкл ТП
+                                </div>
                             </div>
-                            <div class="offer_values_edit_add">Добавить поля ТП</div>
+                        @endforeach
+                        <div class="clearfix"></div>
+
+                        <div class="form-group">
+                            <input type="hidden" name="parent_id" value="{{ $product->id }}" class="form-control" id="exampleInputEmail1" placeholder="" readonly>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Основная Цена</label>
+                            <input type="text" name="old_price" disabled="" value="{{ $product->price }}" class="form-control" id="exampleInputEmail1" placeholder="">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Цена ТП</label>
+                            <input type="text" name="price" value="{{ $related->price }}" class="form-control" id="exampleInputEmail1" placeholder="">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="exampleInputFile">Лицевая картинка</label>
+                            <input type="file" name="image" id="exampleInputFile">
+                            <p class="help-block">Какое-нибудь уведомление о форматах..</p>
+                        </div>
+
+
+                        <!-- checkbox -->
+                        <div class="form-group">
+                            <label>
+                                <input type="checkbox" name="set_status" class="minimal">
+                            </label>
+                            <label>
+                                Опубликовать
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">описание</label>
+                            <textarea name="description" id="" cols="30" rows="10" class="form-control">{{ $product->description }}</textarea>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Полный текст</label>
+                            <textarea name="content" id="" cols="30" rows="10" class="form-control">{{ $product->content }}</textarea>
                         </div>
                     </div>
                 </div>
                 <!-- /.box-body -->
                 <div class="box-footer">
-                    <button class="btn btn-default">Назад</button>
-                    <button class="btn btn-warning pull-right">Изменить</button>
+                    <button class="btn btn-success pull-right">Добавить</button>
                 </div>
                 <!-- /.box-footer-->
-                {{ Form::close() }}
             </div>
             <!-- /.box -->
-
+            {{ Form::close() }}
         </section>
         <!-- /.content -->
     </div>

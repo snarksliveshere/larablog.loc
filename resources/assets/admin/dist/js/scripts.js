@@ -32,15 +32,10 @@ $(document).ready(function (){
             if(nameDisabled.prop('disabled')) {
                 nameDisabled.removeAttr('disabled');
                 valueDisabled.removeAttr('disabled');
-                $(this).text('Убрать ТП');
             } else {
                 nameDisabled.prop('disabled', 'disabled');
                 valueDisabled.prop('disabled', 'disabled');
-                $(this).text('Вернуть ТП');
             }
-            console.log(text + ' text');
-            console.log(nameDisabled + ' nameDisabled');
-            console.log(valueDisabled + ' valueDisabled');
 
         });
 

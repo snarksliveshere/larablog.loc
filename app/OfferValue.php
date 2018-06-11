@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class OfferValue extends Model
 {
-    protected $fillable = ['value'];
+    protected $fillable = ['value', 'offer_id', 'slug'];
 
     use Sluggable;
 
@@ -23,6 +23,11 @@ class OfferValue extends Model
     public function offers()
     {
         return $this->belongsTo(Offer::class);
+    }
+
+    public function products()
+    {
+        return $this->hasOne('App\OfferProduct', 'offer_value_id');
     }
 
 

@@ -29,14 +29,18 @@ class Offer extends Model
     public function setOfferValues($ids)
     {
         $offer = Offer::find($ids['id']);
-        $offer->values()->delete();
-        foreach ($ids['values'] as $val) {
-            if ($val == null) { continue; }
-            $value = new OfferValue(['value' => $val]);
-            $offer->values()->save($value);
+        $values = $offer->values;
+
+        foreach ($values as $ki => $value) {
+            if ( $ids['values'][$ki] != null) {
+                $value->value = $ids['values'][$ki];
+                $value->save();
+            } else {
+                $value->delete();
+            }
         }
     }
-
+    // TODO: как update slug?
     public function addOfferValues($ids, $offer)
     {
         foreach ($ids as $val) {

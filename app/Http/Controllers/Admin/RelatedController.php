@@ -3,6 +3,8 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Offer;
+use App\OffersProduct;
+use App\OfferValue;
 use App\Product;
 use App\RelatedProduct;
 use Illuminate\Http\Request;
@@ -56,7 +58,8 @@ class RelatedController extends Controller
             'title' => 'required',
             'content' => 'required',
             'image' => 'nullable|image',
-            'price' => 'required|integer'
+            'price' => 'required|integer',
+            'value_id' => 'required'
         ]);
 
         $related = $request->all();
@@ -79,7 +82,7 @@ class RelatedController extends Controller
         $relatedProduct = RelatedProduct::add($related);
 //        dd($relatedProduct);
         $fillOffers = RelatedProduct::addValues($offersRelated, $relatedProduct);
-
+// TODO: вопрос пока с картинкой, но это пока что не актуально
 
 
 
@@ -104,36 +107,44 @@ class RelatedController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit($slug)
     {
-        dd(2);
-        $product = Product::find($id);
-        $values = $product->valValues()->get();
+        $related = RelatedProduct::where('slug', $slug)->firstOrFail();
+        $product = Product::find($related->parent_id);
+        $offerValues = $related->values;
+        //      забираем относящиеся к данному связанному товару свойства
+        $productOffers = [];
+        foreach ($offerValues as $offer) {
+                $val = OfferValue::where('id',$offer->offer_value_id)->firstOrFail()->only('value');
+            $productOffers[$offer->offer_id] = $val['value'];
 
-    }
-    public function addOfferIndex($id)
-    {
-        dd(1);
-        $fillOffers = [];
-        foreach ($values as $value) {
-            $offerName = Offer::find($value->offer_id);
-            $fillOffers[] = $offerName->name;
-            dd($fillOffers);
         }
-        // вот так я получаю значения, но не  названия обложка, год издания и проч
+//        dd($productOffers);
+        // а это все товары
+        $offersNames = Offer::all();
+        $offers = [];
+
+        foreach ($offersNames as $offer) {
+            $values = $offer->values()->pluck('value','id');
+            if (count($values)) {
+                $offers[$offer->id] = $values;
+            }
+        }
+//        dd($offers);
+        return view('admin.related.edit', compact('product', 'offers', 'productOffers', 'related'));
 
 
-        $offers = $product->getValue()->where('product_id', $id)->get(); // получил offer_values (хотя и все) - нужен where
-        // и надо еще получить сам offer !
-        dd($offers);
-        $product = Product::with(['offerProducts'])->find($id);
-//        dd($product);
-        $offers = $product->offerValues;
-
-
-        dd($offers);
-        return view('admin.products.editOffers', compact('product'));
     }
+
+    public function editList($id)
+    {
+        $product = Product::find($id);
+        $related = $product->getRelatedProducts()->pluck('title', 'slug');
+//        dd($related);
+        return view('admin.related.edit_list', compact('related'));
+
+    }
+
 
     /**
      * Update the specified resource in storage.

@@ -23,6 +23,11 @@ class Product extends Model
     const IS_DRAFT = 0;
     const  IS_PUBLIC = 1;
 
+    public function getRelatedProducts()
+    {
+       return $this->hasMany('App\RelatedProduct', 'parent_id');
+    }
+
     public function hasPrevious()
     {
         return self::where('id', '<', $this->id)->max('id');

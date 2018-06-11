@@ -18,7 +18,7 @@ class OffersProduct extends Model
     }
     public function offerValues()
     {
-//        return $this->belongsTo('App\OfferValue');
+       return $this->belongsTo('App\OfferValue', 'offer_value_id');
 
     }
 }

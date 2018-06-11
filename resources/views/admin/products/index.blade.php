@@ -37,6 +37,7 @@
                         <tr>
                             <th>ID</th>
                             <th>Название</th>
+                            <th>ТП</th>
                             <th>Цена</th>
                             <th>Картинка</th>
                             <th>Действия</th>
@@ -50,6 +51,11 @@
                         <tr>
                             <td>{{ $product->id }}</td>
                             <td>{{ $product->title }}</td>
+                            <td>
+                                @if( $product->hasRelated == 1)
+                                    есть
+                                @endif
+                            </td>
                             <td>{{ $product->price }}</td>
 
                             <td>
@@ -62,7 +68,7 @@
                                     <i class="fa fa-remove"></i>
                                 </button>
                             {{ Form::close() }}
-                            <td><a href="{{ route('related.edit', $product->id) }}">редактировать ТП</a></td>
+                            <td><a href="{{ route('related.editList', $product->id) }}">редактировать ТП</a></td>
                             <td><a href="{{ route('related.create', $product->id) }}">Добавить ТП</a></td>
                         </tr>
                         @endforeach
