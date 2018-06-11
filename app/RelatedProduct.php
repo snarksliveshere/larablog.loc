@@ -64,43 +64,6 @@ class RelatedProduct extends Model
                 $value->save();
             }
         }
-        dd('fin');
-        foreach ($ids as $ki => $val) {
-
-            foreach ($offers as $offer) {
-                if ($ki == $offer->offer_id) {
-                    $offer->offer_value_id = $val;
-                    $offer->save();
-                }
-                elseif ($ki != $offer->offer_id) {
-                    $value = new OffersProduct([
-                        'offer_id' => $ki,
-                        'offer_value_id' => $val,
-                        'product_id' => $related->id]);
-                    $value->save();
-                } else {
-                    dd($offer->id);
-//                    $offer->delete();
-                }
-
-            }
-
-//            $value = new OffersProduct(['offer_id' => $ki, 'offer_value_id' => $val, 'product_id' => $offers->id ]);
-//            $offers->values()->save($value);
-        }
-
-//        $offer = Offer::find($ids['id']);
-//        $values = $offer->values;
-//
-//        foreach ($values as $ki => $value) {
-//            if ( $ids['values'][$ki] != null) {
-//                $value->value = $ids['values'][$ki];
-//                $value->save();
-//            } else {
-//                $value->delete();
-//            }
-//        }
-
     }
     public static function add($fields)
     {
@@ -125,4 +88,19 @@ class RelatedProduct extends Model
         return $relate;
     }
 
+    public static function deleteRelatedProducts($related)
+    {
+        $allRelated = RelatedProduct::where('parent_id', $related->parent_id)->get();
+
+        if (count($allRelated) == 1) {
+            $product = Product::find($related->parent_id);
+            $product->hasRelated = 0;
+            $product->save();
+        }
+        $values = $related->values;
+        foreach ($values as $value) {
+            $value->delete();
+        }
+        $related->delete();
+    }
 }

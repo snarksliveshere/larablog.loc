@@ -14,9 +14,21 @@
                     @include('admin.errors')
                 </div>
                 <div class="box-body">
-                    <ul>
+                    <ul class="col-xs-12">
                         @foreach($related as $slug => $title)
-                            <li><a href="/admin/products/edit-offer/{{ $slug }}">{{ $title }}</a></li>
+                            <li>
+                                <a class="col-xs-3" href="/admin/products/edit-offer/{{ $slug }}">{{ $title }}</a>
+                                <div class="col-xs-3">
+                                    {{ Form::open(['route' => ['related.deleteList', $slug], 'method' => 'delete' ]) }}
+                                    <button onclick="return confirm('уверены?')" type="submit" class="delete">
+                                        <i class="fa fa-remove"></i>
+                                    </button>
+                                    {{ Form::close() }}
+                                </div>
+
+
+                                {{--<a class="col-xs-3" href="/admin/products/delete-offer/{{ $slug }}">Удалить </a>--}}
+                            </li>
                         @endforeach
                     </ul>
                 </div>

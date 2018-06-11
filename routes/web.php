@@ -44,9 +44,11 @@ Route::group(['prefix' => 'admin', 'namespace' => 'Admin', 'middleware' => 'admi
     Route::resource('/subscribers', 'SubscribersController');
     Route::get('/products/add-offer/{id}','RelatedController@create')->name('related.create');
     Route::get('/products/edit-offer/{slug}','RelatedController@edit')->name('related.edit');
+    Route::delete('/products/delete-offer/{slug}','RelatedController@deleteList')->name('related.deleteList');
     Route::post('/products/create-offer/','RelatedController@store')->name('related.store');
     Route::put('/products/edit-offer/{id}','RelatedController@update')->name('related.update');
     Route::get('/products/offer_list/{id}','RelatedController@editList')->name('related.editList');
+
 });
 
 Route::group(['prefix' => 'catalog', 'namespace' => 'Catalog'], function (){

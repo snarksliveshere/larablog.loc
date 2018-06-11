@@ -10,6 +10,7 @@ use App\RelatedProduct;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
+// TODO: надо выносить все из контроллера
 class RelatedController extends Controller
 {
     /**
@@ -39,7 +40,6 @@ class RelatedController extends Controller
                 $offers[$offer->id] = $values;
             }
         }
-//        dd($offers);
         return view('admin.related.create', compact('product', 'offers'));
     }
 
@@ -51,9 +51,6 @@ class RelatedController extends Controller
      */
     public function store(Request $request)
     {
-    //        $ids = RelatedProduct::pluck('id')->all();
-    //        dd($ids);
-
         $this->validate($request,[
             'title' => 'required',
             'content' => 'required',
@@ -72,7 +69,6 @@ class RelatedController extends Controller
         foreach ($related['name'] as $key => $name) {
             $offersRelated[$name] = $related['value_id'][$key];
         }
-//        dd($offersRelated);
         foreach ($related as $ki => $rel) {
             if($ki == '_token') continue;
             if($rel == $product->{$ki}) {
@@ -80,7 +76,6 @@ class RelatedController extends Controller
             }
         }
         $relatedProduct = RelatedProduct::add($related);
-//        dd($relatedProduct);
         $fillOffers = RelatedProduct::addValues($offersRelated, $relatedProduct);
 // TODO: вопрос пока с картинкой, но это пока что не актуально
 
@@ -119,7 +114,6 @@ class RelatedController extends Controller
             $productOffers[$offer->offer_id] = $val['value'];
 
         }
-//        dd($productOffers);
         // а это все товары
         $offersNames = Offer::all();
         $offers = [];
@@ -140,7 +134,6 @@ class RelatedController extends Controller
     {
         $product = Product::find($id);
         $related = $product->getRelatedProducts()->pluck('title', 'slug');
-//        dd($related);
         return view('admin.related.edit_list', compact('related'));
 
     }
@@ -155,8 +148,6 @@ class RelatedController extends Controller
      */
     public function update(Request $request, $id)
     {
-//        dd($request->all());
-
         $this->validate($request,[
             'title' => 'required',
             'content' => 'required',
@@ -167,12 +158,10 @@ class RelatedController extends Controller
 
         $requestRelated = $request->all();
         $relate = RelatedProduct::find($id);
-//        dd($relate);
          $offersRelated = [];
         foreach ($requestRelated['name'] as $key => $name) {
             $offersRelated[$name] = $requestRelated['value_id'][$key];
         }
-//        dd($offersRelated);
         foreach ($requestRelated as $ki => $rel) {
             if($rel == $relate->{$ki}) {
                 unset($requestRelated[$ki]);
@@ -180,18 +169,13 @@ class RelatedController extends Controller
                 $requestRelated[$ki] = $rel;
             }
         }
-//        dd($offersRelated);
 
         $relatedProduct = RelatedProduct::edit($requestRelated, $relate);
-//        dd($relatedProduct);
-        $fillOffers = RelatedProduct::updateValues($offersRelated, $relatedProduct);
+        RelatedProduct::updateValues($offersRelated, $relatedProduct);
 // TODO: вопрос пока с картинкой, но это пока что не актуально
-
-
-
-//        return redirect()->route('products.index');
+        return redirect()->route('products.index');
     }
-
+// TODO: рядом с offers_list надо поставить кнопку УДАЛИТЬ
     /**
      * Remove the specified resource from storage.
      *
@@ -203,5 +187,11 @@ class RelatedController extends Controller
         //
     }
 
+    public function deleteList($slug)
+    {
+        $related = RelatedProduct::where('slug', $slug)->firstOrFail();
+        RelatedProduct::deleteRelatedProducts($related);
 
+        return redirect()->route('products.index');
+    }
 }
