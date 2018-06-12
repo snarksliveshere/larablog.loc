@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use App\Offer;
+use App\OffersProduct;
 use App\OfferValue;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
@@ -111,9 +112,13 @@ class OffersController extends Controller
      */
     public function destroy($id)
     {
-        // должен уничтожеть предложения и все связанные записи. в т.ч. в промежуточной таблице product - values
-
+        // TODO: та же вещь и с related products если уничтожается последняя запись. тут явно надо сгруппировать эти сущности
         $offer = Offer::find($id);
+        $related = OffersProduct::where('offer_id', $offer->id)->get();
+        foreach ($related as $relate) {
+            $relate->delete();
+        }
+        // TODO: тут у меня есть нестыковка, связанная с товарами - я так могу удалить последнее преложение у товара, а он останется в related_products, но это чуть позже
         $offer->values()->delete();
         $offer->delete();
         return redirect()->route('offers.index');

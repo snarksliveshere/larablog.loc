@@ -30,19 +30,32 @@ class Offer extends Model
     {
         $offer = Offer::find($ids['id']);
         $values = $offer->values;
+        if ($values->isEmpty()) {
+
+            $this->addOfferValues($ids['values'], $offer);
+            return redirect()->route('offers.index');
+        }
 
         foreach ($values as $ki => $value) {
             if ( $ids['values'][$ki] != null) {
                 $value->value = $ids['values'][$ki];
                 $value->save();
             } else {
+                $related = OffersProduct::where('offer_value_id', $value->id)->get();
+                foreach ($related as $relate) {
+                    $relate->delete();
+                }
+                // TODO: тут у меня есть нестыковка, связанная с товарами - я так могу удалить последнее преложение у товара, а он останется в related_products, но это чуть позже
+
                 $value->delete();
+
             }
         }
     }
     // TODO: как update slug?
     public function addOfferValues($ids, $offer)
     {
+
         foreach ($ids as $val) {
             if ($val == null) { continue; }
             $value = new OfferValue(['value' => $val]);

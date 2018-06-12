@@ -191,7 +191,7 @@ class RelatedController extends Controller
     {
         $related = RelatedProduct::where('slug', $slug)->firstOrFail();
         RelatedProduct::deleteRelatedProducts($related);
-
+// TODO: если передавать в функцию не через статик, можно потом в ней использовать $this
         return redirect()->route('products.index');
     }
 }
