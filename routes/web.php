@@ -57,6 +57,7 @@ Route::group(['prefix' => 'catalog', 'namespace' => 'Catalog'], function (){
         'as' => 'product.index'
     ]);
     Route::get('/{slug}', 'ProductController@show')->name('product.show');
+    Route::post('/{slug}','ProductController@ajaxRelated')->name('ajax.related');
 
     Route::get('/add-to-cart/{id}',[
         'uses' => 'ProductController@getAddToCart',
@@ -77,5 +78,49 @@ Route::group(['prefix' => 'catalog', 'namespace' => 'Catalog'], function (){
         'uses' => 'ProductController@postCheckout',
         'as' => 'checkout'
     ]);
+
 });
+
+
+
+//AJAX
+//
+//get
+// button id="getRequest"
+//$($getRequest).click(function(){
+//  $.get('getRequest', function(data){
+//    console.log(data);
+//})
+//}
+//;
+//Route::get('/getRequest', function (){
+//    if(\Illuminate\Support\Facades\Request::ajax()) {
+//        return 'lalal';
+//    }
+//});
+
+//post
+//
+//$('#register').click
+//var firstname =
+//    var lastname =
+//$.post('register', {firstname:fname, lastname:lname}, function(data){
+//    console.log(data)
+//})
+//
+//    либо
+//    var dataString = 'firstname' + fname + 'fsdfsdf';
+//$.ajax({
+//    type: "POST",
+//    url: 'register',
+//    data: dataString,
+//    success: function(data){
+//         а вот тут можно разобрать дату
+//}
+//})
+//Route::post('/register', function(){
+//    if(\Illuminate\Support\Facades\Request::ajax()) {
+//        return \Illuminate\Support\Facades\Response::json(\Illuminate\Support\Facades\Request::all());
+//    }
+//})
 

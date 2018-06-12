@@ -5145,7 +5145,16 @@ img.profile-image
 .thumbnail .description {
     color: #7f7f7f;
 }
-.post_
+.related {
+    margin:20px 0;
+}
+.related li {
+    margin-top: 10px;
+    font-weight: bold;
+}
+.related li:hover {
+    cursor: pointer;
+}
 /* lg */
 @media (min-width: 1400px) {
     .show-search {

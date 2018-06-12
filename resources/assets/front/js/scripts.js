@@ -64,11 +64,38 @@
             $('.show-search').slideToggle('fast');
             $('.top-search a').toggleClass('sactive');
         });
+        $.ajaxSetup({
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            }
+        });
+        $('.related li').click(function () {
+            var id = $(this).data('id');
+            var slug = $('.related').data('slug')
+            var token = $('meta[name="csrf-token"]').attr('content');
+            console.log(token);
+            $.ajax({
+                type: 'POST',
+                url: slug,
+                data: {
+                    '_token': token,
+                    'id': id
+                },
+                success: function(data){
+                    $('.price').text(data);
+                }
+            })
+
+        })
+
     }());
 
 
 
 
+
+
 })(jQuery);
+
 
 

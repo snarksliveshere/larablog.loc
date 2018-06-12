@@ -18,6 +18,13 @@
                                 {{--<h6><a href="#">{{ $post->getCategoryTitle() }}</a></h6>--}}
                                 <h1 class="entry-title"><a href="blog.html">{{ $product->title }}</a></h1>
                             </header>
+                            <div class="related" data-slug="{{ $product->slug }}">
+                                <ul>
+                                    @foreach($related as $ki => $relate)
+                                        <li data-id="{{ $relate->id }}">{{ $relate->title }}</li>
+                                    @endforeach
+                                </ul>
+                            </div>
                             <div class="entry-content">
                                 {!! $product->description !!}
                             </div>
@@ -116,4 +123,8 @@
             </div>
         </div>
     </div>
+    <script>
+
+
+    </script>
 @endsection

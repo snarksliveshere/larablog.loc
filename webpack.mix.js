@@ -56,7 +56,7 @@ mix.styles([
 ],'public/css/front.css');
 
 mix.scripts([
-    'resources/assets/front/js/jquery-1.11.3.min.js',
+    'resources/assets/admin/plugins/jQuery/jquery-2.2.3.min.js',
     'resources/assets/front/js/bootstrap.min.js',
     'resources/assets/front/js/owl.carousel.min.js',
     'resources/assets/front/js/jquery.stickit.min.js',

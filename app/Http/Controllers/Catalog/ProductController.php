@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Catalog;
 use App\Http\Controllers\Controller;
 use App\Cart;
 use App\Product;
+use App\RelatedProduct;
 use Cviebrock\EloquentSluggable\Sluggable;
 use Illuminate\Http\Request;
 use Session;
@@ -22,8 +23,9 @@ class ProductController extends Controller
     public function show($slug)
     {
         $product = Product::where('slug', $slug)->firstOrFail();
-
-        return view('shop.show', compact('product'));
+        $related = RelatedProduct::where('parent_id', $product->id)->get();
+//        dd($related);
+        return view('shop.show', compact('product', 'related'));
     }
 
     public function getAddToCart(Request $request, $id)
@@ -62,6 +64,18 @@ class ProductController extends Controller
         return view('shop.checkout',[
             'total' => $total
         ]);
+    }
+
+    public function ajaxRelated()
+    {
+        if (\Illuminate\Support\Facades\Request::ajax()) {
+            $msg = "This is a simple message.";
+            $id = \Illuminate\Support\Facades\Request::get('id');
+//            return response()->json(array('msg'=> $msg), 200);
+            $relatedProduct = RelatedProduct::find($id);
+
+            return response()->json($relatedProduct->price, 200);
+        }
     }
 
 
