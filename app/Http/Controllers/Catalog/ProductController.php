@@ -3,6 +3,8 @@
 namespace App\Http\Controllers\Catalog;
 use App\Http\Controllers\Controller;
 use App\Cart;
+use App\Offer;
+use App\OfferValue;
 use App\Product;
 use App\RelatedProduct;
 use Cviebrock\EloquentSluggable\Sluggable;
@@ -24,8 +26,16 @@ class ProductController extends Controller
     {
         $product = Product::where('slug', $slug)->firstOrFail();
         $related = RelatedProduct::where('parent_id', $product->id)->get();
-//        dd($related);
-        return view('shop.show', compact('product', 'related'));
+        $relatedOffers = [];
+        if (isset($related[0])) {
+            $first = $related[0];
+            $offers = $first->values;
+            foreach ($offers as $offer) {
+                $relatedOffers[Offer::find($offer->offer_id)->name] = OfferValue::find($offer->offer_value_id)->value;
+            }
+        }
+
+        return view('shop.show', compact('product', 'related', 'relatedOffers'));
     }
 
     public function getAddToCart(Request $request, $id)

@@ -25,6 +25,20 @@
                                     @endforeach
                                 </ul>
                             </div>
+                            <div class="related_offers">
+                                <table>
+                                    <tr>
+                                        <th>Название</th>
+                                        <th>Значение</th>
+                                    </tr>
+                                @foreach($relatedOffers as $key => $relOffer)
+                                        <tr>
+                                            <td>{{ $key }}</td>
+                                            <td>{{ $relOffer }}</td>
+                                        </tr>
+                                @endforeach
+                                </table>
+                            </div>
                             <div class="entry-content">
                                 {!! $product->description !!}
                             </div>
