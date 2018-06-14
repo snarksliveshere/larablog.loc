@@ -18,34 +18,45 @@
                                 {{--<h6><a href="#">{{ $post->getCategoryTitle() }}</a></h6>--}}
                                 <h1 class="entry-title"><a href="blog.html">{{ $product->title }}</a></h1>
                             </header>
-                            <div class="related" data-slug="{{ $product->slug }}">
-                                <ul>
-                                    @foreach($related as $ki => $relate)
-                                        <li data-id="{{ $relate->id }}">{{ $relate->title }}</li>
-                                    @endforeach
-                                </ul>
+                            @if(!empty($related[0]))
+
+                                <div class="offers">
+                                    <div class="related" data-slug="{{ $product->slug }}">
+                                        <ul>
+                                            @foreach($related as $ki => $relate)
+                                                <li data-id="{{ $relate->id }}">{{ $relate->title }}</li>
+                                            @endforeach
+                                        </ul>
+                                    </div>
+                                    <div class="related_offers">
+                                        <table>
+                                            <tr>
+                                                <th>Название</th>
+                                                <th>Значение</th>
+                                            </tr>
+                                            @foreach($relatedOffers as $key => $relOffer)
+                                                <tr>
+                                                    <td>{{ $key }}</td>
+                                                    <td>{{ $relOffer }}</td>
+                                                </tr>
+                                            @endforeach
+                                        </table>
+                                    </div>
+                                </div>
+                            @endif
+
+
+                            <div class="price" style="font-weight: bold; font-size: 20px;">
+                                Цена : <span id="price">{{ $product->price }}</span>
                             </div>
-                            <div class="related_offers">
-                                <table>
-                                    <tr>
-                                        <th>Название</th>
-                                        <th>Значение</th>
-                                    </tr>
-                                @foreach($relatedOffers as $key => $relOffer)
-                                        <tr>
-                                            <td>{{ $key }}</td>
-                                            <td>{{ $relOffer }}</td>
-                                        </tr>
-                                @endforeach
-                                </table>
-                            </div>
-                            <div class="entry-content">
+                            <div id="description">
                                 {!! $product->description !!}
                             </div>
-                            <div class="price" style="font-weight: bold; font-size: 20px;">
-                                Цена :
-                                {{ $product->price }}
+                            <hr>
+                            <div id="content">
+                                {!! $product->content !!}
                             </div>
+
 
 
                         </div>

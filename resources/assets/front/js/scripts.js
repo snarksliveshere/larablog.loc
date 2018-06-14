@@ -82,7 +82,23 @@
                     'id': id
                 },
                 success: function(data){
-                    $('.price').text(data);
+                    for (var key in data) {
+                        var selector =$('#' + key);
+                        if(selector.length) {
+                            selector.html(data[key]);
+                        }
+                        if(key == 'values') {
+                            var string = '<tr>';
+                            for(var ki in data[key]) {
+
+                                console.log('key ' + ki + ' value ' + data[key][ki]);
+                                string += '<td>' + ki + '</td><td>' + data[key][ki] + '</td>';
+
+                            }
+                            string +='</tr>';
+                            $('.related_offers').html(string);
+                        }
+                    }
                 }
             })
 

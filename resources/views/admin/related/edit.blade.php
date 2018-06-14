@@ -16,6 +16,7 @@
             'method' => 'put'
         ]) }}
 
+            {{--TODO: у меня может записаться в базу как вместе с тегами так и без--}}
         <!-- Default box -->
             <div class="box">
                 <div class="box-header with-border">
@@ -110,21 +111,22 @@
                         </div>
                     </div>
                     <div class="col-md-12">
+                        <h3>Если описание или контент пустой - они наследуются от родительского продукта</h3>
                         <div class="form-group">
                             <label for="exampleInputEmail1">описание</label>
-                            <textarea name="description" id="" cols="30" rows="10" class="form-control">{{ $product->description }}</textarea>
+                            <textarea name="description" id="" cols="30" rows="10" class="form-control">{{ $related->description }}</textarea>
                         </div>
                     </div>
                     <div class="col-md-12">
                         <div class="form-group">
                             <label for="exampleInputEmail1">Полный текст</label>
-                            <textarea name="content" id="" cols="30" rows="10" class="form-control">{{ $product->content }}</textarea>
+                            <textarea name="content" id="" cols="30" rows="10" class="form-control">{{ $related->content }}</textarea>
                         </div>
                     </div>
                 </div>
                 <!-- /.box-body -->
                 <div class="box-footer">
-                    <button class="btn btn-success pull-right">Добавить</button>
+                    <button class="btn btn-success pull-right">Сохранить</button>
                 </div>
                 <!-- /.box-footer-->
             </div>

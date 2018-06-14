@@ -83,8 +83,21 @@ class ProductController extends Controller
             $id = \Illuminate\Support\Facades\Request::get('id');
 //            return response()->json(array('msg'=> $msg), 200);
             $relatedProduct = RelatedProduct::find($id);
+            $offers = $relatedProduct->values;
+            $relatedOffers = [];
+            foreach ($offers as $offer) {
 
-            return response()->json($relatedProduct->price, 200);
+                $relatedOffers[Offer::find($offer->offer_id)->name] = OfferValue::find($offer->offer_value_id)->value;
+            }
+            $arr = [];
+            foreach ($relatedProduct->toArray() as $key => $item) {
+                if ($item === null) continue;
+                $arr[$key] = $item;
+            }
+            $arr['values'] = $relatedOffers;
+
+
+            return response()->json($arr, 200);
         }
     }
 
