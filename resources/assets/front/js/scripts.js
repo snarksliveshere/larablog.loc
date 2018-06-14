@@ -69,6 +69,7 @@
                 'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
             }
         });
+        // реализую функционал ТП
         $('.related li').click(function () {
             var id = $(this).data('id');
             var slug = $('.related').data('slug')
@@ -87,16 +88,17 @@
                         if(selector.length) {
                             selector.html(data[key]);
                         }
+                        if(key == 'id') {
+                            $('#related_id').attr('value', data[key]);
+                        }
                         if(key == 'values') {
-                            var string = '<tr>';
+                            var string = '';
                             for(var ki in data[key]) {
-
-                                console.log('key ' + ki + ' value ' + data[key][ki]);
+                                string += '<tr>';
                                 string += '<td>' + ki + '</td><td>' + data[key][ki] + '</td>';
-
+                                string +='</tr>';
                             }
-                            string +='</tr>';
-                            $('.related_offers').html(string);
+                            $('#related_offers').html(string);
                         }
                     }
                 }

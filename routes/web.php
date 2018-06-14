@@ -58,6 +58,8 @@ Route::group(['prefix' => 'catalog', 'namespace' => 'Catalog'], function (){
     ]);
     Route::get('/{slug}', 'ProductController@show')->name('product.show');
     Route::post('/{slug}','ProductController@ajaxRelated')->name('ajax.related');
+    // TODO: надо совместить обе корзины потом / и нужен get
+    Route::post('/tocart','ProductController@cart')->name('related.cart');
 
     Route::get('/add-to-cart/{id}',[
         'uses' => 'ProductController@getAddToCart',

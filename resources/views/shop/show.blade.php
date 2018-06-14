@@ -9,9 +9,17 @@
                             {{ session('status') }}
                         </div>
                     @endif
-                    <article class="post">
+                        {{ Form::open([
+                            'route' => ['related.cart', $product->id]
+
+                            ]) }}
+
+
+                        <article class="post">
                         <div class="post-thumb col-xs-12 col-sm-6 col-sm-offset-3">
-                            <a class="fancybox" href="/images/{{ $product->imagePath }}"><img class="img-responsive" src="/images/{{ $product->imagePath }}" alt=""></a>
+                            <a class="fancybox" href="/images/{{ $product->imagePath }}"><img class="img-responsive"
+                                                                                              src="/images/{{ $product->imagePath }}"
+                                                                                              alt=""></a>
                         </div>
                         <div class="post-content col-xs-12">
                             <header class="entry-header text-center text-uppercase">
@@ -34,17 +42,20 @@
                                                 <th>Название</th>
                                                 <th>Значение</th>
                                             </tr>
+                                            <tbody id="related_offers">
                                             @foreach($relatedOffers as $key => $relOffer)
                                                 <tr>
                                                     <td>{{ $key }}</td>
                                                     <td>{{ $relOffer }}</td>
                                                 </tr>
                                             @endforeach
+                                            </tbody>
                                         </table>
                                     </div>
                                 </div>
-                            @endif
+                                <input type="hidden" id="related_id" name="related_id" value="">
 
+                            @endif
 
                             <div class="price" style="font-weight: bold; font-size: 20px;">
                                 Цена : <span id="price">{{ $product->price }}</span>
@@ -56,17 +67,20 @@
                             <div id="content">
                                 {!! $product->content !!}
                             </div>
-
-
-
                         </div>
+
+                        <input type="submit" class="btn btn-success pull-right" role="button" value="В корзину">
                     </article>
-                    <div class="row"><!--blog next previous-->
+
+                        {{ Form::close() }}
+
+
+                        <div class="row"><!--blog next previous-->
                         <div class="col-md-6">
                             @if($product->hasPrevious())
                                 <div class="single-blog-box">
-                                    <a href="{{ route('product.show', $product->getPrevious()->slug) }}">
-                                        <img src="/images/{{ $product->getPrevious()->imagePath }}" alt="">
+                                    <a href="{{ route('product.show', $product->getPrevious()->slug) }}"> <img
+                                                src="/images/{{ $product->getPrevious()->imagePath }}" alt="">
                                         <div class="overlay">
                                             <div class="promo-text">
                                                 <p><i class=" pull-left fa fa-angle-left"></i></p>
@@ -80,8 +94,8 @@
                         <div class="col-md-6">
                             @if($product->hasNext())
                                 <div class="single-blog-box">
-                                    <a href="{{ route('product.show', $product->getNext()->slug) }}">
-                                        <img src="/images/{{ $product->getNext()->imagePath }}" alt="">
+                                    <a href="{{ route('product.show', $product->getNext()->slug) }}"> <img
+                                                src="/images/{{ $product->getNext()->imagePath }}" alt="">
                                         <div class="overlay">
                                             <div class="promo-text">
                                                 <p><i class=" pull-left fa fa-angle-left"></i></p>
@@ -101,8 +115,8 @@
                             @foreach($product->related() as $item)
 
                                 <div class="single-item">
-                                    <a href="{{ route('post.show', $item->slug) }}">
-                                        <img src="/images/{{ $item->imagePath }}" alt="">
+                                    <a href="{{ route('post.show', $item->slug) }}"> <img
+                                                src="/images/{{ $item->imagePath }}" alt="">
                                         <p>{{ $item->title }}</p>
                                     </a>
                                 </div>
@@ -110,21 +124,21 @@
                         </div>
                     </div><!--related post carousel-->
                     {{--@if(!$post->comments->isEmpty())--}}
-                        {{--<h4>comments</h4>--}}
-                        {{--@foreach($post->getComments() as $comment)--}}
-                            {{--<div class="bottom-comment"><!--bottom comment-->--}}
+                    {{--<h4>comments</h4>--}}
+                    {{--@foreach($post->getComments() as $comment)--}}
+                    {{--<div class="bottom-comment"><!--bottom comment-->--}}
 
-                                {{--<div class="comment-img">--}}
-                                    {{--<img class="img-circle" src="{{ $comment->author->getAvatar() }}" alt="">--}}
-                                {{--</div>--}}
-                                {{--<div class="comment-text">--}}
+                    {{--<div class="comment-img">--}}
+                    {{--<img class="img-circle" src="{{ $comment->author->getAvatar() }}" alt="">--}}
+                    {{--</div>--}}
+                    {{--<div class="comment-text">--}}
 
-                                    {{--<h5>{{ $comment->author->name }}</h5>--}}
-                                    {{--<p class="comment-date">{{ $comment->created_at->diffForHumans() }}</p>--}}
-                                    {{--<p class="para">{{ $comment->text }}</p>--}}
-                                {{--</div>--}}
-                            {{--</div>--}}
-                        {{--@endforeach--}}
+                    {{--<h5>{{ $comment->author->name }}</h5>--}}
+                    {{--<p class="comment-date">{{ $comment->created_at->diffForHumans() }}</p>--}}
+                    {{--<p class="para">{{ $comment->text }}</p>--}}
+                    {{--</div>--}}
+                    {{--</div>--}}
+                    {{--@endforeach--}}
                     {{--@endif--}}
                 <!-- end bottom comment-->
                     @if(Auth::check())
@@ -149,7 +163,5 @@
         </div>
     </div>
     <script>
-
-
     </script>
 @endsection

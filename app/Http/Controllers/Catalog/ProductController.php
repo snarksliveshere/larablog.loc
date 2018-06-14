@@ -49,6 +49,12 @@ class ProductController extends Controller
         return redirect()->route('product.index');
     }
 
+    public function cart(Request $request)
+    {
+//        dd('111');
+        dd($request->all());
+    }
+
     public function getCart()
     {
         if (!Session::has('cart')) {
