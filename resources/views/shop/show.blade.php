@@ -10,7 +10,8 @@
                         </div>
                     @endif
                         {{ Form::open([
-                            'route' => ['related.cart', $product->id]
+                            'route' => 'related.cart',
+                            'method' => 'put'
 
                             ]) }}
 
@@ -53,9 +54,10 @@
                                         </table>
                                     </div>
                                 </div>
-                                <input type="hidden" id="related_id" name="related_id" value="">
+                                <input type="hidden" id="related_id" name="related_id" value="{{ $related[0]->id }}">
 
                             @endif
+                            <input type="hidden" id="product_id" name="product_id" value="{{ $product->id }}">
 
                             <div class="price" style="font-weight: bold; font-size: 20px;">
                                 Цена : <span id="price">{{ $product->price }}</span>

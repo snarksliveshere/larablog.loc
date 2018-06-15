@@ -56,10 +56,7 @@ Route::group(['prefix' => 'catalog', 'namespace' => 'Catalog'], function (){
         'uses' => 'ProductController@getIndex',
         'as' => 'product.index'
     ]);
-    Route::get('/{slug}', 'ProductController@show')->name('product.show');
-    Route::post('/{slug}','ProductController@ajaxRelated')->name('ajax.related');
-    // TODO: надо совместить обе корзины потом / и нужен get
-    Route::post('/tocart','ProductController@cart')->name('related.cart');
+
 
     Route::get('/add-to-cart/{id}',[
         'uses' => 'ProductController@getAddToCart',
@@ -80,6 +77,13 @@ Route::group(['prefix' => 'catalog', 'namespace' => 'Catalog'], function (){
         'uses' => 'ProductController@postCheckout',
         'as' => 'checkout'
     ]);
+
+    Route::get('/{slug}', 'ProductController@show')->name('product.show');
+    Route::post('/{slug}','ProductController@ajaxRelated')->name('ajax.related');
+    // TODO: надо совместить обе корзины потом / и нужен get
+    // мне теперь, по сути put не нужен, т.к. у меня не будет конфликта между post & put в добавлении = но это когда я совмещу методы
+    Route::put('/tocart','ProductController@cart')->name('related.cart');
+
 
 });
 

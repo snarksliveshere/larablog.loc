@@ -42,6 +42,7 @@ class ProductController extends Controller
     {
         $product = Product::find($id);
         $oldCart = Session::has('cart') ? Session::get('cart') : null;
+//        dd($oldCart);
         $cart = new Cart($oldCart);
         $cart->add($product, $product->id);
 
@@ -51,12 +52,27 @@ class ProductController extends Controller
 
     public function cart(Request $request)
     {
-//        dd('111');
-        dd($request->all());
+
+        if (null !== $request->get('related_id')) {
+            $product = RelatedProduct::find($request->get('related_id'));
+        } else {
+            $product = Product::find($request->get('product_id'));
+        }
+
+        $oldCart = Session::has('cart') ? Session::get('cart') : null;
+//        dd($oldCart);
+
+        $cart = new Cart($oldCart);
+        $cart->add($product, $product->id);
+
+        $request->session()->put('cart', $cart);
+        return redirect()->route('product.index');
     }
+// TODO: надо реализовать удаление из корзины - тут д.б. session , но если передавать через ajax - то нужно опять применять Put
 
     public function getCart()
     {
+
         if (!Session::has('cart')) {
             return view('shop.shopping-cart');
         }
@@ -66,6 +82,7 @@ class ProductController extends Controller
             'products' => $cart->items,
             'totalPrice' => $cart->totalPrice
         ];
+        dd($data);
         return view('shop.shopping-cart',$data);
     }
 
