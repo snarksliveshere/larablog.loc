@@ -22,4 +22,10 @@ class Order extends Model
         return $order;
     }
 
+    public function edit($fields)
+    {
+        $this->fill($fields);
+        $this->save();
+    }
+
 }

@@ -90,6 +90,7 @@ class OrdersController extends Controller
 
 
         $order = Order::find($id);
+        $order->edit($request->all());
         if(null !== $request->get('status')){
             $order->status = 1;
             $order->save();
