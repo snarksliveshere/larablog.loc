@@ -36,6 +36,7 @@ Route::group(['prefix' => 'admin', 'namespace' => 'Admin', 'middleware' => 'admi
     Route::resource('/users', 'UsersController');
     Route::resource('/posts', 'PostsController');
     Route::resource('/products', 'ProductsController');
+    Route::resource('/orders', 'OrdersController');
     Route::resource('/product_categories', 'ProductCategoryController');
 
     Route::resource('/offers', 'OffersController');

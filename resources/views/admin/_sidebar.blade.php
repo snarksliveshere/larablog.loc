@@ -10,6 +10,7 @@
     <li><a href="{{ route('product_categories.index') }}"><i class="fa fa-list-ul"></i>Категории товаров</a></li>
     <li><a href="{{ route('products.index')}}"><i class="fa fa-sticky-note-o"></i> <span>Товары</span></a></li>
     <li><a href="{{ route('offers.index') }}"><i class="fa fa-list-ul"></i> <span>Торговые предложения</span></a></li>
+    <li><a href="{{ route('orders.index') }}"><i class="fa fa-list-ul"></i> <span>Заказы</span></a></li>
     <li>==========</li>
 
     <li><a href="{{ route('categories.index') }}"><i class="fa fa-list-ul"></i> <span>Категории</span></a></li>

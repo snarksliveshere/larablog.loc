@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers\Admin;
 
+use App\Order;
+use App\User;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
@@ -14,8 +16,16 @@ class OrdersController extends Controller
      */
     public function index()
     {
-        //
+        $orders = Order::all();
+//        foreach ($orders as $order) {
+//            $order['name'] = $order->user->name;
+//        }
+
+        return view('admin.orders.index',[
+            'orders' => $orders
+        ]);
     }
+
 
     /**
      * Show the form for creating a new resource.
@@ -57,7 +67,11 @@ class OrdersController extends Controller
      */
     public function edit($id)
     {
-        //
+        $order = Order::find($id);
+        $order->cart = unserialize($order->cart);
+//        $order->name = $order->user->name;
+//        dd($order);
+        return view('admin.orders.edit', ['order' => $order]);
     }
 
     /**
@@ -69,7 +83,18 @@ class OrdersController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $this->validate($request, [
+            'name' => 'required'
+        ]);
+//        dd($request->all());
+
+
+        $order = Order::find($id);
+        if(null !== $request->get('status')){
+            $order->status = 1;
+            $order->save();
+        }
+        return redirect()->route('orders.index');
     }
 
     /**
@@ -80,6 +105,7 @@ class OrdersController extends Controller
      */
     public function destroy($id)
     {
-        //
+        Order::find($id)->delete();
+        return redirect()->route('orders.index');
     }
 }
