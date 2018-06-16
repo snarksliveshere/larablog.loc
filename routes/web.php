@@ -36,6 +36,7 @@ Route::group(['prefix' => 'admin', 'namespace' => 'Admin', 'middleware' => 'admi
     Route::resource('/users', 'UsersController');
     Route::resource('/posts', 'PostsController');
     Route::resource('/products', 'ProductsController');
+    Route::resource('/product_categories', 'ProductCategory');
 
     Route::resource('/offers', 'OffersController');
     Route::get('/comments', 'CommentsController@index')->name('comments.index');

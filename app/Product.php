@@ -28,6 +28,11 @@ class Product extends Model
        return $this->hasMany('App\RelatedProduct', 'parent_id');
     }
 
+    public function category()
+    {
+        return $this->belongsTo('App\ProductCategory', 'category_id');
+    }
+
     public function hasPrevious()
     {
         return self::where('id', '<', $this->id)->max('id');
@@ -126,5 +131,24 @@ class Product extends Model
         return $this->belongsToMany('App\OfferValue', 'offers_products', 'product_id', 'offer_value_id');
     }
 
+    public function setCategory($id)
+    {
+        if ($id == null) { return; }
+
+        $this->category_id = $id;
+        $this->save();
+    }
+
+    public function getCategoryTitle()
+    {
+
+        return ($this->category != null)
+            ? $this->category->title
+            : 'без категории';
+    }
+    public function getCategoryID()
+    {
+        return $this->category != null ? $this->category->id : null;
+    }
 
 }

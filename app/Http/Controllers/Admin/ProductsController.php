@@ -27,8 +27,8 @@ class ProductsController extends Controller
      */
     public function create()
     {
-
-        return view('admin.products.create');
+        $categories = \App\ProductCategory::pluck('title', 'id')->all();
+        return view('admin.products.create', compact('categories'));
     }
 
     /**
@@ -46,7 +46,9 @@ class ProductsController extends Controller
             'image' => 'nullable|image'
         ]);
 //        dd($request->all());
+
         $product = Product::add($request->all());
+        $product->setCategory($request->get('category_id'));
         $product->uploadImage($request->file('image'));
         $product->toggleStatus($request->get('status'));
         return redirect()->route('products.index');
@@ -72,7 +74,8 @@ class ProductsController extends Controller
     public function edit($id)
     {
         $product = Product::find($id);
-        return view('admin.products.edit', compact('product'));
+        $categories = \App\ProductCategory::pluck('title', 'id')->all();
+        return view('admin.products.edit', compact('product','categories'));
     }
 
     /**
@@ -92,6 +95,7 @@ class ProductsController extends Controller
         ]);
 
         $product = Product::find($id);
+        $product->setCategory($request->get('category_id'));
         $product->edit($request->all());
         $product->uploadImage($request->file('image'));
         $product->toggleStatus($request->get('status'));
