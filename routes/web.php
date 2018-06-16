@@ -70,13 +70,19 @@ Route::group(['prefix' => 'catalog', 'namespace' => 'Catalog'], function (){
 
     Route::get('/checkout',[
         'uses' => 'ProductController@getCheckout',
-        'as' => 'checkout'
+        'as' => 'checkout',
+        'middleware' => 'auth'
     ]);
 
     Route::post('/checkout',[
         'uses' => 'ProductController@postCheckout',
-        'as' => 'checkout'
+        'as' => 'checkout',
+        'middleware' => 'auth'
     ]);
+
+    Route::get('/reduce/{id}', 'ProductController@getReduceByOne')->name('product.reduceByOne');
+
+    Route::get('/remove/{id}', 'ProductController@getRemoveItem')->name('product.remove');
 
     Route::get('/{slug}', 'ProductController@show')->name('product.show');
     Route::post('/{slug}','ProductController@ajaxRelated')->name('ajax.related');

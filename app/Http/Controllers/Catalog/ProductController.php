@@ -8,7 +8,6 @@ use App\OfferValue;
 use App\Order;
 use App\Product;
 use App\RelatedProduct;
-use Aws\Common\Facade\Ses;
 use Cviebrock\EloquentSluggable\Sluggable;
 use Illuminate\Http\Request;
 use Session;
@@ -44,12 +43,41 @@ class ProductController extends Controller
     {
         $product = Product::find($id);
         $oldCart = Session::has('cart') ? Session::get('cart') : null;
-//        dd($oldCart);
         $cart = new Cart($oldCart);
         $cart->add($product, $product->id);
 
         $request->session()->put('cart', $cart);
         return redirect()->route('product.index');
+    }
+
+    public function getReduceByOne($id)
+    {
+        $oldCart = Session::has('cart') ? Session::get('cart') : null;
+        $cart = new Cart($oldCart);
+        $cart->reduceByOne($id);
+
+        if (count($cart->items) > 0) {
+            Session::put('cart', $cart);
+        } else {
+            Session::forget('cart');
+        }
+        return redirect()->route('product.shoppingCart');
+    }
+
+    public function getRemoveItem($id)
+    {
+        $oldCart = Session::has('cart') ? Session::get('cart') : null;
+        $cart = new Cart($oldCart);
+
+        $cart->removeItem($id);
+
+        if (count($cart->items) > 0) {
+            Session::put('cart', $cart);
+        } else {
+            Session::forget('cart');
+        }
+
+        return redirect()->route('product.shoppingCart');
     }
 
     public function cart(Request $request)

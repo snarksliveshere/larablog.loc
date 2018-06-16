@@ -4,6 +4,7 @@ namespace App\Http\Middleware;
 
 use Closure;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Session;
 
 class RedirectIfAuthenticated
 {
@@ -18,8 +19,14 @@ class RedirectIfAuthenticated
     public function handle($request, Closure $next, $guard = null)
     {
         if (Auth::guard($guard)->check()) {
+
             return redirect('/');
         }
+        if (Auth::guard($guard)->guest()) {
+            // TODO: надо тут посмотреть, почему меня не отправляют в корзину
+            Session::put('oldUrl', $request->url());
+        }
+
 
         return $next($request);
     }

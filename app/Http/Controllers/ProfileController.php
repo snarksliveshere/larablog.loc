@@ -11,7 +11,13 @@ class ProfileController extends Controller
     public function index()
     {
         $user = Auth::user();
-        return view('pages.profile', compact('user'));
+        $orders = $user->orders;
+        $orders->transform(function ($order, $key){
+            $order->cart = unserialize($order->cart);
+            return $order;
+        });
+//        dd($orders);
+        return view('pages.profile', compact('user','orders'));
     }
 
     public function store(Request $request)

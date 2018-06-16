@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\User;
 use Illuminate\Http\Request;
 use Auth;
+use Illuminate\Support\Facades\Session;
 
 class AuthController extends Controller
 {
@@ -20,6 +21,7 @@ class AuthController extends Controller
 
         $user = User::add($request->all());
         $user->generatePassword($request->get('password'));
+
 
         return redirect('/login');
     }
@@ -43,7 +45,13 @@ class AuthController extends Controller
             'email' => $request->get('email'),
             'password' => $request->get('password')
         ])) {
-            return redirect('/');
+            if (Session::has('oldUrl')) {
+                $oldUrl = Session::get('oldUrl');
+                Session::forget('oldUrl');
+//                return redirect()->to(Session::get('oldUrl'));
+                return redirect()->to($oldUrl);
+            }
+            return redirect('/profile');
         }
         // флэш :
 
