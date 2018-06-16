@@ -10,4 +10,5 @@ class Order extends Model
     {
         return $this->belongsTo('App\User');
     }
+
 }

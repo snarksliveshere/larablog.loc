@@ -5,8 +5,10 @@ use App\Http\Controllers\Controller;
 use App\Cart;
 use App\Offer;
 use App\OfferValue;
+use App\Order;
 use App\Product;
 use App\RelatedProduct;
+use Aws\Common\Facade\Ses;
 use Cviebrock\EloquentSluggable\Sluggable;
 use Illuminate\Http\Request;
 use Session;
@@ -82,7 +84,7 @@ class ProductController extends Controller
             'products' => $cart->items,
             'totalPrice' => $cart->totalPrice
         ];
-        dd($data);
+//        dd($data);
         return view('shop.shopping-cart',$data);
     }
 
@@ -122,6 +124,29 @@ class ProductController extends Controller
 
             return response()->json($arr, 200);
         }
+    }
+
+    public function postCheckout(Request $request)
+    {
+        if (!Session::has('cart')) {
+            return redirect()->route('product.shoppingCart');
+        }
+        $oldCart = Session::get('cart');
+        $cart = new Cart($oldCart);
+
+        try {
+            $order = new Order();
+            $order->cart = serialize($cart);
+            $order->address = $request->input('address');
+            $order->name = $request->input('name');
+
+            \Auth::user()->orders()->save($order);
+        } catch (\Exception $e) {
+            return redirect()->route('checkout')->with('error', $e->getMessage());
+        }
+
+        Session::forget('cart');
+        return redirect()->route('product.index')->with('success', 'Товар добавлен в корзину');
     }
 
 
