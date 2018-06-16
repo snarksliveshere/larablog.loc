@@ -62,7 +62,7 @@
                             <td>{{ $product->price }}</td>
 
                             <td>
-                                <img src="/images/{{ $product->imagePath }}" alt="" width="100">
+                                <img src="{{ $product->imagePath }}" alt="" width="100">
                             </td>
                             <td>
                                 <a href="{{ route('products.edit', $product->id) }}" class="fa fa-pencil"></a>

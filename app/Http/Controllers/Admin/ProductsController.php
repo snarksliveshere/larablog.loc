@@ -49,7 +49,7 @@ class ProductsController extends Controller
 
         $product = Product::add($request->all());
         $product->setCategory($request->get('category_id'));
-        $product->uploadImage($request->file('image'));
+        $product->uploadImage($request->file('image'), $product);
         $product->toggleStatus($request->get('status'));
         return redirect()->route('products.index');
     }
@@ -97,7 +97,7 @@ class ProductsController extends Controller
         $product = Product::find($id);
         $product->setCategory($request->get('category_id'));
         $product->edit($request->all());
-        $product->uploadImage($request->file('image'));
+        $product->uploadImage($request->file('image'), $product);
         $product->toggleStatus($request->get('status'));
         return redirect()->route('products.index');
     }

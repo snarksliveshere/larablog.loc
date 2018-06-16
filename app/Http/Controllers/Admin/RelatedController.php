@@ -76,6 +76,7 @@ class RelatedController extends Controller
             }
         }
         $relatedProduct = RelatedProduct::add($related);
+        $relatedProduct->uploadImage($request->file('image'), $relatedProduct);
         $fillOffers = RelatedProduct::addValues($offersRelated, $relatedProduct);
 // TODO: вопрос пока с картинкой, но это пока что не актуально
 
@@ -158,6 +159,7 @@ class RelatedController extends Controller
 
         $requestRelated = $request->all();
         $relate = RelatedProduct::find($id);
+        $relate->uploadImage($request->file('image'), $relate);
          $offersRelated = [];
         foreach ($requestRelated['name'] as $key => $name) {
             $offersRelated[$name] = $requestRelated['value_id'][$key];

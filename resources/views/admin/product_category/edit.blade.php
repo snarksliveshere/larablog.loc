@@ -27,7 +27,7 @@
                             <label for="exampleInputEmail1">Название</label>
                                 <input type="text" name="title" class="form-control"                                                                                    id="exampleInputEmail1"                                                                           placeholder=""                                                                                    value="{{ $category->title }}">
                         </div>
-                  
+
                         <div class="form-group">
                             <img src="{{ $category->imagePath }}" alt="" class="img-responsive" width="200"> <label
                                     for="exampleInputFile">Лицевая картинка</label> <input type="file" name="image"

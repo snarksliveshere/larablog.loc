@@ -259,11 +259,14 @@ function(){this.reset();this.spacer.remove();this.element.removeData("jquery-sti
             }
         });
         // реализую функционал ТП
+        var imagePathSrc = $('#image_path_src');
+        var imagePathHref = $('#image_path_href');
+        var productImagePath = imagePathSrc.data('src');
+
         $('.related li').click(function () {
             var id = $(this).data('id');
             var slug = $('.related').data('slug')
             var token = $('meta[name="csrf-token"]').attr('content');
-            console.log(token);
             $.ajax({
                 type: 'POST',
                 url: slug,
@@ -272,6 +275,7 @@ function(){this.reset();this.spacer.remove();this.element.removeData("jquery-sti
                     'id': id
                 },
                 success: function(data){
+
                     for (var key in data) {
                         var selector =$('#' + key);
                         if(selector.length) {
@@ -288,6 +292,17 @@ function(){this.reset();this.spacer.remove();this.element.removeData("jquery-sti
                                 string +='</tr>';
                             }
                             $('#related_offers').html(string);
+                        }
+
+                        if(key == 'imagePath'){
+                            imagePathSrc.prop('src', data[key]);
+                            imagePathHref.prop('href', data[key]);
+                        }
+                        if(productImagePath != imagePathSrc.prop('src') && !data['imagePath']) {
+
+                            imagePathSrc.prop('src', productImagePath);
+                            imagePathHref.prop('href', productImagePath);
+
                         }
                     }
                 }

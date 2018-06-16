@@ -99,23 +99,6 @@ class Product extends Model
         $this->delete();
     }
 
-    public function uploadImage($image)
-    {
-        if ($image == null) { return; }
-        $this->removeImage();
-        $filename = str_random(10) . '.' . $image->extension();
-        $image->storeAs('images', $filename);
-        $this->imagePath = $filename;
-        $this->save();
-    }
-
-    public function removeImage()
-    {
-        if ($this->image != null) {
-            Storage::delete('images/' . $this->image);
-        }
-    }
-
     public function offerProducts()
     {
         return $this->hasMany(OffersProduct::class);
@@ -149,6 +132,33 @@ class Product extends Model
     public function getCategoryID()
     {
         return $this->category != null ? $this->category->id : null;
+    }
+
+    public function uploadImage($image, $obj)
+    {
+        if ($image == null) { return; }
+        $this->removeImage();
+        $filename = $obj->id . '.' . $image->extension();
+        $path = 'images/' . strtolower(class_basename($obj));
+        $fullPath =  $image->storeAs($path, $filename);
+        $fullPath = '/' . $fullPath;
+        $this->imagePath = $fullPath;
+        $this->save();
+    }
+
+    public function removeImage()
+    {
+        if ($this->image != null) {
+            Storage::delete('images/' . $this->image);
+        }
+    }
+    public function getImage()
+    {
+        if ($this->image == null) {
+            return '/images/no-image.png';
+        }
+
+        return '/images/' . $this->image;
     }
 
 }

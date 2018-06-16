@@ -13,10 +13,8 @@
                 <li class="active">Blank page</li>
             </ol>
         </section>
-
         <!-- Main content -->
         <section class="content">
-
             <!-- Default box -->
             <div class="box">
                 <div class="box-header">
@@ -32,6 +30,7 @@
                         <tr>
                             <th>ID</th>
                             <th>Название</th>
+                            <th>Image</th>
                             <th>Действия</th>
                         </tr>
                         </thead>
@@ -40,27 +39,25 @@
 
                             <tr>
                                 <td>{{ $category->id }}</td>
-                                <td>{{ $category->title }}
-                                </td>
+                                <td>{{ $category->title }}</td>
+                                <td><img src="{{ $category->imagePath }}" width="200" alt="" class="img-responsive"></td>
                                 <td>
-                                    <a href="{{ route('product_categories.edit', $category->id) }}" class="fa fa-pencil"></a>
+                                    <a href="{{ route('product_categories.edit', $category->id) }}"
+                                       class="fa fa-pencil"></a>
                                     {{ Form::open(['route' => ['product_categories.destroy', $category->id], 'method' => 'delete' ]) }}
                                     <button onclick="return confirm('уверены?')" type="submit" class="delete">
                                         <i class="fa fa-remove"></i>
                                     </button>
-
                                     {{ Form::close() }}
                                 </td>
                             </tr>
                         @endforeach
-
                         </tbody>
                     </table>
                 </div>
                 <!-- /.box-body -->
             </div>
             <!-- /.box -->
-
         </section>
         <!-- /.content -->
     </div>

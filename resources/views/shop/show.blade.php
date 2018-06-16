@@ -18,8 +18,8 @@
 
                         <article class="post">
                         <div class="post-thumb col-xs-12 col-sm-6 col-sm-offset-3">
-                            <a class="fancybox" href="/images/{{ $product->imagePath }}"><img class="img-responsive"
-                                                                                              src="/images/{{ $product->imagePath }}"
+                            <a class="fancybox" id="image_path_href" href="{{ $product->imagePath }}">
+                                <img data-src="{{ $product->imagePath }}" class="img-responsive" id="image_path_src"                                                                                         src="{{ $product->imagePath }}"
                                                                                               alt=""></a>
                         </div>
                         <div class="post-content col-xs-12">
