@@ -10,6 +10,7 @@ use App\Product;
 use App\RelatedProduct;
 use Cviebrock\EloquentSluggable\Sluggable;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Session;
 
 class ProductController extends Controller
@@ -125,7 +126,8 @@ class ProductController extends Controller
         $cart = new Cart($oldCart);
         $total = $cart->totalPrice;
         return view('shop.checkout',[
-            'total' => $total
+            'total' => $total,
+            'user' => Auth::user()
         ]);
     }
 
@@ -159,6 +161,11 @@ class ProductController extends Controller
         if (!Session::has('cart')) {
             return redirect()->route('product.shoppingCart');
         }
+        $this->validate($request,[
+            'name' => 'required',
+            'email' => 'email:email|required',
+            'address' => 'required'
+        ]);
         $oldCart = Session::get('cart');
         $cart = new Cart($oldCart);
 
@@ -167,6 +174,9 @@ class ProductController extends Controller
             $order->cart = serialize($cart);
             $order->address = $request->input('address');
             $order->name = $request->input('name');
+            $order->email = $request->input('email');
+            $order->phone = $request->input('phone');
+
 
             \Auth::user()->orders()->save($order);
         } catch (\Exception $e) {
