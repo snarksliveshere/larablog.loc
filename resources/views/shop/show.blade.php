@@ -4,11 +4,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8">
-                    @if(session('status'))
-                        <div class="alert alert-success">
-                            {{ session('status') }}
-                        </div>
-                    @endif
+                    {{--@if(session('status'))--}}
+                        {{--<div class="alert alert-success">--}}
+                            {{--{{ session('status') }}--}}
+                        {{--</div>--}}
+                    {{--@endif--}}
                         {{ Form::open([
                             'route' => 'related.cart',
                             'method' => 'put'
@@ -82,7 +82,7 @@
                             @if($product->hasPrevious())
                                 <div class="single-blog-box">
                                     <a href="{{ route('product.show', $product->getPrevious()->slug) }}"> <img
-                                                src="/images/{{ $product->getPrevious()->imagePath }}" alt="">
+                                                src="{{ $product->getPrevious()->imagePath }}" alt="">
                                         <div class="overlay">
                                             <div class="promo-text">
                                                 <p><i class=" pull-left fa fa-angle-left"></i></p>
@@ -97,7 +97,7 @@
                             @if($product->hasNext())
                                 <div class="single-blog-box">
                                     <a href="{{ route('product.show', $product->getNext()->slug) }}"> <img
-                                                src="/images/{{ $product->getNext()->imagePath }}" alt="">
+                                                src="{{ $product->getNext()->imagePath }}" alt="">
                                         <div class="overlay">
                                             <div class="promo-text">
                                                 <p><i class=" pull-left fa fa-angle-left"></i></p>
@@ -118,7 +118,7 @@
 
                                 <div class="single-item">
                                     <a href="{{ route('post.show', $item->slug) }}"> <img
-                                                src="/images/{{ $item->imagePath }}" alt="">
+                                                src="{{ $item->imagePath }}" alt="">
                                         <p>{{ $item->title }}</p>
                                     </a>
                                 </div>

@@ -1,16 +1,19 @@
 <?php
 
 namespace App\Http\Controllers\Catalog;
+use App\Events\onAddOrdersEvent;
 use App\Http\Controllers\Controller;
 use App\Cart;
 use App\Offer;
 use App\OfferValue;
 use App\Order;
 use App\Product;
+use App\ProductCategory;
 use App\RelatedProduct;
 use Cviebrock\EloquentSluggable\Sluggable;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Event;
 use Session;
 
 class ProductController extends Controller
@@ -18,10 +21,23 @@ class ProductController extends Controller
 
 
 
-    public function getIndex()
+    public function getIndex($slug)
     {
-        $products = Product::paginate(3);
-        return view('shop.index',['products' => $products]);
+        $category = ProductCategory::where('slug', $slug)->firstOrFail();
+//        dd($category->id);
+//        $products = Product::all()->where('category_id', $category->id)->paginate(3);
+        $products = Product::where('category_id', $category->id)->paginate(3);
+
+
+//        dd($products);
+//        $products::paginate(3);
+        return view('shop.index',['products' => $products, 'category' => $category]);
+    }
+
+    public function getCategory()
+    {
+        $categories = ProductCategory::paginate(6);
+        return view('shop.category_product',compact('categories'));
     }
 
     public function show($slug)
@@ -86,8 +102,13 @@ class ProductController extends Controller
 
         if (null !== $request->get('related_id')) {
             $product = RelatedProduct::find($request->get('related_id'));
+
         } else {
             $product = Product::find($request->get('product_id'));
+        }
+
+        if(null == $product) {
+            return redirect()->back()->with('status', 'что-то не вижу такого id :)');
         }
 
         $oldCart = Session::has('cart') ? Session::get('cart') : null;
@@ -170,6 +191,7 @@ class ProductController extends Controller
         $cart = new Cart($oldCart);
 
         try {
+            Event::fire(new onAddOrdersEvent($request, $cart));
             $order = new Order();
             $order->cart = serialize($cart);
             $order->address = $request->input('address');
