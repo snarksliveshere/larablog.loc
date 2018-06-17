@@ -8,7 +8,10 @@
                 @foreach($productChunk as $product)
                 <div class="col-sm-6 col-md-4">
                     <div class="thumbnail">
-                        <a href="{{ route('product.show', $product->slug)  }}"><img src="{{ $product->imagePath }}" alt="{{ $product->title }}"
+                        <a href="{{ route('product.show', [
+                                'category_slug' => $category->slug,
+                                'product_slug' => $product->slug
+                                ])  }}"><img src="{{ $product->imagePath }}" alt="{{ $product->title }}"
                                           class="img-responsive"></a>
                         <div class="caption">
                             <h3>{{ $product->title }}</h3>
@@ -19,7 +22,7 @@
                                 {{--TODO: реализовать купить в 1 клик, хотя там есть ТП ...--}}
                                 <a href="{{ route('product.show', [
                                 'category_slug' => $category->slug,
-                                '$product_slug' => $product->slug
+                                'product_slug' => $product->slug
                                 ])  }}" class="btn btn-success pull-right">Подробнее</a>
 
                             </div>

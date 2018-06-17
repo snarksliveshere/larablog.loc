@@ -40,9 +40,10 @@ class ProductController extends Controller
         return view('shop.category_product',compact('categories'));
     }
 
-    public function show($slug)
+    public function show($category_slug, $product_slug)
     {
-        $product = Product::where('slug', $slug)->firstOrFail();
+//        dd($category_slug);
+        $product = Product::where('slug', $product_slug)->firstOrFail();
         $related = RelatedProduct::where('parent_id', $product->id)->get();
         $relatedOffers = [];
         if (isset($related[0])) {
@@ -53,7 +54,7 @@ class ProductController extends Controller
             }
         }
 
-        return view('shop.show', compact('product', 'related', 'relatedOffers'));
+        return view('shop.show', compact('product', 'related', 'relatedOffers', 'category_slug'));
     }
 
     public function getAddToCart(Request $request, $id)
@@ -155,7 +156,6 @@ class ProductController extends Controller
     public function ajaxRelated()
     {
         if (\Illuminate\Support\Facades\Request::ajax()) {
-            $msg = "This is a simple message.";
             $id = \Illuminate\Support\Facades\Request::get('id');
 //            return response()->json(array('msg'=> $msg), 200);
             $relatedProduct = RelatedProduct::find($id);
@@ -206,7 +206,7 @@ class ProductController extends Controller
         }
 
         Session::forget('cart');
-        return redirect()->route('product.index')->with('success', 'Товар добавлен в корзину');
+        return redirect()->route('main')->with('status', 'Товар добавлен в корзину');
     }
 
 

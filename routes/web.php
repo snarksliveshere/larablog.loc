@@ -84,7 +84,7 @@ Route::group(['prefix' => 'catalog', 'namespace' => 'Catalog'], function (){
     Route::get('/remove/{id}', 'ProductController@getRemoveItem')->name('product.remove');
 
 
-    Route::post('/{slug}','ProductController@ajaxRelated')->name('ajax.related');
+    Route::post('/offers-ajax','ProductController@ajaxRelated')->name('ajax.related');
     // TODO: надо совместить обе корзины потом / и нужен get
     // мне теперь, по сути put не нужен, т.к. у меня не будет конфликта между post & put в добавлении = но это когда я совмещу методы
     Route::put('/tocart','ProductController@cart')->name('related.cart');

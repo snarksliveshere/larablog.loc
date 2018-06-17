@@ -81,7 +81,10 @@
                         <div class="col-md-6">
                             @if($product->hasPrevious())
                                 <div class="single-blog-box">
-                                    <a href="{{ route('product.show', $product->getPrevious()->slug) }}"> <img
+                                    <a href="{{ route('product.show', [
+                                    'category_slug' => $category_slug,
+                                    'product_slug' => $product->getPrevious()->slug
+                                    ]) }}"> <img
                                                 src="{{ $product->getPrevious()->imagePath }}" alt="">
                                         <div class="overlay">
                                             <div class="promo-text">
@@ -96,7 +99,9 @@
                         <div class="col-md-6">
                             @if($product->hasNext())
                                 <div class="single-blog-box">
-                                    <a href="{{ route('product.show', $product->getNext()->slug) }}"> <img
+                                    <a href="{{ route('product.show', [
+                                    'category_slug' => $category_slug,
+                                    'product_slug' => $product->getNext()->slug]) }}"> <img
                                                 src="{{ $product->getNext()->imagePath }}" alt="">
                                         <div class="overlay">
                                             <div class="promo-text">

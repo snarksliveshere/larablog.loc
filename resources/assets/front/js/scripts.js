@@ -79,7 +79,7 @@
             var token = $('meta[name="csrf-token"]').attr('content');
             $.ajax({
                 type: 'POST',
-                url: slug,
+                url: '/catalog/offers-ajax',
                 data: {
                     '_token': token,
                     'id': id

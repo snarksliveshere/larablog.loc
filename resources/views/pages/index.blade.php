@@ -45,12 +45,21 @@
                     </div>
                     <div class="row">
                         @foreach($products as $product)
+
+                            @php( $category_slug = \App\ProductCategory::find($product->category_id)->slug)
+
                             <article class="post col-xs-6">
                                 <div class="post-thumb">
-                                    <a class="col-xs-12 col-sm-6 col-sm-offset-3" href="{{ route('product.show', $product->slug) }}">
+                                    <a class="col-xs-12 col-sm-6 col-sm-offset-3" href="{{ route('product.show', [
+                                    'category_slug' => $category_slug,
+                                    'product_slug' => $product->slug
+                                    ]) }}">
                                         <img src="{{ $product->imagePath }}" class="img-responsive" alt="">
                                     </a>
-                                    <a href="{{ route('product.show', $product->slug) }}" class="post-thumb-overlay text-center">
+                                    <a href="{{ route('product.show', [
+                                    'category_slug' => $category_slug,
+                                    'product_slug' => $product->slug
+                                    ]) }}" class="post-thumb-overlay text-center">
                                         <div class="text-uppercase text-center">View Post</div>
                                     </a>
                                 </div>
@@ -59,12 +68,18 @@
                                         {{--@if($product->hasCategory())--}}
                                             {{--<h6><a href="{{ route('category.show', $post->category->slug) }}">{{ $post->getCategoryTitle() }}</a></h6>--}}
                                         {{--@endif--}}
-                                        <h1 class="entry-title"><a href="{{ route('product.show', $product->slug) }}">{{ $product->title }}</a></h1>
+                                        <h1 class="entry-title"><a href="{{ route('product.show', [
+                                    'category_slug' => $category_slug,
+                                    'product_slug' => $product->slug
+                                    ]) }}">{{ $product->title }}</a></h1>
                                     </header>
                                     <div class="entry-content">
                                         <p>{!! $product->description !!}</p>
                                         <div class="btn-continue-reading text-center text-uppercase">
-                                            <a href="{{ route('product.show', $product->slug) }}" class="more-link">Continue Reading</a>
+                                            <a href="{{ route('product.show', [
+                                    'category_slug' => $category_slug,
+                                    'product_slug' => $product->slug
+                                    ]) }}" class="more-link">Continue Reading</a>
                                         </div>
                                     </div>
                                     <div class="social-share">

@@ -203,7 +203,6 @@ function(){this.reset();this.spacer.remove();this.element.removeData("jquery-sti
     }());
 
 
-
     /*=== single blog carousel =====*/
     (function () {
         $('.items').owlCarousel({
@@ -269,36 +268,36 @@ function(){this.reset();this.spacer.remove();this.element.removeData("jquery-sti
             var token = $('meta[name="csrf-token"]').attr('content');
             $.ajax({
                 type: 'POST',
-                url: slug,
+                url: '/catalog/offers-ajax',
                 data: {
                     '_token': token,
                     'id': id
                 },
-                success: function(data){
+                success: function (data) {
 
                     for (var key in data) {
-                        var selector =$('#' + key);
-                        if(selector.length) {
+                        var selector = $('#' + key);
+                        if (selector.length) {
                             selector.html(data[key]);
                         }
-                        if(key == 'id') {
+                        if (key == 'id') {
                             $('#related_id').attr('value', data[key]);
                         }
-                        if(key == 'values') {
+                        if (key == 'values') {
                             var string = '';
-                            for(var ki in data[key]) {
+                            for (var ki in data[key]) {
                                 string += '<tr>';
                                 string += '<td>' + ki + '</td><td>' + data[key][ki] + '</td>';
-                                string +='</tr>';
+                                string += '</tr>';
                             }
                             $('#related_offers').html(string);
                         }
 
-                        if(key == 'imagePath'){
+                        if (key == 'imagePath') {
                             imagePathSrc.prop('src', data[key]);
                             imagePathHref.prop('href', data[key]);
                         }
-                        if(productImagePath != imagePathSrc.prop('src') && !data['imagePath']) {
+                        if (productImagePath != imagePathSrc.prop('src') && !data['imagePath']) {
 
                             imagePathSrc.prop('src', productImagePath);
                             imagePathHref.prop('href', productImagePath);
@@ -311,10 +310,6 @@ function(){this.reset();this.spacer.remove();this.element.removeData("jquery-sti
         })
 
     }());
-
-
-
-
 
 
 })(jQuery);
