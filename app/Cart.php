@@ -35,6 +35,7 @@ class Cart
         }
         if (false != $item->parent_id) {
             $storedItem['parent_id'] = $item->parent_id;
+            $storedItem['parent_title'] = Product::find($item->parent_id)->title;
         }
         $storedItem['qty']++;
         $storedItem['price'] = $item->price * $storedItem['qty'];

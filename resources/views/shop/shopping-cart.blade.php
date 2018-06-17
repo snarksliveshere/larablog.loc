@@ -10,6 +10,9 @@
                     @foreach($products as $product)
                         <li class="list-group-item">
                             <span class="badge">{{ $product['qty'] }}</span>
+                            @if(isset($product['parent_title']))
+                                <div class="h2">{{ $product['parent_title'] }}</div>
+                            @endif
                             <strong>{{ $product['item']['title'] }}</strong> <span
                                     class="label label-success">{{ $product['price'] }}</span>
                             <div class="btn-group">

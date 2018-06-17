@@ -49,10 +49,12 @@
                             <div class="panel panel-default">
                                 <div class="panel-body">
                                     <ul class="list-group">
-{{--                                        {{ dd($order) }}--}}
                                         @foreach($order->cart->items as $item)
 
                                             <li class="list-group-item">
+                                                @if(isset($item['parent_title']))
+                                                    <div class="h2">{{ $item['parent_title'] }}</div>
+                                                @endif
                                                 <span class="badge">{{ $item['price'] }}</span>
                                                 {{ $item['item']['title'] }} | {{ $item['qty'] }} шт.
                                             </li>
