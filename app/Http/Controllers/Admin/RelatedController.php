@@ -78,7 +78,7 @@ class RelatedController extends Controller
         $relatedProduct = RelatedProduct::add($related);
         $relatedProduct->uploadImage($request->file('image'), $relatedProduct);
         $fillOffers = RelatedProduct::addValues($offersRelated, $relatedProduct);
-// TODO: вопрос пока с картинкой, но это пока что не актуально
+
 
 
 
@@ -174,7 +174,6 @@ class RelatedController extends Controller
 
         $relatedProduct = RelatedProduct::edit($requestRelated, $relate);
         RelatedProduct::updateValues($offersRelated, $relatedProduct);
-// TODO: вопрос пока с картинкой, но это пока что не актуально
         return redirect()->route('products.index');
     }
 // TODO: рядом с offers_list надо поставить кнопку УДАЛИТЬ

@@ -121,7 +121,7 @@ class ProductController extends Controller
         $request->session()->put('cart', $cart);
         return redirect()->back();
     }
-// TODO: надо реализовать удаление из корзины - тут д.б. session , но если передавать через ajax - то нужно опять применять Put
+
 
     public function getCart()
     {

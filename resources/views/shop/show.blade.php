@@ -5,22 +5,37 @@
             <div class="row">
                 <div class="col-md-8">
                     {{--@if(session('status'))--}}
-                        {{--<div class="alert alert-success">--}}
-                            {{--{{ session('status') }}--}}
-                        {{--</div>--}}
+                    {{--<div class="alert alert-success">--}}
+                    {{--{{ session('status') }}--}}
+                    {{--</div>--}}
                     {{--@endif--}}
-                        {{ Form::open([
-                            'route' => 'related.cart',
-                            'method' => 'put'
+                    {{ Form::open([
+                        'route' => 'related.cart',
+                        'method' => 'put'
 
-                            ]) }}
-
-
-                        <article class="post">
+                        ]) }}
+                    <article class="post">
                         <div class="post-thumb col-xs-12 col-sm-6 col-sm-offset-3">
-                            <a class="fancybox" id="image_path_href" href="{{ $product->imagePath }}">
-                                <img data-src="{{ $product->imagePath }}" class="img-responsive" id="image_path_src"                                                                                         src="{{ $product->imagePath }}"
-                                                                                              alt=""></a>
+                            <a class="fancybox"
+                               id="image_path_href"
+                               @if(!empty($related[0]) && (null !== $related[0]->imagePath))
+                                    href="{{ $related[0]->imagePath }}"
+                               @else
+                                    href="{{ $product->imagePath }}"
+                               @endif
+
+                            >
+                                 <img
+                                        data-src="{{ $product->imagePath }}"
+                                        class="img-responsive"
+                                        id="image_path_src"
+                                        @if(!empty($related[0]) && (null !== $related[0]->imagePath))
+                                        src="{{ $related[0]->imagePath }}"
+                                        @else
+                                        src="{{ $product->imagePath }}"
+                                        @endif
+
+                                        alt=""></a>
                         </div>
                         <div class="post-content col-xs-12">
                             <header class="entry-header text-center text-uppercase">
@@ -58,7 +73,6 @@
 
                             @endif
                             <input type="hidden" id="product_id" name="product_id" value="{{ $product->id }}">
-
                             <div class="price" style="font-weight: bold; font-size: 20px;">
                                 Цена : <span id="price">{{ $product->price }}</span>
                             </div>
@@ -70,14 +84,10 @@
                                 {!! $product->content !!}
                             </div>
                         </div>
-
                         <input type="submit" class="btn btn-success pull-right" role="button" value="В корзину">
                     </article>
-
-                        {{ Form::close() }}
-
-
-                        <div class="row"><!--blog next previous-->
+                    {{ Form::close() }}
+                    <div class="row"><!--blog next previous-->
                         <div class="col-md-6">
                             @if($product->hasPrevious())
                                 <div class="single-blog-box">
