@@ -95,6 +95,7 @@
 
                         <div class="form-group">
                             <label for="exampleInputFile">Лицевая картинка</label>
+                            <img src="{{ $related->imagePath }}" alt="" class="img-responsive" width="200">
                             <input type="file" name="image" id="exampleInputFile">
                             <p class="help-block">Какое-нибудь уведомление о форматах..</p>
                         </div>

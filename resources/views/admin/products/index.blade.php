@@ -35,8 +35,10 @@
                     <table id="example1" class="table table-bordered table-striped">
                         <thead>
                         <tr>
+
                             <th>ID</th>
                             <th>Название</th>
+                            <th>Категория</th>
                             <th>ТП</th>
                             <th>Цена</th>
                             <th>Картинка</th>
@@ -51,6 +53,7 @@
                         <tr>
                             <td>{{ $product->id }}</td>
                             <td>{{ $product->title }}</td>
+                            <td>{{ $product->getCategoryTitle() }}</td>
                             <td>
                                 @if( $product->hasRelated == 1)
                                     есть
@@ -59,7 +62,7 @@
                             <td>{{ $product->price }}</td>
 
                             <td>
-                                <img src="/images/{{ $product->imagePath }}" alt="" width="100">
+                                <img src="{{ $product->imagePath }}" alt="" width="100">
                             </td>
                             <td>
                                 <a href="{{ route('products.edit', $product->id) }}" class="fa fa-pencil"></a>

@@ -14,7 +14,6 @@
     }());
 
 
-
     /*=== single blog carousel =====*/
     (function () {
         $('.items').owlCarousel({
@@ -70,35 +69,50 @@
             }
         });
         // реализую функционал ТП
+        var imagePathSrc = $('#image_path_src');
+        var imagePathHref = $('#image_path_href');
+        var productImagePath = imagePathSrc.data('src');
+
         $('.related li').click(function () {
             var id = $(this).data('id');
             var slug = $('.related').data('slug')
             var token = $('meta[name="csrf-token"]').attr('content');
-            console.log(token);
             $.ajax({
                 type: 'POST',
-                url: slug,
+                url: '/catalog/offers-ajax',
                 data: {
                     '_token': token,
                     'id': id
                 },
-                success: function(data){
+                success: function (data) {
+
                     for (var key in data) {
-                        var selector =$('#' + key);
-                        if(selector.length) {
+                        var selector = $('#' + key);
+                        if (selector.length) {
                             selector.html(data[key]);
                         }
-                        if(key == 'id') {
+                        if (key == 'id') {
                             $('#related_id').attr('value', data[key]);
                         }
-                        if(key == 'values') {
+                        if (key == 'values') {
                             var string = '';
-                            for(var ki in data[key]) {
+                            for (var ki in data[key]) {
                                 string += '<tr>';
                                 string += '<td>' + ki + '</td><td>' + data[key][ki] + '</td>';
-                                string +='</tr>';
+                                string += '</tr>';
                             }
                             $('#related_offers').html(string);
+                        }
+
+                        if (key == 'imagePath') {
+                            imagePathSrc.prop('src', data[key]);
+                            imagePathHref.prop('href', data[key]);
+                        }
+                        if (productImagePath != imagePathSrc.prop('src') && !data['imagePath']) {
+
+                            imagePathSrc.prop('src', productImagePath);
+                            imagePathHref.prop('href', productImagePath);
+
                         }
                     }
                 }
@@ -107,10 +121,6 @@
         })
 
     }());
-
-
-
-
 
 
 })(jQuery);

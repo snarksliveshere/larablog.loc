@@ -16,7 +16,7 @@
                 <ul class="nav navbar-nav text-uppercase">
                     <li><a href="/">Главная</a></li>
                     <li><a href="about-me.html">О компании</a></li>
-                    <li><a href="{{ route('product.index')}}">Каталог</a></li>
+                    <li><a href="{{ route('category_product')}}">Каталог</a></li>
                     <li><a href="{{ route('posts.main') }}">Посты</a></li>
                     <li><a href="contact.html">Контакты</a></li>
                     <li>

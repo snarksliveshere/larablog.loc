@@ -10,17 +10,24 @@
                     @foreach($products as $product)
                         <li class="list-group-item">
                             <span class="badge">{{ $product['qty'] }}</span>
-                            <strong>{{ $product['item']['title'] }}</strong>
-                            <span class="label label-success">{{ $product['price'] }}</span>
+                            @if(isset($product['parent_title']))
+                                <div class="h2">{{ $product['parent_title'] }}</div>
+                            @endif
+                            <strong>{{ $product['item']['title'] }}</strong> <span
+                                    class="label label-success">{{ $product['price'] }}</span>
                             <div class="btn-group">
                                 <button class="btn btn-primary btn-sc dropdown-toggle" data-toggle="dropdown">
                                     Действия <span class="caret"></span>
                                 </button>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="">Удалить товар</a></li>
-                                        <li><a href="">Удалить все</a></li>
-                                    </ul>
-
+                                <ul class="dropdown-menu">
+                                    <li><a href="{{ route('product.reduceByOne',
+                                        ['id' => $product['item']['id']]) }}">Удалить 1 шт. товар</a>
+                                    </li>
+                                    <li><a href="{{ route('product.remove',
+                                        ['id' => $product['item']['id']]) }}">Удалить товар полностью</a>
+                                    </li>
+{{--TODO: можно еще сделать кнопку Полностью очистить корзину--}}
+                                </ul>
                             </div>
                         </li>
                     @endforeach
