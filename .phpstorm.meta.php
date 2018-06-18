@@ -3,7 +3,7 @@ namespace PHPSTORM_META {
 
    /**
     * PhpStorm Meta file, to provide autocomplete information for PhpStorm
-    * Generated on 2018-06-04 05:55:49.
+    * Generated on 2018-06-18 05:52:08.
     *
     * @author Barry vd. Heuvel <barryvdh@gmail.com>
     * @see https://github.com/barryvdh/laravel-ide-helper
@@ -42,6 +42,7 @@ namespace PHPSTORM_META {
         'Barryvdh\Debugbar\LaravelDebugbar' => \Barryvdh\Debugbar\LaravelDebugbar::class,
         'command.debugbar.clear' => \Barryvdh\Debugbar\Console\ClearCommand::class,
         'Cviebrock\EloquentSluggable\SluggableObserver' => \Cviebrock\EloquentSluggable\SluggableObserver::class,
+        'image' => \Intervention\Image\ImageManager::class,
         'Laracasts\Flash\SessionStore' => \Laracasts\Flash\LaravelSessionStore::class,
         'flash' => \Laracasts\Flash\FlashNotifier::class,
         'blade.compiler' => \Illuminate\View\Compilers\BladeCompiler::class,
@@ -179,6 +180,7 @@ namespace PHPSTORM_META {
         'Barryvdh\Debugbar\LaravelDebugbar' => \Barryvdh\Debugbar\LaravelDebugbar::class,
         'command.debugbar.clear' => \Barryvdh\Debugbar\Console\ClearCommand::class,
         'Cviebrock\EloquentSluggable\SluggableObserver' => \Cviebrock\EloquentSluggable\SluggableObserver::class,
+        'image' => \Intervention\Image\ImageManager::class,
         'Laracasts\Flash\SessionStore' => \Laracasts\Flash\LaravelSessionStore::class,
         'flash' => \Laracasts\Flash\FlashNotifier::class,
         'blade.compiler' => \Illuminate\View\Compilers\BladeCompiler::class,
@@ -316,6 +318,7 @@ namespace PHPSTORM_META {
         'Barryvdh\Debugbar\LaravelDebugbar' => \Barryvdh\Debugbar\LaravelDebugbar::class,
         'command.debugbar.clear' => \Barryvdh\Debugbar\Console\ClearCommand::class,
         'Cviebrock\EloquentSluggable\SluggableObserver' => \Cviebrock\EloquentSluggable\SluggableObserver::class,
+        'image' => \Intervention\Image\ImageManager::class,
         'Laracasts\Flash\SessionStore' => \Laracasts\Flash\LaravelSessionStore::class,
         'flash' => \Laracasts\Flash\FlashNotifier::class,
         'blade.compiler' => \Illuminate\View\Compilers\BladeCompiler::class,
@@ -453,6 +456,7 @@ namespace PHPSTORM_META {
         'Barryvdh\Debugbar\LaravelDebugbar' => \Barryvdh\Debugbar\LaravelDebugbar::class,
         'command.debugbar.clear' => \Barryvdh\Debugbar\Console\ClearCommand::class,
         'Cviebrock\EloquentSluggable\SluggableObserver' => \Cviebrock\EloquentSluggable\SluggableObserver::class,
+        'image' => \Intervention\Image\ImageManager::class,
         'Laracasts\Flash\SessionStore' => \Laracasts\Flash\LaravelSessionStore::class,
         'flash' => \Laracasts\Flash\FlashNotifier::class,
         'blade.compiler' => \Illuminate\View\Compilers\BladeCompiler::class,
@@ -590,6 +594,7 @@ namespace PHPSTORM_META {
         'Barryvdh\Debugbar\LaravelDebugbar' => \Barryvdh\Debugbar\LaravelDebugbar::class,
         'command.debugbar.clear' => \Barryvdh\Debugbar\Console\ClearCommand::class,
         'Cviebrock\EloquentSluggable\SluggableObserver' => \Cviebrock\EloquentSluggable\SluggableObserver::class,
+        'image' => \Intervention\Image\ImageManager::class,
         'Laracasts\Flash\SessionStore' => \Laracasts\Flash\LaravelSessionStore::class,
         'flash' => \Laracasts\Flash\FlashNotifier::class,
         'blade.compiler' => \Illuminate\View\Compilers\BladeCompiler::class,
@@ -727,6 +732,7 @@ namespace PHPSTORM_META {
         'Barryvdh\Debugbar\LaravelDebugbar' => \Barryvdh\Debugbar\LaravelDebugbar::class,
         'command.debugbar.clear' => \Barryvdh\Debugbar\Console\ClearCommand::class,
         'Cviebrock\EloquentSluggable\SluggableObserver' => \Cviebrock\EloquentSluggable\SluggableObserver::class,
+        'image' => \Intervention\Image\ImageManager::class,
         'Laracasts\Flash\SessionStore' => \Laracasts\Flash\LaravelSessionStore::class,
         'flash' => \Laracasts\Flash\FlashNotifier::class,
         'blade.compiler' => \Illuminate\View\Compilers\BladeCompiler::class,
@@ -864,6 +870,7 @@ namespace PHPSTORM_META {
         'Barryvdh\Debugbar\LaravelDebugbar' => \Barryvdh\Debugbar\LaravelDebugbar::class,
         'command.debugbar.clear' => \Barryvdh\Debugbar\Console\ClearCommand::class,
         'Cviebrock\EloquentSluggable\SluggableObserver' => \Cviebrock\EloquentSluggable\SluggableObserver::class,
+        'image' => \Intervention\Image\ImageManager::class,
         'Laracasts\Flash\SessionStore' => \Laracasts\Flash\LaravelSessionStore::class,
         'flash' => \Laracasts\Flash\FlashNotifier::class,
         'blade.compiler' => \Illuminate\View\Compilers\BladeCompiler::class,
