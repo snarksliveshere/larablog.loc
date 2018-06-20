@@ -15,7 +15,7 @@
 </head>
 <body>
 @include('partitials.top_nav')
-
+@yield('main_slider')
 <div class="container">
     <div class="row">
         <div class="col-md-12">

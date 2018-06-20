@@ -1,4 +1,7 @@
 @extends('layout')
+@section('main_slider')
+    slider
+@endsection
 @section('content')
 
     <div class="main-content">
