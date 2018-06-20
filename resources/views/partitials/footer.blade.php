@@ -1,23 +1,19 @@
 <footer class="bg3 p-t-75 p-b-32">
+{{--    {{ dd($categories) }}--}}
     <div class="container">
         <div class="row">
             <div class="col-sm-6 col-lg-3 p-b-50">
                 <h4 class="stext-301 cl0 p-b-30">
                     Categories
                 </h4>
+
                 <ul>
-                    <li class="p-b-10">
-                        <a href="#" class="stext-107 cl7 hov-cl1 trans-04"> Women </a>
-                    </li>
-                    <li class="p-b-10">
-                        <a href="#" class="stext-107 cl7 hov-cl1 trans-04"> Men </a>
-                    </li>
-                    <li class="p-b-10">
-                        <a href="#" class="stext-107 cl7 hov-cl1 trans-04"> Shoes </a>
-                    </li>
-                    <li class="p-b-10">
-                        <a href="#" class="stext-107 cl7 hov-cl1 trans-04"> Watches </a>
-                    </li>
+                    @foreach($categories as $category)
+                        <li class="p-b-10">
+                            <a href="{{ route('product.index', $category->slug)  }}" class="stext-107 cl7 hov-cl1 trans-04">{{ $category->title }}</a>
+
+                        </li>
+                    @endforeach
                 </ul>
             </div>
             <div class="col-sm-6 col-lg-3 p-b-50">
