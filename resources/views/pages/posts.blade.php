@@ -1,50 +1,70 @@
 @extends('layout')
 @section('content')
+@section('main_slider')
+    <section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('images/bg-02.jpg');">
+        <h2 class="ltext-105 cl0 txt-center">
+           Блог
+        </h2>
+    </section>
+@endsection
 
-    <div class="main-content">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8">
+@section('content')
+<section class="bg0 p-t-62 p-b-60">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-lg-9 p-b-80">
+                <div class="p-r-45 p-r-0-lg">
                     @foreach($posts as $post)
-                        <article class="post">
-                            <div class="post-thumb">
-                                <a class="col-xs-12 col-sm-6 col-sm-offset-3" href="{{ route('post.show', $post->slug) }}">
-                                    <img src="{{ $post->getImage() }}" class="img-responsive" alt="">
-                                </a>
-                                <a href="{{ route('post.show', $post->slug) }}" class="post-thumb-overlay text-center">
-                                    <div class="text-uppercase text-center">View Post</div>
-                                </a>
+                    <div class="p-b-63">
+                        <a href="{{ route('post.show', $post->slug) }}" class="hov-img0 how-pos5-parent"> <img src="{{ $post->getImage() }}"
+                                                                                          alt="IMG-BLOG">
+                            <div class="flex-col-c-m size-123 bg9 how-pos5">
+									<span class="ltext-107 cl2 txt-center">
+										{{ $post->getDate() }}
+									</span> <span class="stext-109 cl3 txt-center">
+										Jan 2018
+									</span>
                             </div>
-                            <div class="post-content">
-                                <header class="entry-header text-center text-uppercase">
-                                    @if($post->hasCategory())
-                                        <h6><a href="{{ route('category.show', $post->category->slug) }}">{{ $post->getCategoryTitle() }}</a></h6>
-                                    @endif
-                                    <h1 class="entry-title"><a href="{{ route('post.show', $post->slug) }}">{{ $post->title }}</a></h1>
-                                </header>
-                                <div class="entry-content">
-                                    <p>{!! $post->description !!}</p>
-                                    <div class="btn-continue-reading text-center text-uppercase">
-                                        <a href="{{ route('post.show', $post->slug) }}" class="more-link">Continue Reading</a>
-                                    </div>
-                                </div>
-                                <div class="social-share">
-                                    <span class="social-share-title pull-left text-capitalize">By <a href="#">{{ $post->author->name }}</a> On {{ $post->getDate() }}6</span>
-                                    <ul class="text-center pull-right">
-                                        <li><a class="s-facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a class="s-twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a class="s-google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
-                                        <li><a class="s-linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-                                        <li><a class="s-instagram" href="#"><i class="fa fa-instagram"></i></a></li>
-                                    </ul>
-                                </div>
+                        </a>
+                        <div class="p-t-32">
+                            <h4 class="p-b-15">
+                                <a href="{{ route('post.show', $post->slug) }}" class="ltext-108 cl2 hov-cl1 trans-04"> {{ $post->title }}</a>
+                            </h4>
+                            <p class="stext-117 cl6">
+                                {!! $post->description !!}
+                            </p>
+                            <div class="flex-w flex-sb-m p-t-18">
+									<span class="flex-w flex-m stext-111 cl2 p-r-30 m-tb-10">
+										<span>
+											<span class="cl4">Автор: </span> {{ $post->author->name }}
+											<span class="cl12 m-l-4 m-r-6">|</span>
+
+										</span>
+
+										<span>
+
+											<span class="cl12 m-l-4 m-r-6">|</span>
+										</span>
+
+										<span>
+											@if($post->hasCategory())
+                                                <h6><a href="{{ route('category.show', $post->category->slug) }}">{{ $post->getCategoryTitle() }}</a></h6>
+                                            @endif
+										</span>
+									</span> <a href="{{ route('post.show', $post->slug) }}" class="stext-101 cl2 hov-cl1 trans-04 m-tb-10">
+                                    Читать далее <i class="fa fa-long-arrow-right m-l-9"></i> </a>
                             </div>
-                        </article>
+                        </div>
+                    </div>
                     @endforeach
-                    {{ $posts->links() }}
+                    <div class="flex-l-m flex-w w-full p-t-10 m-lr--7">
+                        {{ $posts->links() }}
+                    </div>
                 </div>
-                @include('pages._sidebar')
             </div>
+            @include('pages.post_sidebar')
         </div>
     </div>
+</section>
+
 @endsection
