@@ -1,45 +1,45 @@
 @extends('layout')
-@section('content')
-    <div class="main-content">
-        <div class="container">
-            <div class="row">
-                <div class="main-content">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-8">
-                                <div class="leave-comment mr0"><!--leave comment-->
-                                    @if(session('status'))
-                                        <div class="alert alert-danger">
-                                            {{ session('status') }}
-                                        </div>
-                                    @endif
+@section('main_slider')
+    <section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('images/bg-01.jpg');">
+        <h2 class="ltext-105 cl0 txt-center">
+            Contact
+        </h2>
+    </section>
+@endsection
 
-                                    <h3 class="text-uppercase">Login</h3>
-                                    @include('admin.errors')
-                                    <br>
-                                    <form class="form-horizontal contact-form" role="form" method="post" action="/login">
-                                        {{ csrf_field() }}
-                                        <div class="form-group">
-                                            <div class="col-md-12">
-                                                <input type="email" class="form-control" id="email" name="email" value="{{ old('email') }}"
-                                                       placeholder="Email">
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <div class="col-md-12">
-                                                <input type="password" class="form-control" id="password" name="password"
-                                                       placeholder="password">
-                                            </div>
-                                        </div>
-                                        <button type="submit" class="btn send-btn">Login</button>
-                                    </form>
-                                </div><!--end leave comment-->
-                            </div>
-                            @include('pages._sidebar')
+@section('content')
+    <section class="bg0 p-t-75 p-b-120">
+        <div class="container">
+            <div class="row p-b-148">
+                @include('admin.errors')
+                <div class="size-210 bor10 p-lr-70 p-t-55 p-b-70 p-lr-15-lg w-full-md">
+                    <form class="form-horizontal contact-form" role="form" method="post" action="/login">
+                        <h4 class="mtext-105 cl2 txt-center p-b-30">
+                            Войти
+                        </h4>
+                        {{ csrf_field() }}
+                        <div class="bor8 m-b-20 how-pos4-parent">
+                            <input type="email"
+                                    class="stext-111 cl2 plh3 size-116 p-l-62 p-r-30"
+                                    id="email"
+                                    name="email"
+                                    value="{{ old('email') }}"
+                                    placeholder="Email">
                         </div>
-                    </div>
+                        <div class="bor8 m-b-20 how-pos4-parent">
+                            <input type="password"
+                                    class="stext-111 cl2 plh3 size-116 p-l-62 p-r-30"
+                                    id="password"
+                                    name="password"
+                                    placeholder="password">
+                        </div>
+                        <button type="submit"
+                                class="flex-c-m stext-101 cl0 size-121 bg3 bor1 hov-btn3 p-lr-15 trans-04 pointer">
+                            Войти
+                        </button>
+                    </form>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 @endsection

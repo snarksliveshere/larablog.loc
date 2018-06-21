@@ -1,6 +1,8 @@
 <?php
 
 Route::get('/', 'PagesController@index')->name('main');
+Route::get('/contacts', 'PagesController@contacts')->name('front.contacts');
+Route::get('/about', 'PagesController@about')->name('front.about');
 
 Route::group(['prefix' => 'posts'], function(){
     Route::get('/', 'HomeController@index')->name('posts.main');

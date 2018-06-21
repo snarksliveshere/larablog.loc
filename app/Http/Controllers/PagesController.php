@@ -17,4 +17,14 @@ class PagesController extends Controller
         $products = Product::take(2)->get();
         return view('pages.index',['posts' => $posts, 'products' => $products, 'categories' => $categories]);
     }
+
+    public function contacts()
+    {
+        return view('pages.contacts');
+    }
+
+    public function about()
+    {
+        return view('pages.about');
+    }
 }

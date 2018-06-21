@@ -15,10 +15,10 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav text-uppercase">
                     <li><a href="/">Главная</a></li>
-                    <li><a href="about-me.html">О компании</a></li>
+                    <li><a href="{{ route('front.about') }}">О компании</a></li>
                     <li><a href="{{ route('category_product')}}">Каталог</a></li>
-                    <li><a href="{{ route('posts.main') }}">Посты</a></li>
-                    <li><a href="contact.html">Контакты</a></li>
+                    <li><a href="{{ route('posts.main') }}">Блог</a></li>
+                    <li><a href="{{ route('front.contacts') }}">Контакты</a></li>
                     <li>
                         <a href="{{ route('product.shoppingCart') }}">
                             <i class="fa fa-shopping-cart" aria-hidden="true"></i> Shopping Cart
