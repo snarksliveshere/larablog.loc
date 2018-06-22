@@ -2,7 +2,6 @@
 @section('title')
     Корзина
 @endsection
-
 @section('content')
     <section class="bg0 p-t-104 p-b-116">
         <div class="container">

@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e2699bb-bf3c-41a3-904d-7b55bb4040f1" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/shop/orig-shopping-cart.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/cozastore/shoping-cart.html" afterPath="$PROJECT_DIR$/public/cozastore/shoping-cart.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/shop/checkout.blade.php" afterPath="$PROJECT_DIR$/resources/views/shop/checkout.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/shop/shopping-cart.blade.php" afterPath="$PROJECT_DIR$/resources/views/shop/shopping-cart.blade.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,52 +25,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="checkout.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/shop/checkout.blade.php">
+      <file leaf-file-name="shopping-cart.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/shop/shopping-cart.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="39" column="11" lean-forward="true" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
+            <state relative-caret-position="269">
+              <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
               <folding>
-                <element signature="e#448#1874#0#HTML" expanded="false" />
+                <marker date="1529654714830" expanded="true" signature="1186:1290" ph="..." />
+                <marker date="1529654714830" expanded="true" signature="1193:1288" ph="..." />
+                <marker date="1529654714830" expanded="true" signature="1411:1510" ph="..." />
+                <marker date="1529654714830" expanded="true" signature="1418:1508" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shopping-cart.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/shop/shopping-cart.blade.php">
+      <file leaf-file-name="shoping-cart.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/cozastore/shoping-cart.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="28" column="4" lean-forward="false" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+            <state relative-caret-position="286">
+              <caret line="13" column="63" lean-forward="true" selection-start-line="13" selection-start-column="63" selection-end-line="13" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="orig-shopping-cart.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/shop/orig-shopping-cart.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
               <folding>
                 <marker date="1529301821484" expanded="true" signature="1186:1290" ph="..." />
                 <marker date="1529301821484" expanded="true" signature="1193:1288" ph="..." />
                 <marker date="1529301821484" expanded="true" signature="1411:1510" ph="..." />
                 <marker date="1529301821484" expanded="true" signature="1418:1508" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contacts.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/pages/contacts.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="7" selection-end-column="11" />
-              <folding>
-                <element signature="e#464#1350#0#HTML" expanded="false" />
-                <element signature="e#1383#2954#0#HTML" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="shoping-cart.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/cozastore/shoping-cart.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2442">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -124,7 +117,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/ProductCategory.php" />
         <option value="$PROJECT_DIR$/app/RelatedProduct.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/products/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/related/edit.blade.php" />
@@ -135,7 +127,6 @@
         <option value="$PROJECT_DIR$/resources/views/admin/orders/index.blade.php" />
         <option value="$PROJECT_DIR$/app/Order.php" />
         <option value="$PROJECT_DIR$/app/Cart.php" />
-        <option value="$PROJECT_DIR$/resources/views/shop/shopping-cart.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ProfileController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/OrdersController.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/orders/edit.blade.php" />
@@ -175,6 +166,8 @@
         <option value="$PROJECT_DIR$/resources/views/partitials/header.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/pages/profile.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/shop/checkout.blade.php" />
+        <option value="$PROJECT_DIR$/public/cozastore/shoping-cart.html" />
+        <option value="$PROJECT_DIR$/resources/views/shop/shopping-cart.blade.php" />
       </list>
     </option>
   </component>
@@ -337,7 +330,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -568,6 +560,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -592,16 +585,16 @@
     <property name="Constants" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ospanel\domains\larablog.loc\resources\views\shop" />
+      <recent name="D:\ospanel\domains\larablog.loc\app\Http\Controllers\Admin" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\os\domains\larablog.loc\resources\views\shop" />
       <recent name="D:\ospanel\domains\larablog.loc" />
       <recent name="D:\ospanel\domains\larablog.loc\resources\views\admin\orders" />
       <recent name="D:\ospanel\domains\larablog.loc\resources\views\admin\product_category" />
       <recent name="D:\ospanel\domains\larablog.loc\resources\views\admin\related" />
-      <recent name="D:\ospanel\domains\larablog.loc\resources\views\admin\products" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\ospanel\domains\larablog.loc\resources\views\shop" />
-      <recent name="D:\ospanel\domains\larablog.loc\app\Http\Controllers\Admin" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -743,7 +736,9 @@
       <workItem from="1529473230136" duration="1169000" />
       <workItem from="1529489404753" duration="2840000" />
       <workItem from="1529647803696" duration="402000" />
-      <workItem from="1529648481429" duration="2379000" />
+      <workItem from="1529648481429" duration="2470000" />
+      <workItem from="1529651872799" duration="1122000" />
+      <workItem from="1529657864441" duration="344000" />
     </task>
     <task id="LOCAL-00001" summary="добавил в админку страницу товара, кроме обработки картинок">
       <created>1528109973275</created>
@@ -969,11 +964,18 @@
       <option name="project" value="LOCAL" />
       <updated>1529648998134</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="frontend форма заказа">
+      <created>1529651192364</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1529651192364</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="162342000" />
+    <option name="totallyTimeSpent" value="163899000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -991,16 +993,16 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32844576" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31493506" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32302773" sideWeight="0.4942857" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3304904" sideWeight="0.4942857" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2978177" sideWeight="0.5057143" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3998045" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2978177" sideWeight="0.5057143" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Tasks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1020,7 +1022,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="связи для продукта hasManyThrough c OfferValue.&#10;нужен еще where (т.к. получены все)&#10;и сама связь с Offer" />
     <MESSAGE value="добавил таблицу related_products и поменял индексный вид&#10;добавил hasRelated in products table" />
     <MESSAGE value="поменял лого на аутентичное" />
     <MESSAGE value="Готов функционал Добавления ТП к продукту со всеми связями" />
@@ -1045,7 +1046,8 @@
     <MESSAGE value="frontend залил страницу о компании и контакты и логин и регистрацию" />
     <MESSAGE value="перенес формы в профиле" />
     <MESSAGE value="профиль доперенес" />
-    <option name="LAST_COMMIT_MESSAGE" value="профиль доперенес" />
+    <MESSAGE value="frontend форма заказа" />
+    <option name="LAST_COMMIT_MESSAGE" value="frontend форма заказа" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1054,13 +1056,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Listeners/BeforeIncartListener.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Events/onBeforeIncartEvent.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -1346,7 +1341,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="7" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1354,13 +1348,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="151" column="46" lean-forward="true" selection-start-line="151" selection-start-column="16" selection-end-line="151" selection-end-column="46" />
-          <folding>
-            <element signature="e#157#8115#0#HTML" expanded="false" />
-            <element signature="e#270#628#0#HTML" expanded="false" />
-            <element signature="e#653#1703#0#HTML" expanded="false" />
-            <element signature="e#1728#1948#0#HTML" expanded="false" />
-            <marker date="1529575957281" expanded="true" signature="2403:2444" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1368,10 +1355,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="72" column="11" lean-forward="false" selection-start-line="72" selection-start-column="11" selection-end-line="72" selection-end-column="11" />
-          <folding>
-            <element signature="e#474#4163#0#HTML" expanded="false" />
-            <element signature="e#761#2580#0#HTML" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1389,7 +1372,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" column="79" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="79" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1401,10 +1383,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/pages/contacts.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="7" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/shop/checkout.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/shop/shopping-cart.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="28" column="4" lean-forward="false" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+        <state relative-caret-position="269">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding>
+            <marker date="1529654714830" expanded="true" signature="1186:1290" ph="..." />
+            <marker date="1529654714830" expanded="true" signature="1193:1288" ph="..." />
+            <marker date="1529654714830" expanded="true" signature="1411:1510" ph="..." />
+            <marker date="1529654714830" expanded="true" signature="1418:1508" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/shop/orig-shopping-cart.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
           <folding>
             <marker date="1529301821484" expanded="true" signature="1186:1290" ph="..." />
             <marker date="1529301821484" expanded="true" signature="1193:1288" ph="..." />
@@ -1416,30 +1427,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/cozastore/shoping-cart.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2442">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="286">
+          <caret line="13" column="63" lean-forward="true" selection-start-line="13" selection-start-column="63" selection-end-line="13" selection-end-column="63" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/pages/contacts.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="7" selection-end-column="11" />
-          <folding>
-            <element signature="e#464#1350#0#HTML" expanded="false" />
-            <element signature="e#1383#2954#0#HTML" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/shop/checkout.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="39" column="11" lean-forward="true" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
-          <folding>
-            <element signature="e#448#1874#0#HTML" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
