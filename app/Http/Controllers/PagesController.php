@@ -14,7 +14,7 @@ class PagesController extends Controller
     {
         $categories = ProductCategory::take(4)->get();
         $posts = Post::where('status', 1)->take(4)->get();
-        $products = Product::take(2)->get();
+        $products = Product::take(4)->get();
         return view('pages.index',['posts' => $posts, 'products' => $products, 'categories' => $categories]);
     }
 

@@ -15,15 +15,19 @@
                     </ul>
                 </div>
                 <div class="wrap-icon-header flex-w flex-r-m">
-                    <div class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 icon-header-noti js-show-cart"
-                         data-notify="2">
-                        <i class="zmdi zmdi-shopping-cart"></i>
-                    </div>
+                    {{--<div class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 icon-header-noti js-show-cart"--}}
+                         {{--data-notify="2">--}}
+                        {{--<i class="zmdi zmdi-shopping-cart"></i>--}}
+                    {{--</div>--}}
 
                     <a href="{{ route('product.shoppingCart') }}">
-                        <i class="fa fa-shopping-cart" aria-hidden="true"></i> Shopping Cart
+                        <i class="zmdi zmdi-shopping-cart"></i> Корзина
                         <span class="badge">{{ Session::has('cart') ? Session::get('cart')->totalQty : '' }}</span>
                     </a>
+                    {{--<a data-notify="{{ Session::has('cart') ? Session::get('cart')->totalQty : '' }}" href="{{ route('product.shoppingCart') }}" class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 icon-header-noti js-show-cart">--}}
+                        {{--<i class="zmdi zmdi-shopping-cart"></i> Корзина--}}
+                        {{--<span class="badge"></span>--}}
+                    {{--</a>--}}
 
 
                         <div>
