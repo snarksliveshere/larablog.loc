@@ -2,6 +2,13 @@
 @section('title')
     Корзина
 @endsection
+@section('main_slider')
+    <section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('images/bg-02.jpg');">
+        <h2 class="ltext-105 cl0 txt-center">
+            Кт
+        </h2>
+    </section>
+@endsection
 @section('content')
     <div class="bg0 p-t-75 p-b-85">
         <div class="container">
@@ -31,9 +38,9 @@
                                                 @endif
                                                 <strong>{{ $product['item']['title'] }}</strong>
                                             </td>
-                                            <td class="column-3">{{ $product['price'] }}</td>
+                                            <td class="column-3">Цена за штуку </td>
                                             <td class="column-4">{{ $product['qty'] }}</td>
-                                            <td class="column-5">Total price</td>
+                                            <td class="column-5">{{ $product['price'] }}</td>
                                             <td class="column-6">
                                                 <div class="btn-group">
                                                     <button class="btn btn-primary btn-sc dropdown-toggle"
@@ -58,14 +65,14 @@
                             <div class="row">
                                 <div class="flex-w flex-t p-t-27 p-b-33">
                                     <div class="size-208">
-                                    <span class="mtext-101 cl2">
-                                        Total:
-                                    </span>
+                                        <span class="mtext-101 cl2">
+                                            Total:
+                                        </span>
                                     </div>
                                     <div class="size-209 p-t-1">
-                                    <span class="mtext-110 cl2">
-                                        {{ $totalPrice }}
-                                    </span>
+                                        <span class="mtext-110 cl2">
+                                            {{ $totalPrice }}
+                                        </span>
                                     </div>
                                 </div>
                             </div>

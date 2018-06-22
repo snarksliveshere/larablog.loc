@@ -54,7 +54,7 @@ class Product extends Model
     }
     public function related()
     {
-        return self::all()->except($this->id);
+        return self::all()->where('status', 1)->except($this->id);
     }
 
     public function setDraft()

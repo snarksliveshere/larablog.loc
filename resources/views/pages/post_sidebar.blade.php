@@ -1,11 +1,18 @@
 <div class="col-md-4 col-lg-3 p-b-80">
     <div class="side-menu">
-        <div class="bor17 of-hidden pos-relative">
+        <div class="of-hidden pos-relative">
             <form action="/subscribe" method="post">
                 {{ csrf_field() }}
-                <input type="text" name="email" class="email_news_letter" placeholder="Your email address">
-                <input type="submit" value="Subscribe Now"
-                       class="text-uppercase text-center btn btn-subscribe">
+                <div class="wrap-input1 w-full p-b-4">
+                    <input class="input1 bg-none plh1 stext-107 cl7" type="text" name="email"
+                            placeholder="email@example.com">
+                    <div class="focus-input1 trans-04"></div>
+                </div>
+                <div class="p-t-18">
+                    <button type="submit" class="flex-c-m stext-101 cl0 size-103 bg1 bor1 hov-btn2 p-lr-15 trans-04">
+                        Subscribe
+                    </button>
+                </div>
             </form>
         </div>
         <div class="p-t-55">
