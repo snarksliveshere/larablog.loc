@@ -22,7 +22,7 @@
 
                     <a href="{{ route('product.shoppingCart') }}">
                         <i class="zmdi zmdi-shopping-cart"></i> Корзина
-                        <span class="badge">{{ Session::has('cart') ? Session::get('cart')->totalQty : '' }}</span>
+                        <span class="badge badge_header_cart">{{ Session::has('cart') ? Session::get('cart')->totalQty : '' }}</span>
                     </a>
                     {{--<a data-notify="{{ Session::has('cart') ? Session::get('cart')->totalQty : '' }}" href="{{ route('product.shoppingCart') }}" class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 icon-header-noti js-show-cart">--}}
                         {{--<i class="zmdi zmdi-shopping-cart"></i> Корзина--}}
