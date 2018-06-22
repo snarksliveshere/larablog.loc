@@ -8,38 +8,40 @@
     </section>
 @endsection
 @section('content')
-    <div class="main-content">
+    <section class="bg0 p-t-52 p-b-20">
         <div class="container">
             <div class="row">
-                <div class="col-md-8">
-                    <div class="leave-comment mr0"><!--leave comment-->
-                        <h3 class="text-uppercase">My profile</h3>
-                        @include('admin.errors')
-                        <form class="form-horizontal contact-form" role="form" method="post" action="/profile"
-                              enctype="multipart/form-data">
-                            {{ csrf_field() }}
+                <div class="col-md-8 col-lg-9 p-b-80">
+                    <div class="p-r-45 p-r-0-lg">
+                        <div class="p-t-32">
+                            <h2>Профиль</h2>
+                            @include('admin.errors')
+                        </div>
+                        <div class="p-t-32">
+                            <form class="form-horizontal contact-form" role="form" method="post" action="/profile"
+                                    enctype="multipart/form-data">
+                                {{ csrf_field() }}
 
-                            <div class="bor8 m-b-20 how-pos4-parent">
-                                <input type="text" class="stext-111 cl2 plh3 size-116 p-l-62 p-r-30" id="name" name="name"
-                                        placeholder="Name" value="{{ $user->name }}">
-                                <img class="how-pos4 pointer-none" src="images/icons/icon-email.png" alt="ICON">
-                            </div>
-                            <div class="bor8 m-b-20 how-pos4-parent">
+                                <div class="bor8 m-b-20 how-pos4-parent">
+                                    <input type="text" class="stext-111 cl2 plh3 size-116 p-l-62 p-r-30" id="name" name="name"
+                                            placeholder="Name" value="{{ $user->name }}">
+                                    <img class="how-pos4 pointer-none" src="images/icons/icon-email.png" alt="ICON">
+                                </div>
+                                <div class="bor8 m-b-20 how-pos4-parent">
                                     <input type="text" class="stext-111 cl2 plh3 size-116 p-l-62 p-r-30" id="email" name="email"
-                                           placeholder="Email" value="{{ $user->email }}">
-                            </div>
-                            <div class="bor8 m-b-20 how-pos4-parent">
+                                            placeholder="Email" value="{{ $user->email }}">
+                                </div>
+                                <div class="bor8 m-b-20 how-pos4-parent">
                                     <input type="password" class="stext-111 cl2 plh3 size-116 p-l-62 p-r-30" id="password" name="password"
-                                           placeholder="password">
-                            </div>
-                            <div class="bor8 m-b-20 how-pos4-parent">
+                                            placeholder="password">
+                                </div>
+                                <div class="bor8 m-b-20 how-pos4-parent">
                                     <input type="file" class="stext-111 cl2 plh3 size-116 p-l-62 p-r-30" id="image" name="avatar">
-                            </div>
-                            <button type="submit" class="flex-c-m stext-101 cl0 size-121 bg3 bor1 hov-btn3 p-lr-15 trans-04 pointer">Update</button>
-                        </form>
-                        <div class="clearfix"></div>
-                        <div class="col-xs-12">
-                            <h2>Заказы</h2>
+                                </div>
+                                <button type="submit" class="flex-c-m stext-101 cl0 size-121 bg3 bor1 hov-btn3 p-lr-15 trans-04 pointer">Update</button>
+                            </form>
+                        </div>
+                        <div class="p-t-40">
                             @foreach($orders as $order)
                                 <div class="panel panel-default">
                                     <div class="panel-body">
@@ -60,12 +62,12 @@
                                     </div>
                                 </div>
                             @endforeach
+                                {{--TODO: стоит добавить еще время заказа и перевести его в нормальный вид--}}
                         </div>
-                        {{--TODO: стоит добавить еще время заказа и перевести его в нормальный вид--}}
                     </div>
                 </div>
-                @include('pages._sidebar')
+                @include('pages.post_sidebar')
             </div>
         </div>
-    </div>
+    </section>
 @endsection
