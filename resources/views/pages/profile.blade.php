@@ -1,10 +1,7 @@
 @extends('layout')
 @section('main_slider')
-    <section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('images/bg-01.jpg');">
-        <h2 class="ltext-105 cl0 txt-center">
-            <img src="{{ $user->getAvatar() }}" alt="" class="profile-image">
-            Profile
-        </h2>
+    <section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('/images/test_bg.jpg');">
+        <h2 class="ltext-105 cl0 txt-center">Профиль</h2>
     </section>
 @endsection
 @section('content')
@@ -15,6 +12,8 @@
                     <div class="p-r-45 p-r-0-lg">
                         <div class="p-t-32">
                             <h2>Профиль</h2>
+                            <img src="{{ $user->getAvatar() }}" width="
+100" alt="" class="profile-image img-responsive">
                             @include('admin.errors')
                         </div>
                         <div class="p-t-32">
@@ -25,7 +24,6 @@
                                 <div class="bor8 m-b-20 how-pos4-parent">
                                     <input type="text" class="stext-111 cl2 plh3 size-116 p-l-62 p-r-30" id="name" name="name"
                                             placeholder="Name" value="{{ $user->name }}">
-                                    <img class="how-pos4 pointer-none" src="images/icons/icon-email.png" alt="ICON">
                                 </div>
                                 <div class="bor8 m-b-20 how-pos4-parent">
                                     <input type="text" class="stext-111 cl2 plh3 size-116 p-l-62 p-r-30" id="email" name="email"
@@ -42,6 +40,7 @@
                             </form>
                         </div>
                         <div class="p-t-40">
+                            <h2>Мои заказы</h2>
                             @foreach($orders as $order)
                                 <div class="panel panel-default">
                                     <div class="panel-body">
@@ -58,7 +57,7 @@
                                         </ul>
                                     </div>
                                     <div class="panel-footer">
-                                        <strong>Итого: {{ $order->cart->totalPrice }} КЦ</strong>
+                                        <strong>Итого: {{ $order->cart->totalPrice }}</strong>
                                     </div>
                                 </div>
                             @endforeach
@@ -66,7 +65,7 @@
                         </div>
                     </div>
                 </div>
-                @include('pages.post_sidebar')
+
             </div>
         </div>
     </section>

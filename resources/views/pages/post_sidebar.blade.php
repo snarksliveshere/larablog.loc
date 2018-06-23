@@ -24,10 +24,9 @@
                     <li class="flex-w flex-t p-b-30">
                         <a href="{{ route('post.show', $popularPost->slug) }}"
                            class="wrao-pic-w hov-ovelay1 m-r-20 sidebar-post__link"> <img
-                                    src="{{ $popularPost->getImage() }}" alt="PRODUCT" class="img-responsive">
-
-                            <span class="ltext-107 txt-center sidebar-post__link-date">{{ $post->author->name }}<br>{{ $popularPost->getDate() }}</span>
-                        </a>
+                                    src="{{ $popularPost->getImage() }}" alt="PRODUCT" class="img-responsive"> <span
+                                    class="sidebar-post__link-date">{{ $post->author->name }}
+                                <br>{{ $popularPost->getDate() }}</span> </a>
                         <div class="size-215 flex-col-t p-t-8">
                             <a href="{{ route('post.show', $popularPost->slug) }}"
                                class="stext-116 cl8 hov-cl1 trans-04">{{ $popularPost->title }}</a>
@@ -38,21 +37,19 @@
         </div>
         <div class="p-t-65">
             <h4 class="mtext-112 cl2 p-b-33">
-                Последние
+                Последние посты
             </h4>
             <ul class="sidebar-post">
                 @foreach($recentPosts as $recentPost)
                     <li class="flex-w flex-t p-b-30">
                         <a href="{{ route('post.show', $recentPost->slug) }}"
-                           class="wrao-pic-w size-214 hov-ovelay1 m-r-20 sidebar-post__link"> <img
-                                    src="{{ $recentPost->getImage() }}" alt="PRODUCT" class="img-responsive">
-                            <span class="ltext-107 txt-center sidebar-post__link-date">{{ $post->author->name }}<br>{{ $recentPost->getDate() }}</span></a>
+                           class="wrao-pic-w hov-ovelay1 m-r-20 sidebar-post__link"> <img
+                                    src="{{ $recentPost->getImage() }}" alt="PRODUCT" class="img-responsive"> <span
+                                    class="sidebar-post__link-date">{{ $post->author->name }}
+                                <br>{{ $recentPost->getDate() }}</span> </a>
                         <div class="size-215 flex-col-t p-t-8">
                             <a href="{{ route('post.show', $recentPost->slug) }}"
-                               class="stext-116 cl8 hov-cl1 trans-04">{{ $recentPost->title }}</a> <span
-                                    class="stext-116 cl6 p-t-20">
-											{{ $recentPost->getDate() }}
-										</span>
+                               class="stext-116 cl8 hov-cl1 trans-04">{{ $recentPost->title }}</a>
                         </div>
                     </li>
                 @endforeach

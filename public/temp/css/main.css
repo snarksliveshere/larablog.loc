@@ -3310,7 +3310,7 @@ input.num-product::-webkit-inner-spin-button {
   color: #fff;
   z-index: 2;
 }
-.sidebar-post__link:hover .popular-post__link-date {
+.sidebar-post__link:hover .sidebar-post__link-date {
   display: block;
 }
 .img-responsive {
