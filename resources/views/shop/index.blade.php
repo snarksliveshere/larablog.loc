@@ -3,43 +3,54 @@
     Каталог
 @endsection
 @section('main_slider')
-    <section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('images/bg-01.jpg');">
+    <section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('/images/test_bg.jpg');">
         <h2 class="ltext-105 cl0 txt-center">
-            Contact
+            Кт
         </h2>
     </section>
 @endsection
 @section('content')
-    @foreach($products->chunk(3) as $productChunk)
-            <div class="row">
-                @foreach($productChunk as $product)
-                <div class="col-sm-6 col-md-4">
-                    <div class="thumbnail">
-                        <a href="{{ route('product.show', [
+    <section class="bg0 p-t-75 p-b-120">
+        <div class="container">
+            @foreach($products->chunk(3) as $productChunk)
+                <div class="row p-b-148">
+                    @foreach($productChunk as $product)
+                        <div class="col-sm-6 col-md-4 p-b-35">
+                            <div class="block2">
+                                <div class="block2-pic hov-img0">
+                                    <a href="{{ route('product.show', [
                                 'category_slug' => $category->slug,
                                 'product_slug' => $product->slug
-                                ])  }}"><img src="{{ $product->imagePath }}" alt="{{ $product->title }}"
-                                          class="img-responsive"></a>
-                        <div class="caption">
-                            <h3>{{ $product->title }}</h3>
-                            <p class="description">{!! $product->description !!}</p>
-                            <div class="clearfix">
-                                <div class="pull-left price">{{ $product->price }} руб.</div>
-                                {{--<a href="{{ route('product.addToCart',['id' => $product->id]) }}" class="btn btn-success pull-right" role="button">В Корзину</a>--}}
-                                {{--TODO: реализовать купить в 1 клик, хотя там есть ТП ...--}}
-                                <a href="{{ route('product.show', [
+                                ])  }}"> <img
+                                                src="{{ $product->imagePath }}" alt="IMG-category"> </a>
+                                </div>
+                                <div class="block2-txt flex-w flex-t p-t-14">
+                                    <div class="block2-txt-child1 flex-col-l ">
+                                        <a href="{{ route('product.show', [
                                 'category_slug' => $category->slug,
                                 'product_slug' => $product->slug
-                                ])  }}" class="btn btn-success pull-right">Подробнее</a>
-
+                                ])  }}"
+                                           class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+                                            {{ $product->title }}</a>
+                                        <h2>{{ $product->title }}</h2>
+                                        <span class="stext-105 cl3">
+									{!! $product->description !!}
+                                            <a href="{{ route('product.show', [
+                                'category_slug' => $category->slug,
+                                'product_slug' => $product->slug
+                                ])  }}"
+                                               class="btn btn-success pull-right">Подробнее</a>
+								</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    @endforeach
                 </div>
-                @endforeach
-            </div>
-        <div class="row">
-            {{ $products->links() }}
+                <div class="row">
+                    {{ $products->links() }}
+                </div>
+            @endforeach
         </div>
-    @endforeach
+    </section>
 @endsection
