@@ -5,7 +5,7 @@
 @section('main_slider')
     <section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('/images/test_bg.jpg');">
         <h2 class="ltext-105 cl0 txt-center">
-            Кт
+            Корзина
         </h2>
     </section>
 @endsection
@@ -30,7 +30,7 @@
                                         <tr class="table_row">
                                             <td class="column-1">
                                                 <div class="how-itemcart1">
-                                                    <img src="images/item-cart-04.jpg" alt="IMG">
+                                                    <img src="{{ $product['item']['imagePath'] }}" alt="IMG">
                                                 </div>
                                             </td>
                                             <td class="column-2">@if(isset($product['parent_title']))
@@ -38,16 +38,12 @@
                                                 @endif
                                                 <strong>{{ $product['item']['title'] }}</strong>
                                             </td>
-                                            <td class="column-3">Цена за штуку</td>
+                                            <td class="column-3">{{ $product['item']['price'] }}</td>
                                             <td class="column-4">{{ $product['qty'] }}</td>
                                             <td class="column-5">{{ $product['price'] }}</td>
                                             <td class="column-6">
                                                 <div class="btn-group">
-                                                    <button class="btn btn-primary btn-sc dropdown-toggle"
-                                                            data-toggle="dropdown">
-                                                        Действия <span class="caret"></span>
-                                                    </button>
-                                                    <ul class="dropdown-menu">
+                                                    <ul class="">
                                                         <li><a href="{{ route('product.reduceByOne',
                                         ['id' => $product['item']['id']]) }}">Удалить 1 шт. товар</a>
                                                         </li>
@@ -63,17 +59,15 @@
                                 </table>
                             </div>
                             <div class="row">
-                                <div class="flex-w flex-t p-t-27 p-b-33">
-                                    <div class="size-208">
-                                        <span class="mtext-101 cl2">
-                                            Total:
-                                        </span>
+                                <div class="p-t-27 p-b-33">
+                                    <div class="cart_total_price cl2 mtext-101">
+                                            Total:  <span class="cart_total_price-price">{{ $totalPrice }}</span>
+                                     </div>
+
+                                    <div class="cart_total_price cl2 mtext-101">
+                                        <a href="{{ route('product.removeAll') }}">Полностью очистить корзину </a>
                                     </div>
-                                    <div class="size-209 p-t-1">
-                                        <span class="mtext-110 cl2">
-                                            {{ $totalPrice }}
-                                        </span>
-                                    </div>
+
                                 </div>
                             </div>
                             <div class="row">

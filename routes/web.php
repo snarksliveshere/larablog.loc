@@ -84,6 +84,7 @@ Route::group(['prefix' => 'catalog', 'namespace' => 'Catalog'], function (){
     Route::get('/reduce/{id}', 'ProductController@getReduceByOne')->name('product.reduceByOne');
 
     Route::get('/remove/{id}', 'ProductController@getRemoveItem')->name('product.remove');
+    Route::get('/removeAll', 'ProductController@removeAll')->name('product.removeAll');
 
 
     Route::post('/offers-ajax','ProductController@ajaxRelated')->name('ajax.related');

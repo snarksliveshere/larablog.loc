@@ -3293,3 +3293,6 @@ input.num-product::-webkit-inner-spin-button {
 .related-table .table_head {
 
 }
+.table-shopping-cart .column-2 {
+  text-align: center;
+}

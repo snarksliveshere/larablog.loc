@@ -151,7 +151,5 @@
         $('.toggle_li').click(function () {
             liRelatedFirst.siblings().slideToggle();
         });
-
-
     </script>
 @endsection
