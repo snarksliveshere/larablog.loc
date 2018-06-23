@@ -172,7 +172,7 @@
   border-bottom:1px solid #ccc;
   width: 100%;
   height: 84px;
-  top: 40px;
+  top: 0;
   left: 0px; 
 
   -webkit-transition: height 0.3s, background-color 0.3s;
@@ -265,7 +265,7 @@
 
 .main-menu > li > a {
   font-family: 'Playfair Display', Georgia, serif;;
-  font-size: 14px;
+  font-size: 16px;
   color: #333;
   padding: 5px 0px;
   transition: all 0.4s;
@@ -1887,7 +1887,7 @@ input.num-product::-webkit-inner-spin-button {
 }
 
 /*---------------------------------------------*/
-.block1-name {color: #333;}
+.block1-name {color: #fff;}
 .block1-info {color: #555;}
 
 /*---------------------------------------------*/
@@ -3229,9 +3229,18 @@ input.num-product::-webkit-inner-spin-button {
 }
 .badge_header_cart {
   color: #000;
-  border-radius:50%;
+  border-radius: 50%;
   background: #f2f2f2;
   font-weight: bold;
-  padding:3px 5px;
-  font-size: 15px;
+  padding: 3px 5px;
+  font-size: 12px;
+  position: relative;
+  top: -8px;
+}
+
+.main_product_price {
+  font-size: 24px;
+}
+.white {
+  color: #fff;
 }

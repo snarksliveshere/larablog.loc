@@ -3,7 +3,7 @@
     Корзина
 @endsection
 @section('main_slider')
-    <section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('images/bg-02.jpg');">
+    <section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('/images/test_bg.jpg');">
         <h2 class="ltext-105 cl0 txt-center">
             Кт
         </h2>
@@ -38,7 +38,7 @@
                                                 @endif
                                                 <strong>{{ $product['item']['title'] }}</strong>
                                             </td>
-                                            <td class="column-3">Цена за штуку </td>
+                                            <td class="column-3">Цена за штуку</td>
                                             <td class="column-4">{{ $product['qty'] }}</td>
                                             <td class="column-5">{{ $product['price'] }}</td>
                                             <td class="column-6">
@@ -78,8 +78,8 @@
                             </div>
                             <div class="row">
                                 <a type="button"
-                                        class="flex-c-m stext-101 cl0 size-116 bg3 bor14 hov-btn3 p-lr-15 trans-04 pointer"
-                                        href="{{ route('checkout') }}">Заказать</a>
+                                   class="flex-c-m stext-101 cl0 size-116 bg3 bor14 hov-btn3 p-lr-15 trans-04 pointer"
+                                   href="{{ route('checkout') }}">Заказать</a>
                             </div>
                         </div>
                     @else
@@ -96,4 +96,8 @@
                             </div>
                         </div>
                     @endif
+                </div>
+            </div>
+        </div>
+    </div>
 @endsection

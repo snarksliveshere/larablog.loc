@@ -5,7 +5,7 @@
         <!-- Content Header (Page header) -->
         <section class="content-header">
             <h1>
-                Изменить товар
+                Изменить категорию
             </h1>
         </section>
         <!-- Main content -->
@@ -13,7 +13,7 @@
             <!-- Default box -->
             <div class="box">
                 <div class="box-header with-border">
-                    <h3 class="box-title">Обновляем товар</h3>
+                    <h3 class="box-title">Обновляем категорию</h3>
                     @include('admin.errors')
                 </div>
                 <div class="box-body">

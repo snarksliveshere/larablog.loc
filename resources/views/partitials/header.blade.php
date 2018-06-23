@@ -3,7 +3,7 @@
 
         <div class="wrap-menu-desktop">
             <nav class="limiter-menu-desktop container">
-                <a href="#" class="logo"> <img src="images/icons/logo-01.png" alt="IMG-LOGO"> </a>
+                <a href="/" class="logo"> <img src="/images/lunar_lander_logo.png" alt="IMG-LOGO" class="img-responsive"> </a>
                 <div class="menu-desktop">
                     <ul class="main-menu">
                         <li><a href="/">Главная</a></li>
@@ -20,8 +20,8 @@
                         {{--<i class="zmdi zmdi-shopping-cart"></i>--}}
                     {{--</div>--}}
 
-                    <a href="{{ route('product.shoppingCart') }}">
-                        <i class="zmdi zmdi-shopping-cart"></i> Корзина
+                    <a href="{{ route('product.shoppingCart') }}" class="d-inline-block"> <img src="/images/lunar_lander_logo.png" alt="" width="40" class="img-responsive">
+                        {{--<i class="zmdi zmdi-shopping-cart"></i> Корзина--}}
                         <span class="badge badge_header_cart">{{ Session::has('cart') ? Session::get('cart')->totalQty : '' }}</span>
                     </a>
                     {{--<a data-notify="{{ Session::has('cart') ? Session::get('cart')->totalQty : '' }}" href="{{ route('product.shoppingCart') }}" class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 icon-header-noti js-show-cart">--}}
@@ -47,7 +47,7 @@
     </div>
     <div class="wrap-header-mobile">
         <div class="logo-mobile">
-            <a href="index.html"><img src="images/icons/logo-01.png" alt="IMG-LOGO"></a>
+            <a href="index.html"><img src="/images/lunar_lander_logo.png" alt="IMG-LOGO"></a>
         </div>
         <div class="wrap-icon-header flex-w flex-r-m m-r-15">
             <div class="icon-header-item cl2 hov-cl1 trans-04 p-r-11 js-show-modal-search">
@@ -55,7 +55,8 @@
             </div>
             <div class="icon-header-item cl2 hov-cl1 trans-04 p-r-11 p-l-10 icon-header-noti js-show-cart"
                  data-notify="2">
-                <i class="zmdi zmdi-shopping-cart"></i>
+                {{--<img src="/images/lunal_lander_logo.png" alt="" class="img-responsive">--}}
+                {{--<i class="zmdi zmdi-shopping-cart"></i>--}}
             </div>
             <a href="#" class="dis-block icon-header-item cl2 hov-cl1 trans-04 p-r-11 p-l-10 icon-header-noti"
                data-notify="0"> <i class="zmdi zmdi-favorite-outline"></i> </a>

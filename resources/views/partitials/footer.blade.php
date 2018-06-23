@@ -18,21 +18,14 @@
             </div>
             <div class="col-sm-6 col-lg-3 p-b-50">
                 <h4 class="stext-301 cl0 p-b-30">
-                    Help
+                    Меню
                 </h4>
                 <ul>
-                    <li class="p-b-10">
-                        <a href="#" class="stext-107 cl7 hov-cl1 trans-04"> Track Order </a>
-                    </li>
-                    <li class="p-b-10">
-                        <a href="#" class="stext-107 cl7 hov-cl1 trans-04"> Returns </a>
-                    </li>
-                    <li class="p-b-10">
-                        <a href="#" class="stext-107 cl7 hov-cl1 trans-04"> Shipping </a>
-                    </li>
-                    <li class="p-b-10">
-                        <a href="#" class="stext-107 cl7 hov-cl1 trans-04"> FAQs </a>
-                    </li>
+                    <li class="p-b-10"><a class="stext-107 cl7 hov-cl1 trans-04" href="/">Главная</a></li>
+                    <li class="p-b-10"><a class="stext-107 cl7 hov-cl1 trans-04" href="{{ route('front.about') }}">О компании</a></li>
+                    <li class="p-b-10"><a class="stext-107 cl7 hov-cl1 trans-04" href="{{ route('category_product')}}">Каталог</a></li>
+                    <li class="p-b-10"><a class="stext-107 cl7 hov-cl1 trans-04" href="{{ route('posts.main') }}">Блог</a></li>
+                    <li class="p-b-10"><a class="stext-107 cl7 hov-cl1 trans-04" href="{{ route('front.contacts') }}">Контакты</a></li>
                 </ul>
             </div>
             <div class="col-sm-6 col-lg-3 p-b-50">
@@ -70,22 +63,7 @@
                 </form>
             </div>
         </div>
-        <div class="p-t-40">
-            <div class="flex-c-m flex-w p-b-18">
-                <a href="#" class="m-all-1"> <img src="images/icons/icon-pay-01.png" alt="ICON-PAY"> </a> <a href="#"
-                                                                                                             class="m-all-1">
-                    <img src="images/icons/icon-pay-02.png" alt="ICON-PAY"> </a> <a href="#" class="m-all-1"> <img
-                            src="images/icons/icon-pay-03.png" alt="ICON-PAY"> </a> <a href="#" class="m-all-1"> <img
-                            src="images/icons/icon-pay-04.png" alt="ICON-PAY"> </a> <a href="#" class="m-all-1"> <img
-                            src="images/icons/icon-pay-05.png" alt="ICON-PAY"> </a>
-            </div>
-            <p class="stext-107 cl6 txt-center">
-                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->Copyright &copy;<script>document.write(new Date().getFullYear());</script>
-                All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a
-                        href="https://colorlib.com" target="_blank">Colorlib</a>
-                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            </p>
-        </div>
+
     </div>
 </footer>
 <div class="btn-back-to-top" id="myBtn">

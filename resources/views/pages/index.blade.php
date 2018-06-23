@@ -6,16 +6,16 @@
     <section class="section-slide">
         <div class="wrap-slick1">
             <div class="slick1">
-                <div class="item-slick1" style="background-image: url(images/slide-01.jpg);">
+                <div class="item-slick1" style="background-image: url(/images/slide1.jpg);">
                     <div class="container h-full">
                         <div class="flex-col-l-m h-full p-t-100 p-b-30 respon5">
                             <div class="layer-slick1 animated visible-false" data-appear="fadeInDown" data-delay="0">
-								<span class="ltext-101 cl2 respon2">
+								<span class="ltext-101 respon2 white">
 									Women Collection 2018
 								</span>
                             </div>
                             <div class="layer-slick1 animated visible-false" data-appear="fadeInUp" data-delay="800">
-                                <h2 class="ltext-201 cl2 p-t-19 p-b-43 respon1">
+                                <h2 class="ltext-201 p-t-19 p-b-43 respon1 white">
                                     NEW SEASON
                                 </h2>
                             </div>
@@ -26,18 +26,18 @@
                         </div>
                     </div>
                 </div>
-                <div class="item-slick1" style="background-image: url(images/slide-02.jpg);">
+                <div class="item-slick1" style="background-image: url(/images/slide_earth.jpg);">
                     <div class="container h-full">
                         <div class="flex-col-l-m h-full p-t-100 p-b-30 respon5">
                             <div class="layer-slick1 animated visible-false" data-appear="rollIn" data-delay="0">
-								<span class="ltext-101 cl2 respon2">
+								<span class="ltext-101 white respon2">
 									Men New-Season
 								</span>
                             </div>
                             <div class="layer-slick1 animated visible-false"
                                     data-appear="lightSpeedIn"
                                     data-delay="800">
-                                <h2 class="ltext-201 cl2 p-t-19 p-b-43 respon1">
+                                <h2 class="ltext-201 white p-t-19 p-b-43 respon1">
                                     Jackets & Coats
                                 </h2>
                             </div>
@@ -48,20 +48,20 @@
                         </div>
                     </div>
                 </div>
-                <div class="item-slick1" style="background-image: url(images/slide-03.jpg);">
+                <div class="item-slick1" style="background-image: url(images/slide_earth.jpg);">
                     <div class="container h-full">
                         <div class="flex-col-l-m h-full p-t-100 p-b-30 respon5">
                             <div class="layer-slick1 animated visible-false"
                                     data-appear="rotateInDownLeft"
                                     data-delay="0">
-								<span class="ltext-101 cl2 respon2">
+								<span class="ltext-101 white respon2">
 									Men Collection 2018
 								</span>
                             </div>
                             <div class="layer-slick1 animated visible-false"
                                     data-appear="rotateInUpRight"
                                     data-delay="800">
-                                <h2 class="ltext-201 cl2 p-t-19 p-b-43 respon1">
+                                <h2 class="ltext-201 white p-t-19 p-b-43 respon1">
                                     New arrivals
                                 </h2>
                             </div>
@@ -112,21 +112,23 @@
                     Наша продукция
                 </h3>
             </div>
-            <div class="row isotope-grid">
+            <div class="row">
                 @foreach($products as $product)
 
                     @php( $category_slug = \App\ProductCategory::find($product->category_id)->slug)
 
-                    <div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item men">
+                    <div class="col-sm-6 col-md-4 col-lg-3 p-b-35">
                         <!-- Block2 -->
                         <div class="block2">
                             <div class="block2-pic hov-img0">
-                                <img src="{{ $product->imagePath }}" alt="IMG-PRODUCT"> <a href="{{ route('product.show', [
+                                <a href="{{ route('product.show', [
                                     'category_slug' => $category_slug,
                                     'product_slug' => $product->slug
-                                    ]) }}"
-                                        class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
-                                    Quick View </a>
+                                    ]) }}">
+
+                                    <img src="{{ $product->imagePath }}" alt="IMG-PRODUCT">
+                                </a>
+
                             </div>
                             <div class="block2-txt flex-w flex-t p-t-14">
                                 <div class="block2-txt-child1 flex-col-l ">

@@ -49,7 +49,7 @@ class PostsController extends Controller
         ]);
 
         $post = Post::add($request->all());
-        $post->uploadImage($request->file('image'));
+        $post->uploadImage($request->file('image', $post));
         $post->setCategory($request->get('category_id'));
         $post->setTags($request->get('tags'));
         $post->toggleStatus($request->get('status'));
@@ -92,8 +92,9 @@ class PostsController extends Controller
         ]);
 
         $post = Post::find($id);
+        $post->uploadImage($request->file('image'), $post);
         $post->edit($request->all());
-        $post->uploadImage($request->file('image'));
+
         $post->setCategory($request->get('category_id'));
         $post->setTags($request->get('tags'));
         $post->toggleStatus($request->get('status'));

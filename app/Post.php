@@ -74,13 +74,15 @@ class Post extends Model
         $this->delete();
     }
 
-    public function uploadImage($image)
+    public function uploadImage($image, $obj)
     {
         if ($image == null) { return; }
         $this->removeImage();
-        $filename = str_random(10) . '.' . $image->extension();
-        $image->storeAs('images', $filename);
-        $this->image = $filename;
+        $filename = $obj->id . '.' . $image->extension();
+        $path = 'images/' . strtolower(class_basename($obj));
+        $fullPath =  $image->storeAs($path, $filename);
+        $fullPath = '/' . $fullPath;
+        $this->image = $fullPath;
         $this->save();
     }
 
@@ -90,13 +92,14 @@ class Post extends Model
             Storage::delete('images/' . $this->image);
         }
     }
+
     public function getImage()
     {
         if ($this->image == null) {
-            return '/images/no-image.png';
+            return '/images/no-image.jpg';
         }
 
-        return '/images/' . $this->image;
+        return $this->image;
     }
 
     public function setCategory($id)
