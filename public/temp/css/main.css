@@ -3247,3 +3247,49 @@ input.num-product::-webkit-inner-spin-button {
 .fz25 {
   font-size: 25px;
 }
+.related .toggle_li {
+  position: absolute;
+  height: 30px;
+  right: 0;
+  z-index: 2;
+}
+.cur {
+  cursor: pointer;
+}
+.related .toggle_li:after {
+  position: absolute;
+  content: "\f0dc";
+  font-family: FontAwesome;
+  font-size: 30px;
+  color: #808080;
+  right: 0;
+  top: 0;
+
+}
+.related ul {
+  border:1px solid #ccc;
+  padding:0 15px;
+}
+
+.related ul li {
+  display: none;
+  padding:10px 0;
+  text-align: center;
+}
+.w100p {
+  width: 100%;
+}
+.related-table tr td {
+  padding:15px 0;
+  border:1px solid #ccc;
+  text-align: center;
+
+}
+.related-table tr th {
+  padding:15px 0;
+  border:1px solid #ccc;
+  text-align: center;
+}
+.related-table .table_head {
+
+}

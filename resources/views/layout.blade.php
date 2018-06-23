@@ -136,6 +136,7 @@
         })
     });
 </script>
+@yield('scripts-inc')
 <script src="/temp/js/main.js"></script>
 </body>
 </html>

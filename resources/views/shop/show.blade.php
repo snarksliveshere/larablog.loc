@@ -2,7 +2,7 @@
 @section('main_slider')
     <section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('/temp/images/bg-02.jpg');">
         <h2 class="ltext-105 cl0 txt-center">
-            Кт
+            {{ $product->title }}
         </h2>
     </section>
 @endsection
@@ -38,7 +38,7 @@
                             {{ $product->title }}
                         </h4>
                         <span class="mtext-106 cl2" id="price">
-							{{ $product->price }}
+							Цена: {{ $product->price }}
 						</span>
                         <p class="stext-102 cl3 p-t-23" id="description">
                             {!! $product->description !!}
@@ -48,10 +48,11 @@
                         'method' => 'put'
                         ]) }}
                         <div class="p-t-33">
-                            <div class="flex-w flex-r-m p-b-10">
+                            <div class="p-b-10">
                                 @if(!empty($related[0]))
                                     <div class="offers">
                                         <div class="related" data-slug="{{ $product->slug }}">
+                                            <div class="toggle_li cur"></div>
                                             <ul>
                                                 @foreach($related as $ki => $relate)
                                                     <li data-id="{{ $relate->id }}">{{ $relate->title }}</li>
@@ -59,14 +60,14 @@
                                             </ul>
                                         </div>
                                         <div class="related_offers">
-                                            <table>
-                                                <tr>
+                                            <table class="w100p m-t-40 m-b-40 related-table">
+                                                <tr class="table_head">
                                                     <th>Название</th>
                                                     <th>Значение</th>
                                                 </tr>
                                                 <tbody id="related_offers">
                                                 @foreach($relatedOffers as $key => $relOffer)
-                                                    <tr>
+                                                    <tr class="table_row">
                                                         <td>{{ $key }}</td>
                                                         <td>{{ $relOffer }}</td>
                                                     </tr>
@@ -80,7 +81,7 @@
                                 @endif
                                 <input type="hidden" id="product_id" name="product_id" value="{{ $product->id }}">
                             </div>
-                            <div class="flex-w flex-r-m p-b-10">
+                            <div class="flex-w p-b-10">
                                 <div class="size-204 flex-w flex-m respon6-next">
                                     <button type="submit"
                                             role="button"
@@ -142,4 +143,15 @@
             </div>
         </div>
     </section>
+@endsection
+@section('scripts-inc')
+    <script>
+        var liRelatedFirst = $('.related li').eq(0);
+        liRelatedFirst.show();
+        $('.toggle_li').click(function () {
+            liRelatedFirst.siblings().slideToggle();
+        });
+
+
+    </script>
 @endsection
