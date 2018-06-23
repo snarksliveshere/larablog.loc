@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <title>@yield('title')</title>
+    <meta name="csrf-token" content="{{ csrf_token() }}" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="images/icons/favicon.png"/>
@@ -12,8 +13,6 @@
     <link rel="stylesheet" type="text/css" href="/temp/vendor/animate/animate.css">
     <link rel="stylesheet" type="text/css" href="/temp/vendor/css-hamburgers/hamburgers.min.css">
     <link rel="stylesheet" type="text/css" href="/temp/vendor/animsition/css/animsition.min.css">
-    <link rel="stylesheet" type="text/css" href="/temp/vendor/select2/select2.min.css">
-    <link rel="stylesheet" type="text/css" href="/temp/vendor/daterangepicker/daterangepicker.css">
     <link rel="stylesheet" type="text/css" href="/temp/vendor/slick/slick.css">
     <link rel="stylesheet" type="text/css" href="/temp/vendor/MagnificPopup/magnific-popup.css">
     <link rel="stylesheet" type="text/css" href="/temp/vendor/perfect-scrollbar/perfect-scrollbar.css">
@@ -53,17 +52,7 @@
 <script src="/temp/vendor/animsition/js/animsition.min.js"></script>
 <script src="/temp/vendor/bootstrap/js/popper.js"></script>
 <script src="/temp/vendor/bootstrap/js/bootstrap.min.js"></script>
-<script src="/temp/vendor/select2/select2.min.js"></script>
-<script>
-    $(".js-select2").each(function () {
-        $(this).select2({
-            minimumResultsForSearch: 20,
-            dropdownParent: $(this).next('.dropDownSelect2')
-        });
-    })
-</script>
-<script src="/temp/vendor/daterangepicker/moment.min.js"></script>
-<script src="/temp/vendor/daterangepicker/daterangepicker.js"></script>
+
 <script src="/temp/vendor/slick/slick.min.js"></script>
 <script src="/temp/js/slick-custom.js"></script>
 <script src="/temp/vendor/parallax100/parallax100.js"></script>
@@ -83,43 +72,9 @@
         });
     });
 </script>
-<script src="/temp/vendor/isotope/isotope.pkgd.min.js"></script>
+
 <script src="/temp/vendor/sweetalert/sweetalert.min.js"></script>
-<script>
-    $('.js-addwish-b2').on('click', function (e) {
-        e.preventDefault();
-    });
 
-    $('.js-addwish-b2').each(function () {
-        var nameProduct = $(this).parent().parent().find('.js-name-b2').html();
-        $(this).on('click', function () {
-            swal(nameProduct, "is added to wishlist !", "success");
-
-            $(this).addClass('js-addedwish-b2');
-            $(this).off('click');
-        });
-    });
-
-    $('.js-addwish-detail').each(function () {
-        var nameProduct = $(this).parent().parent().parent().find('.js-name-detail').html();
-
-        $(this).on('click', function () {
-            swal(nameProduct, "is added to wishlist !", "success");
-
-            $(this).addClass('js-addedwish-detail');
-            $(this).off('click');
-        });
-    });
-
-    /*---------------------------------------------*/
-
-    $('.js-addcart-detail').each(function () {
-        var nameProduct = $(this).parent().parent().parent().parent().find('.js-name-detail').html();
-        $(this).on('click', function () {
-            swal(nameProduct, "is added to cart !", "success");
-        });
-    });
-</script>
 <script src="/temp/vendor/perfect-scrollbar/perfect-scrollbar.min.js"></script>
 <script>
     $('.js-pscroll').each(function () {

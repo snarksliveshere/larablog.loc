@@ -3296,3 +3296,24 @@ input.num-product::-webkit-inner-spin-button {
 .table-shopping-cart .column-2 {
   text-align: center;
 }
+.fz20 {
+  font-size: 20px;
+}
+.related li {
+  cursor: pointer;
+}
+.sidebar-post__link-date {
+  display: none;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: #fff;
+  z-index: 2;
+}
+.sidebar-post__link:hover .popular-post__link-date {
+  display: block;
+}
+.img-responsive {
+  display: inline-block;
+  max-width:100%;
+}

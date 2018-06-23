@@ -117,13 +117,11 @@
                         @endphp
                         <div class="item-slick2 p-l-15 p-r-15 p-t-15 p-b-15">
                             <div class="block2">
-                                <div class="block2-pic hov-img0">
-                                    <img src="{{ $item->imagePath }}" alt="IMG-PRODUCT"> <a href="{{ route('product.show',
+                                <a href="{{ route('product.show',
                                     [   'category_slug' => $category_slug[0],
-                                        'product_slug' => $item->slug]) }}"
-                                                                                            class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
-                                        Quick View </a>
-                                </div>
+                                        'product_slug' => $item->slug]) }}" class="block2-pic hov-img0">
+                                    <img src="{{ $item->imagePath }}" alt="IMG-PRODUCT">
+                                </a>
                                 <div class="block2-txt flex-w flex-t p-t-14">
                                     <div class="block2-txt-child1 flex-col-l ">
                                         <a href="{{ route('product.show',
@@ -131,8 +129,8 @@
                                         'product_slug' => $item->slug]) }}"
                                            class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
                                             {{ $item->title }}
-                                        </a> <span class="stext-105 cl3">
-                                            {{ $item->price }}
+                                        </a> <span class="stext-105 cl3 fz20">
+                                            цена: {{ $item->price }}
                                         </span>
                                     </div>
                                 </div>

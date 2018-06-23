@@ -20,8 +20,6 @@
                             <div class="flex-col-c-m size-123 bg9 how-pos5">
 									<span class="ltext-107 cl2 txt-center">
 										{{ $post->getDate() }}
-									</span> <span class="stext-109 cl3 txt-center">
-										Jan 2018
 									</span>
                             </div>
                         </a>
