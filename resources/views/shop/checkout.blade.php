@@ -2,14 +2,21 @@
 @section('title')
     Корзина
 @endsection
+@section('main_slider')
+    <section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('/images/test_bg.jpg');">
+        <h2 class="ltext-105 cl0 txt-center">
+            Заказать
+        </h2>
+    </section>
+@endsection
 @section('content')
     <section class="bg0 p-t-104 p-b-116">
         <div class="container">
             <div class="flex-w flex-tr">
                 <div class="size-210 bor10 p-lr-70 p-t-55 p-b-70 p-lr-15-lg w-full-md">
-                    <h1>Корзина</h1>
+                    <h1>Заказать</h1>
                         @include('admin.errors')
-                        <h4>Всего: {{ $total }}</h4>
+                        <h4 class="my-3">Всего товаров на: {{ $total }} $</h4>
                         <form action="{{ route('checkout') }}" class="form-horizontal contact-form" method="post" id="checkout-form">
                     <div class="bor8 m-b-20 how-pos4-parent">
                         <label for="name">Имя</label>

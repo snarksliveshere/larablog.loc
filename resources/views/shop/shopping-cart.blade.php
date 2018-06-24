@@ -61,7 +61,7 @@
                             <div class="row">
                                 <div class="p-t-27 p-b-33">
                                     <div class="cart_total_price cl2 mtext-101">
-                                            Total:  <span class="cart_total_price-price">{{ $totalPrice }}</span>
+                                            Всего:  <span class="cart_total_price-price">{{ $totalPrice }}</span>
                                      </div>
 
                                     <div class="cart_total_price cl2 mtext-101">
