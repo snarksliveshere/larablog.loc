@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Offer;
 use App\OffersProduct;
 use App\OfferValue;
+use App\RelatedProduct;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
@@ -112,13 +113,21 @@ class OffersController extends Controller
      */
     public function destroy($id)
     {
-        // TODO: та же вещь и с related products если уничтожается последняя запись. тут явно надо сгруппировать эти сущности
+
         $offer = Offer::find($id);
         $related = OffersProduct::where('offer_id', $offer->id)->get();
+        $offerProductAll = OffersProduct::pluck('product_id')->toArray();
+
         foreach ($related as $relate) {
+            // в том случае, если я удаляю последнее предложение для связанного товара
+            if (count(array_keys($offerProductAll, $relate->product_id)) == 1) {
+                $relProduct =  RelatedProduct::find($relate->product_id);
+                $relProduct->status = 0;
+                $relProduct->save();
+            }
             $relate->delete();
         }
-        // TODO: тут у меня есть нестыковка, связанная с товарами - я так могу удалить последнее преложение у товара, а он останется в related_products, но это чуть позже
+
         $offer->values()->delete();
         $offer->delete();
         return redirect()->route('offers.index');

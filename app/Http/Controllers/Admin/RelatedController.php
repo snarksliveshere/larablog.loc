@@ -151,7 +151,6 @@ class RelatedController extends Controller
     {
         $this->validate($request,[
             'title' => 'required',
-            'content' => 'required',
             'image' => 'nullable|image',
             'price' => 'required|integer',
             'value_id' => 'required'
