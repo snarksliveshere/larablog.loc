@@ -8,11 +8,17 @@
 @endsection
 @section('content')
     @php
-        if(!empty($related[0]) && (null !== $related[0]->imagePath)) {
-        $image =  $related[0]->imagePath;
-        $original = $product;
-        } else {
-        $image = $product->imagePath;
+        if(!empty($related[0])) {
+            $firstProduct =  $related[0];
+        }
+        if(null === $related[0]->imagePath) {
+            $firstProduct->imagePath = $product->imagePath;
+        }
+        if(null === $related[0]->description) {
+            $firstProduct->description = $product->description;
+        }
+        if(null === $related[0]->content) {
+            $firstProduct->content = $product->content;
         }
     @endphp
     <section class="sec-product-detail bg0 p-t-65 p-b-60">
@@ -24,11 +30,11 @@
                         <div class="wrap-slick3 flex-sb flex-w">
                             <a class="fancybox"
                                id="image_path_href"
-                               href="{{ $image}}"> <img
+                               href="{{ $firstProduct->imagePath }}"> <img
                                         data-src="{{ $product->imagePath }}"
                                         class="img-responsive"
                                         id="image_path_src"
-                                        src="{{ $image }}"
+                                        src="{{ $firstProduct->imagePath }}"
                                         alt=""></a>
                         </div>
                     </div>
@@ -36,13 +42,13 @@
                 <div class="col-md-6 col-lg-5 p-b-30">
                     <div class="p-r-50 p-t-5 p-lr-0-lg">
                         <h4 class="mtext-105 cl2 js-name-detail p-b-14">
-                            {{ $product->title }}
+                            {{ $firstProduct->title }}
                         </h4>
                         <span class="mtext-106 cl2" id="price">
-							Цена: {{ $product->price }}
+							Цена: {{ $firstProduct->price }}
 						</span>
                         <p class="stext-102 cl3 p-t-23" id="description">
-                            {!! $product->description !!}
+                            {!! $firstProduct->description !!}
                         </p>
                         <div class="original_data d-none dn">
                             <!--noindex-->
@@ -106,7 +112,7 @@
             </div>
             <div class="m-t-50 p-b-40">
                 <div id="content">
-                    {!! $product->content !!}
+                    {!! $firstProduct->content !!}
                 </div>
             </div>
         </div>
