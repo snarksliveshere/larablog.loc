@@ -42,10 +42,17 @@ class Offer extends Model
                 $value->save();
             } else {
                 $related = OffersProduct::where('offer_value_id', $value->id)->get();
+
+                // если удаляемое значение ТП - единственное у продукта, то снимаем его с публикации
+
+                if (isset($related) && (count($related) == 1)) {
+                    $relProduct =  RelatedProduct::find($related[0]->product_id);
+                    $relProduct->status = 0;
+                    $relProduct->save();
+                }
                 foreach ($related as $relate) {
                     $relate->delete();
                 }
-                // TODO: тут у меня есть нестыковка, связанная с товарами - я так могу удалить последнее преложение у товара, а он останется в related_products, но это чуть позже
 
                 $value->delete();
 

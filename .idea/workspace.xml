@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2e2699bb-bf3c-41a3-904d-7b55bb4040f1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/OffersController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/OffersController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/RelatedController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/RelatedController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Offer.php" afterPath="$PROJECT_DIR$/app/Offer.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -62,21 +61,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OffersController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="OffersController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/OffersController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="111" column="40" lean-forward="true" selection-start-line="111" selection-start-column="40" selection-end-line="111" selection-end-column="40" />
+            <state relative-caret-position="360">
+              <caret line="125" column="36" lean-forward="true" selection-start-line="123" selection-start-column="16" selection-end-line="125" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Offer.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Offer.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Offer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-462">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="440">
+              <caret line="58" column="13" lean-forward="true" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -85,7 +84,7 @@
       <file leaf-file-name="RelatedController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/RelatedController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
+            <state relative-caret-position="371">
               <caret line="154" column="42" lean-forward="false" selection-start-line="154" selection-start-column="42" selection-end-line="154" selection-end-column="42" />
               <folding />
             </state>
@@ -146,7 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" />
         <option value="$PROJECT_DIR$/resources/assets/front/js/scripts.js" />
         <option value="$PROJECT_DIR$/webpack.mix.js" />
         <option value="$PROJECT_DIR$/public/cozastore/index.html" />
@@ -197,6 +195,7 @@
         <option value="$PROJECT_DIR$/resources/views/shop/show.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/RelatedController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/OffersController.php" />
+        <option value="$PROJECT_DIR$/app/Offer.php" />
       </list>
     </option>
   </component>
@@ -816,14 +815,7 @@
       <workItem from="1529749191727" duration="10515000" />
       <workItem from="1529770474703" duration="2365000" />
       <workItem from="1529829885670" duration="3461000" />
-      <workItem from="1529843330507" duration="4949000" />
-    </task>
-    <task id="LOCAL-00001" summary="добавил в админку страницу товара, кроме обработки картинок">
-      <created>1528109973275</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1528109973275</updated>
+      <workItem from="1529843330507" duration="5757000" />
     </task>
     <task id="LOCAL-00002" summary="разобрался с картинкой, теперь в админке функционирует добавление товара">
       <created>1528112847595</created>
@@ -1161,11 +1153,18 @@
       <option name="project" value="LOCAL" />
       <updated>1529844626253</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="в случае, если при удалении предложения (всего) удаляется последнее предложение у товара, ставим этому товару статус 0">
+      <created>1529848320945</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1529848320945</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="205644000" />
+    <option name="totallyTimeSpent" value="206452000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1212,7 +1211,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="при заказе Связанного товара теперь выводится шаблон - Родительский товар - и название связанного в корзине и заказах (профиль и админ)" />
     <MESSAGE value="что-то поправил. теперь вывожу во фронтенде категорию" />
     <MESSAGE value="добавил вывод категории в странице каталога, и товары соответственно /category_slug/product_slug" />
     <MESSAGE value="fix shop/show.blade если 1 картинка взята из Related" />
@@ -1237,7 +1235,8 @@
     <MESSAGE value="шаблон формы заказа фикс" />
     <MESSAGE value="перестраиваю show.blade" />
     <MESSAGE value="поправил ситуацию с первым ТП" />
-    <option name="LAST_COMMIT_MESSAGE" value="поправил ситуацию с первым ТП" />
+    <MESSAGE value="в случае, если при удалении предложения (всего) удаляется последнее предложение у товара, ставим этому товару статус 0" />
+    <option name="LAST_COMMIT_MESSAGE" value="в случае, если при удалении предложения (всего) удаляется последнее предложение у товара, ставим этому товару статус 0" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1608,24 +1607,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/RelatedController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
+        <state relative-caret-position="371">
           <caret line="154" column="42" lean-forward="false" selection-start-line="154" selection-start-column="42" selection-end-line="154" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Offer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-462">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/OffersController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="111" column="40" lean-forward="true" selection-start-line="111" selection-start-column="40" selection-end-line="111" selection-end-column="40" />
+        <state relative-caret-position="360">
+          <caret line="125" column="36" lean-forward="true" selection-start-line="123" selection-start-column="16" selection-end-line="125" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Offer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="58" column="13" lean-forward="true" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
           <folding />
         </state>
       </provider>
