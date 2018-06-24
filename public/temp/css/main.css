@@ -3268,13 +3268,17 @@ input.num-product::-webkit-inner-spin-button {
 }
 .related ul {
   border:1px solid #ccc;
-  padding:0 15px;
+
 }
 
 .related ul li {
   display: none;
   padding:10px 0;
   text-align: center;
+}
+.related ul li.active {
+  background-color: #f2f2f2;
+  font-weight: bold;
 }
 .w100p {
   width: 100%;

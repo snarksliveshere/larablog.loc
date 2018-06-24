@@ -148,11 +148,13 @@
     var productImagePath = imagePathSrc.data('src');
     var originalContent = $('.original_content').html();
     var originalDescription = $('.original_description').html();
-
+    $('.related li').eq(0).addClass('active');
     $('.related li').click(function () {
         var id = $(this).data('id');
         var slug = $('.related').data('slug')
         var token = $('meta[name="csrf-token"]').attr('content');
+        $(this).siblings().removeClass('active');
+        $(this).addClass('active');
         $.ajax({
             type: 'POST',
             url: '/catalog/offers-ajax',

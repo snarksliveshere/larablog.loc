@@ -8,18 +8,26 @@
 @endsection
 @section('content')
     @php
+        $image = $product->image;
+        $price = $product->price;
+        $description = $product->description;
+        $content = $product->content;
         if(!empty($related[0])) {
-            $firstProduct =  $related[0];
+
+            if(null !== $related[0]->imagePath) {
+                $image = $related[0]->imagePath;
+            }
+            if(null !== $related[0]->description) {
+                $description = $related[0]->description;
+            }
+            if(null !== $related[0]->content) {
+                $content = $related[0]->content;
+            }
+            if(null !== $related[0]->price) {
+                $price = $related[0]->price;
+            }
         }
-        if(null === $related[0]->imagePath) {
-            $firstProduct->imagePath = $product->imagePath;
-        }
-        if(null === $related[0]->description) {
-            $firstProduct->description = $product->description;
-        }
-        if(null === $related[0]->content) {
-            $firstProduct->content = $product->content;
-        }
+    // надо это в контроллер засунуть
     @endphp
     <section class="sec-product-detail bg0 p-t-65 p-b-60">
         <div class="container">
@@ -30,11 +38,11 @@
                         <div class="wrap-slick3 flex-sb flex-w">
                             <a class="fancybox"
                                id="image_path_href"
-                               href="{{ $firstProduct->imagePath }}"> <img
+                               href="{{ $image }}"> <img
                                         data-src="{{ $product->imagePath }}"
                                         class="img-responsive"
                                         id="image_path_src"
-                                        src="{{ $firstProduct->imagePath }}"
+                                        src="{{ $image }}"
                                         alt=""></a>
                         </div>
                     </div>
@@ -42,13 +50,13 @@
                 <div class="col-md-6 col-lg-5 p-b-30">
                     <div class="p-r-50 p-t-5 p-lr-0-lg">
                         <h4 class="mtext-105 cl2 js-name-detail p-b-14">
-                            {{ $firstProduct->title }}
+                            {{ $product->title }}
                         </h4>
                         <span class="mtext-106 cl2" id="price">
-							Цена: {{ $firstProduct->price }}
+							Цена: {{ $price }}
 						</span>
                         <p class="stext-102 cl3 p-t-23" id="description">
-                            {!! $firstProduct->description !!}
+                            {!! $description !!}
                         </p>
                         <div class="original_data d-none dn">
                             <!--noindex-->
@@ -74,6 +82,7 @@
                                                 @endforeach
                                             </ul>
                                         </div>
+
                                         <div class="related_offers">
                                             <table class="w100p m-t-40 m-b-40 related-table">
                                                 <tr class="table_head">
@@ -112,7 +121,7 @@
             </div>
             <div class="m-t-50 p-b-40">
                 <div id="content">
-                    {!! $firstProduct->content !!}
+                    {!! $content !!}
                 </div>
             </div>
         </div>
