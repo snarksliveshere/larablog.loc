@@ -1,4 +1,11 @@
 @extends('layout')
+@section('main_slider')
+    <section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('/images/test_bg.jpg');">
+        <h2 class="ltext-105 cl0 txt-center">
+            {{ $post->title }}
+        </h2>
+    </section>
+@endsection
 @section('content')
     <section class="bg0 p-t-52 p-b-20">
         <div class="container">
@@ -7,45 +14,34 @@
                     <div class="p-r-45 p-r-0-lg">
                         <div class="wrap-pic-w how-pos5-parent">
                             <img src="{{ $post->getImage() }}" alt="IMG-BLOG">
-                            <div class="flex-col-c-m size-123 bg9 how-pos5">
-								<span class="ltext-107 cl2 txt-center">
-									{{ $post->getDate() }}
-								</span>
+                            <div class="flex-col-c-m p-all-10 bg9 how-pos5">
+									<span class="ltext-107 cl2 txt-center">
+										{{ $post->getDate() }}
+									</span>
                             </div>
                         </div>
                         <div class="p-t-32">
 							<span class="flex-w flex-m stext-111 cl2 p-b-19">
 								<span>
-									<span class="cl4">Автор:</span> {{ $post->author->name }}
-                                    <span class="cl12 m-l-4 m-r-6">|</span>
+									<span class="cl4">Автор: </span>
 								</span>
-<h4>{{ $post->author->name }}</h4>
-				<img src="{{ $post->author->getAvatar() }}" class="pull-left img-circle img-responsive"
-                     alt="">
-								<span>
+                                <img src="{{ $post->author->getAvatar() }}" width="40"
+                                     class="pull-left img-circle img-responsive mx-3"
+                                     alt="">
+<h5>{{ $post->author->name }}</h5>
+
+								<span class="ml-2">
 									{{ $post->getDate() }}
-                                    <span class="cl12 m-l-4 m-r-6">|</span>
 								</span>
 
-								<span>
-
-									<span class="cl12 m-l-4 m-r-6">|</span>
-								</span>
-
-								<span>
-									8 Comments
-								</span>
 							</span>
-                            <h4 class="ltext-109 cl2 p-b-28">
-                                8 Inspiring Ways to Wear Dresses in the Winter
-                            </h4>
+                            <h4 class="ltext-109 cl2 p-b-28">{{ $post->title }}</h4>
                             <p class="stext-117 cl6 p-b-26">
                                 {!! $post->content !!}
                             </p>
                         </div>
                         <div class="p-t-40">
                             <h6>{{ $post->getCategoryTitle() }}</h6>
-                            <h1 class="entry-title"><a href="blog.html">{{ $post->title }}</a></h1>
                         </div>
                         <div class="flex-w flex-t p-t-16">
 							<span class="size-216 stext-116 cl8 p-t-4">
@@ -57,15 +53,17 @@
                             $tag->title }}</a> @endforeach
                             </div>
                         </div>
-                        <div class="row"><!--blog next previous-->
-                            <div class="p-t-40">
+                        <hr class="my-5">
+                        <div class="row">
+                            <div class="p-t-40 col-6">
                                 @if($post->hasPrevious())
                                     <div class="single-blog-box">
                                         <a href="{{ route('post.show', $post->getPrevious()->slug) }}"> <img
-                                                    src="{{ $post->getPrevious()->getImage() }}" alt="">
+                                                    src="{{ $post->getPrevious()->getImage() }}" alt=""
+                                                    class="img-responsive">
                                             <div class="overlay">
                                                 <div class="promo-text">
-                                                    <p><i class=" pull-left fa fa-angle-left"></i></p>
+                                                    <p><i class=" pull-left fa fa-angle-left fz40"></i></p>
                                                     <h5>{{ $post->getPrevious()->title }}</h5>
                                                 </div>
                                             </div>
@@ -73,14 +71,15 @@
                                     </div>
                                 @endif
                             </div>
-                            <div class="p-t-40">
+                            <div class="p-t-40 col-6">
                                 @if($post->hasNext())
                                     <div class="single-blog-box">
                                         <a href="{{ route('post.show', $post->getNext()->slug) }}"> <img
-                                                    src="{{ $post->getNext()->getImage() }}" alt="">
+                                                    src="{{ $post->getNext()->getImage() }}" alt=""
+                                                    class="img-responsive">
                                             <div class="overlay">
                                                 <div class="promo-text">
-                                                    <p><i class=" pull-left fa fa-angle-left"></i></p>
+                                                    <p><i class=" pull-left fa fa-angle-left fz40"></i></p>
                                                     <h5>{{ $post->getNext()->title }}</h5>
                                                 </div>
                                             </div>
@@ -88,51 +87,65 @@
                                     </div>
                                 @endif
                             </div>
-                        </div><!--blog next previous end-->
-                        <div class="related-post-carousel p-t-40"><!--related post carousel-->
+                        </div>
+                        <div class="related-post-carousel p-t-40">
                             <div class="related-heading">
-                                <h4>You might also like</h4>
+                                <h4>Похожие посты</h4>
                             </div>
-                            <div class="items">
-                                @foreach($post->related() as $item)
-                                    <div class="single-item">
-                                        <a href="{{ route('post.show', $item->slug) }}"> <img src="{{ $item->getImage() }}"
-                                                                                              alt="">
-                                            <p>{{ $item->title }}</p>
-                                        </a>
-                                    </div>
-                                @endforeach
+                            <div class="wrap-slick2">
+                                <div class="slick2">
+                                    @foreach($post->related() as $item)
+                                        @php
+                                            $category_slug = \App\ProductCategory::where('id', $item->category_id)->pluck('slug');
+                                        @endphp
+                                        <div class="item-slick2 p-l-15 p-r-15 p-t-15 p-b-15">
+                                            <div class="block2">
+                                                <a href="{{ route('post.show', $item->slug) }}"
+                                                   class="block2-pic hov-img0"> <img src="{{ $item->getImage() }}"
+                                                                                     alt="IMG-PRODUCT"> </a>
+                                                <div class="block2-txt flex-w flex-t p-t-14">
+                                                    <div class="block2-txt-child1 flex-col-l ">
+                                                        <a href="{{ route('post.show', $item->slug) }}"
+                                                           class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+                                                            {{ $item->title }}
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    @endforeach
+                                </div>
                             </div>
-                        </div><!--related post carousel-->
-
-                            @if(!$post->comments->isEmpty())
+                        </div>
+                        @if(!$post->comments->isEmpty())
                             <div class="p-t-40">
-                                <h4>comments</h4>
+                                <h4 class="m-b-40">Комментарии к посту</h4>
                                 @foreach($post->getComments() as $comment)
-                                    <div class="bottom-comment"><!--bottom comment-->
+                                    <div class="bottom-comment">
                                         <div class="comment-img">
-                                            <img class="img-circle" src="{{ $comment->author->getAvatar() }}" alt="">
+                                            <img class="img-circle img-responsive" width="40"
+                                                 src="{{ $comment->author->getAvatar() }}" alt="">
+                                            <h5>{{ $comment->author->name }}</h5>
                                         </div>
                                         <div class="comment-text">
-                                            <h5>{{ $comment->author->name }}</h5>
                                             <p class="comment-date">{{ $comment->created_at->diffForHumans() }}</p>
                                             <p class="para">{{ $comment->text }}</p>
                                         </div>
                                     </div>
                                 @endforeach
                             </div>
-                            @endif
+                        @endif
 
-                        <!--  -->
+                    <!--  -->
 
-                            @if(Auth::check())
+                        @if(Auth::check())
                             <div class="p-t-40">
                                 <h5 class="mtext-113 cl2 p-b-12">
                                     Оставить комментарий
                                 </h5>
                                 <div class="leave-comment"><!--leave comment-->
-                                    <h4>Leave a reply</h4>
-                                    <form class="form-horizontal contact-form" role="form" method="post" action="/comment">
+                                    <form class="form-horizontal contact-form" role="form" method="post"
+                                          action="/comment">
                                         {{ csrf_field() }} <input type="hidden" name="post_id" value="{{ $post->id }}">
                                         <div class="bor19 m-b-20">
                                             <div class="col-md-12">
@@ -141,10 +154,9 @@
                                                   placeholder="Write Massage"></textarea>
                                             </div>
                                         </div>
-                                        <button class="btn send-btn">Post Comment</button>
+                                        <button class="btn send-btn btn-primary">Оставить комментарий</button>
                                     </form>
                                 </div>
-
                             </div>
                         @endif
                     </div>

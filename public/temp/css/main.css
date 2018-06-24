@@ -3317,3 +3317,11 @@ input.num-product::-webkit-inner-spin-button {
   display: inline-block;
   max-width:100%;
 }
+.para {
+  padding: 30px;
+  margin: 30px;
+  border:1px solid #f2f2f2;
+}
+.fz40 {
+  font-size: 40px;
+}
