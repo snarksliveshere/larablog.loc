@@ -35,8 +35,8 @@
       <file leaf-file-name="ProductController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Catalog/ProductController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="23" column="28" lean-forward="false" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="28" />
+            <state relative-caret-position="132">
+              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -45,18 +45,18 @@
       <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/shop/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="41" column="42" lean-forward="true" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
+            <state relative-caret-position="176">
+              <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
-                <marker date="1529832426321" expanded="true" signature="773:967" ph="..." />
-                <marker date="1529832426321" expanded="true" signature="780:964" ph="..." />
-                <marker date="1529832426321" expanded="true" signature="797:963" ph="..." />
-                <marker date="1529832426321" expanded="true" signature="1330:1524" ph="..." />
-                <marker date="1529832426321" expanded="true" signature="1337:1521" ph="..." />
-                <marker date="1529832426321" expanded="true" signature="1354:1520" ph="..." />
-                <marker date="1529832426321" expanded="true" signature="1792:1986" ph="..." />
-                <marker date="1529832426321" expanded="true" signature="1799:1983" ph="..." />
-                <marker date="1529832426321" expanded="true" signature="1816:1982" ph="..." />
+                <marker date="1529832515708" expanded="true" signature="793:987" ph="..." />
+                <marker date="1529832515708" expanded="true" signature="800:984" ph="..." />
+                <marker date="1529832515708" expanded="true" signature="817:983" ph="..." />
+                <marker date="1529832515708" expanded="true" signature="1350:1544" ph="..." />
+                <marker date="1529832515708" expanded="true" signature="1357:1541" ph="..." />
+                <marker date="1529832515708" expanded="true" signature="1374:1540" ph="..." />
+                <marker date="1529832515708" expanded="true" signature="1812:2006" ph="..." />
+                <marker date="1529832515708" expanded="true" signature="1819:2003" ph="..." />
+                <marker date="1529832515708" expanded="true" signature="1836:2002" ph="..." />
               </folding>
             </state>
           </provider>
@@ -719,7 +719,7 @@
       <workItem from="1529735044479" duration="9465000" />
       <workItem from="1529749191727" duration="10515000" />
       <workItem from="1529770474703" duration="2365000" />
-      <workItem from="1529829885670" duration="2546000" />
+      <workItem from="1529829885670" duration="2631000" />
     </task>
     <task id="LOCAL-00001" summary="добавил в админку страницу товара, кроме обработки картинок">
       <created>1528109973275</created>
@@ -1029,11 +1029,18 @@
       <option name="project" value="LOCAL" />
       <updated>1529831573502</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="фронтенд, вроде, готов">
+      <created>1529832461067</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1529832461067</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="199780000" />
+    <option name="totallyTimeSpent" value="199865000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1080,7 +1087,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Добавил категорию товаров в админке" />
     <MESSAGE value="Добавил реализацию удобного сохранения картинки и в фронтенде вывод при выборе ТП" />
     <MESSAGE value="дополнил форму добавления заказа в фронтенде" />
     <MESSAGE value="Добавил заказы в админку с изменением статуса" />
@@ -1105,7 +1111,8 @@
     <MESSAGE value="общая страница постов" />
     <MESSAGE value="добавил фронтенд профиль и базу" />
     <MESSAGE value="добавил фронтенд к странице поста и категории постов" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавил фронтенд к странице поста и категории постов" />
+    <MESSAGE value="фронтенд, вроде, готов" />
+    <option name="LAST_COMMIT_MESSAGE" value="фронтенд, вроде, готов" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1461,26 +1468,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Catalog/ProductController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="23" column="28" lean-forward="false" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="28" />
+        <state relative-caret-position="132">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/shop/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="41" column="42" lean-forward="true" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
+        <state relative-caret-position="176">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
-            <marker date="1529832426321" expanded="true" signature="773:967" ph="..." />
-            <marker date="1529832426321" expanded="true" signature="780:964" ph="..." />
-            <marker date="1529832426321" expanded="true" signature="797:963" ph="..." />
-            <marker date="1529832426321" expanded="true" signature="1330:1524" ph="..." />
-            <marker date="1529832426321" expanded="true" signature="1337:1521" ph="..." />
-            <marker date="1529832426321" expanded="true" signature="1354:1520" ph="..." />
-            <marker date="1529832426321" expanded="true" signature="1792:1986" ph="..." />
-            <marker date="1529832426321" expanded="true" signature="1799:1983" ph="..." />
-            <marker date="1529832426321" expanded="true" signature="1816:1982" ph="..." />
+            <marker date="1529832515708" expanded="true" signature="793:987" ph="..." />
+            <marker date="1529832515708" expanded="true" signature="800:984" ph="..." />
+            <marker date="1529832515708" expanded="true" signature="817:983" ph="..." />
+            <marker date="1529832515708" expanded="true" signature="1350:1544" ph="..." />
+            <marker date="1529832515708" expanded="true" signature="1357:1541" ph="..." />
+            <marker date="1529832515708" expanded="true" signature="1374:1540" ph="..." />
+            <marker date="1529832515708" expanded="true" signature="1812:2006" ph="..." />
+            <marker date="1529832515708" expanded="true" signature="1819:2003" ph="..." />
+            <marker date="1529832515708" expanded="true" signature="1836:2002" ph="..." />
           </folding>
         </state>
       </provider>
