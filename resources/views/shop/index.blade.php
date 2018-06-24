@@ -29,17 +29,15 @@
                                         <a href="{{ route('product.show', [
                                 'category_slug' => $category->slug,
                                 'product_slug' => $product->slug
-                                ])  }}"
-                                           class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
-                                            {{ $product->title }}</a>
-                                        <h2>{{ $product->title }}</h2>
-                                        <span class="stext-105 cl3">
+                                ])  }}" class="cl4 hov-cl1">
+                                            <h2>{{ $product->title }}</h2>
+                                        </a> <span class="stext-105 cl3">
 									{!! $product->description !!}
                                             <a href="{{ route('product.show', [
                                 'category_slug' => $category->slug,
                                 'product_slug' => $product->slug
                                 ])  }}"
-                                               class="btn btn-success pull-right">Подробнее</a>
+                                               class="btn btn-success mt-3">Подробнее</a>
 								</span>
                                     </div>
                                 </div>
