@@ -146,6 +146,8 @@
     var imagePathSrc = $('#image_path_src');
     var imagePathHref = $('#image_path_href');
     var productImagePath = imagePathSrc.data('src');
+    var originalContent = $('.original_content').html();
+    var originalDescription = $('.original_description').html();
 
     $('.related li').click(function () {
         var id = $(this).data('id');
@@ -187,6 +189,12 @@
                         imagePathSrc.prop('src', productImagePath);
                         imagePathHref.prop('href', productImagePath);
 
+                    }
+                    if(!data['content']){
+                        $('#content').html(originalContent);
+                    }
+                    if(!data['dscription']){
+                        $('#description').html(originalDescription);
                     }
                 }
             }

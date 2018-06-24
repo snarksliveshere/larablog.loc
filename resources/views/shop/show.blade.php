@@ -10,6 +10,7 @@
     @php
         if(!empty($related[0]) && (null !== $related[0]->imagePath)) {
         $image =  $related[0]->imagePath;
+        $original = $product;
         } else {
         $image = $product->imagePath;
         }
@@ -43,6 +44,14 @@
                         <p class="stext-102 cl3 p-t-23" id="description">
                             {!! $product->description !!}
                         </p>
+                        <div class="original_data d-none dn">
+                            <!--noindex-->
+                            <div class="original_content">{!! $product->content !!}</div>
+                            <div class="original_description">{!! $product->description !!}</div>
+
+                            <!--/noindex-->
+                        </div>
+
                         {{ Form::open([
                         'route' => 'related.cart',
                         'method' => 'put'
