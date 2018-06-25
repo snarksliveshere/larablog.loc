@@ -26,7 +26,7 @@ class ProductController extends Controller
         $category = ProductCategory::where('slug', $slug)->firstOrFail();
 //        dd($category->id);
 //        $products = Product::all()->where('category_id', $category->id)->paginate(3);
-        $products = Product::where('category_id', $category->id)->paginate(3);
+        $products = Product::where([['category_id', $category->id],['status', 1]])->paginate(3);
 
 
 //        dd($products);

@@ -230,7 +230,7 @@ class Post extends Model
 
     public static function getPopularPosts()
     {
-        return self::orderBy('views', 'desc')->take(3)->get();
+        return self::where('status', 1)->orderBy('views', 'desc')->take(3)->get();
     }
 
     public function comments()

@@ -11,8 +11,8 @@ class PagesController extends Controller
     public function index()
     {
         $categories = ProductCategory::take(3)->get();
-        $posts = Post::where('status', 1)->get();
-        $products = Product::take(4)->get();
+        $posts = Post::where('status', 1)->take(4)->get();
+        $products = Product::where('status', 1)->take(4)->get();
 
         return view('pages.index',['posts' => $posts, 'products' => $products, 'categories' => $categories]);
     }
