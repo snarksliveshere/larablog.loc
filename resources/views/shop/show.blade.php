@@ -55,9 +55,9 @@
                         <span class="mtext-106 cl2" id="price">
 							Цена: {{ $price }}
 						</span>
-                        <p class="stext-102 cl3 p-t-23" id="description">
+                        <div class="stext-102 cl3 p-t-23" id="description">
                             {!! $description !!}
-                        </p>
+                        </div>
                         <div class="original_data d-none dn">
                             <!--noindex-->
                             <div class="original_content">{!! $product->content !!}</div>

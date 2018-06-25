@@ -39,6 +39,7 @@
                             <th>ID</th>
                             <th>Название</th>
                             <th>Категория</th>
+                            <th>Статус</th>
                             <th>ТП</th>
                             <th>Цена</th>
                             <th>Картинка</th>
@@ -54,6 +55,7 @@
                             <td>{{ $product->id }}</td>
                             <td>{{ $product->title }}</td>
                             <td>{{ $product->getCategoryTitle() }}</td>
+                            <td>{{ $product->status }}</td>
                             <td>
                                 @if( $product->hasRelated == 1)
                                     есть

@@ -163,7 +163,6 @@
                 'id': id
             },
             success: function (data) {
-
                 for (var key in data) {
                     var selector = $('#' + key);
                     if (selector.length) {
@@ -195,7 +194,7 @@
                     if(!data['content']){
                         $('#content').html(originalContent);
                     }
-                    if(!data['dscription']){
+                    if(!data['description']){
                         $('#description').html(originalDescription);
                     }
                 }

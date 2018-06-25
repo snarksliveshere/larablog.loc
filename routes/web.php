@@ -57,17 +57,10 @@ Route::group(['prefix' => 'admin', 'namespace' => 'Admin', 'middleware' => 'admi
 
 Route::group(['prefix' => 'catalog', 'namespace' => 'Catalog'], function (){
 
+    Route::get('/', 'ProductController@getCategory')->name('category_product');
+    Route::get('/shopping-cart','ProductController@getCart')->name('product.shoppingCart');
 
 
-//    Route::get('/add-to-cart/{id}',[
-//        'uses' => 'ProductController@getAddToCart',
-//        'as' => 'product.addToCart'
-//    ]);
-
-    Route::get('/shopping-cart',[
-        'uses' => 'ProductController@getCart',
-        'as' => 'product.shoppingCart'
-    ]);
 
     Route::get('/checkout',[
         'uses' => 'ProductController@getCheckout',
@@ -82,65 +75,18 @@ Route::group(['prefix' => 'catalog', 'namespace' => 'Catalog'], function (){
     ]);
 
     Route::get('/reduce/{id}', 'ProductController@getReduceByOne')->name('product.reduceByOne');
-
     Route::get('/remove/{id}', 'ProductController@getRemoveItem')->name('product.remove');
     Route::get('/removeAll', 'ProductController@removeAll')->name('product.removeAll');
-
-
     Route::post('/offers-ajax','ProductController@ajaxRelated')->name('ajax.related');
-    // TODO: надо совместить обе корзины потом / и нужен get :: убрал пока корзину из index
-    // мне теперь, по сути put не нужен, т.к. у меня не будет конфликта между post & put в добавлении = но это когда я совмещу методы
     Route::put('/tocart','ProductController@cart')->name('related.cart');
 
 
+    Route::get('/{slug}', 'ProductController@getIndex')->name('product.index');
+    Route::get('/{category_slug}/{product_slug}', 'ProductController@show')->name('product.show');
+
+
 });
-Route::get('/catalog', [
-    'uses' => 'Catalog\ProductController@getCategory',
-    'as' => 'category_product'
-]);
-
-Route::get('/catalog/{slug}', 'Catalog\ProductController@getIndex')->name('product.index');
-Route::get('/catalog/{category_slug}/{product_slug}', 'Catalog\ProductController@show')->name('product.show');
 
 
-//AJAX
-//
-//get
-// button id="getRequest"
-//$($getRequest).click(function(){
-//  $.get('getRequest', function(data){
-//    console.log(data);
-//})
-//}
-//;
-//Route::get('/getRequest', function (){
-//    if(\Illuminate\Support\Facades\Request::ajax()) {
-//        return 'lalal';
-//    }
-//});
 
-//post
-//
-//$('#register').click
-//var firstname =
-//    var lastname =
-//$.post('register', {firstname:fname, lastname:lname}, function(data){
-//    console.log(data)
-//})
-//
-//    либо
-//    var dataString = 'firstname' + fname + 'fsdfsdf';
-//$.ajax({
-//    type: "POST",
-//    url: 'register',
-//    data: dataString,
-//    success: function(data){
-//         а вот тут можно разобрать дату
-//}
-//})
-//Route::post('/register', function(){
-//    if(\Illuminate\Support\Facades\Request::ajax()) {
-//        return \Illuminate\Support\Facades\Response::json(\Illuminate\Support\Facades\Request::all());
-//    }
-//})
 
