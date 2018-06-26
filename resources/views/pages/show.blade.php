@@ -36,12 +36,12 @@
 
 							</span>
                             <h4 class="ltext-109 cl2 p-b-28">{{ $post->title }}</h4>
-                            <p class="stext-117 cl6 p-b-26">
+                            <div class="stext-117 cl6 p-b-26 content">
                                 {!! $post->content !!}
-                            </p>
+                            </div>
                         </div>
                         <div class="p-t-40">
-                            <h6>{{ $post->getCategoryTitle() }}</h6>
+                            <h6>Категория: {{ $post->getCategoryTitle() }}</h6>
                         </div>
                         <div class="flex-w flex-t p-t-16">
 							<span class="size-216 stext-116 cl8 p-t-4">
