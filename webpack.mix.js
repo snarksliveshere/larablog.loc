@@ -66,3 +66,25 @@ mix.copy('resources/assets/admin/plugins/iCheck/minimal/blue.png', 'public/css')
 //
 // mix.copy('resources/assets/front/fonts', 'public/fonts');
 // mix.copy('resources/assets/front/images', 'public/images');
+
+// mix.styles([
+//     'resources/assets/front/css/bootstrap.min.css',
+//     'resources/assets/front/css/font-awesome.min.css',
+//     'resources/assets/front/css/animate.min.css',
+//     'resources/assets/front/css/owl.carousel.css',
+//     'resources/assets/front/css/owl.theme.css',
+//     'resources/assets/front/css/owl.transitions.css',
+//     'resources/assets/front/css/style.css',
+//     'resources/assets/front/css/responsive.css'
+// ],'public/css/front.css');
+//
+// mix.scripts([
+//     'resources/assets/admin/plugins/jQuery/jquery-2.2.3.min.js',
+//     'resources/assets/front/js/bootstrap.min.js',
+//     'resources/assets/front/js/owl.carousel.min.js',
+//     'resources/assets/front/js/jquery.stickit.min.js',
+//     'resources/assets/front/js/menu.js',
+//     'resources/assets/front/js/scripts.js'
+// ], 'public/js/front.js');
+
+// TODO: пора перебрасывать сюда стили

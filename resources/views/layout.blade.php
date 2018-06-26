@@ -8,14 +8,11 @@
     <link rel="icon" type="image/png" href="images/icons/favicon.png"/>
     <link rel="stylesheet" type="text/css" href="/temp/vendor/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="/temp/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="/temp/fonts/iconic/css/material-design-iconic-font.min.css">
-    <link rel="stylesheet" type="text/css" href="/temp/fonts/linearicons-v1.0.0/icon-font.min.css">
     <link rel="stylesheet" type="text/css" href="/temp/vendor/animate/animate.css">
     <link rel="stylesheet" type="text/css" href="/temp/vendor/css-hamburgers/hamburgers.min.css">
     <link rel="stylesheet" type="text/css" href="/temp/vendor/animsition/css/animsition.min.css">
     <link rel="stylesheet" type="text/css" href="/temp/vendor/slick/slick.css">
     <link rel="stylesheet" type="text/css" href="/temp/vendor/MagnificPopup/magnific-popup.css">
-    <link rel="stylesheet" type="text/css" href="/temp/vendor/perfect-scrollbar/perfect-scrollbar.css">
     <link rel="stylesheet" type="text/css" href="/temp/css/util.css">
     <link rel="stylesheet" type="text/css" href="/temp/css/main.css">
 </head>
@@ -70,25 +67,6 @@
             },
             mainClass: 'mfp-fade'
         });
-    });
-</script>
-
-<script src="/temp/vendor/sweetalert/sweetalert.min.js"></script>
-
-<script src="/temp/vendor/perfect-scrollbar/perfect-scrollbar.min.js"></script>
-<script>
-    $('.js-pscroll').each(function () {
-        $(this).css('position', 'relative');
-        $(this).css('overflow', 'hidden');
-        var ps = new PerfectScrollbar(this, {
-            wheelSpeed: 1,
-            scrollingThreshold: 1000,
-            wheelPropagation: false,
-        });
-
-        $(window).on('resize', function () {
-            ps.update();
-        })
     });
 </script>
 @yield('scripts-inc')

@@ -14,8 +14,9 @@
                     </ul>
                 </div>
                 <div class="wrap-icon-header flex-w flex-r-m">
-                    <a href="{{ route('product.shoppingCart') }}" class="d-inline-block"> <i
-                                class="zmdi zmdi-shopping-cart fz25"></i> <span
+                    <a href="{{ route('product.shoppingCart') }}" class="d-inline-block">
+                        <i class="fa fa-shopping-cart fz25"></i>
+                        <span
                                 class="badge badge_header_cart">{{ Session::has('cart') ? Session::get('cart')->totalQty : '' }}</span>
                     </a>
                     <div>
@@ -40,8 +41,9 @@
         <div class="wrap-icon-header flex-w flex-r-m m-r-15">
             <div class="icon-header-item cl2 hov-cl1 trans-04 p-r-11 p-l-10"
             >
-                <a href="{{ route('product.shoppingCart') }}" class="d-inline-block"> <i
-                            class="zmdi zmdi-shopping-cart fz25"></i> <span
+                <a href="{{ route('product.shoppingCart') }}" class="d-inline-block">
+                    <i class="fa fa-shopping-cart fz25"></i>
+                    <span
                             class="badge badge_header_cart">{{ Session::has('cart') ? Session::get('cart')->totalQty : '' }}</span>
                 </a>
             </div>

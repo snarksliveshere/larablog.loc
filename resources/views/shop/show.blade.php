@@ -8,7 +8,7 @@
 @endsection
 @section('content')
     @php
-        $image = $product->image;
+        $image = $product->imagePath;
         $price = $product->price;
         $description = $product->description;
         $content = $product->content;
