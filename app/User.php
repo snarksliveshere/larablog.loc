@@ -75,14 +75,13 @@ class User extends Authenticatable
         $this->removeAvatar();
         $this->delete();
     }
-// TODO: здесь нужно доставить константу для пути перед uploads
     public function uploadAvatar($image)
     {
         if ($image == null) { return; }
 //        dd(get_class_methods($image));
         $this->removeAvatar();
         $filename = str_random(10) . '.' . $image->extension();
-        $image->storeAs('uploads', $filename);
+        $image->storeAs('images/avatar', $filename);
         $this->avatar = $filename;
         $this->save();
     }
@@ -90,7 +89,7 @@ class User extends Authenticatable
     public function removeAvatar()
     {
         if ($this->avatar != null) {
-            Storage::delete('uploads/' . $this->avatar);
+            Storage::delete('images/avatar/' . $this->avatar);
         }
     }
 

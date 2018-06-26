@@ -175,7 +175,6 @@ class RelatedController extends Controller
         RelatedProduct::updateValues($offersRelated, $relatedProduct);
         return redirect()->route('products.index');
     }
-// TODO: рядом с offers_list надо поставить кнопку УДАЛИТЬ
     /**
      * Remove the specified resource from storage.
      *
@@ -191,7 +190,6 @@ class RelatedController extends Controller
     {
         $related = RelatedProduct::where('slug', $slug)->firstOrFail();
         RelatedProduct::deleteRelatedProducts($related);
-// TODO: если передавать в функцию не через статик, можно потом в ней использовать $this
         return redirect()->route('products.index');
     }
 }

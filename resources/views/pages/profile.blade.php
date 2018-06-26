@@ -42,6 +42,7 @@
                         <div class="p-t-40">
                             <h2>Мои заказы</h2>
                             @foreach($orders as $order)
+{{--                                {{ dd($order) }}--}}
                                 <div class="panel panel-default">
                                     <div class="panel-body">
                                         <ul class="list-group">
@@ -61,7 +62,6 @@
                                     </div>
                                 </div>
                             @endforeach
-                                {{--TODO: стоит добавить еще время заказа и перевести его в нормальный вид--}}
                         </div>
                     </div>
                 </div>

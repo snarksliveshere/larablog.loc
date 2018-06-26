@@ -52,6 +52,7 @@
                                                 <li class="list-group-item">
                                                     <span class="badge">{{ $item['price'] }}</span>
                                                     {{ $item['item']['title'] }} | {{ $item['qty'] }} шт.
+
                                                 </li>
                                             @endforeach
                                         </ul>
@@ -62,7 +63,6 @@
                                 </div>
                             @endforeach
                         </div>
-                        {{--TODO: стоит добавить еще время заказа и перевести его в нормальный вид--}}
                     </div>
                 </div>
                 @include('pages._sidebar')
