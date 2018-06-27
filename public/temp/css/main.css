@@ -3329,7 +3329,7 @@ input.num-product::-webkit-inner-spin-button {
 .fz40 {
   font-size: 40px;
 }
-.content p {
+.content p, #content p {
   margin-bottom: 15px;
   font-size: 16px;
 }
