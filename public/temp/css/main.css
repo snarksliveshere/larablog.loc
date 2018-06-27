@@ -3333,3 +3333,24 @@ input.num-product::-webkit-inner-spin-button {
   margin-bottom: 15px;
   font-size: 16px;
 }
+.wrap_table {
+  overflow-x: auto;
+  max-width: 100%;
+
+}
+.fwb {
+  font-weight: bold;
+}
+.tac {
+  text-align: center;
+}
+#content table {
+  margin-bottom: 15px;
+}
+#content table td, .content table th {
+  padding:10px;
+  border:1px solid #f2f2f2;
+}
+#content table tr td:first-child {
+  font-weight: bold;
+}
