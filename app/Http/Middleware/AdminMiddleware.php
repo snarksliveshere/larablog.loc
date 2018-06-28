@@ -21,7 +21,7 @@ class AdminMiddleware
 //        dd($user->name);
 //            dump($request->method());
         if (Auth::check() && ($user->name == 'admin' || $user->name == 'admin_guest' ) ) {
-
+// здесь надо проверить роли и добавить условие для admin_guest
             return $next($request);
         }
 
