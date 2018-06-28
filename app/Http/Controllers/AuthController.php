@@ -34,7 +34,7 @@ class AuthController extends Controller
     public function login(Request $request)
     {
         $this->validate($request, [
-            'email' => 'required|email', 'password' => 'required'
+            'name' => 'required', 'password' => 'required'
         ]);
 
         // 1. проверить и залогинить на основе email & password
@@ -42,7 +42,7 @@ class AuthController extends Controller
         // 3. иначе редирект на главную
 
         if(Auth::attempt([
-            'email' => $request->get('email'),
+            'name' => $request->get('name'),
             'password' => $request->get('password')
         ])) {
             if (Session::has('oldUrl')) {

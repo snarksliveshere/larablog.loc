@@ -136,7 +136,7 @@
                                     'category_slug' => $category_slug,
                                     'product_slug' => $product->slug
                                     ]) }}" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
-                                        {{ $product->title }}</a> <span class="fz20 stext-105 cl3"> цена: 	{{ $product->price }}
+                                        {{ $product->title }}</a> <span class="fz20 stext-105 cl3"> Цена: {{ $product->price }} КЦ
 								</span>
                                 </div>
                             </div>

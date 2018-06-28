@@ -18,6 +18,7 @@ class CreateRoleUsers extends Migration
             $table->timestamps();
             $table->integer('role_id');
             $table->integer('user_id');
+            $table->tinyInteger('status')->default(1);
         });
     }
 

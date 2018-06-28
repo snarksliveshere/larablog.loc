@@ -53,7 +53,7 @@
                             {{ $product->title }}
                         </h4>
                         <span class="mtext-106 cl2" id="price">
-							Цена: {{ $price }}
+							Цена: {{ $price }} КЦ
 						</span>
                         <div class="stext-102 cl3 p-t-23" id="description">
                             {!! $description !!}
@@ -130,7 +130,7 @@
         <div class="container">
             <div class="p-b-45">
                 <h3 class="ltext-106 cl5 txt-center">
-                    Related Products
+                    Похожие продукты
                 </h3>
             </div>
             <div class="wrap-slick2">
@@ -154,7 +154,7 @@
                                            class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
                                             {{ $item->title }}
                                         </a> <span class="stext-105 cl3 fz20">
-                                            цена: {{ $item->price }}
+                                            Цена: {{ $item->price }} КЦ
                                         </span>
                                     </div>
                                 </div>

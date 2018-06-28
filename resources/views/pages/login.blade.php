@@ -16,14 +16,23 @@
                             Войти
                         </h4>
                         {{ csrf_field() }}
+                        {{--<div class="bor8 m-b-20 how-pos4-parent">--}}
+                            {{--<input type="email"--}}
+                                    {{--class="stext-111 cl2 plh3 size-116 p-l-62 p-r-30"--}}
+                                    {{--id="email"--}}
+                                    {{--name="email"--}}
+                                    {{--value="{{ old('email') }}"--}}
+                                    {{--placeholder="Email">--}}
+                        {{--</div>--}}
                         <div class="bor8 m-b-20 how-pos4-parent">
-                            <input type="email"
-                                    class="stext-111 cl2 plh3 size-116 p-l-62 p-r-30"
-                                    id="email"
-                                    name="email"
-                                    value="{{ old('email') }}"
-                                    placeholder="Email">
+                            <input type="text"
+                                   class="stext-111 cl2 plh3 size-116 p-l-62 p-r-30"
+                                   id="name"
+                                   name="name"
+                                   value="{{ old('name') }}"
+                                   placeholder="login">
                         </div>
+
                         <div class="bor8 m-b-20 how-pos4-parent">
                             <input type="password"
                                     class="stext-111 cl2 plh3 size-116 p-l-62 p-r-30"
