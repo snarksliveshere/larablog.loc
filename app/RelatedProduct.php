@@ -130,4 +130,18 @@ class RelatedProduct extends Model
 
         return '/images/' . $this->image;
     }
+
+    public static function showRelated($related)
+    {
+        $relatedOffers = [];
+        if (isset($related[0])) {
+            $first = $related[0];
+            $offers = $first->values;
+            foreach ($offers as $offer) {
+                $relatedOffers[Offer::find($offer->offer_id)->name] = OfferValue::find($offer->offer_value_id)->value;
+            }
+        }
+
+        return $relatedOffers;
+    }
 }

@@ -3357,3 +3357,17 @@ input.num-product::-webkit-inner-spin-button {
 #content h2, #content h3 {
   margin-bottom: 20px;
 }
+.main_category:hover .main_category_desc {
+  visibility: visible;
+  opacity: 0.9;
+}
+.main_category_desc {
+  visibility: hidden;
+  opacity:0;
+  transition:1s;
+}
+.main_category_desc p {
+  font-size: 18px;
+  margin-top: 15px;
+  color: #fff;
+}

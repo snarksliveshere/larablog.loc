@@ -83,7 +83,7 @@
         <div class="container">
             <div class="row">
                 @foreach($categories as $category)
-                    <div class="col-md-6 col-xl-4 p-b-30 m-lr-auto">
+                    <div class="col-md-6 col-xl-4 p-b-30 m-lr-auto main_category">
                         <div class="block1 wrap-pic-w">
                             <img src="{{ $category->imagePath }}" alt="{{ $category->title }}">
                             <a href="{{ route('product.index', $category->slug)  }}"
@@ -92,6 +92,7 @@
 								<span class="block1-name ltext-102 trans-04 p-b-8">
 									{{ $category->title }}
 								</span>
+                                <div class="main_category_desc">{!! $category->description !!}</div>
                                 </div>
                                 <div class="block1-txt-child2 p-b-4 trans-05">
                                     <div class="block1-link stext-101 cl0 trans-09">

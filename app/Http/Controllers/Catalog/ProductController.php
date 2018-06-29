@@ -24,13 +24,7 @@ class ProductController extends Controller
     public function getIndex($slug)
     {
         $category = ProductCategory::where('slug', $slug)->firstOrFail();
-//        dd($category->id);
-//        $products = Product::all()->where('category_id', $category->id)->paginate(3);
         $products = Product::where([['category_id', $category->id],['status', 1]])->paginate(3);
-
-
-//        dd($products);
-//        $products::paginate(3);
         return view('shop.index',['products' => $products, 'category' => $category]);
     }
 
@@ -42,17 +36,9 @@ class ProductController extends Controller
 
     public function show($category_slug, $product_slug)
     {
-//        dd($category_slug);
         $product = Product::where('slug', $product_slug)->firstOrFail();
         $related = RelatedProduct::where('parent_id', $product->id)->get();
-        $relatedOffers = [];
-        if (isset($related[0])) {
-            $first = $related[0];
-            $offers = $first->values;
-            foreach ($offers as $offer) {
-                $relatedOffers[Offer::find($offer->offer_id)->name] = OfferValue::find($offer->offer_value_id)->value;
-            }
-        }
+        $relatedOffers = RelatedProduct::showRelated($related);
 
         return view('shop.show', compact('product', 'related', 'relatedOffers', 'category_slug'));
     }
