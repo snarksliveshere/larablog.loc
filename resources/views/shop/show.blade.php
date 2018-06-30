@@ -123,6 +123,48 @@
                 <div id="content">
                     {!! $content !!}
                 </div>
+                <div class="coments_block">
+                    @if(!$product->comments->isEmpty())
+                        <div class="p-t-40">
+                            <h4 class="m-b-40">Отзывы о продукте</h4>
+                            <p class="my-5">чтобы оставить отзыв, вы должны зарегистрироваться</p>
+                            @foreach($product->getComments() as $comment)
+                                <div class="bottom-comment">
+                                    <div class="comment-img">
+                                        <img class="img-circle img-responsive" width="40"
+                                             src="{{ $comment->author->getAvatar() }}" alt="">
+                                        <h5>{{ $comment->author->name }}</h5>
+                                    </div>
+                                    <div class="comment-text">
+                                        <p class="comment-date">{{ $comment->created_at->diffForHumans() }}</p>
+                                        <p class="para">{{ $comment->text }}</p>
+                                    </div>
+                                </div>
+                            @endforeach
+                        </div>
+                    @endif
+                    @auth
+                    <div class="p-t-40">
+                        <h5 class="mtext-113 cl2 p-b-12">
+                            Оставьте отзыв
+                        </h5>
+                        <div class="leave-comment"><!--leave comment-->
+                            <form class="form-horizontal contact-form" role="form" method="post"
+                                  action="/comment-product">
+                                {{ csrf_field() }} <input type="hidden" name="product_id" value="{{ $product->id }}">
+                                <div class="bor19 m-b-20">
+                                    <div class="col-md-12">
+										<textarea class="stext-111 cl2 plh3 size-124 p-lr-18 p-tb-15" rows="6"
+                                                  name="message"
+                                                  placeholder="Write Massage"></textarea>
+                                    </div>
+                                </div>
+                                <button class="btn send-btn btn-primary">Оставить комментарий</button>
+                            </form>
+                        </div>
+                    </div>
+                    @endauth
+                </div>
             </div>
         </div>
     </section>

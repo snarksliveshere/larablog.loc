@@ -33,6 +33,16 @@ class Product extends Model
         return $this->belongsTo('App\ProductCategory', 'category_id');
     }
 
+    public function comments()
+    {
+        return $this->hasMany(Comment::class);
+    }
+
+    public function author()
+    {
+        return $this->belongsTo(User::class, 'user_id');
+    }
+
     public function hasPrevious()
     {
         return self::where('id', '<', $this->id)->max('id');
@@ -159,6 +169,11 @@ class Product extends Model
         }
 
         return '/images/' . $this->image;
+    }
+
+    public function getComments()
+    {
+        return $this->comments()->where('status', 1)->get();
     }
 
 }

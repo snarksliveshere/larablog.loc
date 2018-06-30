@@ -135,17 +135,14 @@
                                 @endforeach
                             </div>
                         @endif
-
-                    <!--  -->
-
-                        @if(Auth::check())
+                        @auth
                             <div class="p-t-40">
                                 <h5 class="mtext-113 cl2 p-b-12">
                                     Оставить комментарий
                                 </h5>
                                 <div class="leave-comment"><!--leave comment-->
                                     <form class="form-horizontal contact-form" role="form" method="post"
-                                          action="/comment">
+                                          action="/comment-post">
                                         {{ csrf_field() }} <input type="hidden" name="post_id" value="{{ $post->id }}">
                                         <div class="bor19 m-b-20">
                                             <div class="col-md-12">
@@ -158,7 +155,7 @@
                                     </form>
                                 </div>
                             </div>
-                        @endif
+                        @endauth
                     </div>
                 </div>
                 @include('pages.post_sidebar')

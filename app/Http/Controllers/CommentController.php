@@ -22,4 +22,19 @@ class CommentController extends Controller
 
 
     }
+    public function storeProduct(Request $request)
+    {
+        $this->validate($request, [
+            'message' => 'required'
+        ]);
+
+        $comment = new Comment;
+        $comment->text = $request->get('message');
+        $comment->product_id =$request->get('product_id');
+        $comment->user_id = \Auth::user()->id;
+        $comment->save();
+        return redirect()->back()->with('status', 'Ваш комментарий возможно будет добавлен');
+
+
+    }
 }

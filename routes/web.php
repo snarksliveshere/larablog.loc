@@ -27,7 +27,8 @@ Route::group(['middleware' => 'auth'], function(){
     Route::get('/logout', 'Auth\LoginController@logout');
     Route::get('/profile','ProfileController@index');
     Route::post('/profile','ProfileController@store');
-    Route::post('/comment', 'CommentController@store');
+    Route::post('/comment-post', 'CommentController@store');
+    Route::post('/comment-product', 'CommentController@storeProduct');
 });
 
 
