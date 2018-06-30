@@ -2,8 +2,12 @@
     <div class="container-menu-desktop">
         <div class="wrap-menu-desktop">
             <nav class="limiter-menu-desktop container">
-                <a href="/" class="logo"> <img src="/images/lunar_lander_logo.png" alt="IMG-LOGO"
-                                               class="img-responsive"> </a>
+                <a href="/" class="logo">
+                    {{--<img src="/images/lunar_lander_logo.png" alt="IMG-LOGO"--}}
+                                               {{--class="img-responsive">--}}
+                    <img src="/images/tycho_logo.png" alt="IMG-LOGO"
+                         class="img-responsive">
+                </a>
                 <div class="menu-desktop">
                     <ul class="main-menu">
                         <li><a href="/">Главная</a></li>

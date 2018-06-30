@@ -1,6 +1,6 @@
 @extends('layout')
 @section('main_slider')
-    <section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('/temp/images/bg-02.jpg');">
+    <section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('/images/space-bg.jpg');">
         <h2 class="ltext-105 cl0 txt-center">
             {{ $product->title }}
         </h2>
@@ -130,7 +130,7 @@
         <div class="container">
             <div class="p-b-45">
                 <h3 class="ltext-106 cl5 txt-center">
-                    Похожие продукты
+                    Вам также могут понадобиться:
                 </h3>
             </div>
             <div class="wrap-slick2">

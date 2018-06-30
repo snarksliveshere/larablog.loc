@@ -13,6 +13,7 @@
     <link rel="stylesheet" type="text/css" href="/temp/vendor/animsition/css/animsition.min.css">
     <link rel="stylesheet" type="text/css" href="/temp/vendor/slick/slick.css">
     <link rel="stylesheet" type="text/css" href="/temp/vendor/MagnificPopup/magnific-popup.css">
+    <link rel="stylesheet" type="text/css" href="/temp/js/fancybox/jquery.fancybox.min.css">
     <link rel="stylesheet" type="text/css" href="/temp/css/util.css">
     <link rel="stylesheet" type="text/css" href="/temp/css/main.css">
 </head>
@@ -51,6 +52,7 @@
 <script src="/temp/vendor/bootstrap/js/bootstrap.min.js"></script>
 
 <script src="/temp/vendor/slick/slick.min.js"></script>
+<script src="/temp/js/fancybox/jquery.fancybox.min.js"></script>
 <script src="/temp/js/slick-custom.js"></script>
 <script src="/temp/vendor/parallax100/parallax100.js"></script>
 <script>

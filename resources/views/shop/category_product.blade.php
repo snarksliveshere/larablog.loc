@@ -5,7 +5,7 @@
 @section('main_slider')
     <section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('/images/test_bg.jpg');">
         <h2 class="ltext-105 cl0 txt-center">
-            Кт
+           Каталог
         </h2>
     </section>
 @endsection
@@ -24,7 +24,7 @@
                                 <div class="block2-txt flex-w flex-t p-t-14">
                                     <div class="block2-txt-child1 flex-col-l ">
                                         <a href="{{ route('product.index', $category->slug)  }}"
-                                           class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+                                           class="fz20 cl4 hov-cl1 trans-04 js-name-b2 p-b-6 catalog-title">
                                             {{ $category->title }}</a> <span class="stext-105 cl3">
 									{!! $category->description !!}
                                             <a href="{{ route('product.index', $category->slug)  }}"

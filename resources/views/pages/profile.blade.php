@@ -53,6 +53,13 @@
                                                     @endif
                                                     <span class="badge">{{ $item['price'] }}</span>
                                                     {{ $item['item']['title'] }} | {{ $item['qty'] }} шт.
+                                                    <p class="fwb my-2 status">
+                                                        @if($order->status == 0)
+                                                            обрабатывается
+                                                        @else
+                                                            отгружен
+                                                        @endif
+                                                    </p>
                                                 </li>
                                             @endforeach
                                         </ul>

@@ -137,6 +137,10 @@
         $('.js-modal1').removeClass('show-modal1');
     });
 
+    $(".fancybox").fancybox({
+        buttons: ['close']
+    });
+
     $.ajaxSetup({
         headers: {
             'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
