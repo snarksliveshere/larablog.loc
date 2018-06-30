@@ -49,7 +49,7 @@ class PostsController extends Controller
         ]);
 
         $post = Post::add($request->all());
-        $post->uploadImage($request->file('image', $post));
+        $post->uploadImage($request->file('image'), $post);
         $post->setCategory($request->get('category_id'));
         $post->setTags($request->get('tags'));
         $post->toggleStatus($request->get('status'));

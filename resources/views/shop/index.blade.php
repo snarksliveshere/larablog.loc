@@ -10,10 +10,10 @@
     </section>
 @endsection
 @section('content')
-    <section class="bg0 p-t-75 p-b-120">
+    <section class="bg0 py-5">
         <div class="container">
             @foreach($products->chunk(3) as $productChunk)
-                <div class="row p-b-148">
+                <div class="row pb-5">
                     @foreach($productChunk as $product)
                         <div class="col-sm-6 col-md-4 p-b-35">
                             <div class="block2">
@@ -51,4 +51,10 @@
             @endforeach
         </div>
     </section>
+    <section class="bg0 pt-5 p-b-120">
+        <div class="container content">
+            {!! $category->content !!}
+        </div>
+    </section>
+
 @endsection

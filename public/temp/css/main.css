@@ -3371,3 +3371,11 @@ input.num-product::-webkit-inner-spin-button {
   margin-top: 15px;
   color: #fff;
 }
+
+.content ul {
+  padding-left: 15px;
+  list-style: disc;
+}
+.content li {
+  list-style: disc;
+}

@@ -36,8 +36,8 @@ class ProductController extends Controller
 
     public function show($category_slug, $product_slug)
     {
-        $product = Product::where('slug', $product_slug)->firstOrFail();
-        $related = RelatedProduct::where('parent_id', $product->id)->get();
+        $product = Product::where([['slug', $product_slug],['status', 1]])->firstOrFail();
+        $related = RelatedProduct::where([['parent_id',$product->id],['status', 1]])->get();
         $relatedOffers = RelatedProduct::showRelated($related);
 
         return view('shop.show', compact('product', 'related', 'relatedOffers', 'category_slug'));
