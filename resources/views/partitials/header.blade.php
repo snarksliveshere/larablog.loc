@@ -26,11 +26,11 @@
                     <div>
                         <ul class="main-menu">
                             @if(Auth::check())
-                                <li><a href="/profile">My profile</a></li>
-                                <li><a href="/logout">Logout</a></li>
+                                <li><a href="/profile">Мой профиль</a></li>
+                                <li><a href="/logout">Выйти</a></li>
                             @else
-                                <li><a href="/register">Register</a></li>
-                                <li><a href="/login">Login</a></li>
+                                <li><a href="/register">Регистрация</a></li>
+                                <li><a href="/login">Логин</a></li>
                             @endif
                         </ul>
                     </div>
