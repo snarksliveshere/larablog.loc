@@ -19,7 +19,7 @@ Route::get('/verify/{token}', 'SubscribeController@verify');
 
 Route::group(['middleware' => 'guest'], function(){
     Route::get('/register', 'AuthController@registerForm');
-    Route::post('/register', 'AuthController@register');
+    Route::post('/register', 'AuthController@register')->name('user.register');
     Route::get('/login', 'AuthController@loginForm')->name('login');
     Route::post('/login', 'AuthController@login');
 });

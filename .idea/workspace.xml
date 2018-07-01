@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2e2699bb-bf3c-41a3-904d-7b55bb4040f1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/partitials/header.blade.php" afterPath="$PROJECT_DIR$/resources/views/partitials/header.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/temp/css/main.css" afterPath="$PROJECT_DIR$/public/temp/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/pages/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/pages/index.blade.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,112 +23,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/web.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="30" column="61" lean-forward="false" selection-start-line="30" selection-start-column="61" selection-end-line="30" selection-end-column="61" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommentController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CommentController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="34" column="20" lean-forward="false" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/shop/show.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="7" selection-end-column="11" />
-              <folding>
-                <marker date="1530369704100" expanded="true" signature="313:995" ph="..." />
-                <marker date="1530369704100" expanded="true" signature="494:956" ph="..." />
-                <marker date="1530369704100" expanded="true" signature="545:607" ph="..." />
-                <marker date="1530369704100" expanded="true" signature="660:730" ph="..." />
-                <marker date="1530369704100" expanded="true" signature="779:841" ph="..." />
-                <marker date="1530369704100" expanded="true" signature="888:946" ph="..." />
-                <marker date="1530369704100" expanded="true" signature="2817:2951" ph="..." />
-                <marker date="1530369704100" expanded="true" signature="2829:2949" ph="..." />
-                <marker date="1530369704100" expanded="true" signature="2830:2948" ph="..." />
-                <marker date="1530369704100" expanded="true" signature="9365:9538" ph="..." />
-                <marker date="1530369704100" expanded="true" signature="9372:9536" ph="..." />
-                <marker date="1530369704100" expanded="true" signature="9425:9535" ph="..." />
-                <marker date="1530369704100" expanded="true" signature="9906:10079" ph="..." />
-                <marker date="1530369704100" expanded="true" signature="9913:10077" ph="..." />
-                <marker date="1530369704100" expanded="true" signature="9966:10076" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contacts.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/pages/contacts.blade.php">
+      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/pages/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
-              <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminMiddleware.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Middleware/AdminMiddleware.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_sidebar.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1122">
-              <caret line="45" column="31" lean-forward="false" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
+              <caret line="59" column="49" lean-forward="false" selection-start-line="59" selection-start-column="49" selection-end-line="59" selection-end-column="49" />
               <folding>
-                <element signature="n#style#0;n#span#0;n#a#0;n#li#14;n#ul#0;n#!!top" expanded="true" />
+                <element signature="e#212#1553#0#HTML" expanded="false" />
+                <element signature="e#1570#2842#0#HTML" expanded="false" />
+                <element signature="e#2885#2935#0#HTML" expanded="true" />
+                <marker date="1530373022143" expanded="true" signature="6282:6486" ph="..." />
+                <marker date="1530373022143" expanded="true" signature="6289:6484" ph="..." />
+                <marker date="1530373022143" expanded="true" signature="6306:6483" ph="..." />
+                <marker date="1530373022143" expanded="true" signature="6854:7058" ph="..." />
+                <marker date="1530373022143" expanded="true" signature="6861:7056" ph="..." />
+                <marker date="1530373022143" expanded="true" signature="6878:7055" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/partitials/header.blade.php">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/temp/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="38" column="14" lean-forward="true" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+            <state relative-caret-position="550">
+              <caret line="3389" column="28" lean-forward="false" selection-start-line="3389" selection-start-column="28" selection-end-line="3389" selection-end-column="28" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Comment.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Comment.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="577">
-              <caret line="40" column="33" lean-forward="false" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/pages/show.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-47">
-              <caret line="144" column="63" lean-forward="false" selection-start-line="144" selection-start-column="63" selection-end-line="144" selection-end-column="63" />
-              <folding>
-                <marker date="1530369428396" expanded="true" signature="2293:2334" ph="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -142,7 +62,6 @@
       <find>мои зака</find>
       <find>мои заказ</find>
       <find>мои заказы</find>
-      <find>style=&quot;height:\d+px;\swidth:\d+px&quot;</find>
       <find>fwb</find>
       <find>valign=&quot;top&quot;</find>
       <find>&lt;/p&gt;</find>
@@ -167,6 +86,7 @@
       <find>sho</find>
       <find>post</find>
       <find>/comme</find>
+      <find>style=&quot;height:\d+px;\swidth:\d+px&quot;</find>
     </findStrings>
     <replaceStrings>
       <replace>$category</replace>
@@ -223,11 +143,8 @@
         <option value="$PROJECT_DIR$/public/temp/js/main.js" />
         <option value="$PROJECT_DIR$/resources/views/pages/about.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/pages/profile.blade.php" />
-        <option value="$PROJECT_DIR$/public/temp/css/main.css" />
         <option value="$PROJECT_DIR$/resources/views/shop/category_product.blade.php" />
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.html" />
         <option value="$PROJECT_DIR$/resources/views/partitials/footer.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/pages/index.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2018_06_30_132911_add_product_id_to_comments.php" />
         <option value="$PROJECT_DIR$/app/Comment.php" />
         <option value="$PROJECT_DIR$/app/Product.php" />
@@ -239,6 +156,9 @@
         <option value="$PROJECT_DIR$/resources/views/pages/contacts.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/partitials/header.blade.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.html" />
+        <option value="$PROJECT_DIR$/public/temp/css/main.css" />
+        <option value="$PROJECT_DIR$/resources/views/pages/index.blade.php" />
       </list>
     </option>
   </component>
@@ -358,10 +278,10 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1616" />
-    <option name="height" value="1176" />
+    <option name="x" value="1" />
+    <option name="y" value="1" />
+    <option name="width" value="1598" />
+    <option name="height" value="1158" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -485,6 +405,28 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="larablog.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="larablog.loc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -513,7 +455,7 @@
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../modules/php/PHP-7.1/php.exe" />
-    <property name="SearchEverywhereHistoryKey" value="contacts&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/pages/contacts.blade.php&#10;comment&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/app/Comment.php&#10;commentcon&#9;null&#9;null&#10;web&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/routes/web.php&#10;pages/sh&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/pages/show.blade.php&#10;shop/show&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/shop/show.blade.php&#10;diffforhum&#9;null&#9;null&#10;post&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/app/Post.php&#10;homeco&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/app/Http/Controllers/HomeController.php&#10;pages&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/app/Http/Controllers/PagesController.php&#10;product&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/app/Http/Controllers/Catalog/ProductController.php&#10;main&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/public/temp/css/main.css&#10;shop/s&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/shop/show.blade.php&#10;posts&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/app/Http/Controllers/Admin/PostsController.php&#10;main.&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/public/temp/css/main.css&#10;shop/index&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/shop/index.blade.php&#10;main.css&#9;FILE&#9;file://D:/os/domains/larablog.loc/public/temp/css/main.css&#10;shop/sho&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/shop/show.blade.php&#10;we&#9;FILE&#9;file://D:/os/domains/larablog.loc/routes/web.php&#10;main.cs&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/public/temp/css/main.css&#10;header.&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/partitials/header.blade.php&#10;home&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/HomeController.php&#10;productco&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/Admin/ProductsController.php&#10;products/inde&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/admin/products/index.blade.php&#10;show&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/shop/show.blade.php&#10;header&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/partitials/header.blade.php&#10;postsco&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/Admin/PostsController.php&#10;shopp&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/shop/shopping-cart.blade.php&#10;shop/ind&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/shop/index.blade.php&#10;productcontro&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/app/Http/Controllers/Catalog/ProductController.php&#10;shop/sh&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/shop/show.blade.php&#10;pages/posts&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/pages/posts.blade.php&#10;pages/sho&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/pages/show.blade.php&#10;pages/list&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/pages/list.blade.php&#10;homecont&#9;null&#9;null&#10;web.&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/routes/web.php&#10;main.c&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/public/temp/css/main.css&#10;pages/inde&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/pages/index.blade.php&#10;mai.cs&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/public/temp/css/main.css&#10;productcontr&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/app/Http/Controllers/Catalog/ProductController.php&#10;productc&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/app/Http/Controllers/Catalog/ProductController.php&#10;цуи&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/routes/web.php&#10;footer&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/partitials/footer.blade.php&#10;pagescontroll&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/PagesController.php&#10;pagescontro&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/PagesController.php&#10;views/lay&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/layout.blade.php&#10;front.&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/public/js/front.js&#10;scripts&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/assets/front/js/scripts.js&#10;зкщвгсе&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/app/Http/Controllers/Catalog/ProductController.php&#10;cart.&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/app/Cart.php" />
+    <property name="SearchEverywhereHistoryKey" value="main&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/public/temp/css/main.css&#10;main.css&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/public/temp/css/main.css&#10;contacts&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/pages/contacts.blade.php&#10;comment&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/app/Comment.php&#10;commentcon&#9;null&#9;null&#10;web&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/routes/web.php&#10;pages/sh&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/pages/show.blade.php&#10;shop/show&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/shop/show.blade.php&#10;diffforhum&#9;null&#9;null&#10;post&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/app/Post.php&#10;homeco&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/app/Http/Controllers/HomeController.php&#10;pages&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/app/Http/Controllers/PagesController.php&#10;product&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/app/Http/Controllers/Catalog/ProductController.php&#10;shop/s&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/shop/show.blade.php&#10;posts&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/app/Http/Controllers/Admin/PostsController.php&#10;main.&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/public/temp/css/main.css&#10;shop/index&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/shop/index.blade.php&#10;shop/sho&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/shop/show.blade.php&#10;we&#9;FILE&#9;file://D:/os/domains/larablog.loc/routes/web.php&#10;main.cs&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/public/temp/css/main.css&#10;header.&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/partitials/header.blade.php&#10;home&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/HomeController.php&#10;productco&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/Admin/ProductsController.php&#10;products/inde&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/admin/products/index.blade.php&#10;show&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/shop/show.blade.php&#10;header&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/partitials/header.blade.php&#10;postsco&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/Admin/PostsController.php&#10;shopp&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/shop/shopping-cart.blade.php&#10;shop/ind&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/shop/index.blade.php&#10;productcontro&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/app/Http/Controllers/Catalog/ProductController.php&#10;shop/sh&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/shop/show.blade.php&#10;pages/posts&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/pages/posts.blade.php&#10;pages/sho&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/pages/show.blade.php&#10;pages/list&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/pages/list.blade.php&#10;homecont&#9;null&#9;null&#10;web.&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/routes/web.php&#10;main.c&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/public/temp/css/main.css&#10;pages/inde&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/pages/index.blade.php&#10;mai.cs&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/public/temp/css/main.css&#10;productcontr&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/app/Http/Controllers/Catalog/ProductController.php&#10;productc&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/app/Http/Controllers/Catalog/ProductController.php&#10;цуи&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/routes/web.php&#10;footer&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/partitials/footer.blade.php&#10;pagescontroll&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/PagesController.php&#10;pagescontro&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/PagesController.php&#10;views/lay&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/layout.blade.php&#10;front.&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/public/js/front.js&#10;scripts&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/assets/front/js/scripts.js&#10;зкщвгсе&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/app/Http/Controllers/Catalog/ProductController.php&#10;cart.&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/app/Cart.php" />
     <property name="node.js.path.for.package.jscs" value="project" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="node.js.detected.package.jscs" value="true" />
@@ -712,14 +654,7 @@
       <workItem from="1530180730727" duration="2933000" />
       <workItem from="1530267654087" duration="1688000" />
       <workItem from="1530364779899" duration="1550000" />
-      <workItem from="1530368258269" duration="2648000" />
-    </task>
-    <task id="LOCAL-00011" summary="Готов функционал Добавления ТП к продукту со всеми связями">
-      <created>1528660692762</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1528660692762</updated>
+      <workItem from="1530368258269" duration="4520000" />
     </task>
     <task id="LOCAL-00012" summary="Добавил ТП лист и ТП редактировать.&#10;пока без update">
       <created>1528723402625</created>
@@ -1057,11 +992,18 @@
       <option name="project" value="LOCAL" />
       <updated>1530369952563</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="убрал доступ для гостя в определенные части админки, добавил выйти для админки">
+      <created>1530371023043</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1530371023043</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="248748000" />
+    <option name="totallyTimeSpent" value="250620000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1073,8 +1015,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="1176" extended-state="6" />
-    <editor active="true" />
+    <frame x="1" y="1" width="1598" height="1158" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24567099" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Tasks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1082,9 +1023,9 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.313783" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.319403" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27086008" sideWeight="0.4942857" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27402598" sideWeight="0.4942857" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3998045" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1108,7 +1049,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="добавил корзину. надо только еще сделать кнопку очистить все и изображение и тотал прайс для каждого" />
     <MESSAGE value="добавил корзину. fix" />
     <MESSAGE value="небольшие css фиксы. теперь надо перенести страницу продуктов" />
     <MESSAGE value="поставил КАРТОЧКУ ТОВАРА" />
@@ -1133,7 +1073,8 @@
     <MESSAGE value="fix postscontroller uploadImage" />
     <MESSAGE value="заполнил кроме контактов и отзывы надо добавить к товарам" />
     <MESSAGE value="добавил отзывы к товарам" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавил отзывы к товарам" />
+    <MESSAGE value="убрал доступ для гостя в определенные части админки, добавил выйти для админки" />
+    <option name="LAST_COMMIT_MESSAGE" value="убрал доступ для гостя в определенные части админки, добавил выйти для админки" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1312,13 +1253,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/temp/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="3367" column="1" lean-forward="true" selection-start-line="3367" selection-start-column="1" selection-end-line="3367" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Catalog/ProductController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="235">
@@ -1342,24 +1276,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/partitials/footer.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
           <caret line="53" column="14" lean-forward="true" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/pages/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -1511,7 +1431,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
+        <state relative-caret-position="858">
           <caret line="45" column="31" lean-forward="false" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
           <folding>
             <element signature="n#style#0;n#span#0;n#a#0;n#li#14;n#ul#0;n#!!top" expanded="true" />
@@ -1519,11 +1439,89 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="18" column="249" lean-forward="true" selection-start-line="18" selection-start-column="249" selection-end-line="18" selection-end-column="249" />
+          <folding>
+            <element signature="e#4#10#0" expanded="false" />
+            <element signature="e#19#25#0" expanded="false" />
+            <element signature="e#87#93#0" expanded="false" />
+            <element signature="e#100#106#0" expanded="false" />
+            <element signature="e#411#417#0" expanded="false" />
+            <element signature="e#427#433#0" expanded="false" />
+            <element signature="e#588#594#0" expanded="false" />
+            <element signature="e#601#607#0" expanded="false" />
+            <element signature="e#681#687#0" expanded="false" />
+            <element signature="e#694#700#0" expanded="false" />
+            <element signature="e#823#829#0" expanded="false" />
+            <element signature="e#836#842#0" expanded="false" />
+            <element signature="e#1015#1021#0" expanded="false" />
+            <element signature="e#1031#1037#0" expanded="false" />
+            <element signature="e#1757#1763#0" expanded="false" />
+            <element signature="e#1773#1779#0" expanded="false" />
+            <element signature="e#1876#1882#0" expanded="false" />
+            <element signature="e#1892#1898#0" expanded="false" />
+            <element signature="e#1947#1954#0" expanded="false" />
+            <element signature="e#1967#1973#0" expanded="false" />
+            <element signature="e#1981#1987#0" expanded="false" />
+            <element signature="e#2229#2235#0" expanded="false" />
+            <element signature="e#2246#2252#0" expanded="false" />
+            <element signature="e#2353#2360#0" expanded="false" />
+            <element signature="e#2513#2519#0" expanded="false" />
+            <element signature="e#2529#2535#0" expanded="false" />
+            <element signature="e#2577#2583#0" expanded="false" />
+            <element signature="e#2594#2600#0" expanded="false" />
+            <element signature="e#2779#2785#0" expanded="false" />
+            <element signature="e#2793#2799#0" expanded="false" />
+            <element signature="e#3084#3090#0" expanded="false" />
+            <element signature="e#3099#3105#0" expanded="false" />
+            <element signature="e#3386#3393#0" expanded="false" />
+            <element signature="e#3473#3479#0" expanded="false" />
+            <element signature="e#3491#3497#0" expanded="false" />
+            <element signature="e#3524#3530#0" expanded="false" />
+            <element signature="e#3540#3546#0" expanded="false" />
+            <element signature="e#3677#3685#0" expanded="false" />
+            <element signature="e#3762#3768#0" expanded="false" />
+            <element signature="e#3777#3783#0" expanded="false" />
+            <element signature="e#4011#4017#0" expanded="false" />
+            <element signature="e#4021#4027#0" expanded="false" />
+            <element signature="e#4379#4386#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/partitials/header.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="38" column="14" lean-forward="true" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+        <state relative-caret-position="198">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/temp/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="3389" column="28" lean-forward="false" selection-start-line="3389" selection-start-column="28" selection-end-line="3389" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/pages/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="59" column="49" lean-forward="false" selection-start-line="59" selection-start-column="49" selection-end-line="59" selection-end-column="49" />
+          <folding>
+            <element signature="e#212#1553#0#HTML" expanded="false" />
+            <element signature="e#1570#2842#0#HTML" expanded="false" />
+            <element signature="e#2885#2935#0#HTML" expanded="true" />
+            <marker date="1530373022143" expanded="true" signature="6282:6486" ph="..." />
+            <marker date="1530373022143" expanded="true" signature="6289:6484" ph="..." />
+            <marker date="1530373022143" expanded="true" signature="6306:6483" ph="..." />
+            <marker date="1530373022143" expanded="true" signature="6854:7058" ph="..." />
+            <marker date="1530373022143" expanded="true" signature="6861:7056" ph="..." />
+            <marker date="1530373022143" expanded="true" signature="6878:7055" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -57,18 +57,18 @@
                     <div class="container h-full">
                         <div class="flex-col-l-m h-full p-t-100 p-b-30 respon5">
                             <div class="layer-slick1 animated visible-false" data-appear="fadeInDown" data-delay="0">
-								<span class="ltext-101 respon2 white">
-									Women Collection 2018
+								<span class="ttu ltext-101 respon2 white">
+									1970 - 2013
 								</span>
                             </div>
                             <div class="layer-slick1 animated visible-false" data-appear="fadeInUp" data-delay="800">
-                                <h2 class="ltext-201 p-t-19 p-b-43 respon1 white">
-                                    NEW SEASON
+                                <h2 class="ttu ltext-201 p-t-19 p-b-43 respon1 white">
+                                    История луноходов
                                 </h2>
                             </div>
                             <div class="layer-slick1 animated visible-false" data-appear="zoomIn" data-delay="1600">
-                                <a href="product.html"
-                                   class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04"> Shop Now </a>
+                                <a href="/posts/post/istoriya-lunohodov"
+                                   class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04"> Перейти </a>
                             </div>
                         </div>
                     </div>

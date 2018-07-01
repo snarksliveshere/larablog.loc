@@ -3382,3 +3382,10 @@ input.num-product::-webkit-inner-spin-button {
 .txt-shadow {
   text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
 }
+.content h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.ttu {
+  text-transform: uppercase;
+}
