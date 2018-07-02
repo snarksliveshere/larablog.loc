@@ -12,10 +12,12 @@ class PageTest extends TestCase
      *
      * @return void
      */
-    public function testBasicTest()
+    public function testHomepage()
     {
-        $this->visit('/')
-        	->see('Наша продукция');
-        
+        $response = $this->visit('/');
+        $response->see('НАША ПРОДУКЦИЯ');
+
+
+
     }
 }
