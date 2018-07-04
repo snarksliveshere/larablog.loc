@@ -5,7 +5,7 @@
         <a href="/admin"> <i class="fa fa-dashboard"></i> <span>Админ-панель</span> </a>
     </li>
     <li class="header">Товары</li>
-    <li><a href="{{ route('product_categories.index') }}"><i class="fa fa-list-ul"></i>Категории товаров</a></li>
+    <li><a href="{{ route('product_categories.index') }}"><i class="fa fa-list-ul"></i><span>Категории товаров</span></a></li>
     <li><a href="{{ route('products.index')}}"><i class="fa fa-sticky-note-o"></i> <span>Товары</span></a></li>
     <li><a href="{{ route('offers.index') }}"><i class="fa fa-list-ul"></i> <span>Торговые предложения</span></a></li>
     <li><a href="{{ route('orders.index') }}"><i class="fa fa-list-ul"></i> <span>Заказы</span></a></li>
@@ -43,7 +43,7 @@
     <li><a href="#"><i class="fa fa-user-plus"></i> <span>Подписчики</span></a></li>
 
 @endif
-    <li><a href="/logout">Выйти</a></li>
+    <li><a href="/logout"><span>Выйти</span></a></li>
 </ul>
 
 
