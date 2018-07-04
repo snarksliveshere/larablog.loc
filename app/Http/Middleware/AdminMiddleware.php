@@ -16,15 +16,16 @@ class AdminMiddleware
      */
     public function handle($request, Closure $next)
     {
-        $user =  Auth::user()->roles()->firstOrFail();
+        if (Auth::check()) {
+            $user =  Auth::user()->roles()->firstOrFail();
+            if ($user->name == 'admin' || $user->name == 'admin_guest') {
 
-        if (Auth::check() && ($user->name == 'admin' || $user->name == 'admin_guest' ) ) {
-            if ($user->name == 'admin_guest' && $request->method() != 'GET') {
-                return redirect()->back()->with('status', 'Вы недостаточно авторизованы');
+                if ($user->name == 'admin_guest' && $request->method() != 'GET') {
+                    return redirect()->back()->with('status', 'Вы недостаточно авторизованы');
+                }
+                return $next($request);
             }
-            return $next($request);
         }
-
         abort(404);
     }
 }

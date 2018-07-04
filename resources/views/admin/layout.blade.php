@@ -16,7 +16,7 @@
 
     <header class="main-header">
         
-        <a href="../../index2.html" class="logo">
+        <a href="#" class="logo">
             
             <span class="logo-mini"><b>A</b>LT</span>
             
