@@ -91,3 +91,9 @@ Route::group(['prefix' => 'catalog', 'namespace' => 'Catalog'], function (){
 
 
 
+Route::get('/test', function()
+{
+    $img = Image::make(public_path('/images/company_bg.jpg'))->resize(300, null, function($con){ $con->aspectRatio();});
+
+    return $img->response('jpg');
+});

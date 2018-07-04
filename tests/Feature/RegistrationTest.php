@@ -14,6 +14,7 @@ class RegisterTest extends TestCase
      *
      * @return void
      */
+    // это для dusk, пока проходит не будет
     public function testRegistration()
     {
         $response = $this->get('/register');
