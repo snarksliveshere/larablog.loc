@@ -21,14 +21,22 @@ class Helpers
      * @param $obj
      */
 
+    protected static $imagesDir;
+
     public static function uploadImage($image, $obj)
     {
         if ($image == null) { return; }
         static::removeImage($obj);
         $filename = $obj->id . '.' . strtolower($image->getClientOriginalExtension());
+        static::$imagesDir = 'images';
+
         static::setResolution($image, $obj, $filename);
 
-        $path = 'images/' . strtolower(class_basename($obj)) . '/';
+        $isDir = in_array(static::$imagesDir, Storage::directories('/'));
+
+        ($isDir) ?: Storage::makeDirectory(static::$imagesDir);
+
+        $path = static::$imagesDir . '/' . strtolower(class_basename($obj)) . '/';
 
         $image->storeAs($path ,$filename);
         $fullPath = '/' . $path . $filename;
@@ -60,7 +68,7 @@ class Helpers
                 $con->aspectRatio();
                 }, 'center');
 
-            $path = 'images/' . strtolower(class_basename($obj)) . '/';
+            $path = static::$imagesDir . '/' . strtolower(class_basename($obj)) . '/';
             Storage::makeDirectory($path . $item);
 
             $img->save($path . $item . '/' . $filename);

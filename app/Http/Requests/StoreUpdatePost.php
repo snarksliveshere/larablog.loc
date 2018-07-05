@@ -21,11 +21,14 @@ class StoreUpdatePost extends FormRequest
     public function messages()
     {
         return [
-            'image.max' => 'Это уж слишком большое изображение',
+
             'title.required' => 'Тут нужен заголовок',
             'title.max' => 'слишком длинный заголовок',
             'content.required' => 'Нужен контент',
-            'image:image' => 'Загружаемый файл должен быть картинкой!'
+            'image.image' => 'Загружаемый файл должен быть картинкой!',
+            'image.max'    => 'Слишком больше изображение. :attribute должен быть не более :max.',
+
+
 
         ];
     }
@@ -40,7 +43,7 @@ class StoreUpdatePost extends FormRequest
         return [
             'title' => 'required|max:255',
             'content' => 'required',
-            'image' => 'nullable|image|max:300000'
+            'image' => 'nullable|image|max:300'
         ];
     }
 }

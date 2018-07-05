@@ -26,7 +26,7 @@ class StoreUpdateProduct extends FormRequest
         return [
             'title' => 'required',
             'content' => 'required',
-            'image' => 'nullable|image|max:300000',
+            'image' => 'nullable|image|max:300',
             'price' => 'numeric'
         ];
     }
