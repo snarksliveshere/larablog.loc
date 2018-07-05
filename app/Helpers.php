@@ -16,19 +16,18 @@ class Helpers
 {
     // picture block
 
+    // папка для изображений
+    protected static $imagesDir = 'images';
+
     /**
      * @param $image
      * @param $obj
      */
-
-    protected static $imagesDir;
-
     public static function uploadImage($image, $obj)
     {
         if ($image == null) { return; }
         static::removeImage($obj);
         $filename = $obj->id . '.' . strtolower($image->getClientOriginalExtension());
-        static::$imagesDir = 'images';
 
         static::setResolution($image, $obj, $filename);
 
