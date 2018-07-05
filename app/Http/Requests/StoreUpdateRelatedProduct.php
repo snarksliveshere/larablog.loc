@@ -24,8 +24,8 @@ class StoreUpdateRelatedProduct extends FormRequest
     public function rules()
     {
         return [
-            'title' => 'required',
-            'image' => 'nullable|image',
+            'title' => 'required|max:255',
+            'image' => 'nullable|image|max:300',
             'price' => 'required|integer',
             'value_id' => 'required'
         ];

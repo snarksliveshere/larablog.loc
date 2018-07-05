@@ -63,8 +63,9 @@ class RelatedController extends Controller
         foreach ($related['name'] as $key => $name) {
             $offersRelated[$name] = $related['value_id'][$key];
         }
+
         foreach ($related as $ki => $rel) {
-            if($ki == '_token') continue;
+            if($ki == '_token' || $ki == 'price') continue;
             if($rel == $product->{$ki}) {
                 $related[$ki] = null;
             }
