@@ -120,6 +120,7 @@
           <root url="file://$MODULE_DIR$/vendor/doctrine/lexer" />
           <root url="file://$MODULE_DIR$/vendor/egulias/email-validator" />
           <root url="file://$MODULE_DIR$/vendor/erusev/parsedown" />
+          <root url="file://$MODULE_DIR$/vendor/facebook/webdriver" />
           <root url="file://$MODULE_DIR$/vendor/fideloper/proxy" />
           <root url="file://$MODULE_DIR$/vendor/filp/whoops" />
           <root url="file://$MODULE_DIR$/vendor/fzaninotto/faker" />
@@ -129,6 +130,7 @@
           <root url="file://$MODULE_DIR$/vendor/jakub-onderka/php-console-color" />
           <root url="file://$MODULE_DIR$/vendor/jakub-onderka/php-console-highlighter" />
           <root url="file://$MODULE_DIR$/vendor/laracasts/flash" />
+          <root url="file://$MODULE_DIR$/vendor/laravel/dusk" />
           <root url="file://$MODULE_DIR$/vendor/laravel/framework" />
           <root url="file://$MODULE_DIR$/vendor/laravel/tinker" />
           <root url="file://$MODULE_DIR$/vendor/laravelcollective/html" />
@@ -211,6 +213,7 @@
           <root url="file://$MODULE_DIR$/vendor/doctrine/lexer" />
           <root url="file://$MODULE_DIR$/vendor/egulias/email-validator" />
           <root url="file://$MODULE_DIR$/vendor/erusev/parsedown" />
+          <root url="file://$MODULE_DIR$/vendor/facebook/webdriver" />
           <root url="file://$MODULE_DIR$/vendor/fideloper/proxy" />
           <root url="file://$MODULE_DIR$/vendor/filp/whoops" />
           <root url="file://$MODULE_DIR$/vendor/fzaninotto/faker" />
@@ -220,6 +223,7 @@
           <root url="file://$MODULE_DIR$/vendor/jakub-onderka/php-console-color" />
           <root url="file://$MODULE_DIR$/vendor/jakub-onderka/php-console-highlighter" />
           <root url="file://$MODULE_DIR$/vendor/laracasts/flash" />
+          <root url="file://$MODULE_DIR$/vendor/laravel/dusk" />
           <root url="file://$MODULE_DIR$/vendor/laravel/framework" />
           <root url="file://$MODULE_DIR$/vendor/laravel/tinker" />
           <root url="file://$MODULE_DIR$/vendor/laravelcollective/html" />

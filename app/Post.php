@@ -6,6 +6,8 @@ use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Model;
 use Cviebrock\EloquentSluggable\Sluggable;
 use Illuminate\Support\Facades\Storage;
+use Intervention\Image\Facades\Image;
+
 
 class Post extends Model
 {
@@ -74,22 +76,31 @@ class Post extends Model
         $this->delete();
     }
 
-    public function uploadImage($image, $obj)
+    public function uploadImage($image, Object $obj)
     {
         if ($image == null) { return; }
         $this->removeImage();
-        $filename = $obj->id . '.' . $image->extension();
-        $path = 'images/' . strtolower(class_basename($obj));
-        $fullPath =  $image->storeAs($path, $filename);
-        $fullPath = '/' . $fullPath;
-        $this->image = $fullPath;
-        $this->save();
+        $filename = $obj->id . '.' . $image->getClientOriginalExtension();
+        // JPG -> jpg JPEG -> jpeg
+        $img = Image::make($image)->resize(430, 340);
+        $innerFolder = '430-340';
+
+        $path = 'images/' . strtolower(class_basename($obj)) . '/';
+        Storage::makeDirectory($path . $innerFolder);
+
+        $img->save($path . $innerFolder . '/' . $filename);
+
+        $fullPath = '/' . $path . $filename;
+        $image->storeAs($path ,$filename);
+
+        (class_basename($obj) == 'Post') ? $obj->image = $fullPath : $obj->imagePath = $fullPath;
+        $obj->save();
     }
 
     public function removeImage()
     {
         if ($this->image != null) {
-            Storage::delete('images/' . $this->image);
+            Storage::delete($this->image);
         }
     }
 

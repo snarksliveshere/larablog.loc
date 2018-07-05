@@ -93,6 +93,7 @@ class ProductController extends Controller
     public function cart(Request $request)
     {
 
+
         if (null !== $request->get('related_id')) {
             $product = RelatedProduct::find($request->get('related_id'));
 

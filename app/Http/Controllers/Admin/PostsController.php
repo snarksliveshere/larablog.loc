@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Category;
+use App\Helpers;
 use App\Post;
 use App\Tag;
 use Illuminate\Http\Request;
@@ -49,7 +50,7 @@ class PostsController extends Controller
         ]);
 
         $post = Post::add($request->all());
-        $post->uploadImage($request->file('image'), $post);
+        Helpers::uploadImage($request->file('image'), $post);
         $post->setCategory($request->get('category_id'));
         $post->setTags($request->get('tags'));
         $post->toggleStatus($request->get('status'));
@@ -92,9 +93,8 @@ class PostsController extends Controller
         ]);
 
         $post = Post::find($id);
-        $post->uploadImage($request->file('image'), $post);
+        Helpers::uploadImage($request->file('image'), $post);
         $post->edit($request->all());
-
         $post->setCategory($request->get('category_id'));
         $post->setTags($request->get('tags'));
         $post->toggleStatus($request->get('status'));
