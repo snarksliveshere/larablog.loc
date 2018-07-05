@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Admin;
 
+use App\Helpers;
 use App\Offer;
 use App\OffersProduct;
 use App\OfferValue;
@@ -76,7 +77,7 @@ class RelatedController extends Controller
             }
         }
         $relatedProduct = RelatedProduct::add($related);
-        $relatedProduct->uploadImage($request->file('image'), $relatedProduct);
+        Helpers::uploadImage($request->file('image'), $relatedProduct);
         $fillOffers = RelatedProduct::addValues($offersRelated, $relatedProduct);
 
 
@@ -158,8 +159,8 @@ class RelatedController extends Controller
 
         $requestRelated = $request->all();
         $relate = RelatedProduct::find($id);
-        $relate->uploadImage($request->file('image'), $relate);
-         $offersRelated = [];
+        Helpers::uploadImage($request->file('image'), $relate);
+        $offersRelated = [];
         foreach ($requestRelated['name'] as $key => $name) {
             $offersRelated[$name] = $requestRelated['value_id'][$key];
         }

@@ -144,24 +144,6 @@ class Product extends Model
         return $this->category != null ? $this->category->id : null;
     }
 
-    public function uploadImage($image, $obj)
-    {
-        if ($image == null) { return; }
-        $this->removeImage();
-        $filename = $obj->id . '.' . $image->extension();
-        $path = 'images/' . strtolower(class_basename($obj));
-        $fullPath =  $image->storeAs($path, $filename);
-        $fullPath = '/' . $fullPath;
-        $this->imagePath = $fullPath;
-        $this->save();
-    }
-
-    public function removeImage()
-    {
-        if ($this->image != null) {
-            Storage::delete('images/' . $this->image);
-        }
-    }
     public function getImage()
     {
         if ($this->image == null) {

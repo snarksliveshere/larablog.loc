@@ -76,34 +76,6 @@ class Post extends Model
         $this->delete();
     }
 
-    public function uploadImage($image, Object $obj)
-    {
-        if ($image == null) { return; }
-        $this->removeImage();
-        $filename = $obj->id . '.' . $image->getClientOriginalExtension();
-        // JPG -> jpg JPEG -> jpeg
-        $img = Image::make($image)->resize(430, 340);
-        $innerFolder = '430-340';
-
-        $path = 'images/' . strtolower(class_basename($obj)) . '/';
-        Storage::makeDirectory($path . $innerFolder);
-
-        $img->save($path . $innerFolder . '/' . $filename);
-
-        $fullPath = '/' . $path . $filename;
-        $image->storeAs($path ,$filename);
-
-        (class_basename($obj) == 'Post') ? $obj->image = $fullPath : $obj->imagePath = $fullPath;
-        $obj->save();
-    }
-
-    public function removeImage()
-    {
-        if ($this->image != null) {
-            Storage::delete($this->image);
-        }
-    }
-
     public function getImage()
     {
         if ($this->image == null) {

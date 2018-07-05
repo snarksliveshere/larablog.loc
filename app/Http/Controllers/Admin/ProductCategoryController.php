@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Admin;
 
+use App\Helpers;
 use App\ProductCategory;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
@@ -26,7 +27,7 @@ class ProductCategoryController extends Controller
         ]);
 //        \App\ProductCategory::create($request->all());
         $category = ProductCategory::add($request->all());
-        $category->uploadImage($request->file('image'), $category);
+        Helpers::uploadImage($request->file('image'), $category);
         return redirect()->route('product_categories.index');
     }
 
@@ -42,7 +43,7 @@ class ProductCategoryController extends Controller
             'title' => 'required'
         ]);
         $category = \App\ProductCategory::find($id);
-        $category->uploadImage($request->file('image'), $category);
+        Helpers::uploadImage($request->file('image'), $category);
         $category->update($request->all());
         return redirect()->route('product_categories.index');
     }
