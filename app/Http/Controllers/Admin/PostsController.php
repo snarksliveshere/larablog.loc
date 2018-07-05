@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Admin;
 
 use App\Category;
 use App\Helpers;
+use App\Http\Requests\StoreUpdatePost;
 use App\Post;
 use App\Tag;
 use Illuminate\Http\Request;
@@ -84,13 +85,13 @@ class PostsController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(StoreUpdatePost $request, $id)
     {
-        $this->validate($request,[
-            'title' => 'required',
-            'content' => 'required',
-            'image' => 'nullable|image'
-        ]);
+//        $this->validate($request,[
+//            'title' => 'required',
+//            'content' => 'required',
+//            'image' => 'nullable|image|max:300000'
+//        ]);
 
         $post = Post::find($id);
         Helpers::uploadImage($request->file('image'), $post);
