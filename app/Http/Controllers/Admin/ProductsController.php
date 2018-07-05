@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Helpers;
+use App\Http\Requests\StoreUpdateProduct;
 use App\Offer;
 use App\Product;
 use Illuminate\Http\Request;
@@ -38,15 +39,8 @@ class ProductsController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(StoreUpdateProduct $request)
     {
-        $this->validate($request,[
-            'title' => 'required',
-            'content' => 'required',
-            'price' => 'numeric',
-            'image' => 'nullable|image'
-        ]);
-//        dd($request->all());
 
         $product = Product::add($request->all());
         $product->setCategory($request->get('category_id'));
@@ -86,14 +80,9 @@ class ProductsController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(StoreUpdateProduct $request, $id)
     {
-        $this->validate($request,[
-            'title' => 'required',
-            'content' => 'required',
-            'image' => 'nullable|image',
-            'price' => 'numeric'
-        ]);
+
 
         $product = Product::find($id);
         $product->setCategory($request->get('category_id'));

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Helpers;
+use App\Http\Requests\StoreUpdateRelatedProduct;
 use App\Offer;
 use App\OffersProduct;
 use App\OfferValue;
@@ -50,16 +51,8 @@ class RelatedController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(StoreUpdateRelatedProduct $request)
     {
-        $this->validate($request,[
-            'title' => 'required',
-            'content' => 'required',
-            'image' => 'nullable|image',
-            'price' => 'required|integer',
-            'value_id' => 'required'
-        ]);
-
         $related = $request->all();
 
         $product = Product::find($request->parent_id);
@@ -148,14 +141,9 @@ class RelatedController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(StoreUpdateRelatedProduct $request, $id)
     {
-        $this->validate($request,[
-            'title' => 'required',
-            'image' => 'nullable|image',
-            'price' => 'required|integer',
-            'value_id' => 'required'
-        ]);
+
 
         $requestRelated = $request->all();
         $relate = RelatedProduct::find($id);

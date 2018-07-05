@@ -23,6 +23,7 @@ class StoreUpdatePost extends FormRequest
         return [
             'image.max' => 'Это уж слишком большое изображение',
             'title.required' => 'Тут нужен заголовок',
+            'title.max' => 'слишком длинный заголовок',
             'content.required' => 'Нужен контент',
             'image:image' => 'Загружаемый файл должен быть картинкой!'
 
@@ -37,7 +38,7 @@ class StoreUpdatePost extends FormRequest
     public function rules()
     {
         return [
-            'title' => 'required',
+            'title' => 'required|max:255',
             'content' => 'required',
             'image' => 'nullable|image|max:300000'
         ];

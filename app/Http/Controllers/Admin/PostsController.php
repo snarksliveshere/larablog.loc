@@ -41,14 +41,8 @@ class PostsController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(StoreUpdatePost $request)
     {
-//        dd($request->all());
-        $this->validate($request,[
-            'title' => 'required',
-            'content' => 'required',
-            'image' => 'nullable|image'
-        ]);
 
         $post = Post::add($request->all());
         Helpers::uploadImage($request->file('image'), $post);
@@ -87,11 +81,6 @@ class PostsController extends Controller
      */
     public function update(StoreUpdatePost $request, $id)
     {
-//        $this->validate($request,[
-//            'title' => 'required',
-//            'content' => 'required',
-//            'image' => 'nullable|image|max:300000'
-//        ]);
 
         $post = Post::find($id);
         Helpers::uploadImage($request->file('image'), $post);
