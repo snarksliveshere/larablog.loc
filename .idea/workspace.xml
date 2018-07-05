@@ -2,22 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e2699bb-bf3c-41a3-904d-7b55bb4040f1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/post/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/post/430-340/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/post/600-600/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/post/95-95/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/Unit/GetDateAttributeTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/Unit/GetDateFunctionTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/Unit/UploadImageTest.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/Unit/GetDateTest.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/product/1.jpeg" afterPath="$PROJECT_DIR$/public/images/product/1.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/larablog.loc.iml" afterPath="$PROJECT_DIR$/.idea/larablog.loc.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Helpers.php" afterPath="$PROJECT_DIR$/app/Helpers.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/PostsController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/PostsController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Catalog/ProductController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Catalog/ProductController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Post.php" afterPath="$PROJECT_DIR$/app/Post.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/blade.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/larablog.loc.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/laravel-plugin.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/webResources.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
     </list>
+    <ignored path=".idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,11 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Helpers.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Helpers.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Helpers.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="52" column="10" lean-forward="true" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
+            <state relative-caret-position="361">
+              <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
               <folding>
                 <element signature="e#109#148#0#PHP" expanded="true" />
               </folding>
@@ -69,7 +65,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PostsController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PostsController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/PostsController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="386">
@@ -526,9 +522,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="coverage" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../modules/php/PHP-7.1/php.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
     <property name="SearchEverywhereHistoryKey" value="posts&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/Admin/PostsController.php&#10;web&#9;FILE&#9;file://D:/os/domains/larablog.loc/routes/web.php&#10;post&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Post.php&#10;product&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Product.php&#10;products&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/Admin/ProductsController.php&#10;upload&#9;FILE&#9;file://D:/os/domains/larablog.loc/tests/Unit/UploadImageTest.php&#10;цуи&#9;FILE&#9;file://D:/os/domains/larablog.loc/routes/web.php&#10;productsCo&#9;null&#9;null&#10;productC&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/Catalog/ProductController.php&#10;layout&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/admin/layout.blade.php&#10;adminmiddle&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Middleware/AdminMiddleware.php&#10;home&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/HomeController.php&#10;pages&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/PagesController.php&#10;shop/show&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/shop/show.blade.php&#10;main&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/public/temp/css/main.css&#10;main.css&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/public/temp/css/main.css&#10;contacts&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/pages/contacts.blade.php&#10;comment&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/app/Comment.php&#10;commentcon&#9;null&#9;null&#10;pages/sh&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/pages/show.blade.php&#10;diffforhum&#9;null&#9;null&#10;homeco&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/app/Http/Controllers/HomeController.php&#10;shop/s&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/shop/show.blade.php&#10;main.&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/public/temp/css/main.css&#10;shop/index&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/shop/index.blade.php&#10;shop/sho&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/shop/show.blade.php&#10;we&#9;FILE&#9;file://D:/os/domains/larablog.loc/routes/web.php&#10;main.cs&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/public/temp/css/main.css&#10;header.&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/partitials/header.blade.php&#10;productco&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/Admin/ProductsController.php&#10;products/inde&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/admin/products/index.blade.php&#10;show&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/shop/show.blade.php&#10;header&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/partitials/header.blade.php&#10;postsco&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/Admin/PostsController.php&#10;shopp&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/shop/shopping-cart.blade.php&#10;shop/ind&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/shop/index.blade.php&#10;productcontro&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/app/Http/Controllers/Catalog/ProductController.php&#10;shop/sh&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/shop/show.blade.php&#10;pages/posts&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/pages/posts.blade.php&#10;pages/sho&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/pages/show.blade.php&#10;pages/list&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/pages/list.blade.php&#10;homecont&#9;null&#9;null&#10;web.&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/routes/web.php&#10;main.c&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/public/temp/css/main.css&#10;pages/inde&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/pages/index.blade.php&#10;mai.cs&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/public/temp/css/main.css&#10;productcontr&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/app/Http/Controllers/Catalog/ProductController.php&#10;productc&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/app/Http/Controllers/Catalog/ProductController.php&#10;footer&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/partitials/footer.blade.php&#10;pagescontroll&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/PagesController.php" />
     <property name="node.js.path.for.package.jscs" value="project" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
@@ -731,13 +727,6 @@
       <workItem from="1530368258269" duration="4520000" />
       <workItem from="1530526348591" duration="69000" />
       <workItem from="1530526437567" duration="2966000" />
-    </task>
-    <task id="LOCAL-00015" summary="удаление ТП отовсюду. &#10;единственно, там нужно еще написать универсальную функцию удаления related_products, если удаляется последняя запись">
-      <created>1528796629670</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1528796629670</updated>
     </task>
     <task id="LOCAL-00016" summary="изменение цены при выборе ТП">
       <created>1528802774645</created>
@@ -1075,7 +1064,14 @@
       <option name="project" value="LOCAL" />
       <updated>1530714447942</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="добавил в Helpers uploadImage и сопутствующие методы">
+      <created>1530780579707</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1530780579708</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1111,7 +1107,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="272303000" />
+    <option name="totallyTimeSpent" value="272495000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1173,7 +1169,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="добавил вывод категории" />
     <MESSAGE value="frontend карточка товара" />
     <MESSAGE value="frontend cart + буду подчищать. сначала select &amp; datepicker" />
     <MESSAGE value="общая страница постов" />
@@ -1198,7 +1193,8 @@
     <MESSAGE value="поправил adminMiddleware" />
     <MESSAGE value="Intervention Image &#10;test in routes" />
     <MESSAGE value="добавил модель Helpers и поправил верстку в админке" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавил модель Helpers и поправил верстку в админке" />
+    <MESSAGE value="добавил в Helpers uploadImage и сопутствующие методы" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавил в Helpers uploadImage и сопутствующие методы" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1524,21 +1520,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Helpers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="52" column="10" lean-forward="true" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
-          <folding>
-            <element signature="e#109#148#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/PostsController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="386">
           <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Helpers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+          <folding>
+            <element signature="e#109#148#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
