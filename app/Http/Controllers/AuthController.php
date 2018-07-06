@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\RegisterCheck;
 use App\User;
 use Illuminate\Http\Request;
 use Auth;
@@ -14,14 +15,10 @@ class AuthController extends Controller
         return view('pages.register');
     }
 
-    public function register(Request $request)
+    public function register(RegisterCheck $request)
     {
-        $this->validate($request, ['name' => 'required', 'email' => 'required|email|unique:users', 'password' => 'required'
-        ]);
-
         $user = User::add($request->all());
         $user->generatePassword($request->get('password'));
-
 
         return redirect('/login');
     }
