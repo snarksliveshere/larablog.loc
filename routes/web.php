@@ -16,6 +16,7 @@ Route::group(['prefix' => 'posts'], function(){
 Route::get('/category/{slug}', 'HomeController@category')->name('category.show');
 Route::post('/subscribe', 'SubscribeController@subscribe');
 Route::get('/verify/{token}', 'SubscribeController@verify');
+Route::post('/send-message', 'SendMessageController@send');
 
 Route::group(['middleware' => 'guest'], function(){
     Route::get('/register', 'AuthController@registerForm');

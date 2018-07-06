@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Mail\SubscribeEmail;
 use App\Subscription;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class SubscribeController extends Controller
 {
@@ -16,7 +17,7 @@ class SubscribeController extends Controller
 
         $subs = Subscription::add($request->get('email'));
         $subs->generateToken();
-        \Mail::to($subs)->send(new SubscribeEmail($subs));
+        Mail::to($subs)->send(new SubscribeEmail($subs));
 
         return redirect()->back()->with('status', 'Проверьте вашу почту');
 
