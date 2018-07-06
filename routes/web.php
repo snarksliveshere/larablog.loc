@@ -94,6 +94,7 @@ Route::group(['prefix' => 'catalog', 'namespace' => 'Catalog'], function (){
 
 Route::get('/test', function()
 {
-    $img = Image::make(public_path('/images/company_bg.jpg'))->resize(300, null, function($con){ $con->aspectRatio();});
+    $img = Image::make(public_path('/images/tycho_slider.jpg'))
+        ->fit(300, null, function($con){ $con->aspectRatio(); $con->upsize();}, 'center');
     return $img->response('jpg');
 });

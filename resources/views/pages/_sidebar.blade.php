@@ -15,10 +15,10 @@
             </form>
         </aside>
         <aside class="widget">
-            <h3 class="widget-title text-uppercase text-center">Popular Posts</h3>
+            <h3 class="widget-title text-uppercase text-center">Популярные блоги</h3>
             @foreach($popularPosts as $popularPost)
                 <div class="popular-post">
-                    <a href="{{ route('post.show', $popularPost->slug) }}" class="popular-img"><img src="{{ $popularPost->getImage() }}" alt="">
+                    <a href="{{ route('post.show', $popularPost->slug) }}" class="popular-img"><img src="{{ $popularPost->getSidedarImage() }}" alt="">
                         <div class="p-overlay"></div>
                     </a>
                     <div class="p-content">

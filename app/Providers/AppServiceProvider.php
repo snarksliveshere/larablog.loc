@@ -25,7 +25,7 @@ class AppServiceProvider extends ServiceProvider
             $view->with('categories', Category::all());
         });
         view()->composer('partitials.footer', function ($view) {
-            $view->with('categories', ProductCategory::all());
+            $view->with('categories', ProductCategory::whereStatus(1)->select('slug', 'title')->get());
         });
 
         view()->composer('admin._sidebar', function($view){

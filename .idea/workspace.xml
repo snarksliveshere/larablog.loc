@@ -2,482 +2,123 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e2699bb-bf3c-41a3-904d-7b55bb4040f1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/favicon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/favicon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/no-image.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/Montserrat/Montserrat-Black.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/Montserrat/Montserrat-BlackItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/Montserrat/Montserrat-Bold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/Montserrat/Montserrat-BoldItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/Montserrat/Montserrat-ExtraBold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/Montserrat/Montserrat-ExtraBoldItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/Montserrat/Montserrat-ExtraLight.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/Montserrat/Montserrat-ExtraLightItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/Montserrat/Montserrat-Italic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/Montserrat/Montserrat-Light.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/Montserrat/Montserrat-LightItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/Montserrat/Montserrat-Medium.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/Montserrat/Montserrat-MediumItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/Montserrat/Montserrat-Regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/Montserrat/Montserrat-SemiBold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/Montserrat/Montserrat-SemiBoldItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/Montserrat/Montserrat-Thin.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/Montserrat/Montserrat-ThinItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/PlayfairDisplay/PlayfairDisplay-Black.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/PlayfairDisplay/PlayfairDisplay-BlackItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/PlayfairDisplay/PlayfairDisplay-Bold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/PlayfairDisplay/PlayfairDisplay-BoldItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/PlayfairDisplay/PlayfairDisplay-Italic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/PlayfairDisplay/PlayfairDisplay-Regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/Poppins/Poppins-Black.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/Poppins/Poppins-BlackItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/Poppins/Poppins-Bold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/Poppins/Poppins-BoldItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/Poppins/Poppins-ExtraBold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/Poppins/Poppins-ExtraBoldItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/Poppins/Poppins-ExtraLight.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/Poppins/Poppins-ExtraLightItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/Poppins/Poppins-Italic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/Poppins/Poppins-Light.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/Poppins/Poppins-LightItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/Poppins/Poppins-Medium.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/Poppins/Poppins-MediumItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/Poppins/Poppins-Regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/Poppins/Poppins-SemiBold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/Poppins/Poppins-SemiBoldItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/Poppins/Poppins-Thin.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/Poppins/Poppins-ThinItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/iconic/fonts/Material-Design-Iconic-Font.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/iconic/fonts/Material-Design-Iconic-Font.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/iconic/fonts/Material-Design-Iconic-Font.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/iconic/fonts/Material-Design-Iconic-Font.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/linearicons-v1.0.0/WebFont/Linearicons-Free.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/linearicons-v1.0.0/WebFont/Linearicons-Free.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/linearicons-v1.0.0/WebFont/Linearicons-Free.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/linearicons-v1.0.0/WebFont/Linearicons-Free.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/images/icons/favicon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/images/icons/icon-close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/images/icons/icon-close2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/images/icons/icon-email.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/images/icons/icon-heart-01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/images/icons/icon-heart-02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/images/icons/icon-next.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/images/icons/icon-pay-01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/images/icons/icon-pay-02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/images/icons/icon-pay-03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/images/icons/icon-pay-04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/images/icons/icon-pay-05.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/images/icons/icon-prev.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/images/icons/logo-01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/images/icons/logo-02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/images/icons/pin.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/images/lunar_lander_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/images/no-image.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/images/slide1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/images/slide_earth.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/images/space-bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/images/test_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/images/tycho-specs.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/images/tycho_img.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/images/tycho_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/images/tycho_slider.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/Montserrat/OFL.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/PlayfairDisplay/OFL.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/font-awesome-4.7.0/HELP-US-OUT.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/font-awesome-4.7.0/css/font-awesome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/font-awesome-4.7.0/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/font-awesome-4.7.0/less/animated.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/font-awesome-4.7.0/less/bordered-pulled.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/font-awesome-4.7.0/less/core.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/font-awesome-4.7.0/less/fixed-width.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/font-awesome-4.7.0/less/font-awesome.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/font-awesome-4.7.0/less/icons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/font-awesome-4.7.0/less/larger.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/font-awesome-4.7.0/less/list.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/font-awesome-4.7.0/less/mixins.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/font-awesome-4.7.0/less/path.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/font-awesome-4.7.0/less/rotated-flipped.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/font-awesome-4.7.0/less/screen-reader.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/font-awesome-4.7.0/less/stacked.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/font-awesome-4.7.0/less/variables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/font-awesome-4.7.0/scss/_animated.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/font-awesome-4.7.0/scss/_core.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/font-awesome-4.7.0/scss/_fixed-width.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/font-awesome-4.7.0/scss/_icons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/font-awesome-4.7.0/scss/_larger.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/font-awesome-4.7.0/scss/_list.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/font-awesome-4.7.0/scss/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/font-awesome-4.7.0/scss/_path.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/font-awesome-4.7.0/scss/_screen-reader.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/font-awesome-4.7.0/scss/_stacked.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/font-awesome-4.7.0/scss/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/font-awesome-4.7.0/scss/font-awesome.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/iconic/css/material-design-iconic-font.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/iconic/css/material-design-iconic-font.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/iconic/fonts/Material-Design-Iconic-Font.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/linearicons-v1.0.0/WebFont/Linearicons-Free.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/front/fonts/linearicons-v1.0.0/icon-font.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/orig-layout.blade.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/company_bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/images.7z" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/no-image.jpg.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images2/post/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images2/post/430-340/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images2/post/600-600/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images2/post/95-95/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/about-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/about-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/avatar-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/banner-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/banner-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/banner-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/banner-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/banner-05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/banner-06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/banner-07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/banner-08.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/banner-09.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/bg-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/bg-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/blog-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/blog-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/blog-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/blog-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/blog-05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/blog-06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/gallery-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/gallery-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/gallery-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/gallery-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/gallery-05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/gallery-06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/gallery-07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/gallery-08.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/gallery-09.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/icons/favicon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/item-cart-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/item-cart-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/item-cart-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/item-cart-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/item-cart-05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/product-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/product-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/product-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/product-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/product-05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/product-06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/product-07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/product-08.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/product-09.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/product-10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/product-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/product-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/product-13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/product-14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/product-15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/product-16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/product-detail-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/product-detail-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/product-detail-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/product-min-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/product-min-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/product-min-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/slide-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/slide-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/slide-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/slide-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/slide-05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/slide-06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/slide-07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/thumb-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/thumb-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/temp/images/thumb-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/front/css/AjaxLoader.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/front/css/animate.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/front/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/front/css/font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/front/css/grabbing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/front/css/owl.carousel.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/front/css/owl.theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/front/css/owl.transitions.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/front/css/responsive.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/front/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/front/fonts/fontawesome-webfont93e3.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/front/fonts/fontawesome-webfont93e3.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/front/fonts/fontawesome-webfont93e3.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/front/fonts/fontawesome-webfont93e3.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/front/fonts/fontawesome-webfont93e3.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/front/fonts/fontawesome-webfontd41d.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/front/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/front/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/front/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/front/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/front/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/front/fonts/glyphicons-halflings-regulard41d.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/front/images/abc.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/front/images/author.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/front/images/blog-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/front/images/blog-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/front/images/blog-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/front/images/blog-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/front/images/blog-grid.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/front/images/blog-next.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/front/images/coming-soon.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/front/images/comment-img.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/front/images/comment.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/front/images/footer-img.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/front/images/footer-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/front/images/header-3-bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/front/images/header-logo-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/front/images/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/front/images/ins-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/front/images/ins-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/front/images/ins-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/front/images/ins-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/front/images/ins-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/front/images/ins-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/front/images/ins-7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/front/images/ins-8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/front/images/ins-flow.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/front/images/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/front/images/me-cover.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/front/images/p1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/front/images/p2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/front/images/p3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/front/images/r-p.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/front/images/related-post-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/front/images/related-post-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/front/images/related-post-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/front/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/front/js/jquery-1.11.3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/front/js/jquery.stickit.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/front/js/map.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/front/js/menu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/front/js/owl.carousel.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/front/js/scripts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/components/ExampleComponent.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/sass/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/sass/app.scss" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/front/images/favicon.png" afterPath="$PROJECT_DIR$/resources/assets/front/images/favicon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/post/295-165/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/post/295-165/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/post/295-165/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/post/295-165/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/post/295-165/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/post/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/post/315-177/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/post/315-177/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/post/315-177/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/post/315-177/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/post/315-177/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/post/315-315/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/post/315-315/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/post/315-315/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/post/315-315/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/post/315-315/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/post/430-340/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/post/430-340/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/post/430-340/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/post/430-340/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/post/95-95/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/post/95-95/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/post/95-95/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/post/95-95/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/post/960/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/post/960/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/post/960/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/post/960/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/post/960/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/295-165/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/315-177/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/315-315/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/9.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/960/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/productcategory/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/productcategory/295-165/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/productcategory/295-165/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/productcategory/295-165/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/productcategory/315-177/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/productcategory/315-177/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/productcategory/315-177/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/productcategory/315-315/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/productcategory/315-315/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/productcategory/315-315/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/productcategory/430-340/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/productcategory/430-340/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/productcategory/430-340/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/productcategory/95-95/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/productcategory/95-95/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/productcategory/95-95/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/productcategory/960/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/productcategory/960/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/productcategory/960/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/migrations/2018_07_06_103924_add_status_to_product_categories.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/post/3.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/post/600-600/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/product/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/product/2.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/product/3.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/product/4.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/product/5.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/product/6.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/product/8.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/product/9.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/productcategory/1.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/productcategory/2.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/boxed-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/credit/american-express.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/credit/mastercard.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/credit/paypal2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/credit/visa.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/default-50x50.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/no-avatar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/photo1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/photo2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/photo3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/photo4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user1-128x128.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user2-160x160.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user3-128x128.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user4-128x128.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user5-128x128.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user6-128x128.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user7-128x128.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user8-128x128.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/orig-layout.blade.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/post/430-340/1.jpg" afterPath="$PROJECT_DIR$/public/images/post/430-340/1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/post/95-95/1.jpg" afterPath="$PROJECT_DIR$/public/images/post/95-95/1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/product/430-340/1.jpg" afterPath="$PROJECT_DIR$/public/images/product/430-340/1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/product/95-95/1.jpg" afterPath="$PROJECT_DIR$/public/images/product/95-95/1.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/admin.css" afterPath="$PROJECT_DIR$/public/css/admin.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/front.css" afterPath="$PROJECT_DIR$/public/css/front.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/admin.js" afterPath="$PROJECT_DIR$/public/js/admin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/front.js" afterPath="$PROJECT_DIR$/public/js/front.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/mix-manifest.json" afterPath="$PROJECT_DIR$/public/mix-manifest.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layout.blade.php" afterPath="$PROJECT_DIR$/resources/views/layout.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack.mix.js" afterPath="$PROJECT_DIR$/webpack.mix.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/css/main.css" afterPath="$PROJECT_DIR$/resources/assets/front/css/main.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/css/util.css" afterPath="$PROJECT_DIR$/resources/assets/front/css/util.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/Montserrat/Montserrat-Black.ttf" afterPath="$PROJECT_DIR$/public/fonts/Montserrat/Montserrat-Black.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/Montserrat/Montserrat-BlackItalic.ttf" afterPath="$PROJECT_DIR$/public/fonts/Montserrat/Montserrat-BlackItalic.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/Montserrat/Montserrat-Bold.ttf" afterPath="$PROJECT_DIR$/public/fonts/Montserrat/Montserrat-Bold.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/Montserrat/Montserrat-BoldItalic.ttf" afterPath="$PROJECT_DIR$/public/fonts/Montserrat/Montserrat-BoldItalic.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/Montserrat/Montserrat-ExtraBold.ttf" afterPath="$PROJECT_DIR$/public/fonts/Montserrat/Montserrat-ExtraBold.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/Montserrat/Montserrat-ExtraBoldItalic.ttf" afterPath="$PROJECT_DIR$/public/fonts/Montserrat/Montserrat-ExtraBoldItalic.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/Montserrat/Montserrat-ExtraLight.ttf" afterPath="$PROJECT_DIR$/public/fonts/Montserrat/Montserrat-ExtraLight.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/Montserrat/Montserrat-ExtraLightItalic.ttf" afterPath="$PROJECT_DIR$/public/fonts/Montserrat/Montserrat-ExtraLightItalic.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/Montserrat/Montserrat-Italic.ttf" afterPath="$PROJECT_DIR$/public/fonts/Montserrat/Montserrat-Italic.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/Montserrat/Montserrat-Light.ttf" afterPath="$PROJECT_DIR$/public/fonts/Montserrat/Montserrat-Light.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/Montserrat/Montserrat-LightItalic.ttf" afterPath="$PROJECT_DIR$/public/fonts/Montserrat/Montserrat-LightItalic.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/Montserrat/Montserrat-Medium.ttf" afterPath="$PROJECT_DIR$/public/fonts/Montserrat/Montserrat-Medium.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/Montserrat/Montserrat-MediumItalic.ttf" afterPath="$PROJECT_DIR$/public/fonts/Montserrat/Montserrat-MediumItalic.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/Montserrat/Montserrat-Regular.ttf" afterPath="$PROJECT_DIR$/public/fonts/Montserrat/Montserrat-Regular.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/Montserrat/Montserrat-SemiBold.ttf" afterPath="$PROJECT_DIR$/public/fonts/Montserrat/Montserrat-SemiBold.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/Montserrat/Montserrat-SemiBoldItalic.ttf" afterPath="$PROJECT_DIR$/public/fonts/Montserrat/Montserrat-SemiBoldItalic.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/Montserrat/Montserrat-Thin.ttf" afterPath="$PROJECT_DIR$/public/fonts/Montserrat/Montserrat-Thin.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/Montserrat/Montserrat-ThinItalic.ttf" afterPath="$PROJECT_DIR$/public/fonts/Montserrat/Montserrat-ThinItalic.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/Montserrat/OFL.txt" afterPath="$PROJECT_DIR$/public/fonts/Montserrat/OFL.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/PlayfairDisplay/OFL.txt" afterPath="$PROJECT_DIR$/public/fonts/PlayfairDisplay/OFL.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/PlayfairDisplay/PlayfairDisplay-Black.ttf" afterPath="$PROJECT_DIR$/public/fonts/PlayfairDisplay/PlayfairDisplay-Black.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/PlayfairDisplay/PlayfairDisplay-BlackItalic.ttf" afterPath="$PROJECT_DIR$/public/fonts/PlayfairDisplay/PlayfairDisplay-BlackItalic.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/PlayfairDisplay/PlayfairDisplay-Bold.ttf" afterPath="$PROJECT_DIR$/public/fonts/PlayfairDisplay/PlayfairDisplay-Bold.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/PlayfairDisplay/PlayfairDisplay-BoldItalic.ttf" afterPath="$PROJECT_DIR$/public/fonts/PlayfairDisplay/PlayfairDisplay-BoldItalic.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/PlayfairDisplay/PlayfairDisplay-Italic.ttf" afterPath="$PROJECT_DIR$/public/fonts/PlayfairDisplay/PlayfairDisplay-Italic.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/PlayfairDisplay/PlayfairDisplay-Regular.ttf" afterPath="$PROJECT_DIR$/public/fonts/PlayfairDisplay/PlayfairDisplay-Regular.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/Poppins/Poppins-Black.ttf" afterPath="$PROJECT_DIR$/public/fonts/Poppins/Poppins-Black.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/Poppins/Poppins-BlackItalic.ttf" afterPath="$PROJECT_DIR$/public/fonts/Poppins/Poppins-BlackItalic.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/Poppins/Poppins-Bold.ttf" afterPath="$PROJECT_DIR$/public/fonts/Poppins/Poppins-Bold.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/Poppins/Poppins-BoldItalic.ttf" afterPath="$PROJECT_DIR$/public/fonts/Poppins/Poppins-BoldItalic.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/Poppins/Poppins-ExtraBold.ttf" afterPath="$PROJECT_DIR$/public/fonts/Poppins/Poppins-ExtraBold.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/Poppins/Poppins-ExtraBoldItalic.ttf" afterPath="$PROJECT_DIR$/public/fonts/Poppins/Poppins-ExtraBoldItalic.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/Poppins/Poppins-ExtraLight.ttf" afterPath="$PROJECT_DIR$/public/fonts/Poppins/Poppins-ExtraLight.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/Poppins/Poppins-ExtraLightItalic.ttf" afterPath="$PROJECT_DIR$/public/fonts/Poppins/Poppins-ExtraLightItalic.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/Poppins/Poppins-Italic.ttf" afterPath="$PROJECT_DIR$/public/fonts/Poppins/Poppins-Italic.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/Poppins/Poppins-Light.ttf" afterPath="$PROJECT_DIR$/public/fonts/Poppins/Poppins-Light.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/Poppins/Poppins-LightItalic.ttf" afterPath="$PROJECT_DIR$/public/fonts/Poppins/Poppins-LightItalic.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/Poppins/Poppins-Medium.ttf" afterPath="$PROJECT_DIR$/public/fonts/Poppins/Poppins-Medium.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/Poppins/Poppins-MediumItalic.ttf" afterPath="$PROJECT_DIR$/public/fonts/Poppins/Poppins-MediumItalic.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/Poppins/Poppins-Regular.ttf" afterPath="$PROJECT_DIR$/public/fonts/Poppins/Poppins-Regular.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/Poppins/Poppins-SemiBold.ttf" afterPath="$PROJECT_DIR$/public/fonts/Poppins/Poppins-SemiBold.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/Poppins/Poppins-SemiBoldItalic.ttf" afterPath="$PROJECT_DIR$/public/fonts/Poppins/Poppins-SemiBoldItalic.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/Poppins/Poppins-Thin.ttf" afterPath="$PROJECT_DIR$/public/fonts/Poppins/Poppins-Thin.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/Poppins/Poppins-ThinItalic.ttf" afterPath="$PROJECT_DIR$/public/fonts/Poppins/Poppins-ThinItalic.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/font-awesome-4.7.0/HELP-US-OUT.txt" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/HELP-US-OUT.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/font-awesome-4.7.0/css/font-awesome.css" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/css/font-awesome.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/font-awesome-4.7.0/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/css/font-awesome.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/font-awesome-4.7.0/less/animated.less" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/less/animated.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/font-awesome-4.7.0/less/bordered-pulled.less" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/less/bordered-pulled.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/font-awesome-4.7.0/less/core.less" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/less/core.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/font-awesome-4.7.0/less/fixed-width.less" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/less/fixed-width.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/font-awesome-4.7.0/less/font-awesome.less" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/less/font-awesome.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/font-awesome-4.7.0/less/icons.less" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/less/icons.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/font-awesome-4.7.0/less/larger.less" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/less/larger.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/font-awesome-4.7.0/less/list.less" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/less/list.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/font-awesome-4.7.0/less/mixins.less" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/less/mixins.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/font-awesome-4.7.0/less/path.less" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/less/path.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/font-awesome-4.7.0/less/rotated-flipped.less" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/less/rotated-flipped.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/font-awesome-4.7.0/less/screen-reader.less" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/less/screen-reader.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/font-awesome-4.7.0/less/stacked.less" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/less/stacked.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/font-awesome-4.7.0/less/variables.less" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/less/variables.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/font-awesome-4.7.0/scss/_animated.scss" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/scss/_animated.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/font-awesome-4.7.0/scss/_core.scss" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/scss/_core.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/font-awesome-4.7.0/scss/_fixed-width.scss" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/scss/_fixed-width.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/font-awesome-4.7.0/scss/_icons.scss" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/scss/_icons.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/font-awesome-4.7.0/scss/_larger.scss" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/scss/_larger.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/font-awesome-4.7.0/scss/_list.scss" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/scss/_list.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/font-awesome-4.7.0/scss/_mixins.scss" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/scss/_mixins.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/font-awesome-4.7.0/scss/_path.scss" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/scss/_path.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/font-awesome-4.7.0/scss/_screen-reader.scss" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/scss/_screen-reader.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/font-awesome-4.7.0/scss/_stacked.scss" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/scss/_stacked.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/font-awesome-4.7.0/scss/_variables.scss" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/scss/_variables.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/font-awesome-4.7.0/scss/font-awesome.scss" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/scss/font-awesome.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/iconic/css/material-design-iconic-font.css" afterPath="$PROJECT_DIR$/public/fonts/iconic/css/material-design-iconic-font.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/iconic/css/material-design-iconic-font.min.css" afterPath="$PROJECT_DIR$/public/fonts/iconic/css/material-design-iconic-font.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/iconic/fonts/Material-Design-Iconic-Font.eot" afterPath="$PROJECT_DIR$/public/fonts/iconic/fonts/Material-Design-Iconic-Font.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/iconic/fonts/Material-Design-Iconic-Font.svg" afterPath="$PROJECT_DIR$/public/fonts/iconic/fonts/Material-Design-Iconic-Font.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/iconic/fonts/Material-Design-Iconic-Font.ttf" afterPath="$PROJECT_DIR$/public/fonts/iconic/fonts/Material-Design-Iconic-Font.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/iconic/fonts/Material-Design-Iconic-Font.woff" afterPath="$PROJECT_DIR$/public/fonts/iconic/fonts/Material-Design-Iconic-Font.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/iconic/fonts/Material-Design-Iconic-Font.woff2" afterPath="$PROJECT_DIR$/public/fonts/iconic/fonts/Material-Design-Iconic-Font.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/linearicons-v1.0.0/WebFont/Linearicons-Free.eot" afterPath="$PROJECT_DIR$/public/fonts/linearicons-v1.0.0/WebFont/Linearicons-Free.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/linearicons-v1.0.0/WebFont/Linearicons-Free.svg" afterPath="$PROJECT_DIR$/public/fonts/linearicons-v1.0.0/WebFont/Linearicons-Free.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/linearicons-v1.0.0/WebFont/Linearicons-Free.ttf" afterPath="$PROJECT_DIR$/public/fonts/linearicons-v1.0.0/WebFont/Linearicons-Free.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/linearicons-v1.0.0/WebFont/Linearicons-Free.woff" afterPath="$PROJECT_DIR$/public/fonts/linearicons-v1.0.0/WebFont/Linearicons-Free.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/linearicons-v1.0.0/WebFont/Linearicons-Free.woff2" afterPath="$PROJECT_DIR$/public/fonts/linearicons-v1.0.0/WebFont/Linearicons-Free.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/fonts/linearicons-v1.0.0/icon-font.min.css" afterPath="$PROJECT_DIR$/public/fonts/linearicons-v1.0.0/icon-font.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/images/icons/icon-close.png" afterPath="$PROJECT_DIR$/public/images/icons/icon-close.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/images/icons/icon-close2.png" afterPath="$PROJECT_DIR$/public/images/icons/icon-close2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/images/icons/icon-email.png" afterPath="$PROJECT_DIR$/public/images/icons/icon-email.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/images/icons/icon-heart-01.png" afterPath="$PROJECT_DIR$/public/images/icons/icon-heart-01.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/images/icons/icon-heart-02.png" afterPath="$PROJECT_DIR$/public/images/icons/icon-heart-02.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/images/icons/icon-next.png" afterPath="$PROJECT_DIR$/public/images/icons/icon-next.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/images/icons/icon-pay-01.png" afterPath="$PROJECT_DIR$/public/images/icons/icon-pay-01.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/images/icons/icon-pay-02.png" afterPath="$PROJECT_DIR$/public/images/icons/icon-pay-02.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/images/icons/icon-pay-03.png" afterPath="$PROJECT_DIR$/public/images/icons/icon-pay-03.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/images/icons/icon-pay-04.png" afterPath="$PROJECT_DIR$/public/images/icons/icon-pay-04.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/images/icons/icon-pay-05.png" afterPath="$PROJECT_DIR$/public/images/icons/icon-pay-05.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/images/icons/icon-prev.png" afterPath="$PROJECT_DIR$/public/images/icons/icon-prev.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/images/icons/logo-01.png" afterPath="$PROJECT_DIR$/public/images/icons/logo-01.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/images/icons/logo-02.png" afterPath="$PROJECT_DIR$/public/images/icons/logo-02.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/images/icons/pin.png" afterPath="$PROJECT_DIR$/public/images/icons/pin.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/js/fancybox/jquery.fancybox.min.css" afterPath="$PROJECT_DIR$/resources/assets/front/js/fancybox/jquery.fancybox.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/js/fancybox/jquery.fancybox.min.js" afterPath="$PROJECT_DIR$/resources/assets/front/js/fancybox/jquery.fancybox.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/js/main.js" afterPath="$PROJECT_DIR$/resources/assets/front/js/main.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/js/map-custom.js" afterPath="$PROJECT_DIR$/resources/assets/front/js/map-custom.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/js/slick-custom.js" afterPath="$PROJECT_DIR$/resources/assets/front/js/slick-custom.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/MagnificPopup/jquery.magnific-popup.js" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/MagnificPopup/jquery.magnific-popup.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/MagnificPopup/jquery.magnific-popup.min.js" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/MagnificPopup/jquery.magnific-popup.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/MagnificPopup/magnific-popup.css" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/MagnificPopup/magnific-popup.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/animate/animate.css" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/animate/animate.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/animsition/css/animsition.css" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/animsition/css/animsition.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/animsition/css/animsition.min.css" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/animsition/css/animsition.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/animsition/js/animsition.js" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/animsition/js/animsition.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/animsition/js/animsition.min.js" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/animsition/js/animsition.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/bootstrap/css/bootstrap-grid.css" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/bootstrap/css/bootstrap-grid.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/bootstrap/css/bootstrap-grid.css.map" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/bootstrap/css/bootstrap-grid.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/bootstrap/css/bootstrap-grid.min.css" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/bootstrap/css/bootstrap-grid.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/bootstrap/css/bootstrap-grid.min.css.map" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/bootstrap/css/bootstrap-grid.min.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/bootstrap/css/bootstrap-reboot.css" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/bootstrap/css/bootstrap-reboot.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/bootstrap/css/bootstrap-reboot.css.map" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/bootstrap/css/bootstrap-reboot.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/bootstrap/css/bootstrap-reboot.min.css" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/bootstrap/css/bootstrap-reboot.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/bootstrap/css/bootstrap-reboot.min.css.map" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/bootstrap/css/bootstrap-reboot.min.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/bootstrap/css/bootstrap.css" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/bootstrap/css/bootstrap.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/bootstrap/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/bootstrap/css/bootstrap.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/bootstrap/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/bootstrap/css/bootstrap.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/bootstrap/css/bootstrap.min.css.map" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/bootstrap/css/bootstrap.min.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/bootstrap/js/bootstrap.js" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/bootstrap/js/bootstrap.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/bootstrap/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/bootstrap/js/bootstrap.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/bootstrap/js/popper.js" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/bootstrap/js/popper.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/bootstrap/js/popper.min.js" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/bootstrap/js/popper.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/bootstrap/js/tooltip.js" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/bootstrap/js/tooltip.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/countdowntime/countdowntime.js" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/countdowntime/countdowntime.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/css-hamburgers/hamburgers.css" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/css-hamburgers/hamburgers.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/css-hamburgers/hamburgers.min.css" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/css-hamburgers/hamburgers.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/daterangepicker/daterangepicker.css" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/daterangepicker/daterangepicker.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/daterangepicker/daterangepicker.js" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/daterangepicker/daterangepicker.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/daterangepicker/moment.js" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/daterangepicker/moment.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/daterangepicker/moment.min.js" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/daterangepicker/moment.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/isotope/isotope.pkgd.min.js" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/isotope/isotope.pkgd.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/jquery/jquery-3.2.1.min.js" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/jquery/jquery-3.2.1.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/jqueryui/external/jquery/jquery.js" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/jqueryui/external/jquery/jquery.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/jqueryui/images/ui-icons_444444_256x240.png" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/jqueryui/images/ui-icons_444444_256x240.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/jqueryui/images/ui-icons_555555_256x240.png" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/jqueryui/images/ui-icons_555555_256x240.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/jqueryui/images/ui-icons_777620_256x240.png" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/jqueryui/images/ui-icons_777620_256x240.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/jqueryui/images/ui-icons_777777_256x240.png" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/jqueryui/images/ui-icons_777777_256x240.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/jqueryui/images/ui-icons_cc0000_256x240.png" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/jqueryui/images/ui-icons_cc0000_256x240.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/jqueryui/images/ui-icons_ffffff_256x240.png" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/jqueryui/images/ui-icons_ffffff_256x240.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/jqueryui/index.html" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/jqueryui/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/jqueryui/jquery-ui.css" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/jqueryui/jquery-ui.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/jqueryui/jquery-ui.js" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/jqueryui/jquery-ui.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/jqueryui/jquery-ui.min.css" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/jqueryui/jquery-ui.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/jqueryui/jquery-ui.min.js" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/jqueryui/jquery-ui.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/jqueryui/jquery-ui.structure.css" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/jqueryui/jquery-ui.structure.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/jqueryui/jquery-ui.structure.min.css" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/jqueryui/jquery-ui.structure.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/jqueryui/jquery-ui.theme.css" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/jqueryui/jquery-ui.theme.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/jqueryui/jquery-ui.theme.min.css" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/jqueryui/jquery-ui.theme.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/lightbox2/css/lightbox.css" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/lightbox2/css/lightbox.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/lightbox2/css/lightbox.min.css" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/lightbox2/css/lightbox.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/lightbox2/images/close.png" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/lightbox2/images/close.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/lightbox2/images/loading.gif" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/lightbox2/images/loading.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/lightbox2/images/next.png" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/lightbox2/images/next.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/lightbox2/images/prev.png" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/lightbox2/images/prev.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/lightbox2/js/lightbox-plus-jquery.js" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/lightbox2/js/lightbox-plus-jquery.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/lightbox2/js/lightbox-plus-jquery.min.js" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/lightbox2/js/lightbox-plus-jquery.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/lightbox2/js/lightbox-plus-jquery.min.map" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/lightbox2/js/lightbox-plus-jquery.min.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/lightbox2/js/lightbox.js" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/lightbox2/js/lightbox.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/lightbox2/js/lightbox.min.js" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/lightbox2/js/lightbox.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/lightbox2/js/lightbox.min.map" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/lightbox2/js/lightbox.min.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/parallax100/parallax100.js" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/parallax100/parallax100.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/perfect-scrollbar/perfect-scrollbar.css" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/perfect-scrollbar/perfect-scrollbar.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/perfect-scrollbar/perfect-scrollbar.min.js" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/perfect-scrollbar/perfect-scrollbar.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/select2/select2.css" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/select2/select2.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/select2/select2.js" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/select2/select2.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/select2/select2.min.css" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/select2/select2.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/select2/select2.min.js" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/select2/select2.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/slick/ajax-loader.gif" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/slick/ajax-loader.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/slick/config.rb" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/slick/config.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/slick/fonts/slick.eot" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/slick/fonts/slick.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/slick/fonts/slick.svg" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/slick/fonts/slick.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/slick/fonts/slick.ttf" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/slick/fonts/slick.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/slick/fonts/slick.woff" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/slick/fonts/slick.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/slick/slick-theme.css" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/slick/slick-theme.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/slick/slick-theme.less" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/slick/slick-theme.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/slick/slick-theme.scss" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/slick/slick-theme.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/slick/slick.css" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/slick/slick.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/slick/slick.js" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/slick/slick.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/slick/slick.less" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/slick/slick.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/slick/slick.min.js" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/slick/slick.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/slick/slick.scss" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/slick/slick.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/temp/vendor/sweetalert/sweetalert.min.js" afterPath="$PROJECT_DIR$/resources/assets/front/vendor/sweetalert/sweetalert.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Category.php" afterPath="$PROJECT_DIR$/app/Category.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Helpers.php" afterPath="$PROJECT_DIR$/app/Helpers.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Post.php" afterPath="$PROJECT_DIR$/app/Post.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Product.php" afterPath="$PROJECT_DIR$/app/Product.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ProductCategory.php" afterPath="$PROJECT_DIR$/app/ProductCategory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/pages/_sidebar.blade.php" afterPath="$PROJECT_DIR$/resources/views/pages/_sidebar.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/pages/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/pages/index.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/pages/post_sidebar.blade.php" afterPath="$PROJECT_DIR$/resources/views/pages/post_sidebar.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/partitials/footer.blade.php" afterPath="$PROJECT_DIR$/resources/views/partitials/footer.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/shop/category_product.blade.php" afterPath="$PROJECT_DIR$/resources/views/shop/category_product.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/web.php" afterPath="$PROJECT_DIR$/routes/web.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/post/1.jpeg" afterPath="$PROJECT_DIR$/public/images/post/1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/post/13.jpeg" afterPath="$PROJECT_DIR$/public/images/post/13.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/post/2.jpeg" afterPath="$PROJECT_DIR$/public/images/post/2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/post/4.jpeg" afterPath="$PROJECT_DIR$/public/images/post/4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/post/5.jpeg" afterPath="$PROJECT_DIR$/public/images/post/5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/post/6.jpeg" afterPath="$PROJECT_DIR$/public/images/post/6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/productcategory/3.jpeg" afterPath="$PROJECT_DIR$/public/images/productcategory/3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/productcategory/4.jpeg" afterPath="$PROJECT_DIR$/public/images/productcategory/4.jpg" />
     </list>
     <ignored path=".idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -493,35 +134,115 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="larablog.loc" />
+    <favorites_list name="larablog.loc">
+      <favorite_root url="file://$PROJECT_DIR$/routes/web.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+    </favorites_list>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="layout.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/layout.blade.php">
+      <file leaf-file-name="Helpers.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Helpers.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="51" column="7" lean-forward="true" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="7" />
+            <state relative-caret-position="215">
+              <caret line="86" column="13" lean-forward="false" selection-start-line="86" selection-start-column="13" selection-end-line="86" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="webpack.mix.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpack.mix.js">
+      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/pages/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+            <state relative-caret-position="330">
+              <caret line="135" column="14" lean-forward="false" selection-start-line="135" selection-start-column="14" selection-end-line="135" selection-end-column="14" />
+              <folding>
+                <element signature="e#97#4120#0#HTML" expanded="false" />
+                <marker date="1530877553125" expanded="true" signature="6298:6502" ph="..." />
+                <marker date="1530877553125" expanded="true" signature="6305:6500" ph="..." />
+                <marker date="1530877553125" expanded="true" signature="6322:6499" ph="..." />
+                <marker date="1530877553125" expanded="true" signature="6886:7090" ph="..." />
+                <marker date="1530877553125" expanded="true" signature="6893:7088" ph="..." />
+                <marker date="1530877553125" expanded="true" signature="6910:7087" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Product.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Product.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="422">
+              <caret line="162" column="59" lean-forward="false" selection-start-line="162" selection-start-column="59" selection-end-line="162" selection-end-column="59" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="orig-layout.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/orig-layout.blade.php">
+      <file leaf-file-name="AppServiceProvider.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="59" lean-forward="false" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
+            <state relative-caret-position="220">
+              <caret line="21" column="62" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/web.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Catalog/ProductController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="33" column="28" lean-forward="false" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="category_product.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/shop/category_product.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="21" column="90" lean-forward="false" selection-start-line="21" selection-start-column="90" selection-end-line="21" selection-end-column="90" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductCategory.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/ProductCategory.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="46" column="5" lean-forward="false" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Post.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Post.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="91" column="14" lean-forward="false" selection-start-line="91" selection-start-column="14" selection-end-line="91" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="post_sidebar.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/pages/post_sidebar.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="27" column="80" lean-forward="false" selection-start-line="27" selection-start-column="80" selection-end-line="27" selection-end-column="80" />
               <folding />
             </state>
           </provider>
@@ -531,36 +252,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>getCatego</find>
-      <find>ge</find>
-      <find>getcart</find>
-      <find>ca</find>
-      <find>upl</find>
-      <find>cart</find>
-      <find>date</find>
-      <find>getdate</find>
-      <find>uploaf</find>
-      <find>u</find>
-      <find>up</find>
-      <find>uploa</find>
-      <find>uploadI</find>
-      <find>uploadIm</find>
-      <find>uploadIma</find>
-      <find>uploadImag</find>
-      <find>upload</find>
-      <find>uplo</find>
-      <find>ssdfsf</find>
       <find>upda</find>
       <find>uploadImage</find>
       <find>co</find>
       <find>const</find>
       <find>size</find>
       <find>max</find>
-      <find>image</find>
       <find>add</find>
       <find>addva</find>
       <find>unique:users</find>
       <find>subscribe</find>
+      <find>getpopu</find>
+      <find>getima</find>
+      <find>image</find>
+      <find>IS_DRA</find>
+      <find>pop</find>
+      <find>ge</find>
+      <find>get</find>
+      <find>getsi</find>
+      <find>getsid</find>
+      <find>getside</find>
+      <find>getsideb</find>
+      <find>getsideba</find>
+      <find>getsidebar</find>
+      <find>getsidebarima</find>
+      <find>getsidebarimages</find>
+      <find>getsidebarimage</find>
+      <find>popula</find>
+      <find>getSide</find>
+      <find>getcate</find>
+      <find>images</find>
     </findStrings>
     <replaceStrings>
       <replace>$category</replace>
@@ -582,14 +303,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/database/migrations/2018_06_30_143012_make_post_id_nullable.php" />
-        <option value="$PROJECT_DIR$/resources/views/pages/show.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/CommentController.php" />
-        <option value="$PROJECT_DIR$/resources/views/shop/show.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/partitials/header.blade.php" />
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.html" />
-        <option value="$PROJECT_DIR$/public/temp/css/main.css" />
-        <option value="$PROJECT_DIR$/resources/views/pages/index.blade.php" />
         <option value="$PROJECT_DIR$/tests/Unit/PostTest.php" />
         <option value="$PROJECT_DIR$/tests/Feature/PageTest.php" />
         <option value="$PROJECT_DIR$/tests/Browser/ExampleTest.php" />
@@ -606,16 +319,12 @@
         <option value="$PROJECT_DIR$/tests/Unit/GetDateAttributeTest.php" />
         <option value="$PROJECT_DIR$/tests/Unit/UploadImageTest.php" />
         <option value="$PROJECT_DIR$/config/image.php" />
-        <option value="$PROJECT_DIR$/app/Product.php" />
-        <option value="$PROJECT_DIR$/app/Post.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/ProductCategoryController.php" />
-        <option value="$PROJECT_DIR$/app/ProductCategory.php" />
         <option value="$PROJECT_DIR$/app/RelatedProduct.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/OffersController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/PostsController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/ProductsController.php" />
         <option value="$PROJECT_DIR$/app/Http/Requests/StoreUpdatePost.php" />
-        <option value="$PROJECT_DIR$/app/Helpers.php" />
         <option value="$PROJECT_DIR$/app/Http/Requests/StoreUpdateProduct.php" />
         <option value="$PROJECT_DIR$/app/Http/Requests/StoreUpdateRelatedProduct.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/RelatedController.php" />
@@ -625,7 +334,6 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/SubscribeController.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/resources/views/pages/login.blade.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/pages/contacts.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/SendMessageController.php" />
         <option value="$PROJECT_DIR$/resources/views/email/template.blade.php" />
@@ -633,6 +341,19 @@
         <option value="$PROJECT_DIR$/resources/views/orig-layout.blade.php" />
         <option value="$PROJECT_DIR$/webpack.mix.js" />
         <option value="$PROJECT_DIR$/resources/views/layout.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/partitials/footer.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/pages/_sidebar.blade.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2018_07_06_103924_add_status_to_product_categories.php" />
+        <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
+        <option value="$PROJECT_DIR$/app/Category.php" />
+        <option value="$PROJECT_DIR$/app/Post.php" />
+        <option value="$PROJECT_DIR$/resources/views/pages/post_sidebar.blade.php" />
+        <option value="$PROJECT_DIR$/app/ProductCategory.php" />
+        <option value="$PROJECT_DIR$/resources/views/shop/category_product.blade.php" />
+        <option value="$PROJECT_DIR$/app/Helpers.php" />
+        <option value="$PROJECT_DIR$/app/Product.php" />
+        <option value="$PROJECT_DIR$/resources/views/pages/index.blade.php" />
       </list>
     </option>
   </component>
@@ -820,7 +541,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
+              <option name="myItemId" value="routes" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -856,33 +577,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lang" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="en" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="larablog.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="larablog.loc" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="front" />
+              <option name="myItemId" value="pages" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -897,74 +596,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="larablog.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="larablog.loc" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="larablog.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="larablog.loc" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="larablog.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="larablog.loc" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="larablog.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="larablog.loc" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -979,6 +610,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="larablog.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="larablog.loc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Providers" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -1049,7 +698,7 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
-    <property name="SearchEverywhereHistoryKey" value="contacts&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/pages/contacts.blade.php&#10;web&#9;FILE&#9;file://D:/os/domains/larablog.loc/routes/web.php&#10;rela&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/RelatedProduct.php&#10;related&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/Admin/RelatedController.php&#10;зкщвгсеы&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/Admin/ProductsController.php&#10;posts&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/Admin/PostsController.php&#10;products&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/Admin/ProductsController.php&#10;post&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Post.php&#10;product&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Product.php&#10;upload&#9;FILE&#9;file://D:/os/domains/larablog.loc/tests/Unit/UploadImageTest.php&#10;цуи&#9;FILE&#9;file://D:/os/domains/larablog.loc/routes/web.php&#10;productsCo&#9;null&#9;null&#10;productC&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/Catalog/ProductController.php&#10;layout&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/admin/layout.blade.php&#10;adminmiddle&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Middleware/AdminMiddleware.php&#10;home&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/HomeController.php&#10;pages&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/PagesController.php&#10;shop/show&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/shop/show.blade.php&#10;main&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/public/temp/css/main.css&#10;main.css&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/public/temp/css/main.css&#10;comment&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/app/Comment.php&#10;commentcon&#9;null&#9;null&#10;pages/sh&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/pages/show.blade.php&#10;diffforhum&#9;null&#9;null&#10;homeco&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/app/Http/Controllers/HomeController.php&#10;shop/s&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/shop/show.blade.php&#10;main.&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/public/temp/css/main.css&#10;shop/index&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/shop/index.blade.php&#10;shop/sho&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/shop/show.blade.php&#10;we&#9;FILE&#9;file://D:/os/domains/larablog.loc/routes/web.php&#10;main.cs&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/public/temp/css/main.css&#10;header.&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/partitials/header.blade.php&#10;productco&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/Admin/ProductsController.php&#10;products/inde&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/admin/products/index.blade.php&#10;show&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/shop/show.blade.php&#10;header&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/partitials/header.blade.php&#10;postsco&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/Admin/PostsController.php&#10;shopp&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/shop/shopping-cart.blade.php&#10;shop/ind&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/shop/index.blade.php&#10;productcontro&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/app/Http/Controllers/Catalog/ProductController.php&#10;shop/sh&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/shop/show.blade.php&#10;pages/posts&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/pages/posts.blade.php&#10;pages/sho&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/pages/show.blade.php&#10;pages/list&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/pages/list.blade.php&#10;homecont&#9;null&#9;null&#10;web.&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/routes/web.php&#10;main.c&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/public/temp/css/main.css&#10;pages/inde&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/pages/index.blade.php&#10;mai.cs&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/public/temp/css/main.css&#10;productcontr&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/app/Http/Controllers/Catalog/ProductController.php" />
+    <property name="SearchEverywhereHistoryKey" value="pages/&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/pages&#10;productcon&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/Catalog/ProductController.php&#10;post&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Post.php&#10;shop/ca&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/shop/category_product.blade.php&#10;productcontroller&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/Catalog/ProductController.php&#10;web&#9;FILE&#9;file://D:/os/domains/larablog.loc/routes/web.php&#10;contacts&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/pages/contacts.blade.php&#10;rela&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/RelatedProduct.php&#10;related&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/Admin/RelatedController.php&#10;зкщвгсеы&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/Admin/ProductsController.php&#10;posts&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/Admin/PostsController.php&#10;products&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/Admin/ProductsController.php&#10;product&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Product.php&#10;upload&#9;FILE&#9;file://D:/os/domains/larablog.loc/tests/Unit/UploadImageTest.php&#10;цуи&#9;FILE&#9;file://D:/os/domains/larablog.loc/routes/web.php&#10;productsCo&#9;null&#9;null&#10;productC&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/Catalog/ProductController.php&#10;layout&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/admin/layout.blade.php&#10;adminmiddle&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Middleware/AdminMiddleware.php&#10;home&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/HomeController.php&#10;pages&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/PagesController.php&#10;shop/show&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/shop/show.blade.php&#10;main&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/public/temp/css/main.css&#10;main.css&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/public/temp/css/main.css&#10;comment&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/app/Comment.php&#10;commentcon&#9;null&#9;null&#10;pages/sh&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/pages/show.blade.php&#10;diffforhum&#9;null&#9;null&#10;homeco&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/app/Http/Controllers/HomeController.php&#10;shop/s&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/shop/show.blade.php&#10;main.&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/public/temp/css/main.css&#10;shop/index&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/shop/index.blade.php&#10;shop/sho&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/shop/show.blade.php&#10;we&#9;FILE&#9;file://D:/os/domains/larablog.loc/routes/web.php&#10;main.cs&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/public/temp/css/main.css&#10;header.&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/partitials/header.blade.php&#10;productco&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/Admin/ProductsController.php&#10;products/inde&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/admin/products/index.blade.php&#10;show&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/shop/show.blade.php&#10;header&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/partitials/header.blade.php&#10;postsco&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/Admin/PostsController.php&#10;shopp&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/shop/shopping-cart.blade.php&#10;shop/ind&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/shop/index.blade.php&#10;productcontro&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/app/Http/Controllers/Catalog/ProductController.php&#10;shop/sh&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/shop/show.blade.php&#10;pages/posts&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/pages/posts.blade.php&#10;pages/sho&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/pages/show.blade.php&#10;pages/list&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/pages/list.blade.php&#10;homecont&#9;null&#9;null&#10;web.&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/routes/web.php" />
     <property name="node.js.path.for.package.jscs" value="project" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="node.js.detected.package.jscs" value="true" />
@@ -1253,14 +902,7 @@
       <workItem from="1530526348591" duration="69000" />
       <workItem from="1530526437567" duration="2966000" />
       <workItem from="1530858380689" duration="223000" />
-      <workItem from="1530858747117" duration="7405000" />
-    </task>
-    <task id="LOCAL-00026" summary="что-то поправил. теперь вывожу во фронтенде категорию">
-      <created>1529232817409</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1529232817409</updated>
+      <workItem from="1530858747117" duration="17701000" />
     </task>
     <task id="LOCAL-00027" summary="добавил вывод категории в странице каталога, и товары соответственно /category_slug/product_slug">
       <created>1529239756104</created>
@@ -1598,7 +1240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1530863851089</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="перекинул стили в resources и забил их в webpack">
+      <created>1530866228817</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1530866228817</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1634,7 +1283,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="289064000" />
+    <option name="totallyTimeSpent" value="299360000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1652,23 +1301,23 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24567099" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="92" y="92" width="1736" height="856" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6396104" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31926408" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29317698" sideWeight="0.4942857" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29317698" sideWeight="0.74403816" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3998045" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2978177" sideWeight="0.5057143" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29317698" sideWeight="0.25596184" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Tasks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="92" y="92" width="1736" height="856" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1717,116 +1366,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/images/post/1.jpeg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Unit/post/ExampleTest.php" />
-    <entry file="file://$PROJECT_DIR$/tests/Unit/ExampleTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Unit/post/getDateTest.php" />
-    <entry file="file://$PROJECT_DIR$/tests/Unit/GetDateFunctionTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Unit/GetDateAttributeTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="23" column="24" lean-forward="false" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Unit/UploadImageTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/image.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Catalog/ProductController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="147" column="0" lean-forward="false" selection-start-line="147" selection-start-column="0" selection-end-line="147" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Post.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
-          <folding>
-            <element signature="e#23#41#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="146" column="0" lean-forward="false" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/ProductCategory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Http/FormRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="186" column="20" lean-forward="false" selection-start-line="186" selection-start-column="20" selection-end-line="186" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4442">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/lang/en/validation.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
           <caret line="56" column="10" lean-forward="false" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Helpers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="22" column="20" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1960,14 +1503,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/pages/_sidebar.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="387">
@@ -1990,14 +1525,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="18" column="56" lean-forward="false" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
           <folding />
         </state>
       </provider>
@@ -2102,11 +1629,163 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/pages/_sidebar.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layout.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="51" column="7" lean-forward="true" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="7" />
+        <state relative-caret-position="858">
+          <caret line="39" column="45" lean-forward="false" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PagesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-62">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/pages/posts.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="20" column="21" lean-forward="false" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/partitials/footer.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="37" column="80" lean-forward="false" selection-start-line="37" selection-start-column="80" selection-end-line="37" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="723" column="20" lean-forward="false" selection-start-line="723" selection-start-column="20" selection-end-line="723" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2018_06_30_132911_add_product_id_to_comments.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="28" column="44" lean-forward="true" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2018_07_06_103924_add_status_to_product_categories.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="28" column="38" lean-forward="false" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="21" column="62" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="91" column="14" lean-forward="false" selection-start-line="91" selection-start-column="14" selection-end-line="91" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/pages/post_sidebar.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="27" column="80" lean-forward="false" selection-start-line="27" selection-start-column="80" selection-end-line="27" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Catalog/ProductController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="33" column="28" lean-forward="false" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ProductCategory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="46" column="5" lean-forward="false" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/shop/category_product.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="21" column="90" lean-forward="false" selection-start-line="21" selection-start-column="90" selection-end-line="21" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Helpers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="86" column="13" lean-forward="false" selection-start-line="86" selection-start-column="13" selection-end-line="86" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="162" column="59" lean-forward="false" selection-start-line="162" selection-start-column="59" selection-end-line="162" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/pages/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="135" column="14" lean-forward="false" selection-start-line="135" selection-start-column="14" selection-end-line="135" selection-end-column="14" />
+          <folding>
+            <element signature="e#97#4120#0#HTML" expanded="false" />
+            <marker date="1530877553125" expanded="true" signature="6298:6502" ph="..." />
+            <marker date="1530877553125" expanded="true" signature="6305:6500" ph="..." />
+            <marker date="1530877553125" expanded="true" signature="6322:6499" ph="..." />
+            <marker date="1530877553125" expanded="true" signature="6886:7090" ph="..." />
+            <marker date="1530877553125" expanded="true" signature="6893:7088" ph="..." />
+            <marker date="1530877553125" expanded="true" signature="6910:7087" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

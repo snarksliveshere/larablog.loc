@@ -16,6 +16,7 @@ class Post extends Model
 
     const IS_DRAFT = 0;
     const  IS_PUBLIC = 1;
+    const IMG_SRC = '/images/';
 
     protected $fillable = ['title', 'content', 'date', 'description'];
 
@@ -83,7 +84,17 @@ class Post extends Model
         }
 
         return $this->image;
+
     }
+
+    public function getSidebarImage($resolution)
+    {
+        return Helpers::getResizeImage($resolution, $this);
+    }
+
+    /**
+     * @return mixed
+     */
 
     public function setCategory($id)
     {

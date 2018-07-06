@@ -8,6 +8,9 @@ use Illuminate\Database\Eloquent\Model;
 class ProductCategory extends Model
 {
     use Sluggable;
+
+    const IMG_SRC = '/images/';
+
     protected $fillable = ['imagePath','title','description', 'content'];
 
     public function sluggable()
@@ -51,6 +54,13 @@ class ProductCategory extends Model
 
         return '/images/' . $this->image;
     }
+
+    public function getResizeImage($resolution)
+    {
+        return Helpers::getResizeImage($resolution, $this);
+    }
+
+
 
 
 

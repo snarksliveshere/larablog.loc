@@ -158,4 +158,9 @@ class Product extends Model
         return $this->comments()->where('status', 1)->get();
     }
 
+    public function getResizeImage($resolution)
+    {
+        return Helpers::getResizeImage($resolution, $this);
+    }
+
 }

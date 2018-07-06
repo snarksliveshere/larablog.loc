@@ -19,7 +19,7 @@
                             <div class="block2">
                                 <div class="block2-pic hov-img0">
                                     <a href="{{ route('product.index', $category->slug)  }}"> <img
-                                                src="{{ $category->imagePath }}" alt="IMG-category"> </a>
+                                                src="{{ $category->getResizeImage('430-340') }}" alt="IMG-category"> </a>
                                 </div>
                                 <div class="block2-txt flex-w flex-t p-t-14">
                                     <div class="block2-txt-child1 flex-col-l ">
