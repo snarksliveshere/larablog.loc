@@ -25,6 +25,11 @@ class RelatedProduct extends Model
         return $this->hasMany('App\OffersProduct', 'product_id');
     }
 
+    public function offers()
+    {
+        return $this->belongsToMany(Offer::class,'offers_products', 'product_id', 'offer_id');
+    }
+
     public static function addValues($ids, $offers)
     {
         foreach ($ids as $ki => $val) {
@@ -118,10 +123,18 @@ class RelatedProduct extends Model
         $relatedOffers = [];
         if (isset($related[0])) {
             $first = $related[0];
-            $offers = $first->values;
-            foreach ($offers as $offer) {
+
+//            $offers = $first->load(['values' => function ($q) {
+//                                    $q->select('id', 'name');
+//                                }])->load('offers');
+//            $offers = $first->values;
+            $offers = $first->load('values')->load('offers');
+            dd($offers);
+            foreach ($offers->values as $offer) {
                 $relatedOffers[Offer::find($offer->offer_id)->name] = OfferValue::find($offer->offer_value_id)->value;
             }
+
+//            dd($relatedOffers);
         }
 
         return $relatedOffers;

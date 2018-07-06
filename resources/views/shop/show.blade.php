@@ -177,21 +177,19 @@
             </div>
             <div class="wrap-slick2">
                 <div class="slick2">
+
                     @foreach($product->related() as $item)
-                        @php
-                            $category_slug = \App\ProductCategory::where('id', $item->category_id)->pluck('slug');
-                        @endphp
                         <div class="item-slick2 p-l-15 p-r-15 p-t-15 p-b-15">
                             <div class="block2">
                                 <a href="{{ route('product.show',
-                                    [   'category_slug' => $category_slug[0],
+                                    [   'category_slug' => $item->category->slug,
                                         'product_slug' => $item->slug]) }}" class="block2-pic hov-img0">
                                     <img src="{{ $item->imagePath }}" alt="IMG-PRODUCT">
                                 </a>
                                 <div class="block2-txt flex-w flex-t p-t-14">
                                     <div class="block2-txt-child1 flex-col-l ">
                                         <a href="{{ route('product.show',
-                                    [   'category_slug' => $category_slug[0],
+                                    [   'category_slug' => $item->category->slug,
                                         'product_slug' => $item->slug]) }}"
                                            class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
                                             {{ $item->title }}

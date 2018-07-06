@@ -64,6 +64,7 @@ class Product extends Model
     }
     public function related()
     {
+
         return self::all()->where('status', 1)->except($this->id);
     }
 
