@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2e2699bb-bf3c-41a3-904d-7b55bb4040f1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Catalog/ProductController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Catalog/ProductController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/PagesController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/PagesController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Product.php" afterPath="$PROJECT_DIR$/app/Product.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/RelatedProduct.php" afterPath="$PROJECT_DIR$/app/RelatedProduct.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/shop/show.blade.php" afterPath="$PROJECT_DIR$/resources/views/shop/show.blade.php" />
     </list>
     <ignored path=".idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -98,8 +94,8 @@
       <file leaf-file-name="RelatedProduct.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/RelatedProduct.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="123" column="33" lean-forward="true" selection-start-line="123" selection-start-column="33" selection-end-line="123" selection-end-column="33" />
+            <state relative-caret-position="198">
+              <caret line="133" column="54" lean-forward="true" selection-start-line="133" selection-start-column="54" selection-end-line="133" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -807,14 +803,7 @@
       <workItem from="1530526348591" duration="69000" />
       <workItem from="1530526437567" duration="2966000" />
       <workItem from="1530858380689" duration="223000" />
-      <workItem from="1530858747117" duration="27880000" />
-    </task>
-    <task id="LOCAL-00030" summary="frontend залил страницу о компании и контакты и логин и регистрацию">
-      <created>1529577643977</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1529577643977</updated>
+      <workItem from="1530858747117" duration="28146000" />
     </task>
     <task id="LOCAL-00031" summary="перенес формы в профиле">
       <created>1529648187002</created>
@@ -1152,7 +1141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1530882560906</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="для продуктов сцепил offers &amp; offer_values для related">
+      <created>1530888130342</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1530888130342</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1188,7 +1184,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="309539000" />
+    <option name="totallyTimeSpent" value="309805000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1237,7 +1233,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="непного почистил" />
     <MESSAGE value="добавил роли и миграции" />
     <MESSAGE value="начал делать авторизаю между гостем и админом." />
     <MESSAGE value="fix postscontroller uploadImage" />
@@ -1262,7 +1257,8 @@
     <MESSAGE value="ресайз картинок на странице блога и категорий" />
     <MESSAGE value="ресайз картинок на главной" />
     <MESSAGE value="для главной добавил жадную загрузку + ограничил ее выборку по нужным мне полям" />
-    <option name="LAST_COMMIT_MESSAGE" value="для главной добавил жадную загрузку + ограничил ее выборку по нужным мне полям" />
+    <MESSAGE value="для продуктов сцепил offers &amp; offer_values для related" />
+    <option name="LAST_COMMIT_MESSAGE" value="для продуктов сцепил offers &amp; offer_values для related" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1703,8 +1699,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/RelatedProduct.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="123" column="33" lean-forward="true" selection-start-line="123" selection-start-column="33" selection-end-line="123" selection-end-column="33" />
+        <state relative-caret-position="198">
+          <caret line="133" column="54" lean-forward="true" selection-start-line="133" selection-start-column="54" selection-end-line="133" selection-end-column="54" />
           <folding />
         </state>
       </provider>

@@ -30,6 +30,11 @@ class RelatedProduct extends Model
         return $this->belongsToMany(Offer::class,'offers_products', 'product_id', 'offer_id');
     }
 
+    public function vals()
+    {
+        return $this->belongsToMany(OfferValue::class,'offers_products', 'product_id', 'offer_value_id');
+    }
+
     public static function addValues($ids, $offers)
     {
         foreach ($ids as $ki => $val) {
@@ -128,7 +133,7 @@ class RelatedProduct extends Model
 //                                    $q->select('id', 'name');
 //                                }])->load('offers');
 //            $offers = $first->values;
-            $offers = $first->load('values')->load('offers');
+            $offers = $first->load('vals')->load('offers');
             dd($offers);
             foreach ($offers->values as $offer) {
                 $relatedOffers[Offer::find($offer->offer_id)->name] = OfferValue::find($offer->offer_value_id)->value;
