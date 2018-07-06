@@ -2,79 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e2699bb-bf3c-41a3-904d-7b55bb4040f1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/295-165/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/295-165/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/295-165/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/295-165/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/295-165/8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/295-165/9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/315-177/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/315-177/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/315-177/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/315-177/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/315-177/8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/315-177/9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/315-315/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/315-315/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/315-315/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/315-315/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/315-315/8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/315-315/9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/430-340/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/430-340/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/430-340/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/430-340/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/430-340/8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/430-340/9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/95-95/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/95-95/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/95-95/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/95-95/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/95-95/8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/95-95/9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/960/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/960/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/960/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/960/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/960/8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/960/9.jpg" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/cozastore/about.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/cozastore/blog-detail.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/cozastore/blog.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/cozastore/contact.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/cozastore/home-02.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/cozastore/home-03.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/cozastore/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/cozastore/product-detail-orig.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/cozastore/product-detail.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/cozastore/product.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/cozastore/shoping-cart.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/3snNbzXGwd.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/5KIzocG1hB.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/AbMVe9RcmU.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/Iz1rA28RNJ.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/d0J2NwHd1d.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/product/295-165/1.jpg" afterPath="$PROJECT_DIR$/public/images/product/295-165/1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/product/315-177/1.jpg" afterPath="$PROJECT_DIR$/public/images/product/315-177/1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/product/315-315/1.jpg" afterPath="$PROJECT_DIR$/public/images/product/315-315/1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/product/430-340/1.jpg" afterPath="$PROJECT_DIR$/public/images/product/430-340/1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/product/95-95/1.jpg" afterPath="$PROJECT_DIR$/public/images/product/95-95/1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/product/960/1.jpg" afterPath="$PROJECT_DIR$/public/images/product/960/1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/productcategory/2.jpg" afterPath="$PROJECT_DIR$/public/images/productcategory/2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/productcategory/295-165/2.jpg" afterPath="$PROJECT_DIR$/public/images/productcategory/295-165/2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/productcategory/315-177/2.jpg" afterPath="$PROJECT_DIR$/public/images/productcategory/315-177/2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/productcategory/315-315/2.jpg" afterPath="$PROJECT_DIR$/public/images/productcategory/315-315/2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/productcategory/430-340/2.jpg" afterPath="$PROJECT_DIR$/public/images/productcategory/430-340/2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/productcategory/95-95/2.jpg" afterPath="$PROJECT_DIR$/public/images/productcategory/95-95/2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/productcategory/960/2.jpg" afterPath="$PROJECT_DIR$/public/images/productcategory/960/2.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/PagesController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/PagesController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ProfileController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProfileController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Requests/RegisterCheck.php" afterPath="$PROJECT_DIR$/app/Http/Requests/RegisterCheck.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/User.php" afterPath="$PROJECT_DIR$/app/User.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/pages/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/pages/index.blade.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/uploads/8b7EkRDubT.png" afterPath="$PROJECT_DIR$/public/images/avatar/admin.png" />
     </list>
     <ignored path=".idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -119,8 +49,18 @@
       <file leaf-file-name="PagesController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PagesController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+            <state relative-caret-position="181">
+              <caret line="18" column="72" lean-forward="true" selection-start-line="18" selection-start-column="72" selection-end-line="18" selection-end-column="72" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Product.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Product.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3212">
+              <caret line="162" column="59" lean-forward="false" selection-start-line="162" selection-start-column="59" selection-end-line="162" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -129,16 +69,16 @@
       <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/pages/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1705">
-              <caret line="192" column="140" lean-forward="false" selection-start-line="192" selection-start-column="121" selection-end-line="192" selection-end-column="140" />
+            <state relative-caret-position="209">
+              <caret line="175" column="64" lean-forward="false" selection-start-line="175" selection-start-column="64" selection-end-line="175" selection-end-column="64" />
               <folding>
                 <element signature="e#97#4120#0#HTML" expanded="false" />
-                <marker date="1530880540996" expanded="true" signature="6298:6502" ph="..." />
-                <marker date="1530880540996" expanded="true" signature="6305:6500" ph="..." />
-                <marker date="1530880540996" expanded="true" signature="6322:6499" ph="..." />
-                <marker date="1530880540996" expanded="true" signature="6886:7090" ph="..." />
-                <marker date="1530880540996" expanded="true" signature="6893:7088" ph="..." />
-                <marker date="1530880540996" expanded="true" signature="6910:7087" ph="..." />
+                <marker date="1530882131367" expanded="true" signature="6196:6410" ph="..." />
+                <marker date="1530882131367" expanded="true" signature="6203:6408" ph="..." />
+                <marker date="1530882131367" expanded="true" signature="6220:6407" ph="..." />
+                <marker date="1530882131367" expanded="true" signature="6794:7008" ph="..." />
+                <marker date="1530882131367" expanded="true" signature="6801:7006" ph="..." />
+                <marker date="1530882131367" expanded="true" signature="6818:7005" ph="..." />
               </folding>
             </state>
           </provider>
@@ -147,8 +87,8 @@
       <file leaf-file-name="Post.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Post.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="33" column="54" lean-forward="false" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="54" />
+            <state relative-caret-position="249">
+              <caret line="189" column="27" lean-forward="false" selection-start-line="189" selection-start-column="20" selection-end-line="189" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -158,9 +98,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>upda</find>
-      <find>uploadImage</find>
-      <find>co</find>
       <find>const</find>
       <find>size</find>
       <find>max</find>
@@ -188,6 +125,9 @@
       <find>getSide</find>
       <find>images</find>
       <find>getcate</find>
+      <find>getcategory</find>
+      <find>hascateg</find>
+      <find>getdate</find>
     </findStrings>
     <replaceStrings>
       <replace>$category</replace>
@@ -652,7 +592,7 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
-    <property name="SearchEverywhereHistoryKey" value="post&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Post.php&#10;pages/inde&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/pages/index.blade.php&#10;pages&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/PagesController.php&#10;product&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/Catalog/ProductController.php&#10;user&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/User.php&#10;profile&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/pages/profile.blade.php&#10;pages/&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/pages&#10;productcon&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/Catalog/ProductController.php&#10;shop/ca&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/shop/category_product.blade.php&#10;productcontroller&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/Catalog/ProductController.php&#10;web&#9;FILE&#9;file://D:/os/domains/larablog.loc/routes/web.php&#10;contacts&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/pages/contacts.blade.php&#10;rela&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/RelatedProduct.php&#10;related&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/Admin/RelatedController.php&#10;зкщвгсеы&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/Admin/ProductsController.php&#10;posts&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/Admin/PostsController.php&#10;products&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/Admin/ProductsController.php&#10;upload&#9;FILE&#9;file://D:/os/domains/larablog.loc/tests/Unit/UploadImageTest.php&#10;цуи&#9;FILE&#9;file://D:/os/domains/larablog.loc/routes/web.php&#10;productsCo&#9;null&#9;null&#10;productC&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/Catalog/ProductController.php&#10;layout&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/admin/layout.blade.php&#10;adminmiddle&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Middleware/AdminMiddleware.php&#10;home&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/HomeController.php&#10;shop/show&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/shop/show.blade.php&#10;main&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/public/temp/css/main.css&#10;main.css&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/public/temp/css/main.css&#10;comment&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/app/Comment.php&#10;commentcon&#9;null&#9;null&#10;pages/sh&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/pages/show.blade.php&#10;diffforhum&#9;null&#9;null&#10;homeco&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/app/Http/Controllers/HomeController.php&#10;shop/s&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/shop/show.blade.php&#10;main.&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/public/temp/css/main.css&#10;shop/index&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/shop/index.blade.php&#10;shop/sho&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/shop/show.blade.php&#10;we&#9;FILE&#9;file://D:/os/domains/larablog.loc/routes/web.php&#10;main.cs&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/public/temp/css/main.css&#10;header.&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/partitials/header.blade.php&#10;productco&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/Admin/ProductsController.php&#10;products/inde&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/admin/products/index.blade.php&#10;show&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/shop/show.blade.php&#10;header&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/partitials/header.blade.php&#10;postsco&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/Admin/PostsController.php&#10;shopp&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/shop/shopping-cart.blade.php&#10;shop/ind&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/shop/index.blade.php&#10;productcontro&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/app/Http/Controllers/Catalog/ProductController.php&#10;shop/sh&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/shop/show.blade.php&#10;pages/posts&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/pages/posts.blade.php&#10;pages/sho&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/pages/show.blade.php" />
+    <property name="SearchEverywhereHistoryKey" value="product&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Product.php&#10;post&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Post.php&#10;pages/inde&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/pages/index.blade.php&#10;pages&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/PagesController.php&#10;user&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/User.php&#10;profile&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/pages/profile.blade.php&#10;pages/&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/pages&#10;productcon&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/Catalog/ProductController.php&#10;shop/ca&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/shop/category_product.blade.php&#10;productcontroller&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/Catalog/ProductController.php&#10;web&#9;FILE&#9;file://D:/os/domains/larablog.loc/routes/web.php&#10;contacts&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/pages/contacts.blade.php&#10;rela&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/RelatedProduct.php&#10;related&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/Admin/RelatedController.php&#10;зкщвгсеы&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/Admin/ProductsController.php&#10;posts&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/Admin/PostsController.php&#10;products&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/Admin/ProductsController.php&#10;upload&#9;FILE&#9;file://D:/os/domains/larablog.loc/tests/Unit/UploadImageTest.php&#10;цуи&#9;FILE&#9;file://D:/os/domains/larablog.loc/routes/web.php&#10;productsCo&#9;null&#9;null&#10;productC&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/Catalog/ProductController.php&#10;layout&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/admin/layout.blade.php&#10;adminmiddle&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Middleware/AdminMiddleware.php&#10;home&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/HomeController.php&#10;shop/show&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/shop/show.blade.php&#10;main&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/public/temp/css/main.css&#10;main.css&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/public/temp/css/main.css&#10;comment&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/app/Comment.php&#10;commentcon&#9;null&#9;null&#10;pages/sh&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/pages/show.blade.php&#10;diffforhum&#9;null&#9;null&#10;homeco&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/app/Http/Controllers/HomeController.php&#10;shop/s&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/shop/show.blade.php&#10;main.&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/public/temp/css/main.css&#10;shop/index&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/shop/index.blade.php&#10;shop/sho&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/shop/show.blade.php&#10;we&#9;FILE&#9;file://D:/os/domains/larablog.loc/routes/web.php&#10;main.cs&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/public/temp/css/main.css&#10;header.&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/partitials/header.blade.php&#10;productco&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/Admin/ProductsController.php&#10;products/inde&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/admin/products/index.blade.php&#10;show&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/shop/show.blade.php&#10;header&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/partitials/header.blade.php&#10;postsco&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/Admin/PostsController.php&#10;shopp&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/shop/shopping-cart.blade.php&#10;shop/ind&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/shop/index.blade.php&#10;productcontro&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/app/Http/Controllers/Catalog/ProductController.php&#10;shop/sh&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/shop/show.blade.php&#10;pages/posts&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/pages/posts.blade.php&#10;pages/sho&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/pages/show.blade.php" />
     <property name="node.js.path.for.package.jscs" value="project" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="node.js.detected.package.jscs" value="true" />
@@ -856,14 +796,7 @@
       <workItem from="1530526348591" duration="69000" />
       <workItem from="1530526437567" duration="2966000" />
       <workItem from="1530858380689" duration="223000" />
-      <workItem from="1530858747117" duration="20415000" />
-    </task>
-    <task id="LOCAL-00028" summary="fix shop/show.blade если 1 картинка взята из Related">
-      <created>1529240578790</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1529240578790</updated>
+      <workItem from="1530858747117" duration="22316000" />
     </task>
     <task id="LOCAL-00029" summary="frontend страница постов">
       <created>1529523089546</created>
@@ -1201,7 +1134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1530877950242</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="ресайз картинок на главной">
+      <created>1530880676608</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1530880676609</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1237,7 +1177,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="302074000" />
+    <option name="totallyTimeSpent" value="303975000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1259,14 +1199,14 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6396104" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31926408" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40584415" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29317698" sideWeight="0.74403816" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29317698" sideWeight="0.7431694" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3998045" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29317698" sideWeight="0.25596184" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29317698" sideWeight="0.2568306" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Tasks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1286,7 +1226,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="добавил на вывод status == 1" />
     <MESSAGE value="поправил роуты" />
     <MESSAGE value="непного почистил" />
     <MESSAGE value="добавил роли и миграции" />
@@ -1311,7 +1250,8 @@
     <MESSAGE value="добавил отправку сообщения со страницы контакты" />
     <MESSAGE value="перекинул стили в resources и забил их в webpack" />
     <MESSAGE value="ресайз картинок на странице блога и категорий" />
-    <option name="LAST_COMMIT_MESSAGE" value="ресайз картинок на странице блога и категорий" />
+    <MESSAGE value="ресайз картинок на главной" />
+    <option name="LAST_COMMIT_MESSAGE" value="ресайз картинок на главной" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1638,14 +1578,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="162" column="59" lean-forward="false" selection-start-line="162" selection-start-column="59" selection-end-line="162" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/pages/profile.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
@@ -1694,22 +1626,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1430">
-          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Post.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="33" column="54" lean-forward="false" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -1718,26 +1634,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1430">
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3212">
+          <caret line="162" column="59" lean-forward="false" selection-start-line="162" selection-start-column="59" selection-end-line="162" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="189" column="27" lean-forward="false" selection-start-line="189" selection-start-column="20" selection-end-line="189" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/pages/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1705">
-          <caret line="192" column="140" lean-forward="false" selection-start-line="192" selection-start-column="121" selection-end-line="192" selection-end-column="140" />
+        <state relative-caret-position="209">
+          <caret line="175" column="64" lean-forward="false" selection-start-line="175" selection-start-column="64" selection-end-line="175" selection-end-column="64" />
           <folding>
             <element signature="e#97#4120#0#HTML" expanded="false" />
-            <marker date="1530880540996" expanded="true" signature="6298:6502" ph="..." />
-            <marker date="1530880540996" expanded="true" signature="6305:6500" ph="..." />
-            <marker date="1530880540996" expanded="true" signature="6322:6499" ph="..." />
-            <marker date="1530880540996" expanded="true" signature="6886:7090" ph="..." />
-            <marker date="1530880540996" expanded="true" signature="6893:7088" ph="..." />
-            <marker date="1530880540996" expanded="true" signature="6910:7087" ph="..." />
+            <marker date="1530882131367" expanded="true" signature="6196:6410" ph="..." />
+            <marker date="1530882131367" expanded="true" signature="6203:6408" ph="..." />
+            <marker date="1530882131367" expanded="true" signature="6220:6407" ph="..." />
+            <marker date="1530882131367" expanded="true" signature="6794:7008" ph="..." />
+            <marker date="1530882131367" expanded="true" signature="6801:7006" ph="..." />
+            <marker date="1530882131367" expanded="true" signature="6818:7005" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PagesController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        <state relative-caret-position="181">
+          <caret line="18" column="72" lean-forward="true" selection-start-line="18" selection-start-column="72" selection-end-line="18" selection-end-column="72" />
           <folding />
         </state>
       </provider>

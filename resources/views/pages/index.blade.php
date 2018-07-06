@@ -116,15 +116,12 @@
             </div>
             <div class="row">
                 @foreach($products as $product)
-
-                    @php( $category_slug = \App\ProductCategory::find($product->category_id)->slug)
-
                     <div class="col-sm-6 col-md-4 col-lg-3 p-b-35">
                         <!-- Block2 -->
                         <div class="block2">
                             <div class="block2-pic hov-img0">
                                 <a href="{{ route('product.show', [
-                                    'category_slug' => $category_slug,
+                                    'category_slug' => $product->category->slug,
                                     'product_slug' => $product->slug
                                     ]) }}">
 
@@ -135,7 +132,7 @@
                             <div class="block2-txt flex-w flex-t p-t-14">
                                 <div class="block2-txt-child1 flex-col-l ">
                                     <a href="{{ route('product.show', [
-                                    'category_slug' => $category_slug,
+                                    'category_slug' => $product->category->slug,
                                     'product_slug' => $product->slug
                                     ]) }}" class="fz20 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
                                         {{ $product->title }}</a> <span class="fz20 stext-105 cl3"> Цена: {{ $product->price }} КЦ
@@ -185,7 +182,7 @@
                                         <div class="btn-continue-reading">
                                             @if($post->hasCategory())
                                                 <h6> Категория:
-                                                    <a href="{{ route('category.show', $post->category->slug) }}">{{ $post->getCategoryTitle() }}</a>
+                                                    <a href="{{ route('category.show', $post->category->slug) }}">{{ $post->category->title }}</a>
                                                 </h6>
                                             @endif
                                         </div>
