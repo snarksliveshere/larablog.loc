@@ -2,123 +2,79 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e2699bb-bf3c-41a3-904d-7b55bb4040f1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/post/295-165/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/post/295-165/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/post/295-165/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/post/295-165/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/post/295-165/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/post/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/post/315-177/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/post/315-177/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/post/315-177/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/post/315-177/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/post/315-177/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/post/315-315/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/post/315-315/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/post/315-315/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/post/315-315/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/post/315-315/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/post/430-340/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/post/430-340/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/post/430-340/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/post/430-340/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/post/95-95/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/post/95-95/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/post/95-95/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/post/95-95/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/post/960/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/post/960/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/post/960/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/post/960/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/post/960/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/295-165/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/315-177/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/315-315/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/960/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/productcategory/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/productcategory/295-165/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/productcategory/295-165/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/productcategory/295-165/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/productcategory/315-177/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/productcategory/315-177/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/productcategory/315-177/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/productcategory/315-315/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/productcategory/315-315/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/productcategory/315-315/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/productcategory/430-340/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/productcategory/430-340/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/productcategory/430-340/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/productcategory/95-95/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/productcategory/95-95/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/productcategory/95-95/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/productcategory/960/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/productcategory/960/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/productcategory/960/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/migrations/2018_07_06_103924_add_status_to_product_categories.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/post/3.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/post/600-600/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/product/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/product/2.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/product/3.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/product/4.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/product/5.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/product/6.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/product/8.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/product/9.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/productcategory/1.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/productcategory/2.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/boxed-bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/credit/american-express.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/credit/mastercard.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/credit/paypal2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/credit/visa.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/default-50x50.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/no-avatar.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/photo1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/photo2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/photo3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/photo4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user1-128x128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user2-160x160.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user3-128x128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user4-128x128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user5-128x128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user6-128x128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user7-128x128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user8-128x128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/orig-layout.blade.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/post/430-340/1.jpg" afterPath="$PROJECT_DIR$/public/images/post/430-340/1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/post/95-95/1.jpg" afterPath="$PROJECT_DIR$/public/images/post/95-95/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/295-165/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/295-165/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/295-165/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/295-165/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/295-165/8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/295-165/9.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/315-177/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/315-177/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/315-177/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/315-177/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/315-177/8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/315-177/9.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/315-315/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/315-315/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/315-315/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/315-315/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/315-315/8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/315-315/9.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/430-340/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/430-340/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/430-340/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/430-340/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/430-340/8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/430-340/9.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/95-95/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/95-95/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/95-95/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/95-95/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/95-95/8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/95-95/9.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/960/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/960/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/960/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/960/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/960/8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/960/9.jpg" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/cozastore/about.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/cozastore/blog-detail.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/cozastore/blog.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/cozastore/contact.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/cozastore/home-02.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/cozastore/home-03.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/cozastore/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/cozastore/product-detail-orig.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/cozastore/product-detail.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/cozastore/product.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/cozastore/shoping-cart.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/3snNbzXGwd.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/5KIzocG1hB.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/AbMVe9RcmU.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/Iz1rA28RNJ.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/d0J2NwHd1d.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/product/295-165/1.jpg" afterPath="$PROJECT_DIR$/public/images/product/295-165/1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/product/315-177/1.jpg" afterPath="$PROJECT_DIR$/public/images/product/315-177/1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/product/315-315/1.jpg" afterPath="$PROJECT_DIR$/public/images/product/315-315/1.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/product/430-340/1.jpg" afterPath="$PROJECT_DIR$/public/images/product/430-340/1.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/product/95-95/1.jpg" afterPath="$PROJECT_DIR$/public/images/product/95-95/1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/product/960/1.jpg" afterPath="$PROJECT_DIR$/public/images/product/960/1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/productcategory/2.jpg" afterPath="$PROJECT_DIR$/public/images/productcategory/2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/productcategory/295-165/2.jpg" afterPath="$PROJECT_DIR$/public/images/productcategory/295-165/2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/productcategory/315-177/2.jpg" afterPath="$PROJECT_DIR$/public/images/productcategory/315-177/2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/productcategory/315-315/2.jpg" afterPath="$PROJECT_DIR$/public/images/productcategory/315-315/2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/productcategory/430-340/2.jpg" afterPath="$PROJECT_DIR$/public/images/productcategory/430-340/2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/productcategory/95-95/2.jpg" afterPath="$PROJECT_DIR$/public/images/productcategory/95-95/2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/productcategory/960/2.jpg" afterPath="$PROJECT_DIR$/public/images/productcategory/960/2.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Category.php" afterPath="$PROJECT_DIR$/app/Category.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Helpers.php" afterPath="$PROJECT_DIR$/app/Helpers.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Post.php" afterPath="$PROJECT_DIR$/app/Post.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Product.php" afterPath="$PROJECT_DIR$/app/Product.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ProductCategory.php" afterPath="$PROJECT_DIR$/app/ProductCategory.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/pages/_sidebar.blade.php" afterPath="$PROJECT_DIR$/resources/views/pages/_sidebar.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/PagesController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/PagesController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ProfileController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProfileController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Requests/RegisterCheck.php" afterPath="$PROJECT_DIR$/app/Http/Requests/RegisterCheck.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/User.php" afterPath="$PROJECT_DIR$/app/User.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/pages/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/pages/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/pages/post_sidebar.blade.php" afterPath="$PROJECT_DIR$/resources/views/pages/post_sidebar.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/partitials/footer.blade.php" afterPath="$PROJECT_DIR$/resources/views/partitials/footer.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/shop/category_product.blade.php" afterPath="$PROJECT_DIR$/resources/views/shop/category_product.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/web.php" afterPath="$PROJECT_DIR$/routes/web.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/post/1.jpeg" afterPath="$PROJECT_DIR$/public/images/post/1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/post/13.jpeg" afterPath="$PROJECT_DIR$/public/images/post/13.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/post/2.jpeg" afterPath="$PROJECT_DIR$/public/images/post/2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/post/4.jpeg" afterPath="$PROJECT_DIR$/public/images/post/4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/post/5.jpeg" afterPath="$PROJECT_DIR$/public/images/post/5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/post/6.jpeg" afterPath="$PROJECT_DIR$/public/images/post/6.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/productcategory/3.jpeg" afterPath="$PROJECT_DIR$/public/images/productcategory/3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/productcategory/4.jpeg" afterPath="$PROJECT_DIR$/public/images/productcategory/4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/uploads/8b7EkRDubT.png" afterPath="$PROJECT_DIR$/public/images/avatar/admin.png" />
     </list>
     <ignored path=".idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -140,49 +96,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Helpers.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Helpers.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="86" column="13" lean-forward="false" selection-start-line="86" selection-start-column="13" selection-end-line="86" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/pages/index.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="135" column="14" lean-forward="false" selection-start-line="135" selection-start-column="14" selection-end-line="135" selection-end-column="14" />
-              <folding>
-                <element signature="e#97#4120#0#HTML" expanded="false" />
-                <marker date="1530877553125" expanded="true" signature="6298:6502" ph="..." />
-                <marker date="1530877553125" expanded="true" signature="6305:6500" ph="..." />
-                <marker date="1530877553125" expanded="true" signature="6322:6499" ph="..." />
-                <marker date="1530877553125" expanded="true" signature="6886:7090" ph="..." />
-                <marker date="1530877553125" expanded="true" signature="6893:7088" ph="..." />
-                <marker date="1530877553125" expanded="true" signature="6910:7087" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Product.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Product.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="162" column="59" lean-forward="false" selection-start-line="162" selection-start-column="59" selection-end-line="162" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AppServiceProvider.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="21" column="62" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="62" />
+            <state relative-caret-position="374">
+              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -191,39 +109,37 @@
       <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
+            <state relative-caret-position="1430">
               <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Catalog/ProductController.php">
+      <file leaf-file-name="PagesController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PagesController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="33" column="28" lean-forward="false" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+            <state relative-caret-position="484">
+              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="category_product.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/shop/category_product.blade.php">
+      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/pages/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="21" column="90" lean-forward="false" selection-start-line="21" selection-start-column="90" selection-end-line="21" selection-end-column="90" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductCategory.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/ProductCategory.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="46" column="5" lean-forward="false" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="1705">
+              <caret line="192" column="140" lean-forward="false" selection-start-line="192" selection-start-column="121" selection-end-line="192" selection-end-column="140" />
+              <folding>
+                <element signature="e#97#4120#0#HTML" expanded="false" />
+                <marker date="1530880540996" expanded="true" signature="6298:6502" ph="..." />
+                <marker date="1530880540996" expanded="true" signature="6305:6500" ph="..." />
+                <marker date="1530880540996" expanded="true" signature="6322:6499" ph="..." />
+                <marker date="1530880540996" expanded="true" signature="6886:7090" ph="..." />
+                <marker date="1530880540996" expanded="true" signature="6893:7088" ph="..." />
+                <marker date="1530880540996" expanded="true" signature="6910:7087" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -231,18 +147,8 @@
       <file leaf-file-name="Post.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Post.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="91" column="14" lean-forward="false" selection-start-line="91" selection-start-column="14" selection-end-line="91" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="post_sidebar.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/pages/post_sidebar.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="27" column="80" lean-forward="false" selection-start-line="27" selection-start-column="80" selection-end-line="27" selection-end-column="80" />
+            <state relative-caret-position="122">
+              <caret line="33" column="54" lean-forward="false" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -280,8 +186,8 @@
       <find>getsidebarimage</find>
       <find>popula</find>
       <find>getSide</find>
-      <find>getcate</find>
       <find>images</find>
+      <find>getcate</find>
     </findStrings>
     <replaceStrings>
       <replace>$category</replace>
@@ -303,9 +209,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/tests/Unit/PostTest.php" />
-        <option value="$PROJECT_DIR$/tests/Feature/PageTest.php" />
-        <option value="$PROJECT_DIR$/tests/Browser/ExampleTest.php" />
         <option value="$PROJECT_DIR$/tests/Feature/ExampleTest.php" />
         <option value="$PROJECT_DIR$/app/Http/Middleware/AdminMiddleware.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/dashboard.blade.php" />
@@ -330,7 +233,6 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/RelatedController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/AuthController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Requests/RegisterCheck.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/SubscribeController.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/resources/views/pages/login.blade.php" />
@@ -345,15 +247,19 @@
         <option value="$PROJECT_DIR$/resources/views/pages/_sidebar.blade.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/database/migrations/2018_07_06_103924_add_status_to_product_categories.php" />
-        <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
         <option value="$PROJECT_DIR$/app/Category.php" />
-        <option value="$PROJECT_DIR$/app/Post.php" />
         <option value="$PROJECT_DIR$/resources/views/pages/post_sidebar.blade.php" />
         <option value="$PROJECT_DIR$/app/ProductCategory.php" />
         <option value="$PROJECT_DIR$/resources/views/shop/category_product.blade.php" />
         <option value="$PROJECT_DIR$/app/Helpers.php" />
         <option value="$PROJECT_DIR$/app/Product.php" />
+        <option value="$PROJECT_DIR$/app/Http/Requests/RegisterCheck.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ProfileController.php" />
+        <option value="$PROJECT_DIR$/app/User.php" />
+        <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
+        <option value="$PROJECT_DIR$/app/Post.php" />
         <option value="$PROJECT_DIR$/resources/views/pages/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/PagesController.php" />
       </list>
     </option>
   </component>
@@ -685,7 +591,55 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Requests" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="larablog.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="larablog.loc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="larablog.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="larablog.loc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Auth" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -698,7 +652,7 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
-    <property name="SearchEverywhereHistoryKey" value="pages/&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/pages&#10;productcon&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/Catalog/ProductController.php&#10;post&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Post.php&#10;shop/ca&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/shop/category_product.blade.php&#10;productcontroller&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/Catalog/ProductController.php&#10;web&#9;FILE&#9;file://D:/os/domains/larablog.loc/routes/web.php&#10;contacts&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/pages/contacts.blade.php&#10;rela&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/RelatedProduct.php&#10;related&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/Admin/RelatedController.php&#10;зкщвгсеы&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/Admin/ProductsController.php&#10;posts&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/Admin/PostsController.php&#10;products&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/Admin/ProductsController.php&#10;product&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Product.php&#10;upload&#9;FILE&#9;file://D:/os/domains/larablog.loc/tests/Unit/UploadImageTest.php&#10;цуи&#9;FILE&#9;file://D:/os/domains/larablog.loc/routes/web.php&#10;productsCo&#9;null&#9;null&#10;productC&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/Catalog/ProductController.php&#10;layout&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/admin/layout.blade.php&#10;adminmiddle&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Middleware/AdminMiddleware.php&#10;home&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/HomeController.php&#10;pages&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/PagesController.php&#10;shop/show&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/shop/show.blade.php&#10;main&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/public/temp/css/main.css&#10;main.css&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/public/temp/css/main.css&#10;comment&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/app/Comment.php&#10;commentcon&#9;null&#9;null&#10;pages/sh&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/pages/show.blade.php&#10;diffforhum&#9;null&#9;null&#10;homeco&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/app/Http/Controllers/HomeController.php&#10;shop/s&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/shop/show.blade.php&#10;main.&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/public/temp/css/main.css&#10;shop/index&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/shop/index.blade.php&#10;shop/sho&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/shop/show.blade.php&#10;we&#9;FILE&#9;file://D:/os/domains/larablog.loc/routes/web.php&#10;main.cs&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/public/temp/css/main.css&#10;header.&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/partitials/header.blade.php&#10;productco&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/Admin/ProductsController.php&#10;products/inde&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/admin/products/index.blade.php&#10;show&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/shop/show.blade.php&#10;header&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/partitials/header.blade.php&#10;postsco&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/Admin/PostsController.php&#10;shopp&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/shop/shopping-cart.blade.php&#10;shop/ind&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/shop/index.blade.php&#10;productcontro&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/app/Http/Controllers/Catalog/ProductController.php&#10;shop/sh&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/shop/show.blade.php&#10;pages/posts&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/pages/posts.blade.php&#10;pages/sho&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/pages/show.blade.php&#10;pages/list&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/pages/list.blade.php&#10;homecont&#9;null&#9;null&#10;web.&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/routes/web.php" />
+    <property name="SearchEverywhereHistoryKey" value="post&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Post.php&#10;pages/inde&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/pages/index.blade.php&#10;pages&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/PagesController.php&#10;product&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/Catalog/ProductController.php&#10;user&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/User.php&#10;profile&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/pages/profile.blade.php&#10;pages/&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/pages&#10;productcon&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/Catalog/ProductController.php&#10;shop/ca&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/shop/category_product.blade.php&#10;productcontroller&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/Catalog/ProductController.php&#10;web&#9;FILE&#9;file://D:/os/domains/larablog.loc/routes/web.php&#10;contacts&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/pages/contacts.blade.php&#10;rela&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/RelatedProduct.php&#10;related&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/Admin/RelatedController.php&#10;зкщвгсеы&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/Admin/ProductsController.php&#10;posts&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/Admin/PostsController.php&#10;products&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/Admin/ProductsController.php&#10;upload&#9;FILE&#9;file://D:/os/domains/larablog.loc/tests/Unit/UploadImageTest.php&#10;цуи&#9;FILE&#9;file://D:/os/domains/larablog.loc/routes/web.php&#10;productsCo&#9;null&#9;null&#10;productC&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/Catalog/ProductController.php&#10;layout&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/admin/layout.blade.php&#10;adminmiddle&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Middleware/AdminMiddleware.php&#10;home&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/HomeController.php&#10;shop/show&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/shop/show.blade.php&#10;main&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/public/temp/css/main.css&#10;main.css&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/public/temp/css/main.css&#10;comment&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/app/Comment.php&#10;commentcon&#9;null&#9;null&#10;pages/sh&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/pages/show.blade.php&#10;diffforhum&#9;null&#9;null&#10;homeco&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/app/Http/Controllers/HomeController.php&#10;shop/s&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/shop/show.blade.php&#10;main.&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/public/temp/css/main.css&#10;shop/index&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/shop/index.blade.php&#10;shop/sho&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/shop/show.blade.php&#10;we&#9;FILE&#9;file://D:/os/domains/larablog.loc/routes/web.php&#10;main.cs&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/public/temp/css/main.css&#10;header.&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/partitials/header.blade.php&#10;productco&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/Admin/ProductsController.php&#10;products/inde&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/admin/products/index.blade.php&#10;show&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/shop/show.blade.php&#10;header&#9;FILE&#9;file://D:/os/domains/larablog.loc/resources/views/partitials/header.blade.php&#10;postsco&#9;FILE&#9;file://D:/os/domains/larablog.loc/app/Http/Controllers/Admin/PostsController.php&#10;shopp&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/shop/shopping-cart.blade.php&#10;shop/ind&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/shop/index.blade.php&#10;productcontro&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/app/Http/Controllers/Catalog/ProductController.php&#10;shop/sh&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/shop/show.blade.php&#10;pages/posts&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/pages/posts.blade.php&#10;pages/sho&#9;FILE&#9;file://D:/ospanel/domains/larablog.loc/resources/views/pages/show.blade.php" />
     <property name="node.js.path.for.package.jscs" value="project" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="node.js.detected.package.jscs" value="true" />
@@ -902,14 +856,7 @@
       <workItem from="1530526348591" duration="69000" />
       <workItem from="1530526437567" duration="2966000" />
       <workItem from="1530858380689" duration="223000" />
-      <workItem from="1530858747117" duration="17701000" />
-    </task>
-    <task id="LOCAL-00027" summary="добавил вывод категории в странице каталога, и товары соответственно /category_slug/product_slug">
-      <created>1529239756104</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1529239756104</updated>
+      <workItem from="1530858747117" duration="20415000" />
     </task>
     <task id="LOCAL-00028" summary="fix shop/show.blade если 1 картинка взята из Related">
       <created>1529240578790</created>
@@ -1247,7 +1194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1530866228817</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="ресайз картинок на странице блога и категорий">
+      <created>1530877950242</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1530877950242</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1283,7 +1237,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="299360000" />
+    <option name="totallyTimeSpent" value="302074000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1332,7 +1286,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="в случае, если при удалении ЗНАЧЕНИЯ у ТП  предложение у товара, ставим этому товару статус 0" />
     <MESSAGE value="добавил на вывод status == 1" />
     <MESSAGE value="поправил роуты" />
     <MESSAGE value="непного почистил" />
@@ -1357,7 +1310,8 @@
     <MESSAGE value="вынес в отдельный класс валидацию для регистрации.&#10;Итого - в отдельных классах валидация по продуктам, постам, регистрации.&#10;Мелкие валидации выносить не стал" />
     <MESSAGE value="добавил отправку сообщения со страницы контакты" />
     <MESSAGE value="перекинул стили в resources и забил их в webpack" />
-    <option name="LAST_COMMIT_MESSAGE" value="перекинул стили в resources и забил их в webpack" />
+    <MESSAGE value="ресайз картинок на странице блога и категорий" />
+    <option name="LAST_COMMIT_MESSAGE" value="ресайз картинок на странице блога и категорий" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1366,39 +1320,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/lang/en/validation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="56" column="10" lean-forward="false" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Requests/StoreUpdateRelatedProduct.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/RelatedProduct.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="27" column="32" lean-forward="false" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AuthController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="e#40#76#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Requests/StoreUpdatePost.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="604">
@@ -1419,14 +1340,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="45" column="27" lean-forward="true" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Requests/RegisterCheck.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -1645,14 +1558,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PagesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-62">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/pages/posts.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -1701,42 +1606,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="21" column="62" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Post.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="91" column="14" lean-forward="false" selection-start-line="91" selection-start-column="14" selection-end-line="91" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/pages/post_sidebar.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
           <caret line="27" column="80" lean-forward="false" selection-start-line="27" selection-start-column="80" selection-end-line="27" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Catalog/ProductController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="33" column="28" lean-forward="false" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -1773,19 +1646,99 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/pages/profile.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="14" column="41" lean-forward="false" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Requests/RegisterCheck.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="26" column="63" lean-forward="false" selection-start-line="26" selection-start-column="63" selection-end-line="26" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AuthController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-317">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProfileController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="26" column="31" lean-forward="false" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="105" column="31" lean-forward="false" selection-start-line="105" selection-start-column="31" selection-end-line="105" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Catalog/ProductController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="33" column="28" lean-forward="false" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1430">
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="33" column="54" lean-forward="false" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/pages/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="135" column="14" lean-forward="false" selection-start-line="135" selection-start-column="14" selection-end-line="135" selection-end-column="14" />
+        <state relative-caret-position="1705">
+          <caret line="192" column="140" lean-forward="false" selection-start-line="192" selection-start-column="121" selection-end-line="192" selection-end-column="140" />
           <folding>
             <element signature="e#97#4120#0#HTML" expanded="false" />
-            <marker date="1530877553125" expanded="true" signature="6298:6502" ph="..." />
-            <marker date="1530877553125" expanded="true" signature="6305:6500" ph="..." />
-            <marker date="1530877553125" expanded="true" signature="6322:6499" ph="..." />
-            <marker date="1530877553125" expanded="true" signature="6886:7090" ph="..." />
-            <marker date="1530877553125" expanded="true" signature="6893:7088" ph="..." />
-            <marker date="1530877553125" expanded="true" signature="6910:7087" ph="..." />
+            <marker date="1530880540996" expanded="true" signature="6298:6502" ph="..." />
+            <marker date="1530880540996" expanded="true" signature="6305:6500" ph="..." />
+            <marker date="1530880540996" expanded="true" signature="6322:6499" ph="..." />
+            <marker date="1530880540996" expanded="true" signature="6886:7090" ph="..." />
+            <marker date="1530880540996" expanded="true" signature="6893:7088" ph="..." />
+            <marker date="1530880540996" expanded="true" signature="6910:7087" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PagesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>

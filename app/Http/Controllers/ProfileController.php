@@ -35,7 +35,7 @@ class ProfileController extends Controller
 
         $user->edit($request->all());
         $user->generatePassword($request->get('password'));
-        $user->uploadAvatar($request->file('avatar'));
+        $user->uploadAvatar($request->get('name'),$request->file('avatar'));
         return redirect()->back()->with('status', 'Профиль обновлен');
 
 

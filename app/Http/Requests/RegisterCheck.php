@@ -24,7 +24,7 @@ class RegisterCheck extends FormRequest
     public function rules()
     {
         return [
-            'name' => 'required|different:password',
+            'name' => 'required|different:password|unique:users',
             'email' => 'required|email|unique:users|different:password',
             'password' => 'required|min:5'
         ];

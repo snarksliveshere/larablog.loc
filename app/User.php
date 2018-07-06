@@ -80,12 +80,11 @@ class User extends Authenticatable
         $this->removeAvatar();
         $this->delete();
     }
-    public function uploadAvatar($image)
+    public function uploadAvatar($name, $image)
     {
         if ($image == null) { return; }
-//        dd(get_class_methods($image));
         $this->removeAvatar();
-        $filename = str_random(10) . '.' . $image->extension();
+        $filename = $name . '.' . $image->extension();
         $image->storeAs('images/avatar', $filename);
         $this->avatar = $filename;
         $this->save();
@@ -101,10 +100,10 @@ class User extends Authenticatable
     public function getAvatar()
     {
         if ($this->avatar == null) {
-            return '/img/no-avatar.jpg';
+            return '/images/no-avatar.jpg';
         }
 
-        return '/uploads/' . $this->avatar;
+        return '/images/avatar/' . $this->avatar;
     }
 
     public function makeAdmin()

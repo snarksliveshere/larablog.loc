@@ -163,7 +163,7 @@
                             <div class="block2-pic hov-img0">
                                 <a class="d-block"
                                         href="{{ route('post.show', $post->slug) }}">
-                                    <img src="{{ $post->getImage() }}" class="img-responsive" alt="">
+                                    <img src="{{ $post->getSidebarImage('315-177') }}" class="img-responsive" alt="">
                                 </a>
 
                             </div>
