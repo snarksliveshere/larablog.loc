@@ -44,47 +44,32 @@ mix.copy('resources/assets/admin/dist/fonts', 'public/fonts');
 mix.copy('resources/assets/admin/dist/img', 'public/img');
 mix.copy('resources/assets/admin/plugins/iCheck/minimal/blue.png', 'public/css');
 
-// mix.styles([
-//     'resources/assets/front/css/bootstrap.min.css',
-//     'resources/assets/front/css/font-awesome.min.css',
-//     'resources/assets/front/css/animate.min.css',
-//     'resources/assets/front/css/owl.carousel.css',
-//     'resources/assets/front/css/owl.theme.css',
-//     'resources/assets/front/css/owl.transitions.css',
-//     'resources/assets/front/css/style.css',
-//     'resources/assets/front/css/responsive.css'
-// ],'public/css/front.css');
-//
-// mix.scripts([
-//     'resources/assets/admin/plugins/jQuery/jquery-2.2.3.min.js',
-//     'resources/assets/front/js/bootstrap.min.js',
-//     'resources/assets/front/js/owl.carousel.min.js',
-//     'resources/assets/front/js/jquery.stickit.min.js',
-//     'resources/assets/front/js/menu.js',
-//     'resources/assets/front/js/scripts.js'
-// ], 'public/js/front.js');
-//
-// mix.copy('resources/assets/front/fonts', 'public/fonts');
-// mix.copy('resources/assets/front/images', 'public/images');
+mix.copy('resources/assets/front/fonts', 'public/fonts');
+mix.copy('resources/assets/front/images', 'public/images');
+mix.copy('resources/assets/front/js/main.js', 'public/js/main.js');
+mix.styles([
+    'resources/assets/front/vendor/bootstrap/css/bootstrap.min.css',
+    'resources/assets/front/fonts/font-awesome-4.7.0/css/font-awesome.min.css',
+    'resources/assets/front/vendor/animate/animate.css',
+    'resources/assets/front/vendor/css-hamburgers/hamburgers.min.css',
+    'resources/assets/front/vendor/animsition/css/animsition.min.css',
+    'resources/assets/front/vendor/slick/slick.css',
+    'resources/assets/front/vendor/MagnificPopup/magnific-popup.css',
+    'resources/assets/front/js/fancybox/jquery.fancybox.min.css',
+    'resources/assets/front/css/util.css',
+    'resources/assets/front/css/main.css'
+],'public/css/front.css');
 
-// mix.styles([
-//     'resources/assets/front/css/bootstrap.min.css',
-//     'resources/assets/front/css/font-awesome.min.css',
-//     'resources/assets/front/css/animate.min.css',
-//     'resources/assets/front/css/owl.carousel.css',
-//     'resources/assets/front/css/owl.theme.css',
-//     'resources/assets/front/css/owl.transitions.css',
-//     'resources/assets/front/css/style.css',
-//     'resources/assets/front/css/responsive.css'
-// ],'public/css/front.css');
-//
-// mix.scripts([
-//     'resources/assets/admin/plugins/jQuery/jquery-2.2.3.min.js',
-//     'resources/assets/front/js/bootstrap.min.js',
-//     'resources/assets/front/js/owl.carousel.min.js',
-//     'resources/assets/front/js/jquery.stickit.min.js',
-//     'resources/assets/front/js/menu.js',
-//     'resources/assets/front/js/scripts.js'
-// ], 'public/js/front.js');
+mix.scripts([
+    'resources/assets/front/vendor/jquery/jquery-3.2.1.min.js',
+    'resources/assets/front/vendor/animsition/js/animsition.min.js',
+    'resources/assets/front/vendor/bootstrap/js/popper.js',
+    'resources/assets/front/vendor/bootstrap/js/bootstrap.min.js',
+    'resources/assets/front/vendor/slick/slick.min.js',
+    'resources/assets/front/js/fancybox/jquery.fancybox.min.js',
+    'resources/assets/front/js/slick-custom.js',
+    'resources/assets/front/vendor/MagnificPopup/jquery.magnific-popup.min.js',
+    'resources/assets/front/vendor/parallax100/parallax100.js'
+], 'public/js/front.js');
 
-// TODO: пора перебрасывать сюда стили
+
