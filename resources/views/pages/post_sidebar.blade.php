@@ -25,7 +25,7 @@
                         <a href="{{ route('post.show', $popularPost->slug) }}"
                            class="wrao-pic-w hov-ovelay1 m-r-20 sidebar-post__link">
                             <img
-                                    src="{{ $popularPost->getSidebarImage('295-165') }}" alt="PRODUCT" class="img-responsive">
+                                    src="{{ $popularPost->getResizeImage('295-165') }}" alt="PRODUCT" class="img-responsive">
 
                             <span
                                     class="sidebar-post__link-date">{{ $post->author->name }}
@@ -47,7 +47,7 @@
                     <li class="flex-w flex-t p-b-30">
                         <a href="{{ route('post.show', $recentPost->slug) }}"
                            class="wrao-pic-w hov-ovelay1 m-r-20 sidebar-post__link"> <img
-                                    src="{{ $recentPost->getSidebarImage('295-165') }}" alt="PRODUCT" class="img-responsive"> <span
+                                    src="{{ $recentPost->getResizeImage('295-165') }}" alt="PRODUCT" class="img-responsive"> <span
                                     class="sidebar-post__link-date">{{ $post->author->name }}
                                 <br>{{ $recentPost->getDate() }}</span> </a>
                         <div class="size-215 flex-col-t p-t-8">

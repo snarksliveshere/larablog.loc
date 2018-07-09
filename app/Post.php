@@ -87,7 +87,7 @@ class Post extends Model
 
     }
 
-    public function getSidebarImage($resolution)
+    public function getResizeImage($resolution)
     {
         return Helpers::getResizeImage($resolution, $this);
     }
@@ -194,27 +194,35 @@ class Post extends Model
 
     public function hasPrevious()
     {
-        return self::where('id', '<', $this->id)->max('id');
+        return  self::where('id', '<', $this->id)->select('id')->max('id');
     }
     public function hasNext()
     {
-        return self::where('id', '>', $this->id)->min('id');
+        return  self::where('id', '>', $this->id)->select('id')->min('id');
     }
 
     public function getPrevious()
     {
         $postID = $this->hasPrevious();
-        return self::find($postID);
+
+//        return self::find($postID);
+        $prevPost = self::find($postID)->select('id' ,'slug', 'image', 'title')->firstOrFail();
+        return $prevPost;
+
     }
     public function getNext()
     {
         $postID = $this->hasNext();
-        return self::find($postID);
+        $nextPost = self::find($postID)->select('id' ,'slug', 'image', 'title')->firstOrFail();
+        return $nextPost;
+
     }
 
     public function related()
     {
-        return self::all()->except($this->id);
+        return self::whereStatus(1)
+            ->select('id', 'title', 'slug', 'image')->get()->except($this->id);
+//        return self::all()->except($this->id);
     }
 
     public function hasCategory()

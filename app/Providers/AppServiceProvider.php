@@ -20,9 +20,8 @@ class AppServiceProvider extends ServiceProvider
     {
         view()->composer('pages.post_sidebar', function ($view) {
             $view->with('popularPosts', Post::getPopularPosts());
-            $view->with('featuredPosts', Post::where([['is_featured', '1'],['status', 1]])->take(3)->get());
             $view->with('recentPosts', Post::where('status', 1)->orderBy('date', 'desc')->take(3)->get());
-            $view->with('categories', Category::all());
+            $view->with('categories', Category::select('id','slug','title')->get());
         });
         view()->composer('partitials.footer', function ($view) {
             $view->with('categories', ProductCategory::whereStatus(1)->select('slug', 'title')->get());

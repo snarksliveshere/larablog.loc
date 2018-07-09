@@ -56,15 +56,16 @@
                         <hr class="my-5">
                         <div class="row">
                             <div class="p-t-40 col-6">
-                                @if($post->hasPrevious())
+                                @if($post->getPrevious())
+                                    @php($prev = $post->getPrevious())
                                     <div class="single-blog-box">
-                                        <a href="{{ route('post.show', $post->getPrevious()->slug) }}"> <img
-                                                    src="{{ $post->getPrevious()->getImage() }}" alt=""
+                                        <a href="{{ route('post.show', $prev->slug) }}"> <img
+                                                    src="{{ $prev->getResizeImage('430-340') }}" alt=""
                                                     class="img-responsive">
                                             <div class="overlay">
                                                 <div class="promo-text">
                                                     <p><i class=" pull-left fa fa-angle-left fz40"></i></p>
-                                                    <h5>{{ $post->getPrevious()->title }}</h5>
+                                                    <h5>{{ $prev->title }}</h5>
                                                 </div>
                                             </div>
                                         </a>
@@ -72,15 +73,16 @@
                                 @endif
                             </div>
                             <div class="p-t-40 col-6">
-                                @if($post->hasNext())
+                                @if($post->getNext())
+                                    @php($next = $post->getNext())
                                     <div class="single-blog-box">
-                                        <a href="{{ route('post.show', $post->getNext()->slug) }}"> <img
-                                                    src="{{ $post->getNext()->getImage() }}" alt=""
+                                        <a href="{{ route('post.show', $next->slug) }}"> <img
+                                                    src="{{ $next->getResizeImage('430-340') }}" alt=""
                                                     class="img-responsive">
                                             <div class="overlay">
                                                 <div class="promo-text">
-                                                    <p><i class=" pull-left fa fa-angle-left fz40"></i></p>
-                                                    <h5>{{ $post->getNext()->title }}</h5>
+                                                    <p><i class=" pull-right fa fa-angle-right fz40"></i></p>
+                                                    <h5>{{ $next->title }}</h5>
                                                 </div>
                                             </div>
                                         </a>
@@ -95,9 +97,7 @@
                             <div class="wrap-slick2">
                                 <div class="slick2">
                                     @foreach($post->related() as $item)
-                                        @php
-                                            $category_slug = \App\ProductCategory::where('id', $item->category_id)->pluck('slug');
-                                        @endphp
+
                                         <div class="item-slick2 p-l-15 p-r-15 p-t-15 p-b-15">
                                             <div class="block2">
                                                 <a href="{{ route('post.show', $item->slug) }}"

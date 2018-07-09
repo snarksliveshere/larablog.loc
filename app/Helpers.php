@@ -89,7 +89,7 @@ class Helpers
             if ( (class_basename($obj)) == 'Post' ? $obj->image == null : $obj->imagePath == null ) {
                 return static::$imagesDir . 'no-image.jpg';
             }
-            $str = static::$imagesDir .  strtolower(class_basename($obj)) .'/' . $resolution . '/' . $obj->id . '.jpg';
+            $str = '/' . static::$imagesDir .  strtolower(class_basename($obj)) .'/' . $resolution . '/' . $obj->id . '.jpg';
 
             return $str;
 

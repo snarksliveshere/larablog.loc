@@ -11,8 +11,6 @@ Route::group(['prefix' => 'posts'], function(){
 
 });
 
-
-
 Route::get('/category/{slug}', 'HomeController@category')->name('category.show');
 Route::post('/subscribe', 'SubscribeController@subscribe');
 Route::get('/verify/{token}', 'SubscribeController@verify');
