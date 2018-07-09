@@ -177,7 +177,6 @@
             </div>
             <div class="wrap-slick2">
                 <div class="slick2">
-{{--                    {{ dd($product->related()) }}--}}
                     @foreach($product->related() as $item)
                         <div class="item-slick2 p-l-15 p-r-15 p-t-15 p-b-15">
                             <div class="block2">

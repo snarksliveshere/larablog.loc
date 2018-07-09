@@ -65,7 +65,10 @@ class Product extends Model
     public function related()
     {
 
-        return self::all()->where('status', 1)->except($this->id);
+        return self::with(['category' => function ($q) {
+                        $q->select('product_categories.id', 'slug');}])
+                    ->whereStatus(1)
+                    ->select('id', 'title', 'slug', 'imagePath', 'price', 'category_id')->get()->except($this->id);
     }
 
     public function setDraft()
