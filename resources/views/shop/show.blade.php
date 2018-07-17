@@ -52,9 +52,9 @@
                         <h4 class="mtext-105 cl2 js-name-detail p-b-14">
                             {{ $product->title }}
                         </h4>
-                        <span class="mtext-106 cl2" id="price">
-							Цена: {{ $price }} КЦ
-						</span>
+                        <span class="mtext-106 cl2">Цена: </span>
+                        <span class="mtext-106 cl2" id="price">{{ $price }}</span>
+                        <span class="mtext-106 cl2"> КЦ</span>
                         <div class="stext-102 cl3 p-t-23" id="description">
                             {!! $description !!}
                         </div>

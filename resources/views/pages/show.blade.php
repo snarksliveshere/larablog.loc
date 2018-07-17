@@ -56,7 +56,7 @@
                         <hr class="my-5">
                         <div class="row">
                             <div class="p-t-40 col-6">
-                                @if($post->getPrevious())
+                                @if($post->hasPrevious())
                                     @php($prev = $post->getPrevious())
                                     <div class="single-blog-box">
                                         <a href="{{ route('post.show', $prev->slug) }}"> <img
@@ -73,7 +73,7 @@
                                 @endif
                             </div>
                             <div class="p-t-40 col-6">
-                                @if($post->getNext())
+                                @if($post->hasNext())
                                     @php($next = $post->getNext())
                                     <div class="single-blog-box">
                                         <a href="{{ route('post.show', $next->slug) }}"> <img

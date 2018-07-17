@@ -18,7 +18,7 @@ class PagesController extends Controller
                         ->with(['category' => function ($q) {
                                 $q->select('id', 'slug', 'title');}])
                         ->whereStatus(1)->take(4)
-                        ->select('id', 'title', 'image', 'date', 'description', 'user_id')
+                        ->select('id', 'title', 'image', 'date', 'description', 'user_id', 'slug')
                         ->get();
 
         $products = Product::with(['category' => function ($q) {

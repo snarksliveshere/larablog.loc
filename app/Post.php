@@ -206,14 +206,14 @@ class Post extends Model
         $postID = $this->hasPrevious();
 
 //        return self::find($postID);
-        $prevPost = self::find($postID)->select('id' ,'slug', 'image', 'title')->firstOrFail();
+        $prevPost = self::find($postID)->select('id' ,'slug', 'image', 'title')->first();
         return $prevPost;
 
     }
     public function getNext()
     {
         $postID = $this->hasNext();
-        $nextPost = self::find($postID)->select('id' ,'slug', 'image', 'title')->firstOrFail();
+        $nextPost = self::find($postID)->select('id' ,'slug', 'image', 'title')->first();
         return $nextPost;
 
     }
