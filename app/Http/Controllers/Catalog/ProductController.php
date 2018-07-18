@@ -108,10 +108,12 @@ class ProductController extends Controller
             return redirect()->back()->with('status', 'что-то не вижу такого id :)');
         }
 
+
         $oldCart = Session::has('cart') ? Session::get('cart') : null;
 //        dd($oldCart);
 
         $cart = new Cart($oldCart);
+
         $cart->add($product, $product->id);
 
         $request->session()->put('cart', $cart);

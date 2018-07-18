@@ -37,11 +37,15 @@ class Cart
             $storedItem['parent_id'] = $item->parent_id;
             $storedItem['parent_title'] = Product::find($item->parent_id)->title;
         }
+        if (null === $item->imagePath) {
+            $item['imagePath'] = Product::find($item->parent_id)->imagePath;
+        }
         $storedItem['qty']++;
         $storedItem['price'] = $item->price * $storedItem['qty'];
         $this->items[$id] = $storedItem;
         $this->totalQty++;
         $this->totalPrice += $item->price;
+//        dd($storedItem);
 
     }
 
