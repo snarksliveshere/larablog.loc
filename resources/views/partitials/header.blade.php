@@ -14,7 +14,7 @@
                         <li><a href="{{ route('front.about') }}">О компании</a></li>
                         <li><a href="{{ route('category_product')}}">Каталог</a></li>
                         <li><a href="{{ route('posts.main') }}">Блог</a></li>
-                        <li><a href="{{ route('front.contacts') }}">Контакты</a></li>
+                        <li><a href="{{ route('front.contacts') }}">Контакты / Резюме</a></li>
                     </ul>
                 </div>
                 <div class="wrap-icon-header flex-w flex-r-m">
@@ -64,7 +64,7 @@
             <li><a href="{{ route('front.about') }}">О компании</a></li>
             <li><a href="{{ route('category_product')}}">Каталог</a></li>
             <li><a href="{{ route('posts.main') }}">Блог</a></li>
-            <li><a href="{{ route('front.contacts') }}">Контакты</a></li>
+            <li><a href="{{ route('front.contacts') }}">Контакты / Резюме</a></li>
             @if(Auth::check())
                 <li><a href="/profile">My profile</a></li>
                 <li><a href="/logout">Logout</a></li>

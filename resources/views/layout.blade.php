@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="/images/icons/favicon.png"/>
-    <link rel="stylesheet" type="text/css" href="/css/front.css">
+    <link rel="stylesheet" type="text/css" href="{{ URL::to('/css/front.css') }}">
 </head>
 <body class="@yield('body_class')">
 @include('partitials.header')
@@ -46,7 +46,7 @@
         });
     });
 </script>
-<script src="/js/main.js"></script>
+<script src="{{ URL::to('/js/main.js') }}"></script>
 @yield('scripts-inc')
 </body>
 </html>

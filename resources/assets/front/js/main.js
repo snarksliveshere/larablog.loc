@@ -146,6 +146,16 @@
             'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
         }
     });
+      // TABS
+        $('ul.tabs__caption').on('click', 'li:not(.active)', function () {
+          $(this)
+            .addClass('active').siblings().removeClass('active')
+            .parents('div.tabs').find('div.tabs__content')
+            .removeClass('active').eq($(this).index()).addClass('active');
+        });
+
+      // ENDOF TABS
+
     // реализую функционал ТП
     var imagePathSrc = $('#image_path_src');
     var imagePathHref = $('#image_path_href');

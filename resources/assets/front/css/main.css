@@ -3389,3 +3389,40 @@ input.num-product::-webkit-inner-spin-button {
 .ttu {
   text-transform: uppercase;
 }
+.tabs__content {
+  display: none;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.5;
+  border: 1px solid #ccc;
+  border-top: none;
+  padding: 10px;
+}
+.tabs__content.active {
+  display: block;
+}
+.tabs__caption li {
+  color: #42dab2;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 5px 0;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+.tabs__caption li.active {
+  background-color: aliceblue;
+}
+.tdu {
+  text-decoration: underline;
+}
+.tabs__content h5 {
+  color: #42dab2;
+}
+.standard {
+  list-style: disc;
+  padding-left: 20px;
+}
+.standard li {
+  margin-top: 5px;
+  list-style: disc;
+}
