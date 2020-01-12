@@ -8,10 +8,7 @@
     </section>
 @endsection
 @endsection
-
-
 @section('content')
-
 <section class="bg0 p-t-104 p-b-116">
     <div class="container">
         <div class="flex-w flex-tr row">
@@ -24,7 +21,7 @@
                     <div class="tabs__content active">
                         <div class="row">
                             <div class="col-12 my-2">
-                                <a href="{{ asset('/images/resume_deryugin_mihail.doc') }}"><i class="fa fa-download"></i> Скачать резюме в формате Word</a>
+                                <a href="{{ asset('/images/Deryugin_Mihail_resume_2019.doc') }}"><i class="fa fa-download"></i> Скачать резюме в формате Word</a>
                             </div>
                             <div class="col-12 col-md-4">
                                 <h5 class="tdu">Контакты</h5>
@@ -32,29 +29,94 @@
                             <div class="col-12 col-md-8">
                                 Михаил Дерюгин<br>
                                 Email: <a href="mailto:snarksliveshere@gmail.com">snarksliveshere@gmail.com</a><br>
-                                skype: <a href="skype:cheshirs?chat">cheshirs</a>
-                            </div>
-                            <div class="w-100 my-2"></div>
-                            <div class="col-12 col-md-4">
-                                <h5 class="tdu">Обо мне</h5>
-                            </div>
-                            <div class="col-12 col-md-8">
-                                <p>
-                                    Причины, сподвигшие меня сменить место работы, заключаются в том, что исполняемые задачи перестали быть сложными и в конце уже свелись к рутине. В основном, это разработка и поддержка сайтов на MODX, а также Битрикс. Хотя там, в основном, плотная работа с php, но в отсутствии нормальной архитектуры, уже несколько не комфортно. Сейчас я разрабатываю B2B на Laravel, но это редкое исключение, специфика фирмы это Modx & bitrix.
-                                   </p><p class="my-2">
-                                    Тут необходимая сноска - хотя я немало поработал с функционалом и поддержкой сайтов на битрикс, но не стал их включать в список сайтов, так как у меня очень мало желания совершенствоваться в этой области по, думаю, очевидным причинам. К примеру, по таким  - http://joxi.ru/5mdBKa6ck15GyA. Это достаточно свежая версия, ядро D7 и так далее.
-                                </p>
-                                <p>
-                                    Исходя из этого, я ищу работу, где бы я мог решать более сложные и разнообразные задачи и одновременно осваивать современные технологии (тут я более всего склоняюсь к Laravel & Symfony) не только в свободное, но и в рабочее время.
-                                </p>
-                                <p>Еще бы очень хотелось на работе иметь дело с Linux, т.к. на работе только windows, дома второй ОС стоит Ubuntu, но в силу отсутствия времени я не так много, как хотелось бы, работаю с этой системой.</p>
+                                skype: <span class="fwb">snarksliveshere</span>
                             </div>
                             <div class="w-100 my-2"></div>
                             <div class="col-12 col-md-4">
                                 <h5 class="tdu">Ключевые Навыки</h5>
                             </div>
                             <div class="col-12 col-md-8">
-                                PHP, HTML5,Git, Css/Css3, SCSS, Gulp, Compass, JavaScript, JQuery, Vue(начинаю осваивать, есть тестовый проект), Laravel (больше чем Vue, меньше MODX, к сожалению. Этот сайт сделан на Laravel), Blade, PhpStorm, composer, npm, docker,  bootstrap3, bootstrap4, emmet, deploy(больше apache2, могу поставить и на  nginx), Linux(Ubuntu). CMS: MODX, Bitrix(включаю битрикс только для полноты списка). В основном MODX, я создал около 25 сайтов на нем, еще столько же было на поддержке, также создавал модули под эту CMS.
+                                <span class="fwb">Symfony, Vuetify, PostgreSQL</span>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <h5 class="tdu">Дополнительно</h5>
+                            </div>
+                            <div class="col-12 col-md-8">
+                                <span class="fwb">
+                                Git, Laravel, JS, HTML5/CSS, Linux
+                                    </span>
+                            </div>
+                            <div class="w-100 my-2"></div>
+                            <div class="col-12 col-md-4">
+                                <h5 class="tdu">Обо мне</h5>
+                            </div>
+                            <div class="col-12 col-md-8">
+                               <p class="mb-3">На данный момент работаю над поддержанием и созданием внутренних ERP систем сбора и отображения маркетинговой и финансовой статистики на базе Symfony & Vuetify & PostgreSQL</p>
+
+                                <p>
+                                    <span class="fwb">Symfony</span><br>
+                                    Является основной технологией. Так как пишу ERP, то особо не покажешь ни код, ни интерфейсы, но я наделал скринов с фейковыми данными, чтобы было некоторое представление
+                                    <br>
+                                    <a class="fancybox" href="{{ asset('/images/resume/erp_dashboard.jpg') }}">
+                                        <span class="fwb">Dashboard. Формирование отчета по произвольно выбранным группировкам и метрикам</span>
+                                    </a>
+                                    <br>
+                                    <a class="fancybox" href="{{ asset('/images/resume/erp_data_table_select.jpg') }}">
+                                        <span class="fwb">фильтры по столбцам</span>
+                                    </a>
+                                    <br>
+                                    <a class="fancybox" href="{{ asset('/images/resume/erp_date_range_picker.jpg') }}">
+                                        <span class="fwb">date range picker с временными паттернами</span>
+                                    </a>
+                                    <br>
+                                    <a class="fancybox" href="{{ asset('/images/resume/erp_several_filters.jpg') }}">
+                                        <span class="fwb">выборка по нескольким фильтрам, включая логику && > < =</span>
+                                    </a>
+                                </p>
+
+                                <p>
+                                    <span class="fwb">Laravel</span><br>
+                                <a href="http://snarksliveshere.xyz/contacts">http://snarksliveshere.xyz</a>
+                                Изначально писал для себя простой блог, но после решил расширить его до легкого интернет-магазина с торговыми предложениями. Так как приложение писалось для практики, заготовки вроде Aimeos или Voyager я в нем не использовал.</p>
+                                <p class="mb-3">В процессе был просто очарован этим фреймворком, но в итоге все же пошел работать на Symfony, так как этот фреймворк является стандартом и ориентирован на лучшие практики.</p>
+                                <p class="mb-3">Исходный код на <a href="https://github.com/snarksliveshere/larablog.loc">https://github.com/snarksliveshere/larablog.loc</a>
+                                гостевой доступ в админку<br> login: test pass: test</p>
+
+                                <p><span class="fwb">Vue/Vuetify</span><br>
+                                <p>
+                                    Разработка ERP сервисов идет на vuetify, и фронтенд SPA реализация в нашем подразделении это также моя область ответственности.
+                                    На git лежит другой тестовый проект, написанный давно и больше для практики.
+                                    <a href="https://github.com/snarksliveshere/vue.spa">
+                                    https://github.com/snarksliveshere/vue.spa
+                                    </a>
+
+                                </p>
+
+                                <p class="mt-3"><span class="fwb">Deploy, LAMP / LEMP</span><br>
+                                docker я поднимал по конфигу второй версии, вот в таком варианте
+                                <a href="https://github.com/snarksliveshere/laraadv/blob/master/docker-compose.yml">
+                                    https://github.com/snarksliveshere/.../docker-compose.yml
+                                </a></p>
+                                <p class="mb-3">Vagrant когда-то использовал, сейчас его не практикую</p>
+
+                                <p>
+                                сайт <a href="http://snarksliveshere.xyz">snarksliveshere.xyz</a> работает на apache2, я поднимал VDS на Ubuntu 16.04, дома ради практики на своей Ubuntu ставил сайт на nginx.<br>
+                                    Впрочем, в основном, это DEV OPS область, я сейчас особо ей внимания не уделяю, ибо и других интересных вещей хватает.
+                                    <br> <br>
+                                    Немного писал Bash скрипты, но это больше на любительском уровне, для автоматизации некоторых процессов в целях повышения удобства.
+                                </p>
+                                <p class="mb-3 mt-3">
+                                    До того, как перешел на разработку ERP систем,
+                                    работал на фирме по созданию и поддержке сайтов.
+                                    Там приходилось немало времени уделять верстке и JS, правки по существующим сайтам,
+                                    но есть и проекты с чистого листа, такие как
+                                    <br>
+                                    <a href="http://g-strela.ru/">http://g-strela.ru/</a>
+                                    <br>
+                                    <a href="http://hummel-russia.ru/">http://hummel-russia.ru/</a>
+                                    <br> и другие.
+                                    Чуть ниже я приведу все ссылки на них.</p>
+                                <p class="mb-3">из CMS наиболее плотно я работал с MODX & Bitrix, правки были и по многим другим (WordPress, opencart etc), когда я работал на фрилансе, активно использовал Joomla. На MODX я создал порядка 25 сайтов (большей частью интернет-магазины) и правил еще немало, Bitrix - больше создание нового функционала и правки интернет-магазинов.</p>
                             </div>
                             <div class="w-100 my-2"></div>
                             <div class="col-12 col-md-4">
@@ -62,10 +124,23 @@
                             </div>
                             <div class="col-12 col-md-8">
                                 <div class="row no-gutters">
+                                     <div class="col-6">Компания: Mobio<br> <a href="https://mobioinc.com/" rel="nofollow">https://mobioinc.com/</a>
+
+                                    </div>
+                                    <div class="col-6">Октябрь 2018 - по настоящее время</div>
+                                    <div class="w-100"></div>
+                                    <p class="fwb my-2">Middle Full Stack Developer</p>
+                                    <ul class="standard">
+                                        <li>
+
+                                            Обеспечение работоспособности и создание ERP-систем на базе Symfony & Vuetify</li>
+                                    </ul>
+                                    <hr style="width: 100%;">
+                                    <div class="w-100 my-2"></div>
                                     <div class="col-6">Компания: ARD media<br> <a href="https://ard-media" rel="nofollow">ARD media</a>
 
                                     </div>
-                                    <div class="col-6">Февраль 2017 - по настоящее время</div>
+                                    <div class="col-6">Февраль 2017 - Август 2018</div>
                                     <div class="w-100"></div>
                                     <p class="fwb my-2">PHP разработчик</p>
                                     <ul class="standard">
@@ -73,6 +148,7 @@
                                         <li>Верстка, адаптив, HTML/HTML5, CSS3, SCSS, Gulp and Photoshop.</li>
                                         <li>Разработка и внедрение нового функционала для повышения конверсии, юзабилити и прочее.</li>
                                     </ul>
+                                    <hr style="width: 100%;">
                                     <div class="w-100 my-2"></div>
                                     <div class="col-6">Сайтострой, фриланс, самозанятость</div>
                                     <div class="col-6">Январь 2010 - Октябрь 2015</div>
@@ -94,7 +170,9 @@
                                 <p class="fwb my-2">Разработка и последующая поддержка сайтов:</p>
 
                                 <ul class="standard">
-                                    <li><a href="http://www.germes-gp.ru">http://www.germes-gp.ru/ ( + Написан модуль сравнения товаров, стандартный не работал с категориями и с ним тяжело было работать, когда количество опций  около 300)</a></li>
+                                    <li><a href="http://www.germes-gp.ru">http://www.germes-gp.ru/</a> <p>( + Написан модуль сравнения товаров, стандартный не работал с категориями и с ним тяжело было работать, когда количество опций  около 300)</p></li>
+                                    <li><a rel="nofollow" href="http://hummel-russia.ru/">http://hummel-russia.ru</a></li>
+                                    <li><a rel="nofollow" href="http://kaskad.ardmedia.ru">http://kaskad.ardmedia.ru</a></li>
                                     <li><a rel="nofollow" href="http://alvita-a.ru">http://alvita-a.ru</a></li>
                                     <li><a rel="nofollow" href="http://6x9elit.ru">http://6x9elit.ru</a></li>
                                     <li><a rel="nofollow" href="http://allbesttoys.ru">http://allbesttoys.ru</a></li>
@@ -114,15 +192,15 @@
                                 </ul>
                                 <p class="fwb my-2">Github, некоммерческие разработки</p>
                                 <ul class="standard mt-2">
-                                    <li><a href="http://snarksliveshere.xyz">http://snarksliveshere.xyz (Laravel, гостевой аккаунт: test/test)</a>
-
+                                    <li><a href="http://snarksliveshere.xyz">http://snarksliveshere.xyz</a> <p>(Laravel)</p>
                                     </li>
-                                    <li><a href="https://github.com/snarksliveshere/strela">https://github.com/snarksliveshere/strela (Верстка по новому дизайну, еще не интегрирована)</a></li>
-                                    <li><a href="https://github.com/snarksliveshere/vue.spa">https://github.com/snarksliveshere/vue.spa (страничка Vue для практики в этом деле)</a></li>
-                                    <li><a href="https://github.com/snarksliveshere/csscleaner">https://github.com/snarksliveshere/csscleaner (for clean unused css styles)</a><br><p>Принцип действия: Забирает все ссылки с главной страницы (или с той, которую указзать в конфиге), парсит все классы со страниц, сравнивает со скачанными файлами css(чтобы не разбирать bootstrap, к примеру) и js (здесь есть нюансы), и выдает очищенный файл, подробнее - на гите </p>
-                                        </li>
+                                    <li><a href="https://github.com/snarksliveshere/symfony_microblog">https://github.com/snarksliveshere/symfony_microblog</a>  <p>простой CRUD</p></li>
+                                    <li><a href="https://github.com/snarksliveshere/strela">https://github.com/snarksliveshere/strela</a> <p>(Верстка по новому дизайну, еще не интегрирована)</p></li>
+                                    <li><a href="https://github.com/snarksliveshere/vue.spa">https://github.com/snarksliveshere/vue.spa</a> <p>(страничка Vue для практики в этом деле)</p></li>
+                                    <li><a href="https://github.com/snarksliveshere/csscleaner">https://github.com/snarksliveshere/csscleaner</a> <p>(for clean unused css styles)</p>
+                                    </li>
                                 </ul>
-                                <p class="fwb my-2">ARD рабочие сайты</p>
+                                <p class="fwb my-2">ARD, рабочие сайты</p>
                                 <ul class="standard">
                                     <li><a rel="nofollow" href="http://stroy.ardmedia.ru">http://stroy.ardmedia.ru</a></li>
                                     <li><a rel="nofollow" href="http://stom1.ardmedia.ru">http://stom1.ardmedia.ru</a></li>
@@ -182,40 +260,127 @@
                     <div class="tabs__content">
                         <div class="row">
                             <div class="col-12 my-2">
-                                <a href="{{ asset('/images/CV_Mihail_Deryugin.pdf') }}" target="_blank"><i class="fa fa-download"></i> Download CV</a>
+                                <a href="{{ asset('/images/Mike_Deryugin_CV_2019.pdf') }}" target="_blank"><i class="fa fa-download"></i> Download CV</a>
                             </div>
                             <div class="col-12 col-md-4">
                                 <h5 class="tdu">Contact</h5>
                             </div>
                             <div class="col-12 col-md-8">
-                                Mihail Deryugin<br>
+                                Mike Deryugin<br>
                                 Email: <a href="mailto:snarksliveshere@gmail.com">snarksliveshere@gmail.com</a><br>
-                                skype: <a href="skype:cheshirs?chat">cheshirs</a>
+                                skype: <span class="fwb">snarksliveshere</span>
                             </div>
                             <div class="w-100 my-2"></div>
                             <div class="col-12 col-md-4">
-                                <h5 class="tdu">Objective</h5>
+                                <h5 class="tdu">Skills</h5>
                             </div>
                             <div class="col-12 col-md-8">
-                                Motivated PHP Developer seeks employment as part of a dynamic software development team.
+                                <span class="fwb">Symfony, Vuetify, PostgreSQL, Laravel, JS, HTML5/CSS, Git, Linux</span>
                             </div>
                             <div class="w-100 my-2"></div>
                             <div class="col-12 col-md-4">
-                                <h5 class="tdu">Computer Skills</h5>
+                                <h5 class="tdu">Qualifications</h5>
                             </div>
                             <div class="col-12 col-md-8">
-                                Web developer with experience in PHP, HTML5,Git, Css/Css3, SCSS, Gulp, Compass, JavaScript, JQuery, Vue(a little), Laravel (more than Vue, less than MODX, unfortunately), Blade, PhpStorm, composer, npm, docker, bootstrap3, bootstrap4, emmet, deploy(apache2 || nginx), Linux(Ubuntu). Experience in Content Management System such as MODX, Wordpress, Bitrix(include bitrix only for list). Strong on MODX, i create about 25 sites and several modules on this CMS.
-                            </div>
+    <p class="mb-3">Now I am working on maintaining and creating internal systems for collecting marketing statistics based on Symfony & Vuetify & PostgreSQL</p>
+                                <p>
+                                    <span class="fwb">Symfony</span><br>
+                                    is the main technology. Since I am writing ERP, I cannot show either the code or the interfaces, but I made screenshots with fake data
+                                    <br>
+                                    <a class="fancybox" href="{{ asset('/images/resume/erp_dashboard.jpg') }}">
+                                        <span class="fwb">Dashboard. Report generation for selected groups and metrics</span>
+                                    </a>
+                                    <br>
+                                    <a class="fancybox" href="{{ asset('/images/resume/erp_data_table_select.jpg') }}">
+                                        <span class="fwb">column filtering</span>
+                                    </a>
+                                    <br>
+                                    <a class="fancybox" href="{{ asset('/images/resume/erp_date_range_picker.jpg') }}">
+                                        <span class="fwb">date range picker with patterns</span>
+                                    </a>
+                                    <br>
+                                    <a class="fancybox" href="{{ asset('/images/resume/erp_several_filters.jpg') }}">
+                                        <span class="fwb">selection by several filters, including logic && > < =</span>
+                                    </a>
+                                </p>
+                                <p>
+
+
+
+
+                                    <span class="fwb">Laravel</span><br>
+        <a href="http://snarksliveshere.xyz/contacts">http://snarksliveshere.xyz</a>
+        Initially I wrote for myself a simple blog,
+        but after I decided to expand it to an easy online store with shopping offers.
+        Since the application was written for practice,
+        I didn`t use it in Aimeos or Voyager.
+    <p class="mb-3">In the process, I was just fascinated by this framework, but in the end I still went to work on Symfony, since this framework is a standard and focused on best practices.</p>
+    <p class="mb-3">Source code at
+         <a href="https://github.com/snarksliveshere/larablog.loc">github.com/snarksliveshere/larablog.loc</a> guest access to the admin area
+        login: test pass: test</p>
+
+    <p class="mb-3">
+        <span class="fwb">Vue/Vuetify</span><br>
+        The development of ERP services goes to vuetify, and the front-end SPA implementation in our division is also my area of responsibility.
+        On git is another test project, written a long time ago and more for practice.
+        <a href="https://github.com/snarksliveshere/vue.spa">github.com/snarksliveshere/vue.spa</a>
+    </p>
+    <p class="mt-3"><span class="fwb">Deploy, LAMP / LEMP</span><br>
+        I raised docker I picked up of the second configuration version, here in this version <a href="https://github.com/snarksliveshere/laraadv/blob/master/docker-compose.yml">github.com/snarksliveshere/.../docker-compose.yml</a>
+                                </p>
+
+    <p>
+        site <a href="http://snarksliveshere.xyz">snarksliveshere.xyz</a> works on apache2, I raised VDS on Ubuntu 16.04,
+        at home for practice on my Ubuntu raise the site on nginx.
+        <br>
+        However, basically, this is the DEV OPS area, I don’t pay much attention to it now, because there are enough other interesting things.
+        <br> <br>
+        I wrote a little Bash scripts, but this is more at the amateur level, to automate some processes in order to improve convenience.
+    </p>
+    <p class="mb-3">
+        Before switching to the development of ERP systems,
+        I worked at a website development and maintenance firm.
+        There, I had to spend a lot of time on layout and JS,
+        editing existing sites,
+        but there are also projects from scratch, such as
+        <br>
+        <a href="http://g-strela.ru/">http://g-strela.ru/</a>
+        <br>
+        <a href="http://hummel-russia.ru/">http://hummel-russia.ru/</a>
+        <br>
+        and another sites.
+        Below I give all the links to them.
+    </p>
+       <p class="mb-3">
+           From CMS, I worked most closely with MODX & Bitrix, there were many other edits (WordPress, opencart etc), when I worked on freelancing, I actively used Joomla. On MODX, I created about 25 sites (mostly online stores) and there are still quite a few rules, Bitrix - more creating new features and editing online stores.
+    </p>
+
+</div>
+                            <div class="w-100 my-2"></div>
+
                             <div class="w-100 my-2"></div>
                             <div class="col-12 col-md-4">
                                 <h5 class="tdu">Work Experience</h5>
                             </div>
                             <div class="col-12 col-md-8">
                                 <div class="row no-gutters">
-                                    <div class="col-6">Company: ARD media<br>
-                                    https://ard-media.ru
+                                    <div class="col-6">Company: Mobio<br>
+                                    	<a href="https://mobioinc.com/" rel="nofollow">https://mobioinc.com/</a>
+
                                     </div>
-                                    <div class="col-6">Feb 2017 - preset day</div>
+                                    <div class="col-6">Oct 2018 - Present day</div>
+                                    <div class="w-100"></div>
+                                    <p class="fwb my-2"> Middle Full Stack Developer</p>
+                                    <ul class="standard">
+                                        <li>
+                                            Maintaining and creating internal systems for collecting marketing statistics based on Symfony & Vuetify & PostgreSQL
+                                            </li>                                    </ul>
+                                    <hr style="width:100%;">
+                                    <div class="col-6">Company: ARD media<br>
+                                    	<a href="https://ard-media.ru" rel="nofollow">https://ard-media.ru</a>
+
+                                    </div>
+                                    <div class="col-6">Feb 2017 - Aug 2018</div>
                                     <div class="w-100"></div>
                                     <p class="fwb my-2">PHP Developer</p>
                                     <ul class="standard">
@@ -223,8 +388,9 @@
                                         <li>Created new websites for individuals and business using HTML/HTML5, CSS3, SCSS, Gulp and Photoshop.</li>
                                         <li>Updated and maintained exististing responsive websites to raise CTR.</li>
                                     </ul>
+                                    <hr style="width:100%;">
                                     <div class="col-6">Freelance, self-employment</div>
-                                    <div class="col-6">2010 - Feb 2017</div>
+                                    <div class="col-6">2010 - Oct 2015</div>
                                     <div class="w-100"></div>
                                     <p class="fwb my-2">HTML/CSS Developer</p>
                                     <ul class="standard">
@@ -234,13 +400,14 @@
                             </div>
                             <div class="w-100 my-2"></div>
                             <div class="col-12 col-md-4">
-                                <h5 class="tdu">Qualifications</h5>
+                                <h5 class="tdu"></h5>
                             </div>
                             <div class="col-12 col-md-8">
                                 <p class="fwb my-2">Develop and maintain sites:</p>
 
                                 <ul class="standard">
                                     <li><a rel="nofollow" href="http://www.germes-gp.ru">http://www.germes-gp.ru/ ( + developing compare module)</a></li>
+                                    <li><a rel="nofollow" href="http://hummel-russia.ru/">http://hummel-russia.ru</a></li>
                                     <li><a rel="nofollow" href="http://alvita-a.ru">http://alvita-a.ru</a></li>
                                     <li><a rel="nofollow" href="http://6x9elit.ru">http://6x9elit.ru</a></li>
                                     <li><a rel="nofollow" href="http://allbesttoys.ru">http://allbesttoys.ru</a></li>

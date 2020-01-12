@@ -14,7 +14,7 @@
                         <li><a href="{{ route('front.about') }}">О компании</a></li>
                         <li><a href="{{ route('category_product')}}">Каталог</a></li>
                         <li><a href="{{ route('posts.main') }}">Блог</a></li>
-                        <li><a href="{{ route('front.contacts') }}">Контакты / Резюме</a></li>
+                        <!--li><a href="{{ route('front.contacts') }}">Контакты / Резюме</a></li-->
                     </ul>
                 </div>
                 <div class="wrap-icon-header flex-w flex-r-m">
