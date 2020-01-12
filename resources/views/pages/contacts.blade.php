@@ -379,7 +379,7 @@
                                </a>
                            </p>
 
-    <p class="mb-3">
+    <p class="mb-3 mt-3">
         Before switching to the development of ERP systems,
         I worked at a website development and maintenance firm.
         There, I had to spend a lot of time on layout and JS,
