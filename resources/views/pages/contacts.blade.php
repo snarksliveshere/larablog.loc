@@ -29,6 +29,7 @@
                             <div class="col-12 col-md-8">
                                 Михаил Дерюгин<br>
                                 Email: <a href="mailto:snarksliveshere@gmail.com">snarksliveshere@gmail.com</a><br>
+                                LinkedIn: <a href="https://www.linkedin.com/in/mihail-deruygin/">linkedin.com/in/mihail-deruygin/</a><br>
                                 skype: <span class="fwb">snarksliveshere</span>
                             </div>
                             <div class="w-100 my-2"></div>
@@ -36,14 +37,14 @@
                                 <h5 class="tdu">Ключевые Навыки</h5>
                             </div>
                             <div class="col-12 col-md-8">
-                                <span class="fwb">Symfony, Vuetify, PostgreSQL</span>
+                                <span class="fwb">Golang, Symfony, Vuetify, PostgreSQL</span>
                             </div>
                             <div class="col-12 col-md-4">
                                 <h5 class="tdu">Дополнительно</h5>
                             </div>
                             <div class="col-12 col-md-8">
                                 <span class="fwb">
-                                Git, Laravel, JS, HTML5/CSS, Linux
+                                Git, Laravel, JS, HTML5/CSS, Linux, Dart, Flutter
                                     </span>
                             </div>
                             <div class="w-100 my-2"></div>
@@ -51,8 +52,10 @@
                                 <h5 class="tdu">Обо мне</h5>
                             </div>
                             <div class="col-12 col-md-8">
-                               <p class="mb-3">На данный момент работаю над поддержанием и созданием внутренних ERP систем сбора и отображения маркетинговой и финансовой статистики на базе PHP(Symfony) + Golang + Vuetify & PostgreSQL</p>
-                               
+                               <p class="mb-3">На данный момент работаю над поддержанием и созданием внутренних ERP систем сбора и отображения маркетинговой и финансовой статистики на базе PHP(Symfony) + Golang + Vuetify & PostgreSQL
+                               <br> По базам проходил курс (по большей части Postgres), сертификат лежит здесь
+                               <a href="https://otus.ru/certificate/c96b2bdc988c49a4838dc7ca351318fa/">Otus.SUBD</a>
+                               </p>
                                <p>
                                     <span class="fwb">Golang</span><br>
                                     Основная, и очень радующая меня технология. На данный момент, большую часть времени работаю на ней и постепенно перевожу на работе сервисы с Symfony на Go.
@@ -61,11 +64,11 @@
                                Параллельно хожу на курсы по Go, сертификат будет чуть позже. 
                                <br>
                                Внутренние наработки, к сожалению, показать не могу, но вот тут есть некоторое представление 
-                               <a href="https://github.com/snarksliveshere/otus_golang/tree/master/hw_17_monitoring">github. calendar. microservices</a>
+                               <a href="https://github.com/snarksliveshere/otus_golang/tree/master/hw_17_monitoring">github.calendar.microservices</a>
                                </p>
                                 <p>
                                     <span class="fwb">Symfony</span><br>
-                                    Является основной технологией. Так как пишу ERP, то особо не покажешь ни код, ни интерфейсы, но я наделал скринов с фейковыми данными, чтобы было некоторое представление
+                                    Вторая основная технология. Так как пишу ERP, то особо не покажешь ни код, ни интерфейсы, но я наделал скринов с фейковыми данными, чтобы было некоторое представление
                                     <br>
                                     <a class="fancybox" href="{{ asset('/images/resume/erp_dashboard.jpg') }}">
                                         <span class="fwb">Dashboard. Формирование отчета по произвольно выбранным группировкам и метрикам</span>
@@ -101,7 +104,6 @@
                                     </a>
 
                                 </p>
-
                                 <p class="mt-3"><span class="fwb">Deploy, LAMP / LEMP</span><br>
                                 С docker-compose знаком примерно вот на таком уровне 
                                 <a href="https://github.com/snarksliveshere/otus_golang/blob/master/hw_17_monitoring/docker-compose.yml">
@@ -113,6 +115,21 @@
                                     <br> <br>
                                     Немного писал Bash скрипты, но это больше на любительском уровне, для автоматизации некоторых процессов в целях повышения удобства.
                                     <br> <br>
+                                </p>
+                                <p class="mt-3"><span class="fwb">Flutter</span><br>
+                               
+                                    Это больше для души, коммерческого опыта у меня на нем нет, но есть завершенные приложение, которые, впрочем, еще нужно бы поддоработать, 
+                                    но чуть позже, когда будет больше времени. Впрочем, если на работе будет возможность прокачаться в этом направлении, 
+                                    это было бы отлично.
+                                    <br>
+                                    <a href="https://github.com/snarksliveshere/temp_time_tracker">
+                                    простенький тайм трекер
+                                    </a>
+                                    <br>
+                                    <br>
+                                    <a href="https://github.com/snarksliveshere/fullapp">
+                                    что-то вроде доски объявлений
+                                    </a>
                                 </p>
                                 <p class="mb-3 mt-3">
                                     До того, как перешел на разработку ERP систем,
@@ -277,6 +294,7 @@
                             <div class="col-12 col-md-8">
                                 Mike Deryugin<br>
                                 Email: <a href="mailto:snarksliveshere@gmail.com">snarksliveshere@gmail.com</a><br>
+                                LinkedIn: <a href="https://www.linkedin.com/in/mihail-deruygin/">linkedin.com/in/mihail-deruygin/</a><br>
                                 skype: <span class="fwb">snarksliveshere</span>
                             </div>
                             <div class="w-100 my-2"></div>
@@ -284,14 +302,22 @@
                                 <h5 class="tdu">Skills</h5>
                             </div>
                             <div class="col-12 col-md-8">
-                                <span class="fwb">Symfony, Vuetify, PostgreSQL, Laravel, JS, HTML5/CSS, Git, Linux</span>
+                                <span class="fwb">Golang, Symfony, Vuetify, PostgreSQL, Laravel, JS, HTML5/CSS, Git, Linux</span>
                             </div>
                             <div class="w-100 my-2"></div>
                             <div class="col-12 col-md-4">
                                 <h5 class="tdu">Qualifications</h5>
                             </div>
                             <div class="col-12 col-md-8">
-    <p class="mb-3">Now I am working on maintaining and creating internal systems for collecting marketing statistics based on Symfony & Vuetify & PostgreSQL</p>
+    <p class="mb-3">Now I am working on maintaining and creating internal systems for collecting marketing statistics based on Golang + Symfony + Vuetify & PostgreSQL
+    </p>  <br>
+    Unfortunately, I can’t show the internal developments, but here there is a personal project
+                               <a href="https://github.com/snarksliveshere/otus_golang/tree/master/hw_17_monitoring">github.calendar.microservices</a>
+                                        <p>
+                                    <span class="fwb">Golang</span><br>
+                                    The main, and very pleasing to me technology. At the moment, most of the time I work on it and gradually transfer services from Symfony to Go at work.
+                                    </p>
+
                                 <p>
                                     <span class="fwb">Symfony</span><br>
                                     is the main technology. Since I am writing ERP, I cannot show either the code or the interfaces, but I made screenshots with fake data
@@ -334,18 +360,31 @@
         On git is another test project, written a long time ago and more for practice.
         <a href="https://github.com/snarksliveshere/vue.spa">github.com/snarksliveshere/vue.spa</a>
     </p>
-    <p class="mt-3"><span class="fwb">Deploy, LAMP / LEMP</span><br>
-        I raised docker I picked up of the second configuration version, here in this version <a href="https://github.com/snarksliveshere/laraadv/blob/master/docker-compose.yml">github.com/snarksliveshere/.../docker-compose.yml</a>
+    <p class="mb-3"><span class="fwb">Deploy, LAMP / LEMP</span><br>
+       Docker-compose  <a href="https://github.com/snarksliveshere/otus_golang/blob/master/hw_17_monitoring/docker-compose.yml">
+                                    https://github.com/snarksliveshere/.../docker-compose.yml
+                                </a>
                                 </p>
 
     <p>
-        site <a href="http://snarksliveshere.xyz">snarksliveshere.xyz</a> works on apache2, I raised VDS on Ubuntu 16.04,
-        at home for practice on my Ubuntu raise the site on nginx.
-        <br>
         However, basically, this is the DEV OPS area, I don’t pay much attention to it now, because there are enough other interesting things.
         <br> <br>
         I wrote a little Bash scripts, but this is more at the amateur level, to automate some processes in order to improve convenience.
     </p>
+    <p class="mb-3"><span class="fwb">Flutter</span><br>
+                               
+    This is more for the soul, I do not have commercial experience on it, but there are completed applications, which, however, still need to be finalized, but a little later, when there will be more time. However, if at work there will be an opportunity to pump in this direction, that would be excellent.
+                               <br>
+                               <a href="https://github.com/snarksliveshere/temp_time_tracker">
+                               simple time tracker
+                               </a>
+                               <br>
+                               <br>
+                               <a href="https://github.com/snarksliveshere/fullapp">
+                               Bulletin board
+                               </a>
+                           </p>
+
     <p class="mb-3">
         Before switching to the development of ERP systems,
         I worked at a website development and maintenance firm.
