@@ -51,8 +51,18 @@
                                 <h5 class="tdu">Обо мне</h5>
                             </div>
                             <div class="col-12 col-md-8">
-                               <p class="mb-3">На данный момент работаю над поддержанием и созданием внутренних ERP систем сбора и отображения маркетинговой и финансовой статистики на базе Symfony & Vuetify & PostgreSQL</p>
-
+                               <p class="mb-3">На данный момент работаю над поддержанием и созданием внутренних ERP систем сбора и отображения маркетинговой и финансовой статистики на базе PHP(Symfony) + Golang + Vuetify & PostgreSQL</p>
+                               
+                               <p>
+                                    <span class="fwb">Golang</span><br>
+                                    Основная, и очень радующая меня технология. На данный момент, большую часть времени работаю на ней и постепенно перевожу на работе сервисы с Symfony на Go.
+                                    <br> В основном, использую для построения ETL системы API -> Database.
+                                    <br>
+                               Параллельно хожу на курсы по Go, сертификат будет чуть позже. 
+                               <br>
+                               Внутренние наработки, к сожалению, показать не могу, но вот тут есть некоторое представление 
+                               <a href="https://github.com/snarksliveshere/otus_golang/tree/master/hw_17_monitoring">github. calendar. microservices</a>
+                               </p>
                                 <p>
                                     <span class="fwb">Symfony</span><br>
                                     Является основной технологией. Так как пишу ERP, то особо не покажешь ни код, ни интерфейсы, но я наделал скринов с фейковыми данными, чтобы было некоторое представление
@@ -78,7 +88,7 @@
                                     <span class="fwb">Laravel</span><br>
                                 <a href="http://snarksliveshere.xyz/contacts">http://snarksliveshere.xyz</a>
                                 Изначально писал для себя простой блог, но после решил расширить его до легкого интернет-магазина с торговыми предложениями. Так как приложение писалось для практики, заготовки вроде Aimeos или Voyager я в нем не использовал.</p>
-                                <p class="mb-3">В процессе был просто очарован этим фреймворком, но в итоге все же пошел работать на Symfony, так как этот фреймворк является стандартом и ориентирован на лучшие практики.</p>
+                                <p>В последнее время пишу на Symfony, поэтому Laravel подзабыл</p>
                                 <p class="mb-3">Исходный код на <a href="https://github.com/snarksliveshere/larablog.loc">https://github.com/snarksliveshere/larablog.loc</a>
                                 гостевой доступ в админку<br> login: test pass: test</p>
 
@@ -93,17 +103,16 @@
                                 </p>
 
                                 <p class="mt-3"><span class="fwb">Deploy, LAMP / LEMP</span><br>
-                                docker я поднимал по конфигу второй версии, вот в таком варианте
-                                <a href="https://github.com/snarksliveshere/laraadv/blob/master/docker-compose.yml">
+                                С docker-compose знаком примерно вот на таком уровне 
+                                <a href="https://github.com/snarksliveshere/otus_golang/blob/master/hw_17_monitoring/docker-compose.yml">
                                     https://github.com/snarksliveshere/.../docker-compose.yml
                                 </a></p>
                                 <p class="mb-3">Vagrant когда-то использовал, сейчас его не практикую</p>
 
-                                <p>
-                                сайт <a href="http://snarksliveshere.xyz">snarksliveshere.xyz</a> работает на apache2, я поднимал VDS на Ubuntu 16.04, дома ради практики на своей Ubuntu ставил сайт на nginx.<br>
-                                    Впрочем, в основном, это DEV OPS область, я сейчас особо ей внимания не уделяю, ибо и других интересных вещей хватает.
+                                <p> По знанию Linux, использую Ubuntu, как дома, так и на работе, в принципе, доволен этой ОС крайне.
                                     <br> <br>
                                     Немного писал Bash скрипты, но это больше на любительском уровне, для автоматизации некоторых процессов в целях повышения удобства.
+                                    <br> <br>
                                 </p>
                                 <p class="mb-3 mt-3">
                                     До того, как перешел на разработку ERP систем,
