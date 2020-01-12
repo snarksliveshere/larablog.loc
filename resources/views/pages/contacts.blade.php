@@ -344,7 +344,7 @@
         but after I decided to expand it to an easy online store with shopping offers.
         Since the application was written for practice,
         I didn`t use it in Aimeos or Voyager.
-    <p class="mb-3">In the process, I was just fascinated by this framework, but in the end I still went to work on Symfony, since this framework is a standard and focused on best practices.</p>
+    <p class="mb-3">Recently, I write in Symfony, so Laravel forgot a little</p>
     <p class="mb-3">Source code at
          <a href="https://github.com/snarksliveshere/larablog.loc">github.com/snarksliveshere/larablog.loc</a> guest access to the admin area
         login: test pass: test</p>
@@ -373,7 +373,6 @@
                                <a href="https://github.com/snarksliveshere/temp_time_tracker">
                                simple time tracker
                                </a>
-                               <br>
                                <br>
                                <a href="https://github.com/snarksliveshere/fullapp">
                                Bulletin board
