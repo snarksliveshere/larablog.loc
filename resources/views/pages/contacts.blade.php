@@ -126,7 +126,6 @@
                                     простенький тайм трекер
                                     </a>
                                     <br>
-                                    <br>
                                     <a href="https://github.com/snarksliveshere/fullapp">
                                     что-то вроде доски объявлений
                                     </a>
@@ -278,9 +277,6 @@
                             <div class="col-12 col-md-8">
                                 <p>Умение (и желание) быстро обучаться, ответственность, грамотность.</p>
                             </div>
-
-
-
                         </div>
                     </div>
                     <div class="tabs__content">
@@ -317,10 +313,9 @@
                                     <span class="fwb">Golang</span><br>
                                     The main, and very pleasing to me technology. At the moment, most of the time I work on it and gradually transfer services from Symfony to Go at work.
                                     </p>
-
                                 <p>
                                     <span class="fwb">Symfony</span><br>
-                                    is the main technology. Since I am writing ERP, I cannot show either the code or the interfaces, but I made screenshots with fake data
+                                    One of the the core technologies. Since I am writing ERP, I cannot show either the code or the interfaces, but I made screenshots with fake data
                                     <br>
                                     <a class="fancybox" href="{{ asset('/images/resume/erp_dashboard.jpg') }}">
                                         <span class="fwb">Dashboard. Report generation for selected groups and metrics</span>
@@ -371,7 +366,7 @@
         <br> <br>
         I wrote a little Bash scripts, but this is more at the amateur level, to automate some processes in order to improve convenience.
     </p>
-    <p class="mb-3"><span class="fwb">Flutter</span><br>
+    <p class="mt-3"><span class="fwb">Flutter</span><br>
                                
     This is more for the soul, I do not have commercial experience on it, but there are completed applications, which, however, still need to be finalized, but a little later, when there will be more time. However, if at work there will be an opportunity to pump in this direction, that would be excellent.
                                <br>
