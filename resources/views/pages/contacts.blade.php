@@ -21,13 +21,14 @@
                     <div class="tabs__content active">
                         <div class="row">
                             <div class="col-12 my-2">
-                                <a href="{{ asset('/images/resume/Deryugin_Mihail_resume.pdf') }}"><i class="fa fa-download"></i> Скачать резюме в формате Word</a>
+                                <a href="{{ asset('/images/resume/Deryugin_Mihail_resume.pdf') }}"><i class="fa fa-download"></i> Скачать резюме в формате PDF</a>
                             </div>
                             <div class="col-12 col-md-4">
                                 <h5 class="tdu">Контакты</h5>
                             </div>
                             <div class="col-12 col-md-8">
                                 Михаил Дерюгин<br>
+                                Phone: <span class="fwb">+7 977 916-88-10</span><br>
                                 Email: <a href="mailto:snarksliveshere@gmail.com">snarksliveshere@gmail.com</a><br>
                                 LinkedIn: <a href="https://www.linkedin.com/in/mihail-deruygin/">linkedin.com/in/mihail-deruygin/</a><br>
                                 skype: <span class="fwb">snarksliveshere</span>
@@ -56,7 +57,9 @@
                                    <br>
                                    <br>В последнее время преимущественно работаю с Golang, по нему же сейчас прохожу курс от Отуса, сертификат будет чуть позже, в конце февраля.
                                    <br>В плане будущего развития (основного) заинтересован именно (а скорее, и только) в Golang. Тому есть много причин, но, в первую очередь, он мне просто нравится.
-                                   <br>Так как внутренние наработки я здесь выложить не могу, некоторое представление можно составить, исходя из проекта: https://github.com/snarksliveshere/otus_golang/tree/master/hw_17_monitoring
+                                   <br>Так как внутренние наработки я здесь выложить не могу, некоторое представление можно составить, исходя из проекта:
+                                   <a href="https://github.com/snarksliveshere/otus_golang/tree/master/hw_17_monitoring">github.microservice.calendar</a>
+
                                </p>
                                 <p>
                                 База данных: PostgreSQL
@@ -106,7 +109,7 @@
 
                                 <p class="mb-3"><span class="fwb">Окружение</span><br>
                                     Разрабатываю на Ubuntu, c Docker в достаточной степени знаком, вот тут есть примеры
-                                    <a href="https://github.com/snarksliveshere/otus_golang/tree/master/hw_16_integrity">https://github.com/snarksliveshere/otus_golang/tree/master/hw_16_integrity</a>
+                                    <a href="https://github.com/snarksliveshere/otus_golang/tree/master/hw_16_integrity">docker-compose examples</a>
                                 </p>
                                 <p class="mb-3"> Нижеследующая часть резюме, скорее, хвост с прошлой работы, где я занимался созданием e-commerce сайтов.
                                     <br>По технологиям, там в основном PHP/JS разработка, интеграция и верстка. </p>
