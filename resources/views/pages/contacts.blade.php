@@ -9,7 +9,7 @@
 @endsection
 @endsection
 @section('content')
-<section class="bg0 p-t-104 p-b-116">
+<div class="bg0 p-t-104 p-b-116">
     <div class="container">
         <div class="flex-w flex-tr row">
             <div class="col-12 col-lg-6 size-210 bor10 flex-w flex-col-m p-tb-30 p-lr-15-lg w-full-md">
@@ -19,7 +19,7 @@
                         <li class="tac col">CV</li>
                     </ul>
                     <div class="tabs__content active">
-                        <p class="row">
+                        <div class="row">
                             <div class="col-12 my-2">
                                 <a href="{{ asset('/images/resume/Deryugin_Mihail_resume.pdf') }}"><i class="fa fa-download"></i> Скачать резюме в формате Word</a>
                             </div>
@@ -89,7 +89,6 @@
                                             <a href="http://snarksliveshere.xyz/images/resume/erp_several_filters.jpg">Выборка по нескольким фильтрам, включая логику && > < =</a>
                                             </li>
                                     </ol>
-                                </p>
                                 <p class="mb-3"><span class="fwb">Dart/Flutter</span><br>
                                
                                     Это больше для души, коммерческого опыта у меня на нем нет, но есть завершенные приложение, которые, впрочем, еще нужно бы поддоработать, 
@@ -554,6 +553,7 @@
             </div>
         </div>
     </div>
+</div>
 </section>
 
 
