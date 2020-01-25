@@ -9,7 +9,7 @@
 @endsection
 @endsection
 @section('content')
-<div class="bg0 p-t-104 p-b-116">
+<section class="bg0 p-t-104 p-b-116">
     <div class="container">
         <div class="flex-w flex-tr row">
             <div class="col-12 col-lg-6 size-210 bor10 flex-w flex-col-m p-tb-30 p-lr-15-lg w-full-md">
@@ -553,8 +553,8 @@
             </div>
         </div>
     </div>
-</div>
 </section>
+
 
 
 <!-- Map -->
