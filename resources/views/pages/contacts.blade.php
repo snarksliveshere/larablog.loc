@@ -21,7 +21,7 @@
                     <div class="tabs__content active">
                         <div class="row">
                             <div class="col-12 my-2">
-                                <a href="{{ asset('/images/Deryugin_Mihail_resume_2019.doc') }}"><i class="fa fa-download"></i> Скачать резюме в формате Word</a>
+                                <a href="{{ asset('/images/resume/Deryugin_Mihail_resume.doc') }}"><i class="fa fa-download"></i> Скачать резюме в формате Word</a>
                             </div>
                             <div class="col-12 col-md-4">
                                 <h5 class="tdu">Контакты</h5>
