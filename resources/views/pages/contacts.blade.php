@@ -19,9 +19,9 @@
                         <li class="tac col">CV</li>
                     </ul>
                     <div class="tabs__content active">
-                        <div class="row">
+                        <p class="row">
                             <div class="col-12 my-2">
-                                <a href="{{ asset('/images/resume/Deryugin_Mihail_resume.doc') }}"><i class="fa fa-download"></i> Скачать резюме в формате Word</a>
+                                <a href="{{ asset('/images/resume/Deryugin_Mihail_resume.pdf') }}"><i class="fa fa-download"></i> Скачать резюме в формате Word</a>
                             </div>
                             <div class="col-12 col-md-4">
                                 <h5 class="tdu">Контакты</h5>
@@ -52,71 +52,45 @@
                                 <h5 class="tdu">Обо мне</h5>
                             </div>
                             <div class="col-12 col-md-8">
-                               <p class="mb-3">На данный момент работаю над поддержанием и созданием внутренних ERP систем сбора и отображения маркетинговой и финансовой статистики на базе PHP(Symfony) + Golang + Vuetify & PostgreSQL
-                               <br> По базам проходил курс (по большей части Postgres), сертификат лежит здесь
-                               <a href="https://otus.ru/certificate/c96b2bdc988c49a4838dc7ca351318fa/">Otus.SUBD</a>
-                               </p>
-                               <p>
-                                    <span class="fwb">Golang</span><br>
-                                    Основная, и очень радующая меня технология. На данный момент, большую часть времени работаю на ней и постепенно перевожу на работе сервисы с Symfony на Go.
-                                    <br> В основном, использую для построения ETL системы API -> Database.
-                                    <br>
-                               Параллельно хожу на курсы по Go, сертификат будет чуть позже. 
-                               <br>
-                               Внутренние наработки, к сожалению, показать не могу, но вот тут есть некоторое представление 
-                               <a href="https://github.com/snarksliveshere/otus_golang/tree/master/hw_17_monitoring">github.calendar.microservices</a>
+                               <p class="mb-3">На данный момент работаю над созданием и поддержкой внутренних аналитических систем сбора и отображения статистики на базе стека Golang + PHP(Symfony) + Vuetify.
+                                   <br>
+                                   <br>В последнее время преимущественно работаю с Golang, по нему же сейчас прохожу курс от Отуса, сертификат будет чуть позже, в конце февраля.
+                                   <br>В плане будущего развития (основного) заинтересован именно (а скорее, и только) в Golang. Тому есть много причин, но, в первую очередь, он мне просто нравится.
+                                   <br>Так как внутренние наработки я здесь выложить не могу, некоторое представление можно составить, исходя из проекта: https://github.com/snarksliveshere/otus_golang/tree/master/hw_17_monitoring
                                </p>
                                 <p>
+                                База данных: PostgreSQL
+                                <br>Отношусь с большой симпатией, проходил курс от Отуса, сертификат лежит здесь <a href="https://otus.ru/certificate/c96b2bdc988c49a4838dc7ca351318fa/">Otus.SUBD</a>
+                                    <br>С MySQL работал давно, и не сказать, что так уж стремлюсь повторить тот опыт.
+                               </p>
+
+                                <p class="mb-3">
+                                    Помимо Golang:
+                                    <br>
                                     <span class="fwb">Symfony</span><br>
-                                    Вторая основная технология. Так как пишу ERP, то особо не покажешь ни код, ни интерфейсы, но я наделал скринов с фейковыми данными, чтобы было некоторое представление
-                                    <br>
-                                    <a class="fancybox" href="{{ asset('/images/resume/erp_dashboard.jpg') }}">
-                                        <span class="fwb">Dashboard. Формирование отчета по произвольно выбранным группировкам и метрикам</span>
-                                    </a>
-                                    <br>
-                                    <a class="fancybox" href="{{ asset('/images/resume/erp_data_table_select.jpg') }}">
-                                        <span class="fwb">фильтры по столбцам</span>
-                                    </a>
-                                    <br>
-                                    <a class="fancybox" href="{{ asset('/images/resume/erp_date_range_picker.jpg') }}">
-                                        <span class="fwb">date range picker с временными паттернами</span>
-                                    </a>
-                                    <br>
-                                    <a class="fancybox" href="{{ asset('/images/resume/erp_several_filters.jpg') }}">
-                                        <span class="fwb">выборка по нескольким фильтрам, включая логику && > < =</span>
-                                    </a>
+                                    Разрабатывал на ней(на нем) системы сбора и отображения статистки до перехода на Го. Сейчас по большей части, только поддерживаю в рабочем состоянии.
+                                    <br>Некоторый функционал отчетов показан на скринах ниже, в блоке с Vuetify
+                               </p>
+
+                                <p class="mb-3">
+                                    <span class="fwb">Vue/Vuetify</span><br>
+                                    SPA реализация в нашем подразделении также моя область ответственности. Код показать не могу, но сделал скрины интерфейсов с фейковыми данными, чтобы было некоторое представление:
+                                    <ol>
+                                        <li>
+                                            <a href="http://snarksliveshere.xyz/images/resume/colourful_dash.jpg">Dashboard с цветофильтром</a>
+                                            </li>
+                                        <li>
+                                            <a href="http://snarksliveshere.xyz/images/resume/erp_dashboard.jpg">Dashboard. Формирование отчета по произвольно выбранным группировкам и метрикам</a>
+                                            </li>
+                                        <li>
+                                            <a href="http://snarksliveshere.xyz/images/resume/erp_data_table_select.jpg">Фильтры по столбцам</a>
+                                            </li>
+                                        <li>
+                                            <a href="http://snarksliveshere.xyz/images/resume/erp_several_filters.jpg">Выборка по нескольким фильтрам, включая логику && > < =</a>
+                                            </li>
+                                    </ol>
                                 </p>
-
-                                <p>
-                                    <span class="fwb">Laravel</span><br>
-                                <a href="http://snarksliveshere.xyz/contacts">http://snarksliveshere.xyz</a>
-                                Изначально писал для себя простой блог, но после решил расширить его до легкого интернет-магазина с торговыми предложениями. Так как приложение писалось для практики, заготовки вроде Aimeos или Voyager я в нем не использовал.</p>
-                                <p>В последнее время пишу на Symfony, поэтому Laravel подзабыл</p>
-                                <p class="mb-3">Исходный код на <a href="https://github.com/snarksliveshere/larablog.loc">https://github.com/snarksliveshere/larablog.loc</a>
-                                гостевой доступ в админку<br> login: test pass: test</p>
-
-                                <p><span class="fwb">Vue/Vuetify</span><br>
-                                <p>
-                                    Разработка ERP сервисов идет на vuetify, и фронтенд SPA реализация в нашем подразделении это также моя область ответственности.
-                                    На git лежит другой тестовый проект, написанный давно и больше для практики.
-                                    <a href="https://github.com/snarksliveshere/vue.spa">
-                                    https://github.com/snarksliveshere/vue.spa
-                                    </a>
-
-                                </p>
-                                <p class="mt-3"><span class="fwb">Deploy, LAMP / LEMP</span><br>
-                                С docker-compose знаком примерно вот на таком уровне 
-                                <a href="https://github.com/snarksliveshere/otus_golang/blob/master/hw_17_monitoring/docker-compose.yml">
-                                    https://github.com/snarksliveshere/.../docker-compose.yml
-                                </a></p>
-                                <p class="mb-3">Vagrant когда-то использовал, сейчас его не практикую</p>
-
-                                <p> По знанию Linux, использую Ubuntu, как дома, так и на работе, в принципе, доволен этой ОС крайне.
-                                    <br> <br>
-                                    Немного писал Bash скрипты, но это больше на любительском уровне, для автоматизации некоторых процессов в целях повышения удобства.
-                                    <br> <br>
-                                </p>
-                                <p class="mt-3"><span class="fwb">Flutter</span><br>
+                                <p class="mb-3"><span class="fwb">Dart/Flutter</span><br>
                                
                                     Это больше для души, коммерческого опыта у меня на нем нет, но есть завершенные приложение, которые, впрочем, еще нужно бы поддоработать, 
                                     но чуть позже, когда будет больше времени. Впрочем, если на работе будет возможность прокачаться в этом направлении, 
@@ -130,18 +104,25 @@
                                     что-то вроде доски объявлений
                                     </a>
                                 </p>
-                                <p class="mb-3 mt-3">
-                                    До того, как перешел на разработку ERP систем,
-                                    работал на фирме по созданию и поддержке сайтов.
+
+                                <p class="mb-3"><span class="fwb">Окружение</span><br>
+                                    Разрабатываю на Ubuntu, c Docker в достаточной степени знаком, вот тут есть примеры
+                                    <a href="https://github.com/snarksliveshere/otus_golang/tree/master/hw_16_integrity">https://github.com/snarksliveshere/otus_golang/tree/master/hw_16_integrity</a>
+                                </p>
+                                <p class="mb-3"> Нижеследующая часть резюме, скорее, хвост с прошлой работы, где я занимался созданием e-commerce сайтов.
+                                    <br>По технологиям, там в основном PHP/JS разработка, интеграция и верстка. </p>
+
+                                <p class="mb-3">
+                                    ...ранее работал на фирме по созданию и поддержке сайтов.
                                     Там приходилось немало времени уделять верстке и JS, правки по существующим сайтам,
                                     но есть и проекты с чистого листа, такие как
                                     <br>
                                     <a href="http://g-strela.ru/">http://g-strela.ru/</a>
                                     <br>
                                     <a href="http://hummel-russia.ru/">http://hummel-russia.ru/</a>
-                                    <br> и другие.
-                                    Чуть ниже я приведу все ссылки на них.</p>
-                                <p class="mb-3">из CMS наиболее плотно я работал с MODX & Bitrix, правки были и по многим другим (WordPress, opencart etc), когда я работал на фрилансе, активно использовал Joomla. На MODX я создал порядка 25 сайтов (большей частью интернет-магазины) и правил еще немало, Bitrix - больше создание нового функционала и правки интернет-магазинов.</p>
+                                    </p>
+                                <p class="mb-3">из CMS наиболее плотно я работал с MODX & Bitrix, правки были и по многим другим (WordPress, Opencart etc), когда я работал на фрилансе, активно использовал Joomla. На MODX я создал порядка 25 сайтов (большей частью интернет-магазины) и правил еще немало, Bitrix - больше создание нового функционала и правки интернет-магазинов.</p>
+                                <p class="mb-3">Но это я пишу скорее как часть истории, возвращаться к CMS, тем более, всяким битриксам, не планирую ни в коем разе.</p>
                             </div>
                             <div class="w-100 my-2"></div>
                             <div class="col-12 col-md-4">
@@ -154,9 +135,10 @@
                                     </div>
                                     <div class="col-6">Октябрь 2018 - по настоящее время</div>
                                     <div class="w-100"></div>
-                                    <p class="fwb my-2">Middle Full Stack Developer</p>
+                                    <p class="fwb my-2">Middle Full Stack Developer (Golang, PHP, JS)</p>
                                     <ul class="standard">
-                                        <li>
+                                        <li>Разработка микросервисов на Golang.
+                                            <br>
 
                                             Обеспечение работоспособности и создание ERP-систем на базе Symfony & Vuetify</li>
                                     </ul>
@@ -176,12 +158,12 @@
                                     <hr style="width: 100%;">
                                     <div class="w-100 my-2"></div>
                                     <div class="col-6">Сайтострой, фриланс, самозанятость</div>
-                                    <div class="col-6">Январь 2010 - Октябрь 2015</div>
+                                    <div class="col-6">Январь 2012 - Октябрь 2017</div>
                                     <div class="w-100"></div>
                                     <p class="fwb my-2">HTML верстальщик</p>
                                     <ul class="standard">
-                                        <li>html/css/jquery верстка. Но тогда я занимался не только версткой все 6 лет, была и другая занятость, но она не относится к сайтостроению, нет смысла ее тут расписывать, в целом, около 3 лет я на фрилансе занимался версткой между 2010 и 2012 годами и 2014-2015<br>
-                                            Все, что ранее уже не относится к делу, она есть в приложенном word файле, но, по сути, это не имеет отношения к web разработке
+                                        <li>html/css/jquery верстка.
+                                            <br> До этого, деятельность, не связанная с разработкой, поэтому ее не указываю
                                         </li>
                                     </ul>
                                 </div>
@@ -212,34 +194,7 @@
                                     <li><a rel="nofollow" href="http://pppe.ru">http://pppe.ru</a></li>
                                     <li><a rel="nofollow" href="http://tdpromhim.ru">http://tdpromhim.ru</a></li>
                                     <li><a rel="nofollow" href="http://vip-divan.com">http://vip-divan.com</a></li>
-                                    <li><a rel="nofollow" href="http://sunshading.ru">http://sunshading.ru</a></li>
-                                    <li>...еще много других сайтов на поддержке</li>
-                                </ul>
-                                <p class="fwb my-2">Github, некоммерческие разработки</p>
-                                <ul class="standard mt-2">
-                                    <li><a href="http://snarksliveshere.xyz">http://snarksliveshere.xyz</a> <p>(Laravel)</p>
-                                    </li>
-                                    <li><a href="https://github.com/snarksliveshere/symfony_microblog">https://github.com/snarksliveshere/symfony_microblog</a>  <p>простой CRUD</p></li>
-                                    <li><a href="https://github.com/snarksliveshere/strela">https://github.com/snarksliveshere/strela</a> <p>(Верстка по новому дизайну, еще не интегрирована)</p></li>
-                                    <li><a href="https://github.com/snarksliveshere/vue.spa">https://github.com/snarksliveshere/vue.spa</a> <p>(страничка Vue для практики в этом деле)</p></li>
-                                    <li><a href="https://github.com/snarksliveshere/csscleaner">https://github.com/snarksliveshere/csscleaner</a> <p>(for clean unused css styles)</p>
-                                    </li>
-                                </ul>
-                                <p class="fwb my-2">ARD, рабочие сайты</p>
-                                <ul class="standard">
-                                    <li><a rel="nofollow" href="http://stroy.ardmedia.ru">http://stroy.ardmedia.ru</a></li>
-                                    <li><a rel="nofollow" href="http://stom1.ardmedia.ru">http://stom1.ardmedia.ru</a></li>
-                                    <li><a rel="nofollow" href="http://stom2.ardmedia.ru">http://stom2.ardmedia.ru</a></li>
-                                    <li><a rel="nofollow" href="http://salon1.ardmedia.ru">http://salon1.ardmedia.ru</a></li>
-                                    <li><a rel="nofollow" href="http://salon2.ardmedia.ru">http://salon2.ardmedia.ru</a></li>
-                                    <li><a rel="nofollow" href="http://demo6.ardmedia.ru">http://demo6.ardmedia.ru</a></li>
-                                    <li><a rel="nofollow" href="http://demo7.ardmedia.ru">http://demo7.ardmedia.ru</a></li>
-                                    <li><a rel="nofollow" href="http://demo8.ardmedia.ru">http://demo8.ardmedia.ru</a></li>
-                                    <li><a rel="nofollow" href="http://demo12.ardmedia.ru">http://demo12.ardmedia.ru</a></li>
-                                    <li><a rel="nofollow" href="http://demo13.ardmedia.ru">http://demo13.ardmedia.ru</a></li>
-                                    <li><a rel="nofollow" href="http://demo14.ardmedia.ru">http://demo14.ardmedia.ru</a></li>
-                                    <li><a rel="nofollow" href="http://demo15.ardmedia.ru">http://demo15.ardmedia.ru</a></li>
-                                    <li><a rel="nofollow" href="http://demo16.ardmedia.ru">http://demo16.ardmedia.ru</a></li>
+                                    <li><a rel="nofollow" href="http://sunshading.ru">http://sunshading.ru</a> ....</li>
                                 </ul>
                             </div>
 
